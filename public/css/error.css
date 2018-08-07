@@ -1,0 +1,127 @@
+/*公用*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+    font-size: 13px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.select {
+    color: red;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex .grow {
+    flex: 1;
+}
+
+.flex.column {
+    flex-direction: column
+}
+
+.flex .shrink {
+    flex-shrink: 0
+}
+
+
+/*////////////////////////////////////////////////////////////////*/
+
+.error-container {
+    background: white;
+}
+
+.error-category {
+    background: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.error-category .item {
+    padding: 15px 15px;
+    cursor: pointer;
+}
+
+.error-title {
+    background: rgb(230, 230, 230);
+    padding: 15px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.19);
+    border-bottom: 1px solid #d2cece;
+}
+
+.error-title .time {
+    width: 60px;
+}
+
+.error-item > * {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.error-line .error-item {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px;
+}
+
+.error-item:hover {
+    background: rgb(219, 252, 253)
+}
+
+.error-line .time {
+    width: 100px;
+}
+
+.today .time {
+   color:red;
+}
+
+.error-line .url {
+    width: 600px;
+}
+
+.error-line .line {
+    width: 100px;
+}
+
+.error-line .client {
+    width: 150px;
+}
+
+.error-line .msg {
+    margin-left: 20px;
+}
+
+.error-items {
+    margin-top: 100px;
+}
+
+.error-items .item {
+    padding: 10px;
+}
+
+.error-more {
+    padding: 15px;
+    text-align: center;
+}

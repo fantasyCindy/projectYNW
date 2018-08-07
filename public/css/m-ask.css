@@ -1,0 +1,62 @@
+#yn_ask .wrap_list{
+	margin:0 15px;
+	padding:15px 0;
+	border-bottom:1px dashed #cccccc;
+	margin-bottom:15px;
+}
+#yn_ask .wrap_list:last-child{
+	border:none;
+	margin-bottom:0;
+}
+#yn_ask .wrap_list .ques_icon,#yn_ask .wrap_list .ask_icon{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	border-radius:50%;
+	position:relative;
+	font-size:10px;
+	text-align:center;
+	line-height:16px;
+	color:#fff;
+}
+#yn_ask .wrap_list .ques_icon{
+	background: #25a9ff;
+}
+#yn_ask .wrap_list .ask_icon{
+	background:#d72621;
+}
+#yn_ask .wrap_list .quesition_list,#yn_ask .wrap_list .ask_list{
+	line-height:22px;
+	
+}
+#yn_ask .wrap_list .quesition_list{
+	color:#333333;
+	margin-bottom:10px;
+	font-size:14px;
+}
+#yn_ask .wrap_list .ask_list{
+	color:#666666;
+	font-size:13px;
+}
+#yn_ask .wrap_list .user{
+	color:#666666;
+	font-size:11px;
+	line-height:20px;
+	padding-top:5px;
+}
+#yn_ask .user .photo{
+	height:20px;
+	margin-right:5px;
+	width:20px;
+	float:left;
+	display:inline-block;
+	border-radius:50%;
+	border:1px solid #e1e1e1;
+	overflow:hidden;
+}
+#yn_ask .user .photo img{
+	width:100%;
+}
+#yn_ask .user .time{
+	float:right;
+}

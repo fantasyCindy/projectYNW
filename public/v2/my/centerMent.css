@@ -1,0 +1,51 @@
+#customeStock .left{
+    float: left;
+    width: 220px;
+    overflow: hidden;
+    position: relative;
+}
+#customeStock .right{
+    width: 960px;
+    float: right;
+    background: white;
+    padding: 20px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+#centerMenu {
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    background: rgb(240, 240, 240)
+}
+
+#centerMenu .title {
+    padding: 10px;
+    background: rgb(220, 220, 220);
+    position: relative
+}
+
+#centerMenu .title .fa-caret-down {
+    position: absolute;
+    right: 20px;
+    top: 13px
+}
+
+#centerMenu .item {
+    display: block;
+    position: relative;
+    padding: 10px 10px;
+    border-top: 1px solid rgb(220, 220, 220);
+    cursor: pointer
+}
+
+#centerMenu .item.select {
+    background: #d72621;
+    color: white;
+    border-color: #d72621
+}
+
+#centerMenu .item .fa-angle-right {
+    position: absolute;
+    right: 20px;
+    top: 13px
+}

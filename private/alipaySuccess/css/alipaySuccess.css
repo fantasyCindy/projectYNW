@@ -1,0 +1,8 @@
+.defray-wrap{width:1200px;margin-left:auto;margin-right:auto;position:relative;}
+#defray-nav{min-width:1200px;height:50px;line-height:50px;font-size:16px;background:#3e3e3e;}
+#defray-nav .defray-wrap a{color:#fff;margin:0 15px;}
+#logo .defray-title{border-left:1px solid #c4c4c4;color:rgb(90,90,90);padding-left:5px;margin-left:5px;}
+#defray .defray-money .defray-wrap{padding-bottom:20px;background:#fff;}
+#defray .defray-process{margin-top:20px;background:#ededed;color:rgb(90,90,90);border:1px solid #e1e1e1;font-size:18px;line-height:50px;padding:0 20px 0 30px;}
+#defray .record{font-size:14px;color:#61a1fb;position:absolute;right:20px;top:16px;}
+#defray .defray-win{color:rgb(30,30,30);line-height:30px;height:712px;width:300px;margin:auto;padding-top:157px;font-size:18px;}

@@ -1,0 +1,261 @@
+.hide{
+    display: none;
+}
+.topiclist_left{
+    width: 845px;
+    float:left;
+}
+.topic-common{
+    margin-bottom:24px;
+    border:1px solid rgba(216, 211, 211, 0.3);
+    transition: all .2s;
+    cursor: pointer;
+    box-shadow: 5px 2px 6px rgba(216, 211, 211, 0.3);
+}
+.topic-common:hover{
+    border:1px solid #d72612;
+}
+.topic-top {
+    height: 117px;
+    background: url(./images/topic-bg.jpg) no-repeat;
+    position: relative;
+    padding-left: 195px;
+}
+.topic-photo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    display: inline-block;
+}
+.topic-title {
+    font-size: 28px;
+    color: #ff5054;
+}
+.topic-top-msg {
+    display: inline-block;
+    width: 99%;
+    margin-top: 28px;
+}
+.attention-num,
+.comment-num {
+    margin-right: 30px;
+    color: #000;
+    font-weight: bold;
+}
+.attention-num1,
+.comment-num1 {
+    color: #ff5054;
+}
+
+.topic-attention{
+    float:right;
+}
+.topic-attention.attention0:hover{
+    color:#fff;
+    background:#ff5054;
+    transition:all 0.2s;
+}
+.topic-msg-line{
+    margin-top:28px;
+}
+.topic-msg-time{
+    display: inline-block;
+    font-size:18px;
+    margin-right:90px;
+}
+.topic-msg-text {
+    width: 55%;
+    height: 120px;
+    float: left;
+    padding: 45px 15px 0 15px;
+    line-height: 27px;
+    font-size: 15px;
+}
+.topic-tip {
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+}
+.topic-msg-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: bolder;
+}
+.topic-guest-photos {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+}
+.guest-photos {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+.topic-msg-guest {
+    width: 37%;
+    height: 135px;
+    float: right;
+    padding: 15px 12px;
+}
+.guest-photo-content {
+    width: 85%;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+.topic-msg {
+    height: 178px;
+    box-shadow: 2px 2px 20px #ececec;
+    background: #fff;
+}
+.topic-title{
+    color:#000;
+}
+.topic-title.topic-title1{
+    color:#ff5054;
+}
+
+.topic-title:hover{
+    color:#ff5054;
+    text-decoration: underline;
+}
+.topic-msg-icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    float: left;
+    position: relative;
+    top: 2px;
+    background: url(/public/v2/index/images/hot-live.png) no-repeat -104px -1px;
+}
+.topic-msg-icon.topic-msg-icon1{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url(/public/v2/index/images/zb.gif) no-repeat center;
+    background-size: 16px;
+    float: left;
+    position: relative;
+    top: 2px;
+}
+.topiclist_right{
+    width:330px;
+    float:right;
+}
+.topiclist_guestList{
+    background:#fff;
+    box-shadow: 5px 2px 6px rgba(216, 211, 211, 0.3);
+    margin-bottom:15px;
+}
+.topic-right-title {
+    width: 80px;
+    padding: 10px;
+    border-bottom: 2px solid #ff5054;
+    font-size: 20px;
+    color: #222222;
+    font-weight: bold;
+}
+/*牛人排行*/
+.color153{
+    color:rgb(153,153,153);
+}
+.title-1 {
+    margin: 0px 0 18px;
+    line-height: 25px;
+}
+.ynw-ranking{
+    background:#fff;
+    padding-top:10px;
+}
+.block{
+    display: block;
+}
+.ranking-content{
+    color: #222;
+    background: #fff;
+}
+.ranking-content .ranking-title{
+    padding: 0 25px;
+    border-bottom: 1px solid rgb(240,240,240);
+}
+.ranking-content .ranking-title-list{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 15px 5px;
+    position: relative;
+    top: 1px;
+}
+.ranking-content .ranking-title-list:last-child{
+    margin-right:0;
+}
+.ranking-content .ranking-title-list.select{
+    color: rgb(255,80,84);
+    border-bottom: 2px solid rgb(255,80,84);
+}
+.ranking-content .ranking-main-list{
+    padding: 16px 12px;
+    position: relative;
+    border-top: 1px dashed rgb(240,240,240);
+    margin: 0 13px;
+}
+.ranking-content .ranking-main-list:first-child{
+    border-top: 0;
+}
+.ranking-content .ranking-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    left: 59px;
+    display: inline-block;
+    background: url(/public/v2/index/images/ynw-ranking.png) no-repeat -120px 0;
+}
+.ranking-content .ranking-main-list1{
+    padding-top: 30px;
+}
+.ranking-content .ranking-main-list2{
+    padding-top: 30px;
+}
+.ranking-content .ranking-main-list3{
+    padding-top: 30px;
+}
+.ranking-content .ranking-main-list1 .ranking-icon{
+    background-position: 0 0;
+}
+.ranking-content .ranking-main-list2 .ranking-icon{
+    background-position: -38px 0;
+}
+.ranking-content .ranking-main-list3 .ranking-icon{
+    background-position: -77px 0;
+}
+.ranking-content .ranking-main-list .image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.ranking-content .ranking-text{
+    position: relative;
+    top: -30px;
+    margin-left: 20px;
+}
+.ranking-content .ranking-people:hover{
+    color: rgb(255,80,84);
+}
+.ranking-content .ranking-num{
+    top: 15px;
+    width: 69px;
+    color: #eb575a;
+    text-align: center;
+    line-height: 1.5;
+}
+.ranking-content .ranking-num .ranking-people-num{
+    font-weight: normal;
+    color: #c2c2c2;
+    font-size: 13px;
+    display: block;
+}

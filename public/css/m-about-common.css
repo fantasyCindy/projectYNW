@@ -1,0 +1,397 @@
+body{
+	padding-top:50px;
+}
+footer{
+	padding:15px 0;
+	background:#333;
+	color:#fff;
+	font-size:12px;
+	line-height:25px;
+}
+footer ul{
+	text-align:center;
+}
+footer ul li{
+	list-style:none;
+	display:inline-block;
+	
+}
+footer ul li:last-child a{
+	border-right:none;
+	padding-right:0;
+}
+footer ul li a{
+	padding-right:5px;
+	border-right:1px solid #fff;
+	color:#fff !important;
+}
+#navbar{
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	z-index:1030;
+	background:#d72621;
+}
+#navbar .navbar-header{
+	position:relative;
+	color:#fff;
+	line-height:44px;
+
+	text-align:center;
+}
+#navbar .title{
+	line-height:44px;
+	font-size:18px;
+}
+#navbar .navbar-toggle{
+	position:absolute;
+	top:11px;
+	right:15px;
+	font-size:24px;
+	cursor:pointer;
+}
+#navbar .navbar-header .logo{
+	width: 28.5px;
+    height: 18px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+#navbar .navbar-collapse{
+	display:none;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+}
+#navbar .navbar-collapse a{
+	position: relative;
+    display: block;
+    padding: 10px 30px;
+    text-decoration:none;
+    line-height:20px;
+    color:#efdbdb;
+}
+#navbar .navbar-collapse .active a{
+	color:#fff;
+	background:#b80404;
+}
+#aboutUs{
+	padding:15px;
+}
+#aboutUs img{
+	max-width:100%;
+}
+#aboutUs .about-title{
+	text-align: center;
+    color: #C6A731;
+    font-size: 24px;
+    margin: 20px 0;
+}
+#aboutUs .zigezheng{
+	text-align: center;
+    font-size: 20px;
+}
+#aboutUs .zigezheng img{
+	margin-top:10px;
+}
+#aboutUs p{
+	text-indent: 2em;
+    line-height: 25px;
+    font-size: 16px;
+    color: gray;
+}
+#aboutUs .about-stitle{
+	text-align: center;
+    color: red;
+    font-size: 16px;
+}
+#aboutUs .help-img{
+	display: inline-block;
+    text-align: center;
+    width: 26%;
+    height: 108px;
+    margin: 0 3%;
+    margin-top: 40px;
+    color: gray;
+    font-size: 16px;
+}
+
+#law{
+	padding:15px;
+}
+#law .title{
+	display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size:2em;
+}
+.tc{
+	text-align:center;
+}
+#law .tc{
+	width: 180px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+#law .title font{
+	font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+#law .texind{
+	text-indent: 2em;
+    color: rgb(94,94,94);
+}
+#law aside{
+	font-size: 14px;
+    color: rgb(94,94,94);
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#law .subtitle{
+	font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: rgb(51,51,51);
+    line-height: 30px;
+}
+#law .rules p{
+	font-size: 14px;
+    color: rgb(94,94,94);
+    line-height: 25px;
+}
+
+#mianze{
+	padding:15px;
+}
+#mianze .title{
+	display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size:2em;
+}
+#mianze .tc{
+	width: 180px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+#mianze .title font{
+	font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+#mianze .subtitle{
+	font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: rgb(51,51,51);
+    line-height: 30px;
+}
+#mianze aside{
+	font-size: 14px;
+    color: rgb(94,94,94);
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#account{
+	padding:15px;
+}
+#account .title{
+	display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size:2em;
+}
+#account .tc{
+	width: 180px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+#account .title font{
+	font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+#account .account1{
+    margin:40px auto;
+    border:1px solid #DBDCDD;
+    border-radius: 10px;
+}
+#account .account1 img{
+    max-width:100%;
+    margin:0 auto;
+    position:relative;
+    top:0px;
+}
+#account .account1 .bank{
+    width:100%;
+    margin:10px auto;
+    border-bottom:1px dashed #DBDCDD;
+}
+#account .account1 .bank img{
+    width:80%;
+    display:block;
+    margin:20px auto;
+}
+#account .txt{
+    margin:5px 10px;
+    text-align: left;
+    line-height:20px;
+    font-size:14px;
+}
+
+#help{
+	padding:15px;
+}
+#help img{
+	max-width:100%;
+}
+#help .title{
+	display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size:2em;
+}
+#help .tc{
+	width: 180px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+#help .title font{
+	font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+#help .subtitle{
+	font-size: 18px;
+    line-height: 30px;
+}
+#help .subtitle i{
+	margin-right: 10px;
+}
+#help .state{
+	margin-bottom: 20px;
+    color: #5b5c5e;
+    font-size: 14px;
+    line-height: 25px;
+}
+#help .aside{
+	color: rgb(94,94,94);
+}
+#help .tit {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000 !important;
+}
+#help span{
+	display:block;
+	line-height:25px;
+}
+
+#zhaopin{
+	padding:15px;
+}
+#zhaopin .title{
+	display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size:2em;
+}
+#zhaopin .tc{
+	width: 180px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+#zhaopin .title font{
+	font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+#zhaopin .hot{
+	line-height: 35px;
+	font-size:1.5em;
+}
+#zhaopin .jobs{
+	font-size: 18px;
+    line-height: 25px;
+    margin: 25px 0 0;
+}
+#zhaopin .jobs .fa{
+	color: #fa8910;
+    padding-right: 8px;
+}
+#zhaopin .depict{
+	font-size: 14px;
+    margin: 10px 0;
+}
+#zhaopin span{
+	display: block;
+    font-size: 14px;
+    line-height: 25px;
+}
+#zhaopin .map{
+	margin-top:25px;
+}
+
+#contact{
+	padding:15px;
+}
+#contact .title{
+	display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size:2em;
+}
+#contact .tc{
+	width: 180px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+}
+#contact .title font{
+	font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+#contact h2{
+	font-size:1.5em;
+}
+
+#contact .list_text {
+    margin: 25px 0;
+    color: #777879;
+    line-height:25px;
+}
+
+#contact .list_text span {
+    display:block;
+    font-size:14px;
+}
+
+#contact #allmap {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    border: 1px solid #e1e1e1
+}

@@ -1,0 +1,1020 @@
+body {
+    font-family: "微软雅黑" !important;
+}
+
+#myReferList {
+    margin-top: 18px;
+}
+
+#myReferList .refer_wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#myReferList .wrap_fl {
+    width: 862px
+}
+
+#myReferList .wrap_fr {
+    width: 318px
+}
+
+#myReferList .refer_detail {
+    background: #fff;
+    padding: 15px 15px 20px;
+    position: relative
+}
+
+#myReferList .refer_detail .refer_title {
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+
+#myReferList .refer_title .title {
+    font-size: 18px;
+}
+
+#update {
+    position: absolute;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 4px;
+    line-height: 28px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+#update button {
+    width: 95px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#update .addPdf {
+    margin-left: 20px;
+}
+
+#myReferList .refer_photo {
+    margin: 15px 0 10px 0;
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+#myReferList .refer_photo img {
+    height: 100%;
+}
+
+#myReferList .refer_intro {
+    width: 77%;
+    overflow: hidden;
+    line-height: 24px;
+    word-break: break-all;
+    padding: 15px 15px 15px 30px;
+    font-size: 16px;
+    color: #333;
+}
+#myReferList .refer-tips{
+    display: inline-block;
+    padding: 10px;
+    padding-right: 125px;
+    background: #fdf7eb;
+    font-size: 14px;
+    color: #E2B03D;
+}
+#myReferList .refer_intro img {
+    width: 80%;
+    display: block;
+    cursor: pointer;
+}
+
+#myReferList .refer_intro .value {
+    display: inline-block;
+}
+
+#myReferList .refer_intro .lookall,
+#myReferList .refer_intro .fold {
+    color: #1b77c9;
+}
+
+#myReferList .refer_cover {
+    background: #fff;
+    border-top: 1px solid #eeeeee;
+}
+
+#myReferList .status img {
+    border: 1px solid #e1e1e1
+}
+
+#myReferList .refer_detail .addition {
+    border-bottom: 1px solid #edeeef;
+    padding-bottom: 15px;
+    margin: 10px 0
+}
+
+#myReferList .refer_detail .refer_content {
+    text-align: left;
+}
+
+#myReferList .none {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 15px;
+    color: gray;
+}
+
+#myReferList .refer_detail .refer_list {
+    line-height: 25px;
+    padding: 20px 0;
+    /*border-bottom: 1px dashed rgb(235, 235, 235);*/
+}
+
+#myReferList .refer_detail .refer_list .teacherPhoto {
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 8px;
+    position: relative;
+    top: -6px;
+}
+
+#myReferList .refer_detail .refer_list .teacherPhoto img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#myReferList .refer_detail .refer_list .name {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#myReferList .refer_list .time {
+    margin-right: 15px;
+    color: #999;
+    position: relative;
+    top: 1px;
+}
+
+#myReferList .refer_list .refer_item {
+    width: 88%;
+    padding: 15px;
+    margin-top: 10px;
+    background: #fff9e9;
+    font-size: 15px;
+}
+#myReferList .refer_list .refer_item .pdf-content{
+    color:#CD8738;
+    font-size:18px;
+}
+#myReferList .refer_item img {
+    max-height: 164px;
+    max-width: 350px;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin: 5px;
+    display: block
+}
+
+#myReferList .refer_comment {
+    background: #fff;
+    padding: 15px 15px 20px;
+    position: relative;
+    margin-top: 20px
+}
+
+#myReferList .refer_comment .comm_total {
+    margin: -15px -15px 15px;
+    padding: 15px;
+    background: #f9f9f9;
+}
+
+#myReferList .comm_total {
+    height: 54px;
+    border-bottom: 1px solid #e1e1e1
+}
+
+#myReferList .comm_total b {
+    font-size: 16px;
+    margin-right: 30px
+}
+
+#myReferList .comm_total span {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    color: #d72612;
+    margin-left: 5px;
+}
+
+#myReferList .comm_total .thisclass,
+#myReferList .comm_total span:hover {
+    color: #d42b2a;
+    /*text-decoration: underline*/
+}
+
+#myReferList .comment_item {
+    border-top: 1px dashed #e1e1e1;
+    padding: 15px 0
+}
+
+#myReferList .comment_item.isReply {
+    /*border-top-style: dashed;*/
+    border-top: none;
+    margin: 5px 0 5px 55px;
+    background: #f2f6ff;
+    padding: 15px;
+}
+
+#myReferList .comment_item.isReply .user_head {
+    display: none;
+}
+
+#myReferList .comment_item.isReply .user_detail {
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+}
+
+#myReferList .comment_item.isReply .reply {
+    display: none;
+}
+
+#myReferList .comment_item.isReply .floor {
+    display: none;
+}
+
+#myReferList .comment_item:first-child {
+    border: none
+}
+
+#myReferList .comment_item .user_head {
+    width: 49px;
+    height: 49px;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    top: -2px;
+}
+
+#myReferList .user_head img {
+    border: none;
+    height: 100%
+}
+
+#myReferList .user_detail {
+    width: 93%;
+    word-break: break-all;
+    padding-left: 15px
+}
+
+#myReferList .user_detail p {
+    font-size: 13px;
+    line-height: 25px
+}
+
+#myReferList .user_detail .user_name {
+    color: #7f8081
+}
+
+#myReferList .user_detail .user_nickName {
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#myReferList .comment_item.false .user_name .icon {
+    display: none;
+}
+
+#myReferList .user_detail .user_name .icon {
+    position: absolute;
+    right: 7px;
+    top: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#myReferList .user_detail .user_content {
+    color: rgb(30, 30, 30);
+    font-size: 15px;
+}
+
+#myReferList .user_detail .user_floor {
+    font-size: 12px;
+    color: rgb(150, 150, 150)
+}
+
+#myReferList .user_detail .user_floor .reply {
+    position: relative;
+    top: 3px;
+    color: #1851d2;
+}
+
+#myReferList .user_detail .floor {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    top: 2px;
+    right: 30px;
+    color: #999;
+}
+
+#myReferList .comment_case {
+    border: 1px solid rgb(235, 235, 235);
+    margin-top: 20px;
+    background: rgb(250, 250, 250)
+}
+
+#myReferList .comment_case textarea {
+    display: block;
+    font-size: 18px;
+    border-style: none;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    resize: none;
+    border-radius: 2px;
+    width: 100%;
+    background: rgb(250, 250, 250);
+    margin: 0 auto;
+    padding: 20px;
+    outline: none;
+    line-height: 25px
+}
+
+#myReferList .comment_case .showStockList {
+    border: 1px solid rgb(235, 235, 235);
+    padding: 8px;
+    width: 200px
+}
+
+#myReferList .comment_case .statistics {
+    margin-right: 5px;
+    margin-top: 5px
+}
+
+#myReferList .comment_case .comment_finish {
+    display: inline-block;
+    background: #c82c2b;
+    color: #fff;
+    padding: 0 10px;
+    line-height: 26px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.uprefer {
+    z-index: 1;
+    font-size: 13px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(200, 200, 200);
+    position: fixed;
+    top: 100px;
+    width: 700px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.uprefer .wrap {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.uprefer>.close {
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    color: #000;
+}
+
+.uprefer>.title {
+    color: rgb(51, 51, 51);
+    padding: 10px 20px;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    background: rgb(250, 250, 250)
+}
+
+.uprefer>.title span {
+    font-size: 14px;
+    color: rgb(150, 150, 150);
+    margin-left: 10px
+}
+
+.uprefer .info {
+    color: rgb(153, 153, 153);
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.upload {
+    color: #666;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -350px;
+}
+
+.upload .wrap {
+    position: relative;
+}
+
+.upload .upload-title {
+    font-size: 14px;
+    line-height: 35px;
+    color: #333;
+}
+
+.upload input {
+    width: 90%;
+    height: 35px;
+    float: right;
+    padding-left: 5px;
+}
+
+.upload .wrap {
+    padding: 20px;
+}
+
+.upload .uploadFile {
+    width: 90%;
+    height: 75px;
+    margin: 20px 0;
+    background: #EEEEEE;
+    text-align: center;
+    line-height: 75px;
+    font-size: 14px;
+    margin-left: 67px;
+    border: 1px solid #DCDCDC;
+    cursor: pointer;
+    position: relative;
+}
+
+.upload .upbtn {
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload .upload-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(/public/images/refer/icon.png) no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.upload .uploadfile-icon {
+    display: inline-block;
+    width: 28px;
+    height: 27px;
+    background: url(/public/images/refer/pdf.png) no-repeat;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.upload #uploadFile-wrap {
+    color: #CD8738;
+    text-decoration: underline;
+    font-size:18px;
+}
+.upload #uploadFile-wrap a{
+    color: #CD8738;
+}
+.upload .delete{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(/public/images/refer/x.png) no-repeat;
+    float:right;
+    position:relative;
+    top:10px;
+    right:10px;
+    cursor:pointer;
+}
+.upload .upload-tip {
+    margin-left: 69px;
+    margin-bottom: 8px;
+    color: #666;
+    font-size: 14px;
+}
+
+#insertStockCodeInput {
+    border: 1px solid #e1e1e1;
+    padding: 8px;
+    width: 200px;
+    font-size: 13px;
+    background: rgb(240, 240, 240);
+}
+
+.uprefer .submit {
+    border: none;
+    border-radius: 2px;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    background: #d72721;
+    cursor: pointer;
+}
+
+.upload .submit {
+    width: 279px;
+    height: 55px;
+    line-height: 55px;
+    margin: 50px auto 40px auto;
+    font-size: 20px;
+}
+
+#myReferList .subscription {
+    background: #fff;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#myReferList .subscription .status0 {
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 0 15px 15px 0;
+    top: 0;
+    left: 0;
+    background: #e3b03d;
+    text-align: center;
+    color: #fff;
+}
+
+#myReferList .subscription .status1 {
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 0 15px 15px 0;
+    top: 0;
+    left: 0;
+    background: #ff5054;
+    text-align: center;
+    color: #fff;
+}
+
+#myReferList .subscription .status2 {
+    position: absolute;
+    display: inline-block;
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 0 15px 15px 0;
+    top: 0;
+    left: 0;
+    background: rgb(153, 153, 153);
+    text-align: center;
+    color: #fff;
+}
+
+#myReferList .subscription .right-price {
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    top: -7px;
+    color: #666;
+}
+
+#myReferList .subscription .yetday {
+    margin: 30px 0 5px;
+}
+
+#myReferList .subscription .progress {
+    height: 5px;
+    background: #d6d7db;
+}
+
+#myReferList .subscription .progress_bar {
+    height: 100%;
+    background: #d7282c;
+    display: inline-block;
+    transition: all .9s;
+    width: 0;
+}
+
+#myReferList .subscription .info {
+    font-size: 16px;
+    width: 200px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+#myReferList .subscription .info button {
+    width: 100%;
+    font-size: 15px;
+}
+
+#myReferList .subscription .info button.gray {
+    background: gray;
+    border-color: gray;
+}
+
+#myReferList .subscription .yesinfo {
+    background: #999999 !important;
+}
+
+#myReferList .subscription .noinfo {
+    background: #d52a2a;
+}
+
+#myReferList .subscription .lookys {
+    color: #73a4ca;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#myReferList .person-refer,
+#myReferList .specialtys {
+    margin-top: 15px;
+    background: white;
+    position: relative;
+}
+
+.person-refer .more,
+.specialtys .more {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+
+.person-refer .item {
+    border-top: 1px solid rgb(220, 220, 220);
+    padding: 15px;
+}
+
+.person-refer .item:first-child {
+    border-top: none;
+}
+
+.refer-status-icon {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.refer-intro-status-icon {
+    display: inline-block;
+    position: absolute;
+    right: -75px;
+    top: -15px;
+}
+
+.refer-status-0 {
+    background-image: url(/public/sprite/dist/referDetail.png);
+    background-position: 0px -94px;
+    width: 75px;
+    height: 31px;
+}
+
+.refer-status-1 {
+    background-image: url(/public/sprite/dist/referDetail.png);
+    background-position: -94px -41px;
+    width: 75px;
+    height: 31px;
+}
+
+.refer-status-2 {
+    background-image: url(/public/sprite/dist/referDetail.png);
+    background-position: -94px 0px;
+    width: 75px;
+    height: 31px;
+}
+
+.refer-intro-status-1 {
+    background-image: url(/public/sprite/dist/referStatus.png);
+    background-position: -15px -18px;
+    width: 65px;
+    height: 25px;
+}
+
+.refer-intro-status-0 {
+    background-image: url(/public/sprite/dist/referStatus.png?5585);
+    background-position: -105px -18px;
+    width: 65px;
+    height: 25px;
+}
+
+.refer-intro-status-2 {
+    background-image: url(/public/sprite/dist/referStatus.png?321);
+    background-position: -194px -18px;
+    width: 65px;
+    height: 25px;
+}
+
+
+/*.teacher-icon{
+    display: inline-block;
+    width:22px;
+    height:23px;
+    background:url(/public/sprite/dist/referStatus.png?123);
+    background-position:-565px -52px;
+    background-size:11px;
+}*/
+
+.refer-intro-text-content .referTag {
+    color: #d88622;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#myReferList .refer_cover .refer_intro .value,
+#myReferList .refer_cover .refer_intro .value span {
+    font-size: 12px !important;
+}
+
+.value .referTag {
+    color: #d88622;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+
+/*refer介绍*/
+
+.refer-title-icon {
+    display: inline-block;
+    width: 3px;
+    height: 16px;
+    background: #e4484b;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.refer_intro_line {
+    margin-bottom: 11px;
+}
+
+.refer_intro_red {
+    color: #e4484b;
+}
+
+.refer_intro_red.price {
+    font-size: 22px;
+}
+
+.refer_intro_feedBtn {
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #ff5054;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 1px #ff5054;
+    cursor: pointer;
+}
+
+.refer-intro-text {
+    margin-top: 10px;
+    background: #fff;
+    padding: 15px;
+}
+
+.refer-intro-text-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.refer-intro-text-content,
+.refer-intro-text-content span {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "微软雅黑" !important;
+}
+
+.refer-intro-text-content img {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.refer-intro-text-alert {
+    background: #fff9e9;
+    background-position: -314px 14px;
+    padding: 0 15px 15px 66px;
+    color: #d98626;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.alert-icon {
+    display: inline-block;
+    width: 41px;
+    height: 37px;
+    background: url(/public/sprite/dist/referStatus.png?333);
+    background-position: -314px -14px;
+    position: relative;
+    right: 10px;
+    top: 18px;
+}
+
+.alert-top {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: -40px;
+}
+
+
+/*擅长领域*/
+
+.specialtyList {
+    padding: 4px 10px;
+    background: #fff9e9;
+    border: 1px dashed #da8623;
+    color: #da8623;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.specialtys .items {
+    padding: 15px;
+}
+
+.teacher-icon {
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    background: url(/public/sprite/dist/referStatus.png);
+    background-position: -283px -25px;
+    margin: 0 7px;
+    position: relative;
+    top: 1px;
+}
+
+.teacher-icon.hide {
+    display: none;
+}
+
+
+/*comment-template*/
+
+.child_comment {
+    background: #f2f6ff;
+    padding: 15px;
+}
+
+.comment_first {
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px dashed rgb(220, 220, 220);
+}
+
+.comment_second {
+    background: #fff;
+    padding: 10px;
+}
+
+.child_comment_name {
+    color: #999;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.child_comment_content {
+    font-size: 16px;
+}
+
+
+/*邀请码弹窗*/
+
+.hide {
+    display: none;
+}
+
+#pay-employeecode {
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 245, 245, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#pay-employeecode .pay-container {
+    /*display: block;*/
+    width: 400px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    margin-left: -200px;
+    box-shadow: 7px 4px 20px 0 hsla(0, 0%, 65%, .38);
+}
+
+#pay-employeecode .pay-employee-title {
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#pay-employeecode .pay-employee-input input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 30px auto;
+    border: none;
+    background: #E9E9E9;
+    text-align: center;
+}
+
+#pay-employeecode .pay-employee-bar {
+    border-top: 1px solid #ececec;
+}
+
+#pay-employeecode .pay-btn {
+    display: inline-block;
+    width: 48%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-left: 1px solid #ececec;
+    cursor: pointer;
+}
+
+#pay-employeecode .pay-btn:first-child {
+    border-left: none;
+}
+
+#ynPostComment {
+    background: #fff;
+}
+
+
+/*image zoom*/
+
+.img-wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3);
+    z-index: 1002;
+    display: none;
+    overflow: auto;
+}
+
+.img-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.img-wrap.show {
+    transition: all .3s;
+    display: block;
+}
+
+#img-wrap-img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-height: 900px;
+    max-width: 1900px;
+}

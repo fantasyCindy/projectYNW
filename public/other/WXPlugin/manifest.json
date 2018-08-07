@@ -1,0 +1,29 @@
+{
+    "name": "微信扩展工具",
+    "version": "1.3",
+    "manifest_version": 2,
+    "description": "微信扩展工具",
+    "update_url": "http://upext.chrome.360.cn/intf.php?method=ExtUpdate.query",
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "css": ["mystyle.css"],
+        "js": ["jquery.min.js", "exe.js", "content.js"]
+    }],
+    "background": {
+        "scripts": ["jquery.min.js", "background.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup" : "pop.html"
+    },
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/",
+        "storage",
+        "notifications",
+        "downloads",
+        "activeTab"
+    ]
+}

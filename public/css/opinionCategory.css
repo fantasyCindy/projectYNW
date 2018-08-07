@@ -1,0 +1,124 @@
+#opinionCategory {
+    width: 1200px;
+    margin: auto;
+}
+
+#opinionCategory .left {
+    background: white;
+    overflow: hidden;
+    width: 850px;
+    float: left;
+}
+
+#opinionCategory .left .nav{
+    border-bottom:1px solid #e8e8e8;
+}
+
+#opinionCategory .right {
+    float: right;
+    width: 330px;
+}
+
+#opinionCategory .right .title {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+#opinionCategory .intro span.time{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 15px;
+    white-space:nowrap;
+    position:relative;
+    top:4px;
+}
+.opinion-list-item .info .time{
+    width:110px;
+}
+
+/*hotOpinion*/
+
+.hotOpinion {
+    width: 330px;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.hotOpinion .title {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.hotTags {
+    background: white;
+}
+
+.hot-opinion-item {
+    border-top: 1px solid rgb(245, 245, 245);
+    padding: 10px 25px;
+    overflow: hidden
+}
+
+.hot-opinion-item > * {
+    display: inline-block;
+    vertical-align: top
+}
+
+.hot-opinion-item .index {
+    width: 5%;
+    background: gray;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px
+}
+
+.hot-opinion-item .index1,
+.hot-opinion-item .index2,
+.hot-opinion-item .index3 {
+    background: red
+}
+
+.hot-opinion-item .content {
+    width: 90%
+}
+
+.hot-opinion-item .content .name {
+    display: inline-block;
+    height: 20px;
+    line-height:25px;
+    overflow: hidden;
+    font-size: 15px;
+    color: rgb(60, 60, 60)
+}
+
+.hot-opinion-item .content .info {
+    margin-top: 10px;
+    color: gray;
+    font-size: 12px
+}
+
+.hot-opinion-item .content .info .noteType {
+    float: right
+}
+
+.hot-opinion-item .content .info .noteType .yn-icon {
+    position: relative;
+    top: 3px;
+    margin: 0 5px
+}
+
+.hot-opinion-item .content .info > * {
+    margin-right: 5px
+}
+
+.hot-opinion-item .content .info span.time{
+    overflow: hidden;
+    line-height: 13px;
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    white-space:nowrap;
+}

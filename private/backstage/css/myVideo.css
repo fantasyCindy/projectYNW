@@ -1,0 +1,243 @@
+.title-1 {
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 3px solid #f31a0b
+}
+
+.ynbutton-red {
+    background: #d72621;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 3px
+}
+
+.ynbutton-black {
+    border: 1px solid #3c3c3c;
+    background: #1e1e1e;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 3px
+}
+
+.ynbutton {
+    cursor: pointer
+}
+
+.gray {
+    color: #000
+}
+
+.split {
+    border-top: 1px solid #ddd;
+    height: 0;
+    margin: 15px 0
+}
+
+#contentWrap {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+#contentWrap #myVideo {
+    width: 100%
+}
+
+#videolist .top .ynbutton {
+    position: absolute;
+    top: 15px;
+    right: 20px
+}
+
+#videolist table {
+    width: 100%;
+    margin-top: 30px;
+    overflow: hidden
+}
+
+#videolist table .action {
+    cursor: pointer;
+    padding: 15px 0;
+    border: 1px solid #dcdcdc;
+    width: 50%;
+    text-align: center;
+    background: #fafafa
+}
+
+#videolist table .select {
+    border-top: 3px solid #f31a0b;
+    color: #f31a0b;
+    border-bottom-color: #fff;
+    background: #fff
+}
+
+#videolist .drafts {
+    margin-top: 20px
+}
+
+#videolist .drafts .item {
+    padding: 25px 10px;
+    border-top: 1px solid #e6e6e6
+}
+
+#videolist .drafts .item:first-child {
+    border-top: none
+}
+
+#videolist .drafts .item .title {
+    margin-bottom: 10px
+}
+
+#videolist .drafts .item .title .name {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700
+}
+
+#videolist .drafts .item .title .name:hover {
+    text-decoration: underline
+}
+
+#videolist .drafts .item .title .type {
+    color: gray;
+    position: absolute;
+    right: 30px
+}
+
+#videolist .drafts .item .content {
+    color: #777;
+    line-height: 22px
+}
+
+#videolist .drafts .item .info {
+    margin-top: 10px;
+    color: #777;
+    text-align: right
+}
+
+#videolist .contentWrap {
+    margin-top: 20px;
+    width: 100%
+}
+
+#videolist .contentWrap table {
+    width: 100%
+}
+
+#videolist .contentWrap table tr {
+    background: #fff
+}
+
+#videolist .contentWrap table tr:nth-of-type(2n) {
+    background: #f9f9f9
+}
+
+#videolist .contentWrap table td {
+    border: 1px solid #EBEBEB;
+    color: #131313;
+    text-align: center;
+}
+
+#videolist .contentWrap table td .ynbutton {
+    text-decoration: none
+}
+
+#postVideo .form-group {
+    display: inline-block;
+    padding: 15px 0;
+}
+
+#postVideo .form-group label {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 90px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#postVideo .form-group .form-control {
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: #555;
+    background-color: #e8e6e6;
+    background-image: none;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 2px;
+}
+
+#postVideo .form-group .upload {
+    padding: 6px 20px;
+    height: 34px;
+    cursor: pointer
+}
+
+#postVideo .form-group .ynbutton-danger,
+#postVideo .form-group .ynbutton-success,
+#postVideo .form-group .ynbutton-warning {
+    margin-right: 15px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+    color: #fff;
+    background-color: #d72621;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-radius: 2px;
+    border-style: none;
+}
+
+#myVideo-list td.name {
+    text-align: left !important;
+    text-indent: 5px;
+    padding: 10px;
+    line-height: 25px;
+    width:65%;
+}
+
+#myVideo-list td.name .title {
+    font-size: 15px;
+    color: #2E0C88;
+}
+
+#myVideo-list td.name .type {
+    color: gray;
+}
+
+#myVideo-list td.name .type span {
+    margin-right: 10px;
+}
+
+#myVideo-list td.btns a {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 5px 10px;
+}
+
+#myVideo-list td.btns a:hover {
+    background: rgb(240, 240, 240)
+}
+
+#myVideo-list tr.head td {
+    padding: 10px 0;
+    background: #fff;
+}
+
+#postVideo .actions {
+    display: block !important;
+    text-align: center;
+}
+
+#messageContainerWrap {
+    padding: 0 30px;
+}
+
+#postVideo .cover {
+    margin: 10px 0;
+    margin-left: 35px;
+}

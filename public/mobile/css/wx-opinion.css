@@ -1,0 +1,120 @@
+body {
+    background: #e8e8e8;
+    font-size: 13px;
+}
+
+
+#wx-opinion,
+#wx-opinionDetail {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#wx-opinion .container {
+    margin-bottom: 15px;
+    background: white;
+    padding: 10px 30px;
+}
+
+.wx-title {
+    margin: 10px 0;
+    overflow: hidden;
+    border-left: 3px solid #d72621;
+    padding-left: 10px;
+}
+
+.wx-title-txt {
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+#wx-opinion .opinion-content {
+    width: 100%;
+    color: gray;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E9E9E9;
+    font-size: 13px;
+    line-height: 1.8em;
+    text-align: justify;
+    word-break: break-word;
+}
+
+.opinion-msg {
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+    line-height: 30px;
+    font-size: 12px;
+    position: relative;
+}
+
+.opinion-msg .t-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.opinion-msg .t-photo img {
+    width: 100%;
+}
+
+.opinion-msg .line {
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    background: gray;
+    position: relative;
+    top: 2px;
+    margin: 0 3px;
+}
+
+.opinion-msg div {
+    margin-right: 10px;
+    color: #a2a2a2;
+}
+
+.opinion-msg .date {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.opinion-msg .read-count {
+    width: 100px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+
+/*opinionDetail*/
+
+#wx-opinionDetail {
+    max-width: 800px;
+}
+
+#wx-opinionDetail .container {
+    width: 94%;
+    background: #fff;
+    padding: 10px 3% 10px 3%;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+#wx-opinionDetail .title {
+    font-size: 18px;
+}
+
+#wx-opinionDetail .opinion-msg {
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    line-height: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E9E9E9;
+}

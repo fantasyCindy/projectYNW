@@ -1,0 +1,39 @@
+#liveing_box{
+	padding:16px 16px;
+}
+#liveing_box .live_list{
+	border-left:1px solid #e4e4e4;
+	padding-left:10px;
+	position:relative;
+}
+#liveing_box .live_list .time{
+	position:absolute;
+	font-size:11px;
+	color:#999999;
+	top:-4px;
+	left:2px;
+}
+#liveing_box .live_list .time:before{
+	content:'';
+	display:inline-block;
+	width:6px;
+	height:6px;
+	border-radius:50%;
+	background:#ec7e25;
+	position:relative;
+	top:-1px;
+	left:-5px;
+
+}
+#liveing_box .live_list .live_cont{
+	font-size:12px;
+	color:#333333;
+	padding:17px 0 15px;
+	line-height:21px;
+}
+.loadMore{
+	text-align:center;
+	line-height:40px;
+	font-size:12px;
+	color:#666666;
+}

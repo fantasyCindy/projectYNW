@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>demo.html</title>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+   <link rel="stylesheet" href="colorbox.css" />
+	<script src="../easyui/jquery.min.js"></script>
+	<script src="jquery.colorbox-min.js"></script>
+	<script>
+    	$(document).ready(function(){
+    	
+			$(".inline").colorbox({inline:true, width:"70%",speed:200});
+			
+			$(".iframe").colorbox({iframe:true, width:"80%", height:"80%",speed:200});
+			
+			$("#openBtn").colorbox({href:'http://www.csdn.net',iframe:true, height:"80%", width:"70%",speed:200});
+		});
+	</script>
+  </head>
+  
+  <body>
+    <a class='inline' href="#inline_content" >弹出本页内的Html</a>
+    
+    <br/><br/><br/>
+    
+    <a class='iframe' href="http://www.baidu.com">用IFrame弹出另外一个地址</a>
+    
+	<br/><br/><br/>
+	
+	<input id="openBtn" type="button" value="按钮弹出" />
+	
+	<div style='display:none'>
+		<div id='inline_content' style='padding:10px; background:#fff;'>
+			这里是隐藏区域的内容。
+		</div>
+	</div>
+
+  </body>
+</html>

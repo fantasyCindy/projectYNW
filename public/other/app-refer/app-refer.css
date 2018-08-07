@@ -1,0 +1,177 @@
+body {
+    font-size: 15px;
+    margin:0 auto;
+    width: 100%;
+}
+
+#vip {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Î¢ÈíÑÅºÚ";
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width33 {
+    width: 31.5%;
+    display: inline-block;
+}
+
+.width50 {
+    width: 48%;
+    display: inline-block;
+}
+.width80{
+    width:74%;
+    margin:0 auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.money {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.money img {
+    width: 95%;
+}
+
+.live {
+    padding: 2rem 0;
+    background: #faf9ff;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom:1rem;
+}
+
+.list {
+    width: 85%;
+    margin: 1.3rem auto;
+}
+
+.list .left,
+.list .right {
+    display: inline-block;
+    padding: 0.8rem 0;
+}
+
+.list .left {
+    width: 15%;
+    height: 10%;
+    text-align: center;
+    background: #915FEB;
+    color: #fff;
+    border-radius: 4px 0 0 4px;
+}
+
+.list .right {
+    width: 80%;
+    height: 10%;
+    border-bottom: 1px solid #915FEB;
+    position: relative;
+    top: -1px;
+    padding-left:10px;
+    background: #fff;
+    border-radius: 0 4px 4px 0;
+}
+
+.juexue {
+    padding: 2rem 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.juexue .wrap {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.juexue .width33 .wrap img {
+    width: 80%;
+}
+
+.juexue .width50 .wrap img {
+    width: 71%;
+}
+
+.refer {
+    padding: 2rem 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #DCDCDC;
+    background: #faf9ff;
+}
+
+.refer .refer-left,
+.refer .refer-right {
+    margin: 1.5rem 0;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.refer .refer-left img {
+    width: 47%;
+    position: relative;
+    top:0.2rem;
+    left:10px;
+}
+
+.refer .refer-left {
+    width: 100%;
+    position: relative;
+}
+
+.refer .refer-right {
+    position: absolute;
+    top: 4%;
+    left: 53%;
+    color:#696767;
+}
+
+.footer {
+    padding: 1rem 0;
+    text-align: center;
+    color:gray;
+    padding-bottom:60px;
+}
+
+.bottom {
+    background: url(./bottom.png) no-repeat;
+    text-align: center;
+    padding: 0.9rem 0;
+}
+
+.button img {
+    width: 35%;
+}
+@media only screen and (min-width:800px) {
+	body{
+		font-size:23px;
+	}	    
+}
+@media only screen and (min-width:480px) and (max-width:800px) {
+	body{
+		font-size:20px;
+	}	    
+}
+@media only screen and (min-width:400px) and (max-width:480px) {
+	body{
+		font-size: 15px;
+	}
+}
+@media only screen and (min-width:360px) and (max-width:400px) {
+	body{
+		font-size: 13px;
+	}
+}
+
+

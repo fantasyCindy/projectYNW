@@ -1,0 +1,121 @@
+
+#myAuth {
+	padding: 20px;
+}
+
+#myAuth .title {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#myAuth .title span {
+	font-size: 16px;
+	border-left: 4px solid #f31a0b;
+	padding-left: 10px;
+}
+
+#myAuth_form {
+	width: 427px;
+	margin: 70px auto;
+	display: none;
+}
+
+#myAuth_form .hint {
+	width: 200px;
+	position: absolute;
+	left: 398px;
+	right: -83px;
+	line-height: 15px;
+	top: 15px;
+	color: #d10000;
+	padding-left: 16px;
+	background: url(/public/v2/my/images/tx_icon.png) no-repeat;
+	background-size: 14px 14px;
+}
+
+#myAuth_form .error {
+	overflow: hidden;
+	color: #d10000;
+	background: url(/public/v2/my/images/tx_icon.png) no-repeat;
+	background-size: 14px 14px;
+	line-height: 15px;
+}
+
+#myAuth_form .error span {
+	margin-left: 19px;
+	float: left;
+}
+
+#myAuth_form .form-group {
+	position: relative;
+	margin-bottom: 20px;
+	line-height: 42px;
+}
+
+#myAuth_form .form-group label {
+	font-size: 16px;
+	color: #666666;
+	width: 70px;
+	padding-right: 3px;
+	text-align: right;
+	display: inline-block;
+}
+
+#myAuth_form .form-group input {
+	width: 314px;
+	height: 42px;
+	line-height: 42px;
+	padding: 0 5px;
+	border-radius: 3px;
+	border: 1px solid #eaeaea;
+	background: #f5f5f5;
+	font-size: 14px;
+	text-indent: 10px;
+}
+
+#myAuth_form .form-btn .affirm {
+	width: 314px;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 3px;
+	background: #cccccc;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+#myAuth_form .form-btn .touch {
+	background: #D02726;
+}
+
+#myAuth_form .form-btn {
+	width: 314px;
+	margin-left: 72px;
+}
+
+#myAuth_form .form-btn .mark {
+	color: #666666;
+	line-height: 30px;
+}
+
+#success {
+	margin: 90px auto;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: #333333;
+	display: none;
+}
+
+#success .message {
+	color: #666666;
+}
+
+#success .cg {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	margin-bottom: 5px;
+	background: url(/public/v2/my/images/cg_Icon.png) no-repeat;
+	background-size: 100%;
+}

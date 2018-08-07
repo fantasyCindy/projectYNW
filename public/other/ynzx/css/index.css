@@ -1,0 +1,199 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #fafafa;
+  font-family: '微软雅黑'; }
+
+.hide {
+  display: none; }
+
+.w1200 {
+  width: 1200px;
+  margin: auto; }
+
+.common-header {
+  width: 100%;
+  background: #ebebeb;
+  padding: 25px 0;
+  background: white; }
+  .common-header .logo {
+    width: 250px;
+    display: inline-block; }
+    .common-header .logo img {
+      width: 100%; }
+  .common-header .menu {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -21px; }
+    .common-header .menu ul {
+      overflow: hidden; }
+      .common-header .menu ul li {
+        padding: 0 10px;
+        height: 115px;
+        line-height: 115px;
+        float: left;
+        margin: auto 25px;
+        color: #000;
+        cursor: pointer;
+        list-style: none; }
+        .common-header .menu ul li.select {
+          color: #d72612;
+          border-bottom: 2px solid #d72612; }
+        .common-header .menu ul li .login,
+        .common-header .menu ul li .register {
+          margin: 0 5px; }
+        .common-header .menu ul li .login.select,
+        .common-header .menu ul li .register.select {
+          color: #d72612; }
+
+.yn-content {
+  margin-bottom: 50px; }
+
+.news-title {
+  margin: 10px auto;
+  font-size: 17px; }
+  .news-title .news-title-icon {
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background: #0e99e1;
+    position: relative;
+    top: 2px; }
+
+.ynzx-content {
+  background: #fff;
+  padding: 20px 20px 35px 20px;
+  box-shadow: 3px 3px 15px #CBCBCB;
+  line-height: 25px; }
+  .ynzx-content p {
+    text-indent: 2em;
+    margin-bottom: 15px; }
+
+.common-footer {
+  background: #333333;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: -4px; }
+  .common-footer .footer-text {
+    width: 900px;
+    margin: 0 auto; }
+
+.yn-index img {
+  width: 100%; }
+
+.yn-news {
+  margin: 15px auto; }
+  .yn-news .news-content .news-notice {
+    color: #0e99e1;
+    text-indent: 2em; }
+  .yn-news .news-content .news-download {
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    background: #b4e5ff;
+    text-align: center;
+    border-radius: 2px;
+    float: right;
+    position: relative;
+    top: -30px;
+    cursor: pointer; }
+
+.about-content {
+  min-height: 500px;
+  margin-bottom: 50px; }
+
+.yn-login,
+.yn-register {
+  background: #fff;
+  padding-bottom: 50px;
+  color: #666;
+  box-shadow: 3px 3px 15px #CBCBCB; }
+
+.login-content {
+  width: 570px;
+  background: #fff;
+  margin: 30px auto 10px auto;
+  padding: 50px 0; }
+  .login-content .login-input {
+    margin: 20px auto;
+    text-align: right; }
+    .login-content .login-input span {
+      display: inline-block;
+      margin-right: 20px; }
+    .login-content .login-input input {
+      width: 400px;
+      height: 40px; }
+    .login-content .login-input .login-submit,
+    .login-content .login-input .register-submit {
+      width: 400px;
+      height: 40px;
+      background: #0e99e1;
+      text-align: center;
+      line-height: 40px;
+      color: #fff;
+      border-radius: 2px;
+      cursor: pointer; }
+  .login-content .login-remember {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    left: 13px; }
+    .login-content .login-remember .passWord-remember input {
+      margin-right: 5px;
+      width: 15px;
+      height: 15px;
+      position: relative;
+      top: 3px; }
+
+.login-three {
+  width: 510px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  left: 40px; }
+  .login-three:before, .login-three:after {
+    display: inline-block;
+    content: '';
+    width: 140px;
+    height: 1px;
+    background: #CBCBCB;
+    position: relative;
+    top: -5px;
+    left: -15px; }
+  .login-three:after {
+    left: 15px; }
+
+.login-three-icon {
+  width: 510px;
+  text-align: center;
+  margin: 30px auto;
+  position: relative;
+  left: 40px; }
+  .login-three-icon .three-icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 20px; }
+    .login-three-icon .three-icon img {
+      width: 100%; }
+
+.login-register {
+  width: 510px;
+  position: relative;
+  left: 40px;
+  text-align: center;
+  margin: 0 auto; }
+
+.go-register,
+.go-login {
+  color: #0e99e1;
+  cursor: pointer; }

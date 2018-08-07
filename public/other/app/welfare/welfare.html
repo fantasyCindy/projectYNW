@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    button {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        height: 50px;
+    }
+    
+    .text input {
+        width: 80%;
+        height: 35px;
+        display: block;
+        margin: 30px auto;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="text">
+        <input type="text">
+    </div>
+    <button class="jump">跳转</button>
+    <button class="buy">立即购买</button>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $('.jump').click(function() {
+        var val = $('.text input').val()
+        if (val) {
+            window.location.href = val
+        }
+    })
+
+    $('.buy').click(function() {
+        OCObject.appLogin()
+    })
+    </script>
+</body>
+
+</html>

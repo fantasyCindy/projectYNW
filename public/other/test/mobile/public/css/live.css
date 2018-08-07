@@ -1,0 +1,212 @@
+/*live */
+
+.blue {
+    color: #167dec;
+}
+
+.relative {
+    position: relative;
+}
+
+#live {
+    max-width: 640px;
+    margin: 0 auto 96px;
+    color: #333;
+    background: #fff;
+    font-size: 18px;
+}
+
+#live .block {
+    display: block;
+    margin: 14px auto;
+}
+
+#live .header {
+    color: #f5c4c1;
+    padding: 20px;
+    background: #ea453f;
+    text-align: center;
+}
+
+#live .header .h-title {
+    width: 40%;
+    display: inline-block;
+}
+
+#live .header .h-title.on {
+    color: #fff;
+    font-weight: bold;
+}
+
+#live .main{
+    background: #ccc;
+}
+
+#live .list {
+    padding: 20px 20px 15px;
+    line-height: 26px;
+    margin-top: 15px;
+    background: #fff;
+}
+
+#live .list .img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#live .list .list-teach {
+    margin: 15px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#live .list .teacher {
+    color: #167dec;
+}
+
+#live .list .info {
+    overflow: hidden;
+    margin: 0 0 5px;
+}
+
+#live .list .blue {
+    color: #ea453f;
+    display: block;
+    font-size: 24px;
+}
+
+#live .list .title {
+    float: left;
+    margin: 8px 0;
+}
+
+#live .chat {
+    padding: 20px;
+    line-height: 26px;
+}
+
+#live .chat .chat-time {
+    color: #fff;
+    background: #ccc;
+    width: 50px;
+    padding: 2px 16px;
+    border-radius: 5px;
+}
+
+#live .chat .img {
+    width: 60px;
+    border-radius: 100px;
+}
+
+#live .chat .chat-title {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#live .chat .answer {
+    width: 80%;
+    margin-left: 70px;
+}
+
+#live .chat .chat-con {
+    width: 90%;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+#live .chat .questions {
+    background: #eee;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+#live .chat .questions .blue{
+    margin-bottom: 8px;
+}
+
+#live .chat .san {
+    display: inline-block;
+    width: 26px;
+    height: 25px;
+    left: -22px;
+    top: 49px;
+    background: url(/public/images/caoh5/jianjiao.png) no-repeat;
+    position: absolute;
+}
+
+#live .chat-list1 {
+    position: relative;
+}
+
+#live .chat-list1 .chat-title {
+    color: #ea453f;
+}
+
+#live .chat-list1 .chat-v {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 78px;
+    display: inline-block;
+    background: url(/public/images/caoh5/vip.png) no-repeat;
+    background-size: 30px;
+}
+
+#live .chat-list2 {
+    overflow: hidden;
+}
+
+#live .chat-list2 .relative {
+    overflow: hidden;
+    margin-left: 0;
+    padding-right: 13px;
+}
+
+#live .chat-list2 .chat-title {
+    color: #1064b8;
+}
+
+#live .chat-list2 .san {
+    left: auto;
+    right: -8px;
+    background: url(/public/images/caoh5/san.png) no-repeat;
+}
+
+#live .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #dbd7d7;
+}
+
+#live .footer .foot-w {
+    width: 34%;
+    height: 96px;
+    line-height: 96px;
+    font-size: 24px;
+    color: #ea453f;
+    display: inline-block;
+    border-right: 1px solid #dbd7d7;
+}
+
+#live .footer .foot-w:last-child {
+    border-right: 0;
+}
+
+#live .footer .icon {
+    display: inline-block;
+    width: 30%;
+    height: 96px;
+    border-right: 1px solid #dbd7d7;
+    background: url(/public/images/caoh5/footr_shang.png) no-repeat center;
+}

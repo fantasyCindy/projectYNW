@@ -1,0 +1,265 @@
+#ynlive_list {
+    margin-top: 18px;
+    transform: translateZ(0);
+}
+
+#homeslide {
+    height: 350px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#homeslide .posterTvGrid {
+    position: relative;
+    height: 310px;
+}
+
+#homeslide .posterTvGrid img {
+    max-width: none;
+    max-height: none;
+    border: 0 none;
+    background: #888;
+}
+
+#homeslide .posterTvGrid .contentHolder {
+    position: relative;
+    overflow: hidden;
+}
+
+#homeslide .posterTvGrid .contentHolderUnit {
+    cursor: pointer;
+    position: absolute;
+    width: 640px;
+    height: 270px;
+}
+
+#homeslide .posterTvGrid .contentHolderUnit a.elementLink {
+    display: block;
+    overflow: hidden;
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#homeslide .posterTvGrid .contentHolderUnit img {
+    width: 100%;
+    height: 100%;
+}
+
+#homeslide .posterTvGrid .contentHolderUnit .elementOverlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    filter: opacity=0;
+}
+
+
+#homeslide .posterTvGrid .leftNav,
+.posterTvGrid .rightNav {
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    margin-top: -43px;
+}
+
+#homeslide .posterTvGrid .leftNav {
+    left: 7px;
+    background: url("/public/v2/live-list/images/left.png") no-repeat;
+    _background: none;
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="/index/img/2013/slide_prev_btn.png");
+}
+
+#homeslide .posterTvGrid .rightNav {
+    right: 7px;
+    background: url("/public/v2/live-list/images/right.png") no-repeat;
+    _background: none;
+    _filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="/index/img/2013/slide_next_btn.png");
+}
+
+#homeslide .posterTvGrid .leftNav:hover {}
+
+#homeslide .posterTvGrid .rightNav:hover {}
+
+#homeslide .posterTvGrid .bottomNav {
+    z-index: 140;
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    margin-top: 270px;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+#homeslide .posterTvGrid .bottomNavButtonOFF {
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 18px;
+    height: 5px;
+    margin: 0 5px;
+    vertical-align: top;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #c3c3c3;
+}
+
+#homeslide .posterTvGrid .bottomNavButtonOFF:hover {
+    background: #aaa;
+}
+
+#homeslide .posterTvGrid .bottomNavButtonON,
+#homeslide .posterTvGrid .bottomNavButtonON:hover {
+    background: #69aaec;
+}
+
+#homeslide .posterTvGrid .bottomNavLeft {}
+
+#homeslide .posterTvGrid .bottomNavRight {}
+
+
+/*=================轮播======================*/
+
+#trends .trends-list {
+    padding: 0 10px;
+    background: #fff;
+}
+
+#trends .trends-list .trends-item {
+    border-bottom: 1px dashed #e1e1e1;
+    position: relative;
+    padding: 14px 0;
+}
+
+#trends .trends-list .trends-item:last-child {
+    border-bottom: none;
+}
+
+#trends .trends-item .photo {
+    margin-right: 9px;
+}
+
+#trends .trends-item .avatar {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 12px;
+    /*box-shadow: inset 0px 0px 8px #e1e1e1;*/
+    overflow: hidden;
+}
+
+#trends .trends-item .avatar img {
+    height: 100%;
+}
+
+#trends .trends-item .time {
+    color: #49a0f7;
+}
+
+#trends .trends-item .content {
+    padding: 8px 0 0 5px;
+    width: 75%;
+}
+
+#trends .trends-item .content .title,
+#emerging .content .title {
+    cursor: pointer;
+}
+
+#trends .trends-item .content .title:hover,
+#emerging .content .title:hover {
+    color: rgb(255, 80, 84);
+}
+
+#trends .trends-item .content .item-icon {
+    display: inline-block;
+    width: 12px;
+    height: 20px;
+    position: relative;
+    top: 1px;
+    right: 2px;
+}
+#trends .trends-item .content .item-icon img{
+    width:100%;
+}
+
+#trends .content .title>.subhead {
+    color: #666666;
+}
+
+#trends .content .subject {
+    margin-top: 13px;
+    line-height: 27px;
+    min-height: 54px;
+    overflow: hidden;
+    color: #222222;
+}
+
+#trends .trends-item .enter {
+    display: inline-block;
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: red;
+    border-radius: 3px;
+    margin: 37px 22px 0;
+    box-shadow: 3px 3px 6px #feb2b4;
+}
+
+#trends .trends-item .enter:hover {
+    background: #ff5054;
+}
+
+
+/*===================直播动态=======================*/
+#hall .title-1 .text {
+    margin-right: 30px;
+}
+
+#hall .title-1 .title-btn {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #ff5054;
+    border: 1px solid #ff5054;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 0 5px;
+    position: relative;
+    top: -1px;
+    transition: all .3s;
+}
+
+#hall .title-1 .thisclass {
+    color: #fff;
+    background: #ff5054;
+}
+
+#hall .hot-live.item {
+    margin-right: 0;
+}
+
+#hall .hot-live.item3,
+#hall .hot-live.item4 {
+    margin-bottom: 15px;
+}

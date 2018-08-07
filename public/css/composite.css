@@ -1,0 +1,311 @@
+#composite {
+    width: 1200px;
+    margin: auto;
+}
+
+.frame {
+    background: white;
+    margin-bottom: 15px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+
+/*状态*/
+
+.filter .state {
+    background: white;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.filter .state .item {
+    display: inline-block;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-top: 4px solid white;
+    cursor: pointer;
+}
+
+.filter .state .item.select {
+    border-top-color: #d72621;
+    color: #d72621;
+}
+
+
+/* 分类*/
+
+.filter .items {
+    padding: 15px 0;
+    padding-left: 35px;
+    font-size: 13px;
+}
+
+.filter .items .item {
+    padding: 12px 0;
+}
+
+.filter .items .item span {
+    padding: 3px 12px;
+}
+
+.filter .items .item .value {
+    cursor: pointer;
+}
+
+.filter .items .item .value.select {
+    color: #d72621;
+    background: #d72621;
+    color: white;
+    border-radius: 2px;
+}
+
+
+/*排序*/
+
+.sort {
+    background: rgb(240, 240, 240);
+}
+
+.sort .item {
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sort .item.select {
+    background: white;
+}
+
+.sort .item.select .fa {
+    display: inline;
+    color: red;
+}
+
+
+/*项目*/
+
+.isEnd .toFeed{
+    background: gray !important;
+    border-color: gray !important;
+}
+.isEnd .start strong{
+    color:gray !important;
+}
+
+.composite-items {
+    background: initial;
+    border: none;
+}
+
+.item-status-icon {
+    right: 150px;
+    top: 10px;
+    z-index: 1000;
+    height: 82px;
+    width: 82px;
+}
+
+.status6 .item-status-icon {
+    background: url(/public/icons/composite.png) no-repeat 0 -90px;
+    background-position: -160px -90px;
+}
+.status5 .item-status-icon {
+    background: url(/public/icons/composite.png) no-repeat 0 -90px;
+    background-position: -82px -90px;
+}
+.status4 .item-status-icon {
+    background: url(/public/icons/composite.png) no-repeat 0 -90px;
+    background-position: -240px -90px;
+}
+
+
+.composite-items .item {
+    margin-bottom: 10px;
+    background: white;
+    height: 160px;
+    border: 1px solid rgb(220, 220, 220);
+    position: relative;
+}
+
+.composite-items .item-left {
+    text-align: center;
+    float: left;
+    width: 140px;
+    height: 158px;
+    background: rgb(245, 245, 245);
+    background: url(/public/icons/texture/texture_5.png) no-repeat
+}
+
+.composite-items .item-left .state {
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: -5px;
+    background: url(/private/backstage/images/status.png) no-repeat
+}
+
+.composite-items .item-left .state.state2 {
+    background-position: -115px 0
+}
+
+.composite-items .item-right {
+    float: left;
+    padding: 10px;
+    width: 700px;
+}
+
+.composite-items .item-left .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 20px;
+    border: 1px solid rgb(200, 200, 200);
+    cursor:pointer;
+}
+
+.composite-items .item-left .avatar img {
+    height: 100%;
+}
+
+.composite-items .item-left .name {
+    position: relative;
+    top: 30px;
+}
+
+.composite-items .item-left .name .fa {
+    color: #d72621;
+    position: relative;
+    top: -1px;
+}
+
+.composite-items .item-right .title {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.composite-items .item-right .title .type {
+    font-size: 13px;
+    color: rgb(178, 101, 1);
+    padding: 3px 5px;
+    margin-left: 10px;
+    background: #efef97;
+    border: 1px solid rgb(241, 230, 145);
+}
+
+.composite-items .item-right .content {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    height: 18px;
+    overflow: hidden;
+    width: 500px;
+    color: gray;
+}
+
+.composite-items .item-right .info {
+    padding-left: 15px;
+}
+
+.composite-items .item-right .info-item {
+    margin-right: 15px;
+}
+
+.composite-items .item-right .info-item .txt {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.composite-items .item-right .info-item .value {
+    font-size: 30px;
+    color: red;
+    position: relative;
+    top: 4px;
+}
+
+.composite-items .item-right .info-item .value.gray {
+    color: rgb(102, 102, 102);
+}
+
+.composite-items .item-right .action {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    text-align: center;
+}
+
+.composite-items .item-right .action .toFeed {
+    font-size: 16px;
+    display: block;
+    width: 110px;
+}
+
+.composite-items .item-right .action .toFeed.done {
+    background: rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200);
+}
+
+.composite-items .item-right .action .toFeed:hover {
+    background: #ff0404;
+    transition: background-color 0.3s;
+    border-color: #ff0404;
+}
+
+.composite-items .item-right .action .start {
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 14px;
+    color: gray;
+}
+
+.composite-items .item-right .action .start strong {
+    color: red;
+    margin: 0 3px;
+}
+
+.composite-items .item-right .action .start .count {
+    color: red;
+    font-size: 18px;
+    margin-right: 3px;
+    position: relative;
+    top: 1px;
+}
+
+.composite-tip {
+    background: white;
+}
+
+.composite-tip .tip-item {
+    padding: 10px;
+    margin: 0 20px;
+    line-height: 22px;
+    border-top: 1px dashed rgb(220, 220, 220);
+}
+
+.composite-tip .tip-item:first-child {
+    border-top: none;
+}
+
+.composite-tip .tip-item .tip-title {
+    color: #d72621;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.composite-tip .tip-item ul {
+    padding-left: 40px;
+    color: rgb(100, 100, 100);
+}
+
+.composite-banner {
+    margin-bottom: 15px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.composite-banner img {
+    width: 100%
+}

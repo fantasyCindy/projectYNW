@@ -1,0 +1,26 @@
+.refer-category-item {
+    padding: 10px 20px;
+    border-bottom: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.refer-category-item.top {
+    border-top: 3px solid white;
+}
+
+.refer-category-item.top.select {
+    border-top: 3px solid #d72621;
+}
+
+.refer-category-item.bottom {
+    border-bottom: 3px solid white;
+}
+
+.refer-category-item.bottom.select {
+    border-bottom: 3px solid #d72621;
+}
+
+.refer-category-item.select {
+    color: #d72621;
+}

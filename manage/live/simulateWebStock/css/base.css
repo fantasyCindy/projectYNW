@@ -1,0 +1,233 @@
+#feedDetail {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+#feedDetail .contentWrap .frame {
+    display: block;
+    margin-top: 25px;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    background:white;
+}
+
+#feedDetail .contentWrap .person {
+    padding: 20px 20px 0;
+    position: relative;
+    overflow: hidden
+}
+
+#feedDetail .contentWrap .person .user_left {
+    float: left;
+    width: 50%;
+    overflow: hidden
+}
+
+#feedDetail .contentWrap .person .user_left .avatar {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #f9bbbe
+}
+
+#feedDetail .contentWrap .person .user_left .avatar img {
+    width: 120%
+}
+
+#feedDetail .contentWrap .person .user_left .info {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    float: left;
+    width: 78%;
+    overflow: hidden
+}
+
+#feedDetail .contentWrap .person .user_left .info .title {
+    font-size: 20px;
+    font-weight: 900
+}
+
+#feedDetail .contentWrap .person .user_left .info .name {
+    font-size: 15px;
+    margin: 5px 0
+}
+
+#feedDetail .contentWrap .person .user_left .info .content {
+    height: 95px;
+    overflow: hidden;
+    color: #646464;
+    line-height: 21px;
+    padding-bottom: 15px
+}
+
+#feedDetail .contentWrap .person .user_right {
+    width: 50%;
+    float: right
+}
+
+#feedDetail .contentWrap .person .user_right .chart {
+    width: 100%;
+    padding: 20px;
+    height: 220px
+}
+
+#feedDetail .contentWrap .person .user_right .chartA {
+    position: relative;
+    display: block
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .info {
+    text-align: center;
+    position: absolute;
+    left: 64px;
+    top: 80px;
+    z-index: 2000
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .info .percentage {
+    font-family: 'Chrono Regular';
+    font-size: 25px;
+    color: red;
+    font-weight: 700
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .info .label {
+    text-align: center;
+    color: gray;
+    font-size: 14px
+}
+
+#feedDetail .contentWrap .person .user_right .chartA #percentageChart {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 1999
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data {
+    width: 350px;
+    position: relative;
+    margin-left: 200px;
+    z-index: 2000
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table {
+    width: 100%
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td {
+    border: none;
+    line-height: 25px;
+    text-align: center
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.key {
+    color: gray
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table tr.value .number {
+    font-size: 27px;
+    color: #646464
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.action {
+    height: 60px
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.action .ynbtn {
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 20px 6px
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.feed {
+    text-align: center;
+    font-size: 16px
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.feed #feedCount {
+    font-weight: 700;
+    color: #ec1928;
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+    margin: 0 2px
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.bl {
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8
+}
+
+#feedDetail .contentWrap .person .user_right .chartA .data table td.borderOne {
+    border: 1px solid #c8c8c8;
+    width: 33%
+}
+
+#feedDetail .contentWrap .charts {
+    overflow: hidden;
+    height: 260px
+}
+
+#feedDetail .contentWrap .charts .chart {
+    width: 47%;
+    height: 230px;
+    padding: 20px
+}
+
+
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+#feedDetail .contentWrap .charts .chartOne {
+    float: left;
+    position: relative;
+    padding-top: 0
+}
+
+
+
+#feedDetail .contentWrap .charts .chartOne #timeRow {
+    height: 220px
+}
+
+#feedDetail .contentWrap .charts .chartTwo {
+    float: right;
+    display: block
+}
+
+#feedDetail .contentWrap .detailOne td, 
+#feedDetail .contentWrap .detailTwo td {
+    border:1px solid rgb(230,230,230) !important;
+}
+
+#feedDetail .contentWrap .detailOne,
+#feedDetail .contentWrap .detailTwo {
+    padding: 20px
+}
+
+#feedDetail .contentWrap .detailOne > .title,
+#feedDetail .contentWrap .detailTwo > .title {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+#feedDetail .contentWrap .detailOne table,
+#feedDetail .contentWrap .detailTwo table {
+    width: 100%
+}
+
+#feedDetail .contentWrap .detailOne td,
+#feedDetail .contentWrap .detailTwo td {
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #c8c8c8
+}

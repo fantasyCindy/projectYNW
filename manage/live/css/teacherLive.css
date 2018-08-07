@@ -1,0 +1,16 @@
+#liveContainter{
+width:250px;height:auto;border:#909090 1px solid;background:#fff;color:#333;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=3);/*ie*/
+-moz-box-shadow: 2px 2px 10px #909090;/*firefox*/
+-webkit-box-shadow: 2px 2px 10px #909090;/*safari»òchrome*/
+box-shadow:2px 2px 10px #909090;/*opera»òie9*/
+}
+.interaction .h2Switch { background: url(../images/rx.png) repeat scroll 0 -66px; height: 37px; margin-top: 5px; overflow: hidden; padding: 0 15px; }
+.interaction .h2Switch span { background-image: url(../images/Vsprite.png); background-position: 0 -33px; background-repeat: no-repeat; color: #494949; cursor: pointer; float: left; font: 600 14px/30px simsun; height: 30px; margin: 5px 3px 0 0; text-align: center; width: 105px; }
+.interaction .h2Switch span.focus { background-position: 0 -63px; height: 32px; }
+.interaction .tabBd { background: #FCFBF6; clear: both; }
+.interaction .list ul { overflow: hidden; padding: 0 15px; }
+.interaction .list li { border-top: 1px solid #EFECDE; clear: both; overflow: hidden; padding: 15px 0 15px 76px; position: relative;list-style-type:none;}
+.interaction .list .subimg { float: left; height: 84px; margin-left: -76px; overflow: hidden; width: 61px; }
+.interaction .list dt { line-height: 20px; padding-right: 38px; }
+.interaction .tabBd p { font-size: 14px; line-height: 1.5; }

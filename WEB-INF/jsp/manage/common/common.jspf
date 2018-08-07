@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+path = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
+pageContext.setAttribute("path", path);
+
+%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
+
+
+<script type="text/javascript">
+var path = "${path}";
+var menuCodeStr = "${menuCodeStr}";
+
+</script>
+  	
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link rel="shortcut icon" href="/manage/manage/front/images/favicon.ico">
+
+<link href="/manage/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="/manage/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="/manage/css/font-awesome.min.css" rel="stylesheet">
+<link href="/manage/css/common.css" rel="stylesheet">
+<link href="/manage/css/statePanel.css" rel="stylesheet">
+
+<script src="/manage/js/jquery.min.js"></script>
+<script src="/manage/bootstrap/js/bootstrap.min.js"></script>
+<script src="/public/js/lodash.js"></script>
+<script src="/manage/js/common.js"></script>
+<script src="/public/js/ynplugin.js"></script>
+<script src="/manage/js/validate.js"></script>
+<script src="/manage/plugins/layer/layer.js"></script>
+<%-- <script src="/manage/plugins/baidu/tongjibaidu.js"></script> --%>
+
+<script type="text/javascript">
+var tableHeight = $(window).height() - 130;
+</script>

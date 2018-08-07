@@ -1,0 +1,240 @@
+body {
+    background: #e8e8e8;
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#wx-ask::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    overflow: visible
+}
+
+#wx-ask,
+#wx-askDetail {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+#wx-ask .container {
+    width: 94%;
+    background: #fff;
+    padding: 10px 3% 1px 3%;
+    margin-bottom: 15px;
+}
+
+.wx-ask-title {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 20px;
+}
+
+.wx-ask-title-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #30AFDE;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    top: -2px;
+    margin-right: 3px;
+}
+
+.wx-answer-title-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d72621;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    top: -1px;
+    margin-right: 3px;
+}
+
+#wx-ask .opinion-content {
+    color: gray;
+    padding: 10px 20px;
+    border-bottom: 1px solid #E9E9E9;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.stock-name {
+    color: #105EE7;
+}
+
+.opinion-msg {
+    height: 30px;
+    line-height: 30px;
+    padding: 20px 15px;
+}
+
+#wx-askDetail .answer .opinion-msg {
+    background: white;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.opinion-msg .date {
+    font-size: 12px;
+    color: #a6a6a6;
+}
+
+.opinion-msg .t-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.opinion-msg .t-photo img {
+    width: 100%;
+}
+
+.opinion-msg .line {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background: gray;
+    position: relative;
+    top: 2px;
+    margin: 0 3px;
+}
+
+.opinion-msg div {
+    margin-right: 10px;
+    color: gray;
+    font-size: 13px;
+}
+
+
+/*askDetail*/
+
+#wx-askDetail {
+    background: #fff;
+}
+
+#wx-askDetail .askDetail-wrap {
+    width: 94%;
+    padding: 10px 3% 1px 3%;
+}
+
+#wx-askDetail .ask-msg {
+    height: 25px;
+    color: gray;
+    font-size: 12px;
+    padding: 0 20px;
+}
+
+#wx-askDetail .ask-msg div {
+    margin-right: 15px;
+}
+
+#wx-askDetail .answer {
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+#wx-askDetail .answer-detail {
+    padding-bottom: 20px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+#wx-askDetail .wx-title {
+    padding: 10px 0;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+#wx-askDetail .wx-title-icon {
+    display: inline-block;
+    width: 3px;
+    height: 16px;
+    background: red;
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+
+#warn {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 10%;
+    line-height: 20px;
+    font-size: 12px;
+    color: #919191;
+    padding-bottom: 70px;
+}
+
+.ask-too {
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    background: #e33123;
+    max-width: 800px;
+}
+
+.ask-too .fa {
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+
+/* wx-ask-question  */
+
+.wx-ask-question .input-wrap {
+    width: 100%;
+    background: white;
+}
+
+.wx-ask-question .input-field {
+    display: block;
+    height: 170px;
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: none;
+    outline: none;
+    resize: none;
+    line-height: 1.5em;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.wx-ask-question .btn {
+    background: #d72621;
+    display: block;
+    padding: 10px 25px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 3px;
+}

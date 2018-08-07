@@ -1,0 +1,106 @@
+/*login */
+
+$f16:16px;
+$f24:24px;
+$orange:#fb836b;
+$fff:#fff;
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($shadows...){
+  @if length($shadows) >= 1 {
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+  } @else {
+    $shadows: 0 0 2px rgba(#000,.25);
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+}
+
+
+.relative{
+    width: 75%;
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 1px solid #c8c5c5;
+    .person{
+        position: absolute;
+        left: 15px;
+        top: 5px;
+        width: 34px;
+        height: 34px;
+        background: url(/public/images/caoh5/phone_icon.png);
+        background-size: 34px;
+    }
+    .person1{
+        background: url(/public/images/caoh5/verification_icon.png);
+        background-size: 34px;
+    }
+    .person2{
+        left: auto;
+        right: 10px;
+        background: url(/public/images/caoh5/display_icon.png);
+        background-size: 34px;
+    }
+}
+
+#login{
+    max-width: 640px;
+    font-size: $f16;
+    margin: 0 auto;
+    .block{
+        display: block;
+        margin: 14px auto;
+    }
+    .main{
+        text-align: center;
+        margin: 14px 0;
+        .logo{
+            margin: 40px auto 30px;
+        }
+        .input{
+            display: block;
+            font-size: 18px;
+            margin: 14px auto;
+            padding: 18px 0 0 16px;
+            border: 0;
+            outline: none;
+        }
+        .btn{
+            width: 76%;
+            padding: 12px 90px;
+            margin-top: 40px;
+            border: 0;
+            outline: none;
+            color: $fff;
+            font-size: $f24;
+            background: $orange;
+            @include border-radius(100px);
+            @include box-shadow(2px 2px 8px rgba(214, 51, 3, 0.5));
+        }
+        .info{
+            width: 76%;
+            font-size: 18px;
+            margin: 30px auto;
+            .info-span{
+                float: left;
+            }
+            .register{
+                color: #a19c9c;
+            }
+            .forget{
+                float: right;
+                color: $orange;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

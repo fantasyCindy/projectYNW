@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    h1 {
+        cursor: pointer;
+        -webkit-user-select: none;
+    }
+    </style>
+</head>
+
+<body>
+    <h1 onclick="change(this)">Hello world</h1>
+    <img src="http://101.201.41.116:8080/public/upload/neican/img/20170704/20170704210148861.jpg">
+    <img src="http://opinion.yuetougu.com//default/article/default10.jpg">
+    <script>
+    function change(self) {
+        self.style.color = "red"
+    }
+
+    function passValue(src) {
+        alert(src)
+    }
+
+    window.onload = function() {
+        var imgs = document.getElementsByTagName('img')
+        for (var i = 0; i < imgs.length; i++) {
+            var img = imgs[i]
+            console.log(img)
+            img.onclick = function() {
+                passValue(this.src)
+            }
+        }
+    }
+    </script>
+</body>
+
+</html>

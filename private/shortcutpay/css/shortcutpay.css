@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+    *zoom:1;}
+
+.defray-wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#defray-nav {
+    min-width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background: #3e3e3e;
+}
+
+#defray-nav .defray-wrap a {
+    color: #fff;
+    margin: 0 15px;
+}
+
+#logo .defray-title {
+    border-left: 1px solid #c4c4c4;
+    color: rgb(90,90,90);
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+#defray .defray-money .defray-wrap {
+    padding-bottom: 20px;
+    background: #fff;
+}
+
+#defray .defray-process {
+    margin-top: 20px;
+    background: #ededed;
+    color: rgb(90,90,90);
+    border: 1px solid #e1e1e1;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 20px 0 30px;
+}
+
+#defray .record {
+    font-size: 14px;
+    color: #61a1fb;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+#defray .defray-detail {
+    font-size: 14px;
+    color: rgb(30,30,30);
+    border: 1px solid #dedfdf;
+    margin: 30px;
+    padding: 25px;
+}
+
+#defray .detail_left {
+    padding: 20px;
+    line-height: 26px;
+    width:56%;
+}
+
+#defray .detail_left span {
+    font-weight: bold;
+    margin-right:20px;
+}
+
+#defray .detail_right {
+    width: 470px;
+    text-align: center;
+    border-left: 1px solid #e0e1e2;
+    line-height: 82px;
+}
+
+#defray .detail_right font {
+    font-weight: bold;
+}
+
+#defray .defray-ing {
+    width: 986px;
+    margin: 60px auto 20px;
+    color: rgb(90,90,90);
+    line-height: 25px
+}
+
+#defray .defray-ing input {
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#defray .defray-ing td {
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+#defray .defray-ing .defray-next {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    background: #f23244;
+    cursor: pointer;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#defray .defray-prompt {
+    background: #f8f8f8;
+    color: rgb(90,90,90);
+    width: 986px;
+    height: 160px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+#defray .defray-prompt .prompt-title {
+    color: rgb(30,30,30);
+}
+
+#defray .defray-win {
+    color: rgb(30,30,30);
+    line-height: 30px;
+    height: 712px;
+    width: 270px;
+    margin: auto;
+    padding-top: 157px;
+    font-size: 16px;
+}
+
+#defray .defray-online .defray-wrap {
+    background: #fff;
+    padding-bottom: 1px;
+}
+
+#defray .defray-online .defray-type {
+    margin: 50px 50px 10px;
+    border-bottom: 1px solid #d6d7cd;
+    height: 45px;
+}
+
+#defray .defray-type span {
+    height: 44px;
+    position: relative;
+    border: 1px solid #fff;
+    float: left;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#defray .defray-type span img {
+    height: 100%;
+}
+
+#defray .defray-type span.thisclass {
+    border: 1px solid #d6d7cd;
+    border-bottom: 2px solid #fff;
+    bottom: -2px;
+}
+
+#defray .defray-content {
+    position: relative;
+    margin: 0 30px 30px;
+    border: 1px solid #dedfdf;
+}
+
+#defray .defray-content .defraytag {
+    height: 100%;
+}
+
+#defray .defray-wechat img {
+    position: absolute;
+    top: 18%;
+    left: 17%;
+}
+
+#defray .defray-content .countdown {
+    color: rgb(90,90,90);
+    position: absolute;
+    top: 12%;
+    left: 22%;
+}
+
+#defray .defray-alipay iframe {
+    width: 308px;
+    height: 308px;
+    position: absolute;
+    top: 18%;
+    left: 17%;
+}
+
+#defray .defray-alipay .comlog {
+    display: inline-block;
+    position: absolute;
+    top: 77%;
+    right: 16%;
+    width: 190px;
+    color: #fff;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    background: #e85550
+}
+
+#defray .defray-content input {
+    display: none
+}
+
+#defray .defray-content .defray-item:first-child {
+    border: none;
+}
+
+#defray .defray-content .defray_radio {
+    color: #cacbcc;
+}
+
+#defray .defray-content .thisclass .defray_radio {
+    color: #333333;
+}
+
+#defray .defray-content .thisclass .defray-balance .apyphoto {
+    background-position: -86px -14px;
+}
+
+#defray .defray-content .thisclass .defray-wechat .apyphoto {
+    background-position: -228px -14px;
+}
+
+#defray .defray-content .thisclass .defray-alipay .apyphoto {
+    background-position: -369px -14px;
+}
+
+#defray .defray-content .defray-item:not(:first-child) .yn_pay {
+    margin-top: 13px;
+}
+
+#defray .defray-content .defray-item {
+    position: relative;
+    padding: 27px 0;
+    margin: 0 15px;
+    border-top: 1px solid #e6e7e8;
+}
+
+#defray .defray-content .defray-item .apyphoto {
+    margin: 5px 15px 0;
+    width: 42px;
+    height: 42px;
+    background: url(/private/shortcutpay/images/pay.png) no-repeat;
+}
+
+#defray .defray-content .defray-balance .apyphoto {
+    background-position: -16px -14px;
+}
+
+#defray .defray-content .defray-wechat .apyphoto {
+    background-position: -157px -14px;
+}
+
+#defray .defray-content .defray-alipay .apyphoto {
+    background-position: -299px -14px;
+}
+
+#defray .defray-content .defray_radio .pay-title {
+    font-size: 22px;
+}
+
+#defray .defray-content .defray_radio .yn_balance {
+    font-size: 14px;
+}
+
+#defray .defray-content .defray_radio a {
+    position: absolute;
+    right: 17px;
+    top: 45px;
+    color: #579dfe;
+    text-decoration: underline;
+}
+
+#defray .finish_btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    background: #d32b2a;
+    border-radius: 3px;
+    padding: 6px 30px;
+    margin: 0 35px 20px 40px;
+    cursor: pointer;
+}
+
+#defray .rounded {
+    width: 28px;
+    height: 28px;
+    margin: 13px;
+    position: relative;
+    background: #fcfff4;
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(to bottom, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#defray .rounded label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    background: -moz-linear-gradient(top, #222222 0%, #45484d 100%);
+    background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
+    background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px white;
+}
+
+#defray .rounded label:after {
+    content: '';
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 6px;
+    border: 3px solid #fcfff4;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: all .3s;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#defray .rounded label:hover::after {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+}
+
+#defray .rounded input[type=radio] {
+    visibility: hidden;
+}
+
+#defray .rounded input[type=radio]:checked + label:after {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+}

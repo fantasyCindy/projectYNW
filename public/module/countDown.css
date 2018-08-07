@@ -1,0 +1,40 @@
+.countDown {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    z-index: 1000;
+}
+
+.countDown .wrap {
+    min-width: 1200px;
+    width: 1200px;
+    margin: auto;
+    text-align: right;
+    height: 35px;
+    position: relative;
+}
+
+.countDown .times {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    right: 72px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.countDown .time {
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+    color: white;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    line-height: 33px;
+}

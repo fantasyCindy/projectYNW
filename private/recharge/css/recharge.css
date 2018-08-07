@@ -1,0 +1,197 @@
+.defray-wrap {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#defray-nav {
+    min-width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    background: #3e3e3e;
+}
+
+#defray-nav .defray-wrap a {
+    color: #fff;
+    margin: 0 15px;
+}
+
+#logo .defray-title {
+    border-left: 1px solid #c4c4c4;
+    color: rgb(90, 90, 90);
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+#defray .defray-money .defray-wrap {
+    padding-bottom: 20px;
+    background: #fff;
+}
+
+#defray .defray-process {
+    margin-top: 20px;
+    background: #ededed;
+    color: rgb(90, 90, 90);
+    border: 1px solid #e1e1e1;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0 20px 0 30px;
+}
+
+#defray .record {
+    font-size: 14px;
+    color: #61a1fb;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+#defray .defray-detail {
+    font-size: 14px;
+    color: rgb(30, 30, 30);
+    position: absolute;
+    right: 20px;
+    top: 16px;
+}
+
+#defray .defray-detail span:first-child {
+    margin-right: 20px;
+}
+
+#defray .defray-ing {
+    width: 986px;
+    margin: 60px auto 20px;
+    color: rgb(90, 90, 90);
+    line-height: 25px
+}
+
+#defray .defray-ing input {
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#defray .defray-ing td {
+    vertical-align: top;
+    padding-bottom: 15px;
+}
+
+#defray .defray-ing .defray-next {
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    background: #f23244;
+    cursor: pointer;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#defray .defray-prompt {
+    background: #f8f8f8;
+    color: rgb(90, 90, 90);
+    width: 986px;
+    height: 160px;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+#defray .defray-prompt .prompt-title {
+    color: rgb(30, 30, 30);
+}
+
+#defray .defray-win {
+    color: rgb(30, 30, 30);
+    line-height: 30px;
+    height: 712px;
+    width: 270px;
+    margin: auto;
+    padding-top: 157px;
+    font-size: 16px;
+}
+
+#defray .defray-online .defray-wrap {
+    background: #fff;
+    height: 712px;
+}
+
+#defray .defray-online .defray-type {
+    margin: 50px 50px 10px;
+    border-bottom: 1px solid #d6d7cd;
+}
+
+#defray .defray-type span {
+    height: 44px;
+    position: relative;
+    border: 1px solid #fff;
+    float: left;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#defray .defray-type span img {
+    height: 100%;
+}
+
+#defray .defray-type span.thisclass {
+    border: 1px solid #d6d7cd;
+    border-bottom: 2px solid #fff;
+    bottom: -2px;
+}
+
+#defray .defray-content {
+    height: 570px;
+    position: relative;
+}
+
+#defray .defray-content .defraytag {
+    height: 100%;
+}
+
+#defray .defray-content .defray-wechat {
+    background: url(/private/recharge/images/wechatbg.png) 140px 0 no-repeat;
+}
+
+#defray .defray-content .defray-alipay {
+    background: url(/private/recharge/images/alipaybg.png) 140px 0 no-repeat;
+}
+
+#defray .defray-wechat img {
+    position: absolute;
+    top: 18%;
+    left: 17%;
+}
+
+#defray .defray-content .countdown {
+    color: rgb(90, 90, 90);
+    position: absolute;
+    top: 12%;
+    left: 22%;
+}
+
+#defray .defray-alipay .alpayifram {
+    width: 308px;
+    height: 308px;
+    position: absolute;
+    top: 18%;
+    left: 17%;
+}
+
+#defray .defray-alipay .comlog {
+    display: inline-block;
+    position: absolute;
+    top: 77%;
+    right: 16%;
+    width: 190px;
+    color: #fff;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    background: #e85550
+}

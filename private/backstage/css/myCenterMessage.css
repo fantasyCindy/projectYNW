@@ -1,0 +1,36 @@
+.msg-item {
+    padding: 15px;
+    box-shadow: 2px 2px 10px #DCDCDC;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.msg-item.isNotRead {
+    background: #f5f5f5
+}
+
+.msg-item .msg-title,
+.msg-item .msg-content {
+    margin: 5px 0;
+}
+
+.msg-item .msg-content {
+    color: #999;
+}
+
+.msg-time {
+    float: right;
+    color: #666;
+}
+
+.msg-item a {
+    color: #666;
+}
+
+.msg-item:hover a {
+    color: red;
+}
+
+.msg-item:hover .msg-time {
+    color: red;
+}

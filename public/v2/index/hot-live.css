@@ -1,0 +1,219 @@
+/*热门直播*/
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.color666 {
+    color: #666 !important;
+}
+
+.color999 {
+    color: #999 !important;
+}
+
+.hot-live.item {
+    width: 411px;
+    height: 240px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    position: relative;
+    background: #fff;
+}
+
+.hot-live.item .info {
+    line-height: 1.65;
+}
+
+.hot-live.item:hover {
+    box-shadow: 5px 5px 8px rgba(169, 167, 167, 0.37);
+}
+
+.hot-live .teacherName:hover {
+    color: rgb(255, 80, 84);
+}
+
+.hot-live .cursor {
+    cursor: pointer;
+}
+
+.hot-live .border-radius {
+    border-radius: 50%;
+}
+
+.hot-live .item-wrap {
+    padding: 10px 15px 0;
+}
+
+.hot-live .item-top .name {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 76%;
+}
+
+.hot-live .item-top .people {
+    color: rgb(255, 80, 84);
+}
+
+.hot-live .image {
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.hot-live .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.hot-live .string {
+    height: 88px;
+    color: rgb(34, 34, 34);
+    margin: 10px 0;
+}
+
+.hot-live .string .itemleft {
+    width: 87%;
+    margin-left: 10px;
+}
+
+.hot-live .string .info {
+    margin-top: 6px;
+    height: 40px;
+    font-size: 13px !important;
+}
+
+.hot-live .string .info:first-child {
+    margin-top: 0;
+}
+
+.hot-live .string .info .itemleft:hover {
+    color: rgb(255, 80, 84);
+}
+
+.hot-live .item-bottom {
+    border-top: 1px solid rgb(240, 240, 240);
+}
+
+.hot-live .item-icon {
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    position: relative;
+    top: 2px;
+    right: 2px;
+}
+.hot-live .item-icon img{
+    width:100%;
+}
+
+.hot-live .item-icon.fa-file-text-o {
+    height: 22px;
+    top: 1px;
+}
+
+
+.hot-live .item-bottom .item-bottom-span:hover,
+.hot-live .item-bottom .item-bottom-status:hover {
+    color: #fff;
+    background: #ff8487;
+}
+
+.hot-live .item-icon1 {
+    background-position: -123px -2px;
+}
+
+.hot-live .item-top .item-icon00 {
+    width: 16px;
+    margin-right: 8px;
+    background: url(/public/v2/index/images/zb.gif) no-repeat center;
+    background-size: 16px;
+}
+
+.hot-live .item-bottom .item-care:hover .item-icon1 {
+    background-position: -4px -1px;
+}
+
+.hot-live .item-bottom-span:hover .item-icon2,
+.hot-live .item-bottom-status:hover .item-icon2 {
+    background-position: -170px -2px;
+}
+
+.hot-live .item-bottom-span:hover .item-icon3 {
+    background-position: -147px -2px;
+}
+
+.hot-live .item-bottom .item-icon2 {
+    background-position: -55px -1px;
+}
+
+.hot-live .item-bottom .item-icon3 {
+    background-position: -29px -1px;
+}
+
+.hot-live .item-bottom .item-bottom-span,
+.hot-live .item-bottom-status {
+    color: #666;
+    padding: 10px 0;
+    text-align: center;
+    border-left: 1px solid rgb(240, 240, 240);
+    display: inline-block;
+    width: 33.1%;
+}
+
+.hot-live .item-bottom .item-bottom-span:first-child,
+.hot-live .item-bottom .item-bottom-status1 {
+    border-left: 0;
+}
+
+.hot-live .item-bottom .item-bottom-status {
+    width: 49.6%;
+}
+
+.hot-live .slide {
+    width: 100%;
+    height: 103px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/*无直播*/
+
+.hot-live .color153 .item-icon00 {
+    background: url(/public/v2/index/images/hot-live.png) no-repeat -104px -1px;
+}
+
+.hot-live .color153 .no-live,
+.hot-live .color153 .slide,
+.hot-live.online .item-bottom-status,
+.hot-live .item-wrap .hide,
+.hot-live.online .no-live,
+.hot-live.offline .item-bottom-span,
+.hot-live.offline .no-live {
+    display: none;
+}
+
+.hot-live.line .item-bottom-span,
+.hot-live.offline .item-bottom-status,
+.hot-live .item-wrap .show,
+.hot-live.offline .no-live {
+    display: inline-block;
+}
+
+.btop {
+    display: inline-block;
+    position: absolute;
+    right: -13px;
+    top: -16px;
+    width: 59px;
+    height: 37px;
+    /*background:url(/public/v2/index/images/btop.png) no-repeat;*/
+}
+
+.btop img {
+    width: 100%;
+}

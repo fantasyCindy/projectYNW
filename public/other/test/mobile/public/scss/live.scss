@@ -1,0 +1,205 @@
+/*live */
+$f24:24px;
+$f16:18px;
+$orange:#fb836b;
+$hui:#6c6c6c;
+$fff:#fff;
+$red:#ea453f;
+$blue:#1064b8;
+
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($shadows...){
+  @if length($shadows) >= 1 {
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+  } @else {
+    $shadows: 0 0 2px rgba(#000,.25);
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+}
+body{
+  background: #eee;
+}
+.blue{
+  color: $blue;
+}
+.relative{
+    position: relative;
+}
+
+#live{
+    max-width: 640px;
+    margin: 0 auto 96px;
+    color: $hui;
+    background: #eee;
+    font-size: $f16;
+    .block{
+        display: block;
+        margin: 14px auto;
+    }
+    .header{
+        color: #f5c4c1;
+        padding: 20px ;
+        background: $red;
+        text-align: center;
+        .h-title{
+            width: 40%;
+            display: inline-block;
+        }
+        .h-title.on{
+            color: $fff;
+            font-weight: bold;
+        }
+    }
+    .list{
+       padding: 20px 20px 15px;
+       line-height: 26px;
+       margin-top: 15px;  
+       background: $fff;
+       .img{
+            width: 100px;
+            float: left;
+            margin-right: 20px;
+            @include border-radius(50%);
+       }
+       .list-teach{
+            margin: 15px 0 0;
+            padding-top: 10px;
+            border-top: 1px solid #dbd7d7; 
+       }
+       .teacher{
+            color: $blue;
+       }
+       .info{
+            overflow: hidden;
+            margin: 0 0 5px;
+       }
+       .blue{
+            color: $red;
+            display: block;
+            font-size: $f24;
+       }
+       .title{
+            float: left;
+            margin: 8px 0;
+       }
+    }
+    .chat{
+        padding: 20px;
+        line-height: 26px;
+          // background: $fff;
+        .chat-time{
+          color: $fff;
+          background: #c8c8c8;
+          width: 50px;
+          padding: 2px 16px;
+          @include border-radius(5px);
+        }
+        .img{
+          width: 60px;
+          @include border-radius(100px);
+        }
+        .chat-title{
+          display: inline-block;
+          margin-bottom: 15px;
+        }
+        .answer{
+          width: 80%;
+          margin-left: 70px;
+        }
+        .chat-con{
+            width: 90%;
+            padding: 10px;
+            background: $fff;
+            border: 1px solid #bbb; 
+            @include border-radius(5px); 
+        }
+        .questions{
+          background: #eee;
+          padding: 15px;
+          @include border-radius(5px); 
+        }
+        .san{
+          display: inline-block;
+          width: 26px;
+          height: 25px;
+          left: -22px;
+          top: 49px;
+          background: url(/public/images/caoh5/jianjiao.png) no-repeat;
+          position: absolute;
+        }
+    }
+    .chat-list1{
+      position: relative;
+      .chat-title{
+        color: $red;
+      }
+      .chat-v{
+        width: 30px;
+        height: 30px; 
+        position: absolute;
+        left: 30px;
+        top: 78px;
+        display: inline-block;
+        background: url(/public/images/caoh5/vip.png) no-repeat;
+        background-size: 30px;
+      }
+    }
+    .chat-list2{
+      overflow: hidden;
+      .relative{
+        overflow: hidden;
+        margin-left: 0;
+        padding-right: 13px;
+      }
+      .chat-title{
+        color: $blue;
+      }
+      .san{
+        left: auto;
+        right: -8px;
+        background: url(/public/images/caoh5/san.png) no-repeat;
+      }
+    }
+    .chat-list{
+
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        max-width: 640px;
+        overflow: hidden;
+        text-align: center;
+        background: $fff;
+        border-top: 1px solid #dbd7d7;
+        .foot-w{
+            width: 34%;
+            height: 96px;
+            line-height: 96px;
+            font-size: $f24;
+            color: $red;
+            display: inline-block;
+            border-right: 1px solid #dbd7d7;
+            &:last-child{
+                border-right: 0;
+            }
+        }
+        .icon{
+            display: inline-block;
+            width: 30%;
+            height: 96px;
+            border-right: 1px solid #dbd7d7;
+            background: url(/public/images/caoh5/footr_shang.png) no-repeat center;
+        }
+    }
+}
+
+
+
+
+

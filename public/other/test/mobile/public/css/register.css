@@ -1,0 +1,68 @@
+/*register */
+.relative {
+  width: 85%;
+  position: relative;
+  margin: 0 auto; }
+  .relative .person {
+    position: absolute;
+    left: 43px;
+    top: 10px;
+    width: 34px;
+    height: 34px;
+    background: url(/public/images/caoh5/phone_icon.png);
+    background-size: 34px; }
+  .relative .person1 {
+    left: 20px;
+    background: url(/public/images/caoh5/verification_icon.png);
+    background-size: 34px; }
+  .relative .person2 {
+    left: 20px;
+    background: url(/public/images/caoh5/set_icon.png);
+    background-size: 34px; }
+
+#register {
+  max-width: 640px;
+  margin: 0 auto;
+  color: #b1b1b1;
+  font-size: 18px; }
+  #register .block {
+    display: block;
+    margin: 14px auto; }
+  #register .logo {
+    margin: 40px auto 30px; }
+  #register .main {
+    text-align: center; }
+    #register .main .input {
+      width: 63%;
+      display: inline-block;
+      font-size: 18px;
+      margin: 0 0 14px;
+      padding: 16px 64px;
+      outline: none;
+      border-radius: 8px;
+      border: 1px solid #c8c5c5; }
+    #register .main .logo {
+      margin-bottom: 26px; }
+    #register .main .text {
+      width: 97%;
+      margin: 0 auto; }
+    #register .main .phone {
+      width: 27%; }
+    #register .main .p-code {
+      color: #fff;
+      padding: 12px 10px;
+      background: #fb836b;
+      border-radius: 5px; }
+    #register .main .checkbox {
+      outline: none; }
+    #register .main .btn {
+      width: 84%;
+      padding: 12px 0;
+      margin-top: 35px;
+      border: 0;
+      outline: none;
+      color: #fff;
+      font-size: 24px;
+      background: #fb836b;
+      border-radius: 100px;
+      box-shadow: 2px 2px 8px rgba(214, 51, 3, 0.5); }

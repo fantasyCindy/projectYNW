@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    background: linear-gradient(to bottom, #ff6500, #be2007);
+    height: 100%;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
+
+.flex .grow {
+    flex-grow: 1
+}
+
+.flex .shrink {
+    flex-shrink: 0
+}
+
+.red {
+    color: #d72621
+}
+
+.green {
+    color: #03cf34;
+}
+
+.row {
+    flex-basis: 100%;
+    display: flex;
+}
+
+.up {
+    transform: rotate(-90deg);
+}
+
+.down {
+    transform: rotate(90deg);
+}
+
+#market {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background: #fff;
+    width: 90%;
+    overflow: hidden;
+    margin: 40px auto 0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 11px 14px 30px rgba(46, 13, 13, 0.42);
+    position: relative;
+}
+
+#market .logo img {
+    display: block;
+    margin: 15px auto;
+}
+
+#market .market_list {
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#market .market_rise {
+    background: #444444;
+    color: #eeeeee;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+#market .market_rise span {
+    flex: 1;
+    border-right: 1px solid #5a5a5a;
+}
+
+#market .market_rise span:last-child {
+    border-right: none;
+}
+
+#market .market-item span {
+    flex: 1;
+}
+
+#market .market-item .market_name {
+    color: #000000;
+}
+
+#market .market-item .best_new {
+    color: #030303;
+}
+
+#market .market-item span:first-child {
+    border-left: none;
+}
+
+#market .market-item kbd {
+    display: inline-block;
+    width: 220px;
+    text-align: left;
+}
+
+#market .market-item {
+    line-height: 75px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#market .market-item span {
+    border-left: 1px solid #b8b3b3;
+    border-bottom: 3px solid #d26a67;
+}
+
+#market .market-item:last-child span {
+    border-bottom: none;
+}
+
+#market .market-item .fa {
+    margin-right: 20px;
+}
+
+.tip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 8px 10px;
+    background: #000000;
+    color: white;
+}

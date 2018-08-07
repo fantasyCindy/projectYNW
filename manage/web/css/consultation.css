@@ -1,0 +1,642 @@
+.hid {
+    display: none;
+}
+
+.mr40 {
+    margin-right: 40px
+}
+
+.mr15 {
+    margin-right: 15px
+}
+a {
+    text-decoration: none;
+    close
+}
+#consultation {
+    width: 1200px;
+    margin: 0 auto
+}
+#consultation .logo {
+    width: 100%;
+    margin: 10px 0;
+    margin-top: 0;
+}
+
+#consultation .logo img {
+    width: 100%;
+    border: none
+}
+#consultation #content {
+    width: 100%;
+    /* overflow:hidden */
+}
+#consultation #content #contentLeft {
+    width: 820px;
+    float: left
+}
+#consultation #content #contentLeft .taglist {
+    border: 1px solid rgb(220,220,220);
+    line-height: 44px;
+    height: 44px;
+    background: #eee;
+    overflow: hidden;
+}
+#consultation #content #contentLeft .taglist span {
+    float: left;
+    font-size: 18px;
+    color: #333;
+    padding: 0 28px;
+    border-right: 1px solid #bfbfbf;
+    font-weight: 700;
+    cursor: pointer
+}
+#consultation #content #contentLeft .taglist span.thisclass {
+    color: #fff;
+    background: #ec1928;
+    border-color: #ec1928;
+}
+#consultation #content #contentLeft .cont .list {
+    background: #fff;
+    padding: 20px 0px;
+    border-bottom: 1px dashed #ddd;
+}
+#consultation #content #contentLeft .cont .list:nth-child(even) {
+
+}
+#consultation #content #contentLeft .cont .list .quesition {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    line-height: 23px
+}
+#consultation #content #contentLeft .cont .list .quesition .user {
+    color: #eb1927;
+    font-weight: 400
+}
+#consultation #content #contentLeft .cont .list .quesition .questext {
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#consultation #content #contentLeft .cont .list .quesition .time {
+    font-weight: 400;
+    font-size: 14px;
+    color: #999
+}
+#consultation #content #contentLeft .cont .list .answer {
+    background: #F6F6F6;
+    padding: 15px;
+    position: relative;
+    margin: 15px 0 4px;
+    border-radius: 5px;
+}
+#consultation #content #contentLeft .cont .list .answer i {
+    font-size: 20px;
+    color: #f8f8f8;
+    position: absolute;
+    top: -14px;
+    left: 60px
+}
+#consultation #content #contentLeft .cont .list .answer p {
+    word-wrap: break-word;
+}
+#consultation #content #contentLeft .cont .list .answer .answercont {
+    line-height: 23px
+}
+#consultation #content #contentLeft .cont .list .answer .answercont .user {
+    font-size: 15px;
+    color: #333;
+    font-weight: 700;
+}
+#consultation #content #contentLeft .cont .list .answer .answercont .user span {
+    color: red;
+    margin-left:5px;
+}
+#consultation #content #contentLeft .cont .list .answer .answercont .answertext {
+    font-size: 14px;
+    color: #656565
+}
+
+
+#consultation #content #contentRight {
+    width: 340px;
+    float: left
+}
+#consultation #content #contentRight .tit {
+    margin: 13px;
+    border-bottom: 1px solid #d5d9d8
+}
+#consultation #content #contentRight .tit img {
+    margin-right: 8px;
+    position: relative;
+    top: 1px
+}
+#consultation #content #contentRight .tit .titi {
+    font-size: 18px;
+    color: #333;
+    line-height: 37px;
+    font-weight: 700
+}
+#consultation #content #contentRight .content1 {
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 35px
+}
+#consultation #content #contentRight .content1 .content1list {
+    margin: 10px 13px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #d6d7dc;
+    overflow: hidden
+}
+#consultation #content #contentRight .content1 .content1list .userhead {
+    width: 47px;
+    height: 47px;
+    border-radius: 5px;
+    float: left
+}
+#consultation #content #contentRight .content1 .content1list .userhead img {
+    border: none;
+    width: 100%;
+    height: 100%
+}
+#consultation #content #contentRight .content1 .content1list .sub {
+    float: left;
+    width: 80%
+}
+#consultation #content #contentRight .content1 .content1list .sub .title {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700
+}
+#consultation #content #contentRight .content1 .content1list .sub .num {
+    color: #999;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 24px
+}
+#consultation #content #contentRight .content1 .content1list .sub .num .number {
+    float: left
+}
+#consultation #content #contentRight .content1 .content1list .sub .num .number font {
+    font-size: 14px;
+    color: #fa5909;
+    font-weight: 700
+}
+#consultation #content #contentRight .content1 .content1list .sub .num .info {
+    cursor: pointer;
+    display: block;
+    float: right;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background: #eb1927;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none
+}
+
+#consultation #content #contentRight .content2 {
+    background: #fff;
+    overflow: hidden
+}
+#consultation #content #contentRight .content2 .content2list {
+    margin: 15px 13px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #d6d7dc;
+    overflow: hidden
+}
+#consultation #content #contentRight .content2 .content2list i {
+    margin-right: 5px;
+    color: #666;
+    position: relative;
+    top: 1px
+}
+#consultation #content #contentRight .content2 .content2list i.no1 {
+    color: #ec1928
+}
+#consultation #content #contentRight .content2 .content2list i.no2 {
+    color: #fb5909
+}
+#consultation #content #contentRight .content2 .content2list i.no3 {
+    color: #feb810
+}
+#consultation #content #contentRight .content2 .content2list .star {
+    float: right
+}
+#consultation #content #contentRight` .content2 .content2list .star i {
+    color: #fb5909
+}
+
+
+
+
+
+#contentart1 #quiz #quizLeft .w390 .info input:focus,#contentart1 #quiz #quizLeft .w390 .ipt input:focus,#contentart1 #quiz #quizLeft .w390 .text textarea:focus {
+    outline: 0
+}
+#contentart1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1037;
+    background: rgba(180,180,180,.7);
+    display: none
+}
+#contentart1 #quiz {
+    width: 786px;
+    height: 470px;
+    background: #fff;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 10px
+}
+#contentart1 #quiz #quizLeft {
+    width: 450px;
+    float: left
+}
+#contentart1 #quiz #quizLeft .w390 {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    width: 390px;
+    margin: 18px 17px 0 43px
+}
+#contentart1 #quiz #quizLeft .w390 .title {
+    margin-bottom: 40px;
+    line-height: 41px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    border-bottom: 1px solid #dbdbdb
+}
+#contentart1 #quiz #quizLeft .w390 .ipt {
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding:0 15px;
+}
+#contentart1 #quiz #quizLeft .w390 .ipt input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    line-height: 100%
+}
+#contentart1 #quiz #quizLeft .w390 .varieties {
+    border: 1px solid #c2c2c2;
+    padding: 15px;
+    height: 223px;
+    max-height: 223px;
+    overflow: hidden;
+    overflow-y: auto;
+    background: #fff;
+    position: absolute;
+    z-index: 1;
+    margin-top: -17px;
+    left: 0;
+    right: 0;
+    display: none
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .vartitle {
+    margin-bottom: 25px;
+    height: 10px;
+    border-bottom: 1px solid #999
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .vartitle span {
+    font-size: 14px;
+    display: block;
+    line-height: 20px;
+    color: #333;
+    width: 40px;
+    background: #fff
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .varlist {
+    overflow: hidden;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .varlist .name {
+    width: 56px;
+    height: 24px;
+    background: #ccc
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .varlist span {
+    line-height: 24px;
+    width: 27%;
+    float: left;
+    font-size: 14px;
+    color: #333;
+    text-align: center
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .varlist:first-child,#contentart1 #quiz #quizLeft .w390 .varieties .varlist:hover {
+    background-color: #ededed;
+}
+#contentart1 #quiz #quizLeft .w390 .varieties .thisclass {
+    background: #f5f5f5
+}
+#contentart1 #quiz #quizLeft .w390 .text {
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 187px
+}
+#contentart1 #quiz #quizLeft .w390 .text textarea {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border: none;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 5px;
+    padding:15px;
+}
+#contentart1 #quiz #quizLeft .w390 .num {
+    font-size: 12px;
+    color: #333;
+    line-height: 40px
+}
+#contentart1 #quiz #quizLeft .w390 .num .help {
+    color: #4985e9;
+    text-decoration: none
+}
+#contentart1 #quiz #quizLeft .w390 .num .fr {
+    float: right
+}
+#contentart1 #quiz #quizLeft .w390 .info {
+    overflow: hidden
+}
+#contentart1 #quiz #quizLeft .w390 .info input {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background: #f55549;
+    border-radius: 5px;
+    line-height: 40px;
+    margin: 20px auto;
+    border: none;
+    display: block;
+    cursor: pointer
+}
+#contentart1 #quiz #quizRight {
+    width: 336px;
+    float: right;
+    background: #f3f3f3;
+    height: 100%
+}
+#contentart1 #quiz #quizRight .close {
+    text-align: right;
+    margin: 30px 20px 10px;
+}
+#contentart1 #quiz #quizRight .close i {
+    font-size: 18px;
+    color: #666;
+    cursor: pointer
+}
+#contentart1 #quiz #quizRight .w299 {
+    overflow: hidden;
+    width: 299px;
+    margin: 0 18px 39px;
+    border: 1px solid #bdbdbd;
+    background: #fff;
+    overflow: auto;
+    height: 400px;
+}
+#contentart1 #quiz #quizRight .w299 .title {
+    border-bottom: 1px solid #999
+}
+#contentart1 #quiz #quizRight .w299 .title span {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    line-height: 40px;
+    padding-left: 20px
+}
+#contentart1 #quiz #quizRight .w299 .histhem {
+    border-bottom: 1px solid #999;
+    width: 254px;
+    margin: 20px 20px 0;
+    padding-bottom: 15px;
+    overflow: hidden
+}
+#contentart1 #quiz #quizRight .w299 .histhem .userhead {
+    width: 66px;
+    height: 66px;
+    margin-right: 15px;
+    float: left
+}
+#contentart1 #quiz #quizRight .w299 .histhem .userhead img {
+    width: 100%;
+    height: 100%;
+    border: none
+}
+#contentart1 #quiz #quizRight .w299 .histhem .sum {
+    float: left;
+    width: 68%;
+    line-height: 23px
+}
+#contentart1 #quiz #quizRight .w299 .histhem .sum .user {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700
+}
+#contentart1 #quiz #quizRight .w299 .histhem .sum .user img {
+    margin-left: 5px
+}
+#contentart1 #quiz #quizRight .w299 .histhem .sum .user .history {
+    font-size: 12px;
+    color: #999;
+    float: right;
+    text-decoration: none
+}
+#contentart1 #quiz #quizRight .w299 .histhem .sum .livethem {
+    height: 43px;
+    overflow: hidden;
+    line-height: 21px;
+    font-size: 12px;
+    color: #999
+}
+#contentart1 #quiz #quizRight .w299 .histhem .sum .livethem .themtitle {
+    font-size: 14px;
+    color: #333
+}
+
+
+
+
+
+#consultation #content #contentLeft .quiz {
+    height: 69px;
+    width: 840px;
+    position: relative;
+    left: -10px;
+    background: url(../images/quiz.png) center no-repeat;
+    overflow: hidden;
+    margin-top: 10px;
+}
+#consultation #content #contentLeft .quiz .quizinput {
+    float: left;
+    width: 640px;
+    height: 36px;
+    margin-top: 21px;
+    overflow: hidden;
+    margin-left: 50px
+}
+#consultation #content #contentLeft .quiz .quizinput input {
+    width: 597px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    padding-left: 5px;
+    float: left
+}
+#consultation #content #contentLeft .quiz .quizinput a {
+    display: block;
+    float: left;
+    background: #fff;
+    height: 36px;
+    width: 36px
+}
+#consultation #content #contentLeft .quiz .quizinput a i {
+    font-size: 22px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+#consultation #content #contentLeft .quiz .info {
+    float: left;
+    margin-top: 21px;
+    margin-left: 20px
+}
+#consultation #content #contentLeft .quiz .info a {
+    display: block;
+    color: #fff;
+    background: #e95349;
+    font-size: 12px;
+    width: 81px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center
+}
+
+
+
+#consultation #content #contentRight {
+    width: 340px;
+    float: left
+}
+#consultation #content #contentRight .tit {
+    margin: 13px;
+    border-bottom: 1px solid #d5d9d8
+}
+#consultation #content #contentRight .tit img {
+    margin-right: 8px;
+    position: relative;
+    top: 1px
+}
+#consultation #content #contentRight .tit .titi {
+    font-size: 18px;
+    color: #333;
+    line-height: 37px;
+    font-weight: 700
+}
+#consultation #content #contentRight .content1 {
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 35px
+}
+#consultation #content #contentRight .content1 .content1list {
+    margin: 10px 13px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #d6d7dc;
+    overflow: hidden
+}
+#consultation #content #contentRight .content1 .content1list .userhead {
+    width: 47px;
+    height: 47px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left
+}
+#consultation #content #contentRight .content1 .content1list .userhead img {
+    border: none;
+    width: 100%;
+    height: 100%
+}
+#consultation #content #contentRight .content1 .content1list .sub {
+    float: left;
+    width: 80%
+}
+#consultation #content #contentRight .content1 .content1list .sub .title {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700
+}
+#consultation #content #contentRight .content1 .content1list .sub .num {
+    color: #999;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 24px
+}
+#consultation #content #contentRight .content1 .content1list .sub .num .number {
+    float: left
+}
+#consultation #content #contentRight .content1 .content1list .sub .num .number font {
+    font-size: 14px;
+    color: #fa5909;
+    font-weight: 700
+}
+#consultation #content #contentRight .content1 .content1list .sub .num .info {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    background: #eb1927;
+    border-radius: 5px;
+    font-size: 12px;
+    text-decoration: none
+}
+
+#consultation #content #contentRight .content2 {
+    background: #fff;
+    overflow: hidden
+}
+#consultation #content #contentRight .content2 .content2list {
+    border-bottom: 1px dashed #d6d7dc;
+    overflow: hidden;
+    cursor: pointer;
+}
+#consultation #content #contentRight .content2 .content2list:hover {
+    background: rgb(250,250,250);
+}
+#consultation #content #contentRight .content2 .content2list i {
+    margin-right: 5px;
+    color: #666;
+    position: relative;
+    top: 1px
+}
+#consultation #content #contentRight .content2 .content2list i.no1 {
+    color: #ec1928
+}
+#consultation #content #contentRight .content2 .content2list i.no2 {
+    color: #fb5909
+}
+#consultation #content #contentRight .content2 .content2list i.no3 {
+    color: #feb810
+}
+#consultation #content #contentRight .content2 .content2list .star {
+    float: right
+}
+#consultation #content #contentRight .content2 .content2list .star i {
+    color: #fb5909
+}

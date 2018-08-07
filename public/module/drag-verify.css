@@ -1,0 +1,20 @@
+#popup-captcha {
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: white;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+#popup-captcha-box {
+    width: 302px;
+    margin: auto;
+    margin-top: 330px;
+    box-shadow: 4px 4px 30px rgba(74, 72, 72, 0.11);
+}

@@ -1,0 +1,15 @@
+.opinion-title, .title{
+ font-size:18px;
+}
+
+
+.tip {
+    margin: 10px;
+    border: 1px solid rgb(245, 245, 245);
+    padding:10px;
+}
+
+.tip-title{
+	font-size:16px;
+	color:#d72621;
+}

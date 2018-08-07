@@ -1,0 +1,141 @@
+  * {
+      padding: 0;
+      margin: 0;
+  }
+  
+  body {
+      width: 100%;
+      max-width: 800px;
+      font-family: "Microsoft YaHei";
+      padding-bottom: 30px;
+      margin: 0 auto;
+  }
+  
+  .clear:after {
+      content: '';
+      display: block;
+      clear: both;
+      _zoom: 1;
+      *zoom: 1;
+  }
+  
+  #app-refer-introduction {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 15px 15px 70px 15px;
+  }
+  
+  .app-refer-introduction-title {
+      font-size: 16px;
+  }
+  
+  .app-refer-introduction-content {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #666;
+      line-height: 25px;
+      white-space: normal;
+      word-wrap: break-word;
+  }
+  
+  .app-refer-introduction-content img {
+      display: block;
+      width: 100% !important;
+      height: auto !important;
+      margin: 10px auto;
+  }
+  
+  .app-refer-top {
+      padding: 15px;
+      box-shadow: 0 2px 10px #bebebe;
+  }
+  
+  .app-refer-title-icon {
+      display: inline-block;
+      width: 2px;
+      height: 16px;
+      background: red;
+      margin-right: 10px;
+      position: relative;
+      top: 2px;
+  }
+  
+  .app-refer-middle {
+      margin-top: 15px;
+  }
+  
+  .app-refer-cover {
+      float: left;
+      width: 30%;
+  }
+  
+  .app-refer-cover img {
+      width: 100%;
+  }
+  
+  .app-refer-msg {
+      width: 65%;
+      float: left;
+      margin-left: 15px;
+  }
+  
+  .app-refer-line {
+      display: block;
+      margin-top: 7px;
+  }
+  
+  .app-refer-line1 img {
+      width: 17%;
+      border-radius: 50%;
+  }
+  
+  .app-teacher-icon {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      position: relative;
+      top: 1px;
+      left: 2px;
+  }
+  
+  .app-teacher-icon img {
+      width: 100%;
+  }
+  
+  .app-teacher-name {
+      display: inline-block;
+      position: relative;
+      top: -14px;
+      left: 10px;
+  }
+  
+  .app-refer-line2 {
+      font-size: 13px;
+      color: #828080;
+  }
+  
+  .app-refer-line4 {
+      font-size: 18px;
+  }
+  
+  .app-refer-time {
+      color: #828080;
+      margin-top: 15px;
+      font-size: 14px;
+  }
+  
+  .colorRed {
+      color: #ee3838;
+  }
+  
+  .buyBtn {
+      width: 100%;
+      height: 45px;
+      color: #fff;
+      text-align: center;
+      line-height: 45px;
+      background: #ee3838;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+  }

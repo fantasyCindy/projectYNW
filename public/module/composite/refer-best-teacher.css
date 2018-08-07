@@ -1,0 +1,38 @@
+/*内参牛人*/
+.refer-best-teacher {
+    overflow: hidden;
+    border-top: 1px solid rgb(245, 245, 245);
+    padding: 15px;
+    background: white;
+}
+
+.refer-best-teacher .avatar {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.refer-best-teacher .avatar img {
+    height: 100%;
+}
+
+.refer-best-teacher .info {
+    margin-left: 20px;
+    height:40px;
+}
+
+.refer-best-teacher .info .name {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.refer-best-teacher .info .rcount{
+    text-align: center;
+    color: #D11313;
+}
+
+.refer-best-teacher .info .subject {
+    margin-top: 5px;
+    color: gray;
+}

@@ -1,0 +1,139 @@
+@import 'color.scss';
+@import 'common.scss';
+.yn-index img {
+    width: 100%;
+}
+
+.yn-news {
+    margin: 15px auto;
+    .news-content {
+        .news-notice {
+            color: $blue;
+            text-indent: 2em;
+        }
+        .news-download {
+            width: 120px;
+            height: 35px;
+            line-height: 35px;
+            color: $white;
+            background: #b4e5ff;
+            text-align: center;
+            border-radius: 2px;
+            float: right;
+            position: relative;
+            top: -30px;
+            cursor: pointer;
+        }
+    }
+}
+
+.about-content {
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.yn-login,
+.yn-register {
+    background: $white;
+    padding-bottom: 50px;
+    color: #666;
+    box-shadow: 3px 3px 15px #CBCBCB;
+}
+
+.login-content {
+    width: 570px;
+    background: $white;
+    margin: 30px auto 10px auto;
+    padding: 50px 0;
+    ;
+    .login-input {
+        margin: 20px auto;
+        text-align: right;
+        span {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        input {
+            width: 400px;
+            height: 40px;
+        }
+        .login-submit,
+        .register-submit {
+            width: 400px;
+            height: 40px;
+            background: $blue;
+            text-align: center;
+            line-height: 40px;
+            color: $white;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    }
+    .login-remember {
+        width: 300px;
+        margin: 0 auto;
+        text-align: left;
+        position: relative;
+        left: 13px;
+        .passWord-remember input {
+            margin-right: 5px;
+            width: 15px;
+            height: 15px;
+            position: relative;
+            top: 3px;
+        }
+    }
+}
+
+.login-three {
+    width: 510px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    left: 40px;
+    &:before,
+    &:after {
+        display: inline-block;
+        content: '';
+        width: 140px;
+        height: 1px;
+        background: #CBCBCB;
+        position: relative;
+        top: -5px;
+        left: -15px;
+    }
+    &:after {
+        left: 15px;
+    }
+}
+
+.login-three-icon {
+    width: 510px;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    left: 40px;
+    .three-icon {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin: 0 20px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.login-register {
+    width: 510px;
+    position: relative;
+    left: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.go-register,
+.go-login {
+    color: $blue;
+    cursor: pointer;
+}

@@ -1,0 +1,193 @@
+/*interaction */
+
+img {
+    width: 100%;
+    display: inline-block;
+    margin-top: -1px;
+}
+
+.red {
+    color: #e33e3d;
+    font-style: normal;
+}
+
+.orange {
+    color: #d77e02;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.m20 {
+    margin: 0 20px;
+}
+
+#index {
+    max-width: 640px;
+    margin: 0 auto;
+    color: #333;
+    font-size: 16px;
+    line-height: 26px;
+    background: #e9e9e9;
+}
+
+#index .record ul{
+    color: #666;
+}
+
+#index .block {
+    display: block;
+    margin: 14px auto;
+}
+
+#index .banner {
+    position: relative;
+}
+
+#index .banner .ban-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    color: #874c30;
+    font-size: 14px;
+    background: #fae16f;
+    display: block;
+    padding: 0 10px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+#index .banner,
+#index .nav,
+#index .record,
+#index .aptitude,
+#index .team {
+    background: #fff;
+}
+
+#index .icon {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background: url(/public/images/caoh5/caopan_icon.png);
+}
+
+#index .nav {
+    text-align: center;
+    overflow: hidden;
+}
+
+#index .nav .nav-list {
+    width: 33%;
+    float: left;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#index .nav .icon2 {
+    background: url(/public/images/caoh5/history_icon.png);
+}
+
+#index .nav .icon3 {
+    background: url(/public/images/caoh5/sole_icon.png);
+}
+
+#index .record {
+    margin-top: 10px;
+}
+
+#index .title {
+    padding: 6px 6px 15px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d5d4d4;
+}
+
+#index .icon4 {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    top: 8px;
+    margin-right: 2px;
+    background: url(/public/images/caoh5/case_icon.png);
+    background-size: 34px;
+}
+
+#index .record-list {
+    font-size: 16px;
+    padding: 0 16px 1px;
+}
+
+#index .record-list1 {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+#index .btn {
+    width: 96px;
+    color: #fff;
+    font-size: 24px;
+    background: #e33e3d;
+    display: block;
+    margin: 20px auto;
+    padding: 7px 20px;
+    border-radius: 4px;
+}
+
+#index .record-list-top {
+    background: #eee;
+    margin-bottom: 10px;
+}
+
+#index .record-list-top p {
+    padding: 0 16px 5px;
+}
+
+#index .record-info-text1 {
+    float: right;
+    position: relative;
+    top: -4px;
+}
+
+#index .icon5 {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+    background: url(/public/images/caoh5/arrow_icon.png);
+    background-size: 24px;
+}
+
+#index .icon6 {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    margin-right: 5px;
+    background: url(/public/images/caoh5/designator_icon.png);
+}
+
+#index .record-info-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555050;
+}
+
+#index .aptitude {
+    margin-top: 10px;
+    padding: 0 0 1px;
+}
+
+#index .aptitude .icon4 {
+    background: url(/public/images/caoh5/licence_icon.png);
+    background-size: 34px;
+}
+
+#index .team {
+    margin-top: 10px;
+}
+
+#index .team .icon4 {
+    background: url(/public/images/caoh5/team_icon.png);
+    background-size: 34px;
+}

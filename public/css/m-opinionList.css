@@ -1,0 +1,109 @@
+#return{
+	text-align:center;
+	line-height:53px;
+	border-bottom: 1px solid #e4e4e4;
+	color:#333333;
+	font-size:17px;
+	position:relative;
+}
+#return .icon{
+	position:absolute;
+	left:20px;
+	top:13px;
+	font-size:25px;
+}
+#m-opinionList{
+	max-width: 800px;
+	margin: 0 auto;
+	background: #f1f1f1;
+}
+/*头部*/
+#tag .op-list-title{
+	text-align:center;
+	background: #fff;
+	margin-top: 10px;
+}
+
+#tag .op-list-title .op-list-list{
+	width: 49%;
+	padding: 15px 0;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+
+#tag .op-list-title .op-list-list.cur{
+	color: #d72621;
+}
+/*列表*/
+#m-opinionList .op-list-item{
+	background: #fff;
+	margin-top: 10px;
+	padding: 0 15px 15px;
+	line-height: 26px;
+}
+
+#m-opinionList .op-list-item .op-title-1{
+	padding: 10px 0;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+#m-opinionList .op-list-item .op-title-1 .icon{
+	width: 4px;
+	height: 18px;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+	display: inline-block;
+	background: #d72621;
+}
+
+#m-opinionList .op-list-item .op-title-1 .txt{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#m-opinionList .op-list-item .op-list-con{
+	color: #545454;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+}
+
+#m-opinionList .op-list-item .op-list-foot{
+	color: #adaaaa;
+	border-top:1px dashed #e4e4e4;
+	margin-top: 15px;
+	padding-top: 10px;
+	line-height:32px;
+	font-size: 14px;
+}
+
+#m-opinionList .op-list-foot .photo{
+	margin-right:5px;
+	display:inline-block;
+	float:left;
+	width: 30px;
+	height: 30px;
+	border:1px solid #e1e1e1;
+	border-radius: 50%;
+	overflow:hidden;
+}
+#m-opinionList .op-list-foot .photo img{
+	width:100%;
+}
+#bootpag{
+	display:flex;
+}
+#bootpag a{
+	line-height:45px;
+	text-align:center;
+	flex:1;
+}
+#bootpag a:last-child{
+	border-left:1px solid #e1e1e1
+}

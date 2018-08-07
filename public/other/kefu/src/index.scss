@@ -1,0 +1,152 @@
+
+$red:red;
+$green:green;
+$width:350px;
+$c250:rgb(245,245,245);
+$yellow:#ff7300;
+$blue:#83bce6;
+$blue2:#a6defd;
+
+/*///////////////////////////////////////////////////////////////////*/
+html{
+    height:100%;
+}
+body{
+    background:white;
+    font-size:13px;
+    height:100%
+}
+
+#app{
+    width:$width;
+    height:100%;
+    background:$c250;
+    overflow: auto;
+    position: relative;
+    .placeholder-bottom{
+        margin-bottom: 30px;
+        margin-top: 10px;
+        height:1px;
+        width:100%;
+        background: rgb(245,245,245);
+    }
+    &.public{
+        .top-item.active{
+            color:$green;
+        }
+
+        .cate-item{
+            background: $green;
+        }
+    }
+    &.private{
+        .top-item.active{
+             color:$yellow;
+        }
+
+        .cate-item{
+            background: $yellow;
+        }
+    }
+}
+
+#app-top{
+    background: #83bce6;
+    .items{
+        overflow: hidden;
+    }
+    .top-item{
+        display: inline-block;
+        padding:5px;
+        background: $c250;
+        float:left;
+        margin-right:3px;
+        cursor: pointer;
+        font-weight: bold;
+        &.active{
+            background: white;
+        }
+    }
+}
+
+#app-category{
+    padding:5px;
+    border-bottom:1px solid $green;
+    background: white;
+       .cate-items{
+        overflow: hidden;
+        cursor: pointer;
+      }
+      .cate-item{
+        padding:5px;
+        display: inline-block;
+        float:left;
+        margin-right:3px;
+        color:white;
+      }  
+}
+
+
+#app-list{
+    div.list-item{
+        padding:5px 0;
+        cursor:default;
+        .keyword{
+            color:#ff6700;
+            text-decoration: underline;
+        }
+        .send.icon{
+            width:15px;
+            height:15px;
+            position: relative;top:3px;
+            display: inline-block;
+            background: #166dae url(images/triangle.png) no-repeat center;
+            background-size:20px 20px; 
+            opacity: 0;
+        }
+        &:hover{
+            .send.icon{
+                cursor:pointer;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#app-status{
+    position: fixed;
+    bottom:0;
+    background: #a6defd;
+    width:$width;
+    height:30px;
+    line-height: 30px;
+    font-size: 12px;
+    .user{
+        margin-left: 10px;
+        display:inline-block;
+    }
+}
+
+
+#contextmenu{
+    display: none;
+    border:1px solid $blue;
+    width:200px;
+    margin:auto;
+    background: white;
+    position: absolute;
+    .ct-items{
+        .line{
+            border-bottom: 1px solid $blue;
+        }
+        .ct-item{
+            padding: 8px;
+            padding-left:15px;
+            font-size: 13px;
+            cursor: pointer;
+            &:hover{
+                background: $blue2;
+            }
+        }
+    }
+}

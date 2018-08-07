@@ -1,0 +1,159 @@
+#searchRoom {}
+
+#searchRoom .searchRoom-left {
+    background: white;
+    float: left;
+    width: 65%;
+    padding:20px;
+    padding-top:30px;
+}
+
+#searchRoom .searchRoom-right {
+    background: white;
+    float: right;
+    width: 34%;
+}
+
+#searchRoom .searchBar{
+    width:600px;
+    margin-left:30px;
+}
+#searchRoom .searchBar input{
+    width:250px;
+    padding:6px;
+    background:rgb(245,245,245);
+    text-indent:15px;
+}
+
+#searchRoom .searchBar button{
+	margin-left:-4px;
+	border-radius:0;
+}
+
+#result{
+	margin:30px;
+	min-height:850px;
+}
+
+#result .result-title{
+	font-size:18px;
+	padding-bottom:10px;
+	border-bottom:1px dashed rgb(220,220,220);
+}
+
+#result .result-title strong{
+	color:#d72621
+}
+
+.result-items{
+	overflow:hidden;
+	border:none;
+	margin-top:30px;
+
+}
+
+.result-items .item{
+	width:45%;
+	padding:10px;
+	border:1px solid rgb(235,235,235);
+	float:left;
+	cursor:pointer;
+	margin-right:25px;
+	margin-bottom:25px;
+	position:relative;
+	overflow:hidden;
+	border-radius:2px;
+}
+
+.result-items .item:hover{
+	transition:all 0.3s;
+	background:rgb(245,245,245);
+}
+
+.result-items .item .imgw{
+	float:left;
+	width:100px;
+	height:100px;
+	overflow:hidden;
+	background:rgb(245,245,245);
+}
+
+.result-items .item img{
+	width:100%;
+}
+
+.result-items .item .name{
+	font-size:18px;
+	margin:5px 0;
+	position:absolute;
+	left:120px;
+}
+
+.result-items .item .style{
+	position:absolute;
+	left:120px;
+	top:65px;
+	font-size:13x;
+	color:gray;
+}
+
+
+
+#interest .title{
+	padding:15px 20px;
+	font-size:16px;
+	color:#d72621;
+	border-bottom:1px solid rgb(245,245,245);
+}
+
+#interest .title span{
+	border-left:3px solid #d72621;
+	padding-left:10px;
+}
+
+
+#interest .items{
+	padding:20px;
+}
+
+#interest .items .item {
+	position:relative;
+	width:100%;
+	float:left;
+	text-align:center;
+	margin-bottom:15px;
+	border:1px solid rgb(245,245,245);
+	padding:10px;
+	cursor:pointer;
+}
+#interest .items .item:hover{
+	border-color:#d72621;
+	transition:all 0.3s;
+}
+
+#interest .items .item .style{
+	font-size:14px;
+	color:gray;
+	position:absolute;
+	left:80px;
+	top:40px;;
+}
+#interest .items .item .name{
+	font-size:16px;
+	margin:5px 0;
+	position:absolute;
+	left:80px;
+	top:5px;
+}
+
+#interest .items .item .imgw{
+	height:60px;
+	width:60px;
+	background:yellow !important;
+	overflow:hidden;
+	border-radius:50%;
+	overflow:hidden;
+}
+#interest .items .item .imgw img{
+	width:100%;
+}

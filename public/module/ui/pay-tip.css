@@ -1,0 +1,61 @@
+#judgePay {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(200, 200, 200);
+    position: fixed;
+    width: 520px;
+    background: white;
+    border-radius: 5px
+}
+
+#judgePay .title {
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 41px;
+    height: 41px;
+    overflow: hidden;
+    color: #333;
+    border-bottom: 1px solid #ddd
+}
+
+#judgePay .close {
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    font-size: 26px;
+    cursor: pointer
+}
+
+#judgePay .wrap {
+    padding: 15px 51px
+}
+
+#judgePay .payment {
+    background: url(/public/images/payment.png) no-repeat;
+    padding-left: 130px;
+    padding-bottom: 32px
+}
+
+#judgePay .payment p {
+    margin-top: 15px
+}
+
+#judgePay .payment p:last-child a {
+    width: 106px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 5px
+}
+
+#judgePay .payment p .wrong-btn {
+    background: #a3a2a2
+}
+
+#judgePay .payment p .finish-btn {
+    background: #f6554a
+}

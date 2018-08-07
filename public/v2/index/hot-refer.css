@@ -1,0 +1,90 @@
+.refer-content{
+    margin-right: -17px;
+}
+.color666{
+    color: #666;
+}
+.block{
+    display: block;
+}
+/*热门内参*/
+.refer-item{
+    width: 413px;
+    height: 238px;
+    background: #fff;
+    margin-right: 15px;
+    margin-bottom:15px;
+}
+.refer-item .refer-title{
+    background: rgb(255,80,84);
+    color: #fff;
+    display: inline-block;
+    padding: 8px 17px;
+    border-radius: 0 40px 40px 0;
+}
+.refer-item .refer-center{
+    line-height: 1.5;
+    padding: 12px 15px 26px;
+}
+.refer-item .refer-center .refer-left{
+    width: 80px;
+    margin-right: 22px;
+    text-align: center;
+}
+.refer-item .refer-center .refer-right{
+    width: 73%;
+}
+.refer-item .refer-center .refer-info{
+    margin-top: 8px;
+}
+.refer-item .refer-center .iamge{
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.refer-item .refer-center .refer-info-list{
+    display: inline-block;
+    width: 49%;
+    color: rgb(153,153,153);
+}
+.refer-item .refer-center .block{
+    display: block;
+}
+.refer-item .refer-bottom{
+    position: relative;
+    padding: 30px 0 15px 15px;
+    border-top: 1px solid rgb(255,222,223);
+    color: rgb(153,153,153);
+}
+.refer-item .refer-bottom .refer-more{
+    background: #fff;
+    padding: 0 25px 0 20px;
+    position: absolute;
+    right: 0;
+    top: -16px;
+}
+.refer-item .refer-bottom .refer-more:before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -1px;
+    border-radius: 50%;
+    background: rgb(255,222,223);
+}
+.refer-item .refer-bottom .refer-see{
+    background: red;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 7px 10px;
+    margin-left: 25px;
+    box-shadow: 3px 3px 6px #feb2b4;
+}
+.refer-item .refer-bottom .refer-see:hover{
+    background: rgb(255,80,84);
+}

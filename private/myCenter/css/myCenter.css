@@ -1,0 +1,656 @@
+@charset "UTF-8";
+body {
+    font-size: 14px;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.ac {
+    text-align: center !important;
+}
+
+.al {
+    text-align: left !important;
+}
+
+.ar {
+    text-align: right !important;
+}
+
+.scroll_red {
+    color: red;
+}
+
+.scroll_green {
+    color: green;
+}
+
+.hid {
+    display: none;
+}
+
+
+/*自选*/
+
+#customeStock .container {
+    width: 1200px;
+    margin: 20px auto;
+}
+
+#customeStock .container .left {
+    float: left;
+    width: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+#customeStock .container .right {
+    width: 960px;
+    float: right;
+    padding-bottom: 80px;
+}
+
+#customeStock .container .right #contentWrap {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+input {
+    outline: none;
+}
+
+
+/*我的自选*/
+
+#mySelectStock .title {
+    font-size: 16px;
+    border-left: 4px solid #ae0a2c;
+    padding-left: 10px;
+}
+
+#mySelectStock .marquee {
+    width: 100%;
+    margin: 25px 0 15px 0;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+}
+
+#mySelectStock td.radio {
+    border-right: 1px solid #e6e6e6 !important;
+}
+
+#mySelectStock .searchBar {
+    padding: 10px 0;
+    position: relative;
+}
+
+#mySelectStock .searchBar input {
+    margin-right: 10px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 2px;
+    border: 1px solid #c8c8c8;
+}
+
+#mySelectStock .searchBar .button {
+    padding: 10px 30px !important;
+    margin-right: 5px;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#mySelectStock #add_stock {
+    background: #d72621;
+}
+
+#mySelectStock .content {
+    font-size: 13px;
+    margin-top: 15px;
+    min-height: 300px;
+}
+
+#mySelectStock .content table {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+}
+
+#mySelectStock .content td {
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 0;
+    position: relative;
+    border-left: none;
+    border-right: none;
+}
+
+#mySelectStock .content tr.theader td {
+    background: whitesmoke;
+}
+
+#mySelectStock .stockCode,
+#mySelectStock .trade,
+#mySelectStock .stockName,
+#mySelectStock .warning,
+#mySelectStock .question {
+    color: #5877d4;
+    cursor: pointer;
+}
+
+
+/*趋势*/
+
+#trends .message {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#trends .message .txt {
+    position: absolute;
+    top: 6px;
+    margin-left: 10px;
+    color: black;
+}
+
+#trends .message .fa {
+    color: #ae0a2c;
+}
+
+#trends .recommond {
+    margin-top: 20px;
+    border: 1px solid #e6e6e6;
+}
+
+#trends .recommond .title {
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+#trends .recommond .title .fa {
+    margin-right: 10px;
+    color: #ae0a2c;
+}
+
+#trends .recommond .title .change {
+    color: gray;
+    font-size: 13px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+#trends .recommond .title .change .fa {
+    color: gray;
+}
+
+#trends .recommond .content {
+    overflow: hidden;
+}
+
+#trends .recommond .content .item {
+    width: 32%;
+    background: whitesmoke;
+    padding: 10px;
+    float: left;
+    margin-left: 9px;
+    margin-bottom: 9px;
+}
+
+#trends .recommond .content .item .favicon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+#trends .recommond .content .item .favicon img {
+    width: 120%;
+}
+
+#trends .recommond .content .item .line {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+#trends .recommond .content .item .line1 .name {
+    margin-left: 8px;
+    font-size: 16px;
+    position: absolute;
+}
+
+#trends .recommond .content .item .line1 .type {
+    margin-left: 8px;
+    font-size: 12px;
+    color: gray;
+}
+
+#trends .recommond .content .item .line2 .care {
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+    width: 57px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/btn.png) 0 -134px no-repeat;
+}
+
+#trends .recommond .content .item .line2 .care:hover {
+    background-position: -74px -134px;
+    color: #fff;
+}
+
+#trends .recommond .content .item .line2 .txt {
+    font-size: 12px;
+}
+
+#trends .recommond .content .item .line2 .count {
+    color: #fb660d;
+}
+
+#trends .recommond .content .item .line3 {
+    padding-top: 10px;
+    border-top: 1px solid gainsboro;
+}
+
+#trends .recommond .content .item .line3 .dirction {
+    color: gray;
+}
+
+
+/*投顾动态*/
+
+#myFeeds .title {
+    width: 100%;
+}
+
+#myFeeds .title table {
+    width: 100%;
+}
+
+#myFeeds .title td {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 12px 0;
+    width: 25%;
+    cursor: pointer;
+    background: #fafafa;
+}
+
+#myFeeds .title td.select {
+    border-top: 3px solid #ae0a2c;
+    border-bottom: none;
+    background: white;
+}
+
+#myFeeds .content a {
+    color: black;
+}
+
+#myFeeds .content a:hover {
+    text-decoration: underline;
+}
+
+#myFeeds .content .item {
+    padding: 25px 0px;
+    overflow: hidden;
+    border-top: 1px solid gainsboro;
+}
+
+#myFeeds .content .item .favicon {
+    float: left;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+#myFeeds .content .item .favicon img {
+    width: 120%;
+}
+
+#myFeeds .content .item .info {
+    float: left;
+    width: 830px;
+    padding: 0 15px;
+}
+
+#myFeeds .content .item .info .line {
+    margin-bottom: 10px;
+}
+
+#myFeeds .content .item .info .line1 {
+    font-size: 15px;
+}
+
+#myFeeds .content .item .info .line1 span {
+    margin-right: 10px;
+}
+
+#myFeeds .content .item .info .line1 .icon {
+    margin-left: -5px;
+    color: #f6554a;
+}
+
+#myFeeds .content .item .info .line1 .name {
+    font-size: 16px;
+}
+
+#myFeeds .content .item .info .line1 .type {
+    color: gray;
+}
+
+#myFeeds .content .item .info .line1 .state {
+    font-size: 12px;
+    background: #e83e3e url(http://js.jrjimg.cn/zqt-red-1000/images/jx.jpg) no-repeat 6px center;
+    padding: 6px 10px 5px 25px;
+    color: white;
+}
+
+#myFeeds .content .item .info .line2 .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myFeeds .content .item .info .line2-2 {
+    font-size: 12px;
+    margin: 15px 0;
+    background: #f0f0f0;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#myFeeds .content .item .info .line3 .subject {
+    line-height: 21px;
+}
+
+#myFeeds .content .item .info .line4 {
+    font-size: 12px;
+    color: gray;
+}
+
+
+/*我的投顾*/
+
+#myAdviser {
+    font-size: 13px;
+    color: #464646;
+}
+
+#myAdviser .items .item:last-child {
+    border: none;
+}
+
+#myAdviser .items .item {
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 25px 0;
+}
+
+#myAdviser .items .item .column {
+    float: left;
+    margin-right: 10px;
+}
+
+#myAdviser .items .item .column1 .avatar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+#myAdviser .items .item .column1 .avatar img {
+    width: 120%;
+}
+
+#myAdviser .items .item .column2 {
+    width: 650px;
+    margin-left: 15px;
+}
+
+#myAdviser .items .item .column2 .line {
+    margin-bottom: 5px;
+}
+
+#myAdviser .items .item .column2 .line1 > * {
+    margin-right: 10px;
+}
+
+#myAdviser .items .item .column2 .line1 .name {
+    margin-right: 0;
+    font-size: 16px;
+    color: black;
+}
+
+#myAdviser .items .item .column2 .line1 .fa {
+    color: red;
+    font-size: 14px;
+}
+
+#myAdviser .items .item .column2 .line2 .name {
+    background: #DFFDFF;
+    padding: 3px 8px;
+    margin-left: -5px;
+}
+
+#myAdviser .items .item .column2 .line3 {
+    margin-top: 15px;
+    line-height: 22px;
+}
+
+#myAdviser .items .item .column2 .line3 .name {
+    font-weight: bold;
+}
+
+#myAdviser .items .item .column3 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+#myAdviser .items .item .column3 .line {
+    margin-bottom: 8px;
+}
+
+#myAdviser .items .item .column3 .line1 .ask {
+    cursor: pointer;
+    width: 115px;
+    height: 32px;
+    line-height: 32px;
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/btn.png) 0 -289px no-repeat;
+    overflow: hidden;
+    -webkit-transition: none;
+    transition: none;
+    color: #333;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#myAdviser .items .item .column3 .line1 .ask:hover {
+    background-position: 0 -324px;
+    color: #fff;
+}
+
+
+/*消费记录*/
+
+#myOrders {
+    font-size: 13px !important;
+}
+
+#myOrders .line {
+    margin-bottom: 10px;
+}
+
+#myOrders .line.title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    border-left: 3px solid #ae0a2c;
+}
+
+#myOrders .line.actions {
+    border-top: 1px solid gainsboro;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+#myOrders .line.actions span:first-child {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid;
+}
+
+#myOrders .line.actions .select {
+    color: #ae0a2c;
+}
+
+
+/*预警信息*/
+
+#stock_warning {
+    font-size: 13px;
+    margin: 0px 10px;
+    padding: 25px;
+    width: 400px;
+}
+
+#stock_warning .title {
+    position: relative;
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom: 20px;
+}
+
+#stock_warning .title .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: gray;
+    cursor: pointer;
+}
+
+#stock_warning table {
+    width: 100%;
+}
+
+#stock_warning table td {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#stock_warning table input {
+    margin-right: 10px;
+    padding: 5px;
+    border-style: none;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px;
+}
+
+#stock_warning table .ynbutton {
+    width: 100px;
+    margin: auto;
+    padding: 5px 0;
+    background: red;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#stock_warning table .ynbutton.no {
+    background: gray;
+}
+
+#stock_warning table .stock {
+    background: whitesmoke;
+    border: 1px solid #c8c8c8;
+}
+
+#stock_warning table .stock td {
+    padding: 15px 0;
+}
+
+#stock_warning table .stock td:first-child {
+    border-right: 1px solid #c8c8c8;
+}
+
+#stock_warning table .stock td.price > div {
+    width: 49%;
+}
+
+#stock_warning table .stock td.price .value {
+    margin-top: 3px;
+    color: red;
+    font-size: 16px;
+}
+
+#stock_warning table .stock .stock_name {
+    font-size: 16px;
+}
+
+#klineImg {
+    display: none;
+    width: 600px;
+    height: 360px;
+    background: white !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #f0f0f0;
+    box-shadow: 3px 3px 30px rgba(200, 200, 200, .5);
+    border-radius: 3px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#klineImg .imgw {
+    margin-top: 15px;
+    width: 590px;
+    position: absolute;
+    top: 0;
+    background: white;
+}
+
+#klineImg .imgw img {
+    width: 100%;
+}
+
+#marquee {
+    position: relative;
+    margin: 23px 0;
+    padding: 10px;
+    overflow: hidden;
+    height: 120px;
+    background: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+
+#marquee .name {
+    font-size: 12px;
+    display: block;
+    margin-right: 30px;
+}
+
+#marquee td:first-child {
+    border-left: none;
+}

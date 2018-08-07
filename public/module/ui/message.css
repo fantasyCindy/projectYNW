@@ -1,0 +1,103 @@
+#message-item-container {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    z-index:1000;
+}
+
+.message-item {
+    padding: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+    border: 1px solid rgb(245, 245, 245);
+    margin-bottom: 10px;
+    z-index:1000;
+}
+
+.message-item > * {
+    float: left;
+}
+
+.message-item-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: rgb(245, 245, 245);
+    position: relative;
+    background: url(/public/icons/ynicons-01.png);
+}
+
+.message-item-icon.type1 {
+    background-position: 0 0;
+}
+
+.message-item-info {
+    width: 255px;
+    margin: 0 10px;
+}
+
+.message-item-info .title {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.message-item-info .content {
+    color: gray;
+}
+
+.message-item-close {
+    background-position: -120px 0;
+}
+
+#message-item-container {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+}
+
+.message-item {
+    padding: 10px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.message-item > * {
+    float: left;
+}
+
+.message-item-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: rgb(245, 245, 245);
+    position: relative;
+    background: url(/public/icons/ynicons-01.png);
+}
+
+.message-item-icon.type1 {
+    background-position: 0 0;
+}
+
+.message-item-info {
+    width: 220px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: block;
+}
+
+.message-item-info .title {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.message-item-info .content {
+    color: gray;
+}
+
+.message-item-close {
+    background-position: -80px 0;
+    cursor: pointer;
+}

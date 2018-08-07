@@ -1,0 +1,48 @@
+/*约牛头条*/
+.headline-content{
+    color: #222;
+    line-height: 2.1;
+    padding: 15px 14px 14px;
+    background: #fff;
+}
+.headline-content .headline-top{
+    width: 100%;
+    border-bottom: 1px solid rgb(240,240,240);
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    word-wrap: break-word !important;
+}
+.headline-content .headline-top .headline-top-title{
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.headline-content .headline-top-content{
+    color: #666;
+    line-height: 1.5;
+    height: 42px;
+    overflow: hidden;
+}
+.headline-content .headline-icon{
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 3px;
+    background: rgb(204,204,204);
+}
+.headline-list{
+    height: 30px;
+    overflow: hidden;
+}
+.headline-list,
+.headline-top{
+    display: block;
+}
+.headline-list.headline-item{
+    width: 100%;
+    line-height: 2.2;
+}
+.headline-list:hover,
+.headline-top-title:hover{
+    color: rgb(255,80,84);
+}

@@ -1,0 +1,27 @@
+#liveDetail .composite-items .item-right {
+    width: 600px
+}
+
+#liveDetail .filter {
+    margin-bottom: 5px;
+    background: white;
+    border: 1px solid rgb(220, 220, 220);
+    overflow: hidden;
+}
+
+#liveDetail .filter .item {
+    float: left;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+
+#liveDetail .filter .item.select {
+    border-top-color: #d72621;
+     color: #d72621;
+}
+
+.composite-container {
+    min-height: 400px;
+}

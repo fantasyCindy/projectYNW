@@ -1,0 +1,39 @@
+body{
+	width:100%;
+	max-width:800px;
+	margin:0 auto;
+	font-family: "Microsoft YaHei";
+}
+.app-pay-done{
+	width:100%;
+	text-align: center;
+}
+.app-pay-logo{
+	width:29%;
+	display: block;
+	margin:20% auto 10% auto;
+}
+.app-pay-text1{
+	font-size:18px;
+	margin-bottom:25px;
+}
+.app-pay-text2{
+	color:#999;
+	margin:5px auto;
+	font-size:15px;
+}
+.app-pay-red{
+	color:#f76236;
+}
+.app-download-btn{
+	display: block;
+	background:#f76236;
+	width:70%;
+	height:40px;
+	line-height: 40px;
+	color:#fff;
+	text-align: center;
+	margin:30px auto;
+	text-decoration: none;
+	border-radius: 20px;
+}

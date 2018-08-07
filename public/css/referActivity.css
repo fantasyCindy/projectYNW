@@ -1,0 +1,507 @@
+#login_register {
+    width: 100%;
+    height: 100%;
+    filter: progid: DXImageTransform.Microsoft.Gradient(startColorstr=#99000000, endColorstr=#99000000);
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: 1s all;
+    z-index: 99;
+}
+
+.hid {
+    display: none;
+}
+
+#vip-act .login {
+    cursor: pointer;
+    position: relative;
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+}
+
+#vip-act .userphoto {
+    top: 1px;
+}
+
+#login_register .l-r-content {
+    width: 414px;
+    height: auto;
+    margin: 62px auto;
+    z-index: 11009;
+    padding-bottom: 10px;
+    background: #fff;
+    position: relative;
+    top: 58px;
+}
+
+#login_register .l-r-topti {
+    padding: 0 0 16px;
+}
+
+#login_register .l-r-topti .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#login_register .l-r-fa {
+    width: 198px;
+    height: 46px;
+    position: relative;
+    top: 16px;
+    display: inline-block;
+    background: url(../images/vipact/logo.png);
+}
+
+#login_register .l-r-title {
+    padding: 10px 30px;
+    font-size: 14px;
+    background: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#login_register .l-r-title.on {
+    background: #cb2a2d;
+    color: #fff;
+}
+
+#login_register .l-r-input {
+    width: 286px;
+    height: 36px;
+    font-size: 14px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background: #F2F2F2;
+}
+
+.login-info {
+    height: 66px;
+    padding-top: 15px;
+}
+
+#login_register .l-r-submit {
+    width: 96%;
+    height: 38px;
+    line-height: 38px;
+    display: inline-block;
+    background: #cb2a2d;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    position: relative;
+}
+
+#login_register .l-r-buy {
+    width: 47%;
+    display: inline-block;
+    background: #ffae00;
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+
+#login_register input {
+    border: 1px solid #DEDEDE;
+}
+
+i {
+    font-style: normal;
+}
+
+.mgl20 {
+    margin-left: 30px;
+}
+
+
+/*登录*/
+
+.login .login-box {
+    margin-bottom: 15px;
+}
+
+
+/*注册*/
+
+.register .register-blue {
+    color: blue;
+}
+
+.register .register-blue:hover {
+    text-decoration: underline;
+}
+
+.register .register-inpt {
+    position: relative;
+}
+
+.register .register-fa {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 6px;
+    background: #20a0ff;
+}
+
+.register .image-code {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.register .r-see {
+    padding: 13px 20px;
+    top: 10px;
+    right: -10px;
+    background: url(../images/vipact/see.png?2) no-repeat;
+}
+
+.register .r-see1 {
+    padding: 13px 20px;
+    top: 10px;
+    right: -10px;
+    background: url(../images/vipact/no-see.png?2) no-repeat;
+}
+
+.m10 {
+    margin-top: 30px;
+    color: #666;
+}
+
+.form-label {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.register {
+    width: 300px;
+    margin: 35px auto;
+}
+
+.register-top {
+    width: 100%;
+    height: 34px;
+    overflow: hidden;
+    background: #f3f3f3;
+}
+
+.register-top-text {
+    color: #777;
+    font-size: 14px;
+    padding-left: 15px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+.register-agree,
+.register-agree a {
+    font-size: 13px;
+    color: #666;
+}
+
+.go-login {
+    float: right;
+    cursor: pointer;
+    color: #999;
+}
+
+.register-top-close {
+    float: right;
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    top: 8px;
+    right: 8px;
+}
+
+.register-top-close i {
+    font-size: 18px;
+    color: #777;
+}
+
+#login {
+    top: 120px!important;
+}
+
+#yn-top,
+#yn-header,
+.site-sidebar-wrap {
+    display: none;
+}
+
+
+/*底部*/
+
+.referActivity-foot {
+    width: 100%;
+    height: 150px;
+    background: #000;
+}
+
+.referActivity-foot-center {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.referAct-logo {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.referAct-text {
+    width: 50%;
+    float: left;
+    color: #fff;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.referAct-text p {
+    margin: 3px 0;
+}
+
+
+/**/
+
+body {
+    background: #f8f4e8;
+}
+
+.referAct-banner {
+    width: 100%;
+    height: 682px;
+    min-width: 1200px;
+    background: url(/public/images/referAct/banner.jpg?1) no-repeat center;
+}
+
+.referAct-second,
+.referAct-third,
+.referAct-forth,
+.referAct-banner2,
+.referAct-jia {
+    width: 1200px;
+    margin: 80px auto;
+    position: relative;
+}
+
+.go {
+    width: 420px;
+    margin: 20px auto;
+}
+
+.refer-banner2-btn {
+    position: absolute;
+    right: 45px;
+    top: 36px;
+}
+
+.refer-third-btn {
+    position: absolute;
+    bottom: 38px;
+    right: 435px;
+}
+
+.refer-second-btn {
+    position: absolute;
+    bottom: 135px;
+    right: 375px;
+}
+
+.go-buy {
+    cursor: pointer;
+}
+
+.referAct-today {
+    display: block;
+    position: absolute;
+    bottom: 120px;
+    right: 433px;
+    font-size: 25px;
+}
+
+.referAct-today .referAct-places {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: linear-gradient(to bottom, #565656, #2f2f2f, #565656);
+    box-shadow: 2px 2px 3px #565656;
+    border-radius: 2px;
+    position: relative;
+    top: -2px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.unslider {
+    width: 1200px;
+    display: block;
+    margin: 0 auto!important;
+    position: relative;
+}
+
+.referAct-zhanji {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background: url('/public/images/referAct/zhanji.png') no-repeat;
+    position: relative;
+}
+
+.referAct-slider {
+    width: 1016px;
+    height: 442px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    left: 3px;
+    top: 165px;
+}
+
+.referActivity .unslider-arrow.next {
+    width: 59px;
+    height: 48px;
+    background: url('/public/images/referAct/arrow-right.png') no-repeat;
+    text-indent: 10em;
+    overflow: hidden;
+    position: absolute;
+    bottom: 296px;
+    right: 0;
+}
+
+.unslider-arrow.prev {
+    width: 59px;
+    height: 48px;
+    background: url('/public/images/referAct/arrow-left.png') no-repeat;
+    text-indent: 10em;
+    overflow: hidden;
+    position: absolute;
+    bottom: 296px;
+    left: 0;
+}
+
+.unslider-nav {
+    display: none;
+}
+
+.referAct-jia {
+    width: 1200px;
+    height: 809px;
+    background: url('/public/images/referAct/jiawenmeng.png?3') no-repeat;
+}
+
+.video-pop {
+    display: inline-block;
+    width: 330px;
+    height: 200px;
+    background: #000 url('/public/images/referAct/start.png?1') no-repeat;
+    background-position: 143px 74px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+#video-container {
+    width: 330px;
+    height: 200px;
+}
+
+.rounded label:after {
+    content: "";
+    width: 11px;
+    height: 7px;
+    position: absolute;
+    top: 3px!important;
+    left: 2px!important;
+    border: 3px solid #fcfff4;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: all .3s;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.hide {
+    display: none;
+}
+
+#pay-employeecode {
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 245, 245, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#pay-employeecode .pay-container {
+    display: block;
+    width: 400px;
+    background: #fff;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    margin-left:-200px;
+    box-shadow: 7px 4px 20px 0 hsla(0,0%,65%,.38);
+}
+
+#pay-employeecode .pay-employee-title {
+    padding: 15px;
+    font-size: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#pay-employeecode .pay-employee-input input {
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 30px auto;
+    border: none;
+    background: #E9E9E9;
+    text-align: center;
+}
+
+#pay-employeecode .pay-employee-bar {
+    border-top: 1px solid #ececec;
+}
+
+#pay-employeecode .pay-btn {
+    display: inline-block;
+    width: 48%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-left: 1px solid #ececec;
+    cursor: pointer;
+}
+
+#pay-employeecode .pay-btn:first-child {
+    border-left: none;
+}

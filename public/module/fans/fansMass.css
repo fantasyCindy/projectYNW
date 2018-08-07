@@ -1,0 +1,42 @@
+#massBox{
+	position: fixed;
+    border: 1px solid #c8c8c8;
+    background: #fff;
+    width: 601px;
+    height:391px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.3);
+    border-radius: 6px;
+}
+#massBox>.close{
+	font-size:28px;
+	position:absolute;
+	right:5px;
+	top:5px;
+	cursor:pointer;
+}
+#massBox .title{
+	padding:5px 15px;
+	font-size:18px;
+	color:#333333;
+}
+#massBox input{
+	border:1px solid #e1e1e1;
+	font-size:14px;
+	line-height:30px;
+	height:30px;
+	width:229px;
+	padding-left:10px;
+}
+#massBox .submit{
+	display:inline-block;
+	width:136px;
+	cursor:pointer;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	background:#d9d9d9;
+}
+#massBox .submit:hover{
+	background:#c81e26;
+	color:#fff;
+}

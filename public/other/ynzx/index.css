@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+    font-family: "微软雅黑"
+}
+
+.header {
+    padding: 30px 0;
+    background: #fff;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 250px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -22px;
+    font-size: 17px;
+}
+
+.menu li {
+    list-style: none;
+    margin: 0 30px;
+    float: left;
+    height: 120px;
+    line-height: 120px;
+    padding: 0 15px;
+}
+
+.menu li.select {
+    color: #d72612;
+    border-bottom: 2px solid #d72612;
+}
+
+.menu li .login,
+.menu li .register {
+    margin: 0 10px;
+}

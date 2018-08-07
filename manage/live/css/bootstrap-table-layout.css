@@ -1,0 +1,39 @@
+.statePanel {
+	padding: 10px 0;
+	border: 1px solid #eeeeee !important;
+	border-color: #d9d9d9 !important;
+	background-color: rgb(244, 244, 244);
+	margin-bottom: 15px;
+}
+
+.statePanel .container {
+	font-size: 30px;
+}
+
+.statePanel .container table {
+	width: 100%;
+	text-align: center;
+}
+
+.statePanel .container table tr td {
+	width: 200px;
+}
+
+.statePanel .container table tr.secondTr {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.btn {
+	margin-right: 15px;
+}
+
+.form-group {
+	padding: 0px;
+	padding-top: 15px;
+}
+
+.settingsBtn {
+	margin: 0px;
+	padding: 4px 6px;
+}

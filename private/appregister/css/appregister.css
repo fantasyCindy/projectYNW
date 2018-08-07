@@ -1,0 +1,20 @@
+*{margin:0;padding:0;}
+.hid{display:none;}
+.red{color:#FF2F00;}
+#appregister{padding:5px 15px;position:relative;}
+#appregister .logo{background:url(/private/appregister/images/applogo.png) no-repeat center;background-size:60%;width:257px;height:103px;margin:0 auto;}
+#appregister .register_tag{margin-top:15px;text-align:center;-moz-user-select:none;-webkit-user-select:none;}
+#appregister .line{display:inline-block;position:absolute;width:30px;height:123px;background:url(/private/appregister/images/line.png) no-repeat center;background-size:60%;}
+#appregister .line-left{left:12%;margin-top:-13%;}
+#appregister .line-right{right:12%;margin-top:-13%;}
+#appregister .register_tag span{border-radius:10px;font-size:35px;display:block;height:70px;line-height:70px;background:#f57858;color:#fff;}
+#appregister .register_content{margin-top:25px;padding:20px;border-radius:10px;background:url(/private/appregister/images/contentbg.png),linear-gradient(to bottom,#e24b45,#f4644f,#f47252);background-size:100%;}
+#appregister .register_content .wrap{margin:20px 0;height:55px;}
+#appregister .register_content .wrap:last-child{margin-bottom:0;}
+#appregister .wrap .entry{border-radius:19px 19px;background:#fff;border:1px solid #e93423;position:relative;overflow:hidden;}
+#appregister .wrap .entry input{width:100%;padding:10px;border:1px solid rgba(255,255,255,0);font-size:14px;background:rgb(255,255,255,0);}
+#appregister input:focus{outline:none;}
+#appregister .btn-login{border-radius:20px;width:90%;display:block;font-weight:bold;height:40px;margin:0 auto 20px;border:none;color:#fff;background-color:#f36845;font-size:16px;}
+#appregister .Verification_code{width:30% !important;display:inline-block;}
+#appregister .sendbefore{display:inline-block;font-size:14px;border-radius:0 17px 17px 0;line-height:38px;background:#F0F0F0;border:1px solid rgba(255,255,255,0);color:#fff;float:right;height:100%;width:40%;text-align:center;background:#e65449;}
+#appregister .finsh{margin-top:15px;}

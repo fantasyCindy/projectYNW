@@ -1,0 +1,278 @@
+#stockIncome {
+    margin: 10px auto;
+    width: 1200px;
+}
+
+#stockIncome .frame {
+    margin-top: 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(235,235,235);;
+    background: white;
+}
+
+#stockIncome .person {
+    padding: 20px 20px 20px 30px;
+    position: relative;
+    overflow: hidden
+}
+
+#stockIncome .user_left {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    margin-top:15px;
+}
+
+#stockIncome .user_left .avatar {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+#stockIncome .user_left .avatar img {
+    width: 100%
+}
+
+#stockIncome .user_left .info {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    float: left;
+    width: 78%;
+    overflow: hidden
+}
+
+#stockIncome .user_left .info .title {
+    font-size: 20px;
+    font-weight: 600
+}
+
+#stockIncome .user_left .info .name {
+    font-size: 15px;
+    margin: 5px 0
+}
+
+#stockIncome .user_left .info .content {
+    height: 95px;
+    overflow: hidden;
+    color: #646464;
+    line-height: 21px;
+    padding-bottom: 15px
+}
+
+#stockIncome .user_right {
+    width: 50%;
+    float: right
+}
+
+#stockIncome .user_right .chart {
+    width: 100%;
+    padding: 20px;
+    height: 220px
+}
+
+#totalRateChart {
+    height: 160px;
+    width:160px;
+    position: absolute;
+    left:35px;
+    top:20px;
+}
+
+#stockIncome .user_right .chartA {
+    position: relative;
+    display: block
+}
+
+#stockIncome .user_right .chartA .info {
+    text-align: center;
+    position: absolute;
+    width:100px;
+    left: 64px;
+    top: 80px;
+    z-index: 101;
+    text-align:center;
+}
+
+#stockIncome .user_right .chartA .info .percentage {
+    font-size: 25px;
+    color: red;
+}
+
+#stockIncome .user_right .chartA .info .label {
+    text-align: center;
+    color: gray;
+    font-size: 14px
+}
+
+#stockIncome .user_right .chartA #percentageChart {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 1999
+}
+
+#stockIncome .user_right .chartA .data {
+    width: 350px;
+    position: relative;
+    margin-left: 200px;
+    z-index: 2000
+}
+
+#stockIncome .user_right td{
+    padding:0px;
+    border:1px solid rgb(235,235,235) !important;
+}
+
+#stockIncome .user_right .data tr.title td {
+    background:rgb(245,245,245);
+    padding:4px;
+}
+#stockIncome .user_right .data tr.value td {
+    padding:15px;
+}
+
+#stockIncome .user_right .chartA .data table {
+    width: 100%
+}
+
+#stockIncome .user_right .chartA .data table td {
+    line-height: 20px;
+    text-align: center;
+    font-weight:normal;
+}
+
+
+#stockIncome .user_right .chartA .data table tr.value .number {
+    font-size: 20px;
+    color:#d72621;
+    padding:10px;
+}
+
+#stockIncome .user_right .chartA .data table td.action {
+    height: 60px
+}
+
+#stockIncome .user_right .chartA .data table td.action .ynbtn {
+    color: #fff;
+    font-size: 16px;
+    padding: 3px 20px 6px
+}
+
+#stockIncome .user_right .chartA td.feed {
+    text-align: center;
+    font-size: 15px;
+    padding:8px;
+}
+
+#stockIncome .user_right .chartA .data table td.feed #feedCount {
+    font-weight: 700;
+    color: #ec1928;
+    font-size: 21px;
+    position: relative;
+    top: 2px;
+    margin: 0 2px
+}
+
+
+
+#stockIncome .user_right .chartA .data table td.borderOne {
+    border: 1px solid #c8c8c8;
+    width: 33%;
+    padding:5px;
+}
+
+#stockIncome .charts {
+    overflow: hidden;
+}
+
+#stockIncome .charts .chart {
+    width: 49.3%;
+    height: 230px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+
+#sh300Chart{
+    height:225px;
+}
+
+#stockIncome .charts .chartOne {
+    float: left;
+    position: relative;
+    padding-top: 0
+}
+
+#stockIncome .charts .chartOne #timeRow {
+    height: 220px
+}
+
+#stockIncome .charts .chartTwo {
+    float: right;
+    display: block
+}
+
+#monthIncomChart{
+    margin:10px;
+}
+
+#hold td,
+#history td {
+    border: 1px solid rgb(230, 230, 230);
+}
+
+#hold,
+#history {
+    font-size: 15px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+#hold, .items tr.title td{
+    background:rgb(245,245,245);
+}
+#history, .items tr.title td{
+    background:rgb(245,245,245);
+}
+
+#hold , #history {
+    font-size: 15px;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+
+#hold > .title,
+#history > .title {
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 10px 30px;
+    color: #880611;
+}
+
+#hold table,
+#history table {
+    width: 95%;
+    margin: 20px auto;
+}
+
+#hold td,
+#history td {
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid rgb(235, 235, 235);
+    padding: 8px 0;
+}

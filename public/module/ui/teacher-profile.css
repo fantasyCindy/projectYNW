@@ -1,0 +1,120 @@
+
+#personIntro {
+    width: 450px;
+    position: absolute;
+    border: 1px solid rgb(220, 220, 220);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .3);
+    border-radius: 2px;
+    z-index:1000;
+}
+
+#personIntro .indicate {
+    font-size: 36px;
+    position: absolute;
+    color: white;
+    top: 25px
+}
+
+#personIntro .indicate.left {
+    left: -10px
+}
+
+#personIntro .indicate.right {
+    right: -10px
+}
+
+#personIntro .infoView {
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+#personIntro .teacher-profile-avatar {
+    width: 80px ;
+    height: 80px;
+    overflow: hidden
+}
+
+#personIntro .teacher-profile-avatar img {
+    width: 80px;
+}
+
+#personIntro .infoView .column2 {
+    margin-left: 10px
+}
+
+#personIntro .infoView .title {
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+#personIntro .infoView .title .postion {
+    font-size: 12px
+}
+#personIntro .infoView .title .number{
+    font-size:12px;
+    color:#d72621;
+}
+
+#personIntro .infoView .title .fa {
+    font-size: 12px;
+    color: #d72621
+}
+
+#personIntro .infoView .buttons .care {
+    background: black;
+    border-color: black
+}
+
+#personIntro .infoView .buttons .sign {
+    background: rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200)
+}
+
+#personIntro .infoView .style {
+    margin-top: 10px;
+    width: 300px
+}
+
+#personIntro .infoView .style .item {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px
+}
+
+#personIntro .infoView > * {
+    float: left
+}
+
+#personIntro .countView {
+    border-top: 1px solid rgb(200, 200, 200);
+    padding-top: 15px;
+    position: relative
+}
+
+#personIntro .countView table {
+    width: 280px
+}
+
+#personIntro .countView td {
+    text-align: center;
+    padding: 3px 0;
+    border-left: 1px solid rgb(220, 220, 220)
+}
+
+#personIntro .countView .value td {
+    font-size: 21px;
+    font-weight: bold;
+    color: #f97b02
+}
+
+#personIntro .countView td:first-child {
+    border: none
+}
+
+#personIntro .countView .live-link {
+    position: absolute;
+    top: 25px;
+    right: 5px
+}

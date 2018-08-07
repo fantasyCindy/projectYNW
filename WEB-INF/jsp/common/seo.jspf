@@ -1,0 +1,40 @@
+<%@ page import="com.yueniu.publics.util.ContextUtil"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
+
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+path = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
+String live_path = ContextUtil.getInitConfig("live_path");
+String ask_path = ContextUtil.getInitConfig("ask_path");
+String opinion_path = ContextUtil.getInitConfig("opinion_path");
+String tougu_path = ContextUtil.getInitConfig("tougu_path");
+String us_path = ContextUtil.getInitConfig("us_path");
+String news_path = ContextUtil.getInitConfig("news_path");
+String video_path = ContextUtil.getInitConfig("video_path");
+String neican_path = ContextUtil.getInitConfig("neican_path");
+String xuechaogu_path = ContextUtil.getInitConfig("xuechaogu_path");
+String yuanzhuo_path = ContextUtil.getInitConfig("yuanzhuo_path");
+String sso_path = ContextUtil.getInitConfig("sso_path");
+
+pageContext.setAttribute("path", path);
+pageContext.setAttribute("live_path", live_path);
+pageContext.setAttribute("ask_path", ask_path);
+pageContext.setAttribute("opinion_path", opinion_path);
+pageContext.setAttribute("tougu_path", tougu_path);
+pageContext.setAttribute("us_path", us_path);
+pageContext.setAttribute("news_path", news_path);
+pageContext.setAttribute("video_path", video_path);
+pageContext.setAttribute("neican_path", neican_path);
+pageContext.setAttribute("xuechaogu_path", xuechaogu_path);
+pageContext.setAttribute("yuanzhuo_path", yuanzhuo_path);
+pageContext.setAttribute("sso_path", sso_path);
+Map head = ContextUtil.getHeadConfig();
+pageContext.setAttribute("head", head);
+
+String jsessionid=session.getId();
+pageContext.setAttribute("jsessionid", jsessionid);
+
+%>

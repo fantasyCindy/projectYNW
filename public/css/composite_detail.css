@@ -1,0 +1,1216 @@
+#compositeDetail {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.composite-type {
+    background: red;
+    border: 1px solid rgb(245, 245, 245);
+}
+
+.frame {
+    border: 1px solid rgb(220, 220, 220);
+    margin-bottom: 15px;
+    background: white;
+}
+
+.menu {
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.menu-2-item {
+    font-size: 15px;
+    display: inline-block;
+    padding: 15px 25px;
+    border-top: 3px solid white;
+    cursor: pointer;
+}
+
+.menu-2-item.select {
+    border-top: 3px solid #d72621;
+}
+
+#profile {
+    overflow: hidden;
+    background: white;
+}
+
+#profile .style {
+    font-size: 13px;
+    color: rgb(178, 101, 1);
+    padding: 3px 5px;
+    margin-left: 10px;
+    background: #efef97;
+    border: 1px solid rgb(241, 230, 145);
+
+}
+
+#profile .avtar {
+    width: 180px;
+}
+
+#profile .avtar img {
+    width: 100%;
+}
+
+#profile .top {
+    padding: 20px 15px;
+    ;
+}
+
+#profile .frame-right {
+    margin-left: 15px;
+    width: 610px;
+}
+
+#profile .title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#profile .content {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#profile .bottom {
+    font-size: 12px;
+    padding: 20px;
+    color: gray;
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+#profile .bottom .inline {
+    margin-right: 10px;
+}
+
+.composite-data-item {
+    display: inline;
+    margin-right: 25px;
+}
+
+.composite-data-item .txt {
+    font-size: 15px;
+    color: rgb(100, 100, 100)
+}
+
+.composite-data-item .value {
+    font-size: 35px;
+    color: red;
+}
+
+.composite-data-item .suffix {
+    color: red;
+}
+
+.composite-icon {
+    background: url(/public/icons/composite.png) no-repeat;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 5px;
+}
+
+.income-icon {
+    background-position: 0 -216px;
+}
+
+.maxtime-icon {
+    background-position: 0 -240px;
+}
+
+.downline-icon {
+    background-position: 0 -263px;
+}
+
+.favorate-icon {
+    background-position: 0 -499px;
+    cursor: pointer;
+    position: relative;
+    top: 7px;
+}
+
+.favorate-icon:hover {
+    background-position: 0 -523px;
+}
+
+.save {
+    bottom: 20px;
+    right: 25px;
+}
+
+
+/*stockIncome */
+
+.stockIncome .content {
+    overflow: hidden;
+}
+
+.stockIncome .income-left {
+    float: left;
+    padding: 20px;
+    width: 380px;
+}
+
+.stockIncome .income-right {
+    float: right;
+    padding: 40px 30px 20px 10px;
+}
+
+.stockIncome .income-left .current {
+    font-size: 14px;
+}
+
+.stockIncome .income-left .current .value {
+    font-size: 35px;
+    font-weight: bold;
+    color: #d72621;
+}
+
+.stockIncome .income-left .other {
+    color: gray;
+    margin-top: 15px;
+}
+
+.stockIncome .income-left .other table {
+    width: 100%;
+}
+
+.stockIncome .income-left .other td {
+    text-align: center;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 10px 15px;
+}
+
+.stockIncome .income-left .other td .value {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.feed-item {
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+}
+
+.feed-item .icon {
+    text-align: center;
+    overflow: hidden;
+}
+
+.feed-item .icon img {
+    width: 60%;
+}
+
+.feed-item .wrap {
+    padding: 20px;
+}
+
+.feed-item .wrap .txt {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.refund-items .item {
+    float: left;
+    width: 50%;
+    line-height: 20px;
+    color: #666;
+    padding: 10px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.refund-items .icon {
+    float: left;
+    display: inline-block;
+    height: 82px;
+    width: 82px;
+    background: url(/public/icons/composite.png) no-repeat 0 -90px;
+}
+
+.refund-items .item-1 .icon {
+    background-position: -80px -90px;
+}
+
+.refund-items .item-2 .icon {
+    background-position: -160px -90px;
+}
+
+.refund-items .item-3 .icon {
+    background-position: -240px -90px;
+}
+
+.refund-items .item-4 .icon {
+    background-position: 0px -90px;
+}
+
+.refund-items .txt {
+    width: 280px;
+    display: inline-block;
+    float: left;
+    height: 82px;
+    padding: 15px 5px 15px 15px;
+}
+
+.feedBar {
+    padding: 20px;
+}
+
+.feedBar .price {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feedBar .price .value {
+    color: #d72621;
+}
+
+.feedBar .time {
+    margin: 15px 0;
+    background: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.feedBar .time .track {
+    margin-top: 10px;
+    background: white;
+    height: 6px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.feedBar .time .track .train {
+    height: 6px;
+    background: #d72621;
+    width: 0%;
+}
+
+.feedBar .icon-state {
+    right: -8px;
+    top: 5px;
+}
+
+.feedBar .submit {
+    text-align: center;
+}
+
+.feedBar .submit .ynbtn {
+    width: 200px;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+}
+.feedBar .submit .ynbtn.done{
+    background:#cdcdcd;
+    border-color:#cdcdcd;
+}
+.icon-state {
+    width: 69px;
+    height: 33px;
+    background: url(/public/icons/composite.png) no-repeat;
+}
+
+.icon-state-ready {
+    background-position: 100% -197px;
+}
+
+.icon-state-running {
+    background-position: 100% -230px
+}
+
+.icon-state-success {
+    background-position: 100% -263px
+}
+
+.icon-state-failed {
+    background-position: 100% -296px
+}
+
+.icon-state-checking {
+    background-position: 100% -656px
+}
+
+.history {
+    background: white;
+}
+
+.history .chart {
+    padding-bottom: 10px;
+}
+
+.history .chart .chart-item {
+    width: 100%;
+    margin: 10px;
+}
+
+.history .chart .chart-item .txt {
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+}
+
+.history .chart .chart-item .ynui-track-item {
+    width: 240px;
+}
+
+.history .items {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.history .avatar {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.history .info .layer {
+    color: gray;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.history .info {
+    padding: 10px;
+}
+
+.history .info .title {
+    font-size: 16px;
+}
+
+.history .info .fa {
+    font-size: 13px;
+    color: #d72621
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*wealth*/
+
+#teacherContent .intro {
+    position: relative;
+}
+
+#teacherContent .intro .icon-state {
+    right: -8px;
+    top: 8px;
+}
+
+#teacherContent .wrap {
+    height: 450px;
+    overflow: hidden;
+}
+
+#teacherContent .intro .content {
+    padding: 10px 20px;
+}
+
+#teacherContent .intro .content .item {
+    padding: 10px;
+    background: rgb(236, 236, 225);
+    border-radius: 2px;
+    margin: 10px 0;
+}
+
+#teacherContent .intro .content .item .txt {
+    width: 60px;
+    display: inline-block;
+}
+
+#teacherContent .intro .content .item .value {
+    font-weight: bold;
+    color: #0b7cb1;
+}
+
+#teacherContent .intro .info {
+    padding: 10px 20px;
+    padding-bottom: 0px;
+}
+
+#teacherContent .feedCount {
+    text-align: center;
+}
+
+#teacherContent .intro .info .name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#teacherContent .info .subject {
+    margin-bottom: 10px;
+    height: 18px;
+    overflow: hidden;
+    color: gray;
+    font-size: 12px;
+}
+
+#teacherContent .wealth table {
+    width: 100%
+}
+
+#teacherContent .wealth td {
+    border: 1px solid #b42121;
+    padding: 20px 20px 20px 30px;
+    background: #d72621;
+    color: white;
+}
+
+#teacherContent .wealth td .txt {
+    font-size: 16px;
+}
+
+#teacherContent .wealth td .value {
+    font-size: 28px;
+}
+
+#simulateBar {
+    /* min-height: 480px; */
+}
+
+#simulateBar .menu {
+    font-size: 17px;
+    background: rgb(245, 245, 245);
+}
+
+#simulateBar .menu-item {
+    padding: 15px;
+    display: inline-block;
+    border-top: 3px solid rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+#simulateBar .menu-item.select {
+    border-top-color: #d72621
+}
+
+#teacherContent .feedCount .content {
+    min-height: 208px;
+}
+
+#teacherContent .feedCount .content .item {
+    border-top: 1px solid rgb(220, 220, 220);
+    margin: 10px 20px;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+#teacherContent .feedCount .content .item:first-child {
+    border-top: none;
+}
+
+#teacherContent .feedCount .content .item .avatar {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(220, 220, 220);
+    float: left;
+}
+
+#teacherContent .feedCount .content .item .name {
+    float: left;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+#teacherContent .profit {
+    padding: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#teacherContent .profit .left {
+    width: 200px;
+    float: left;
+}
+
+#teacherContent .profit .right {
+    height: 240px;
+    width: 580px;
+    float: left;
+    margin-left: 20px;
+}
+
+#teacherContent .profit .left table {
+    width: 100%;
+}
+
+#teacherContent .profit .left td {
+    font-size: 14px;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 7px;
+    padding-left: 20px;
+}
+
+#teacherContent .profit .left td.value {
+    text-align: left;
+}
+
+#simulate_buy {
+    padding: 20px;
+    width: 500px;
+}
+
+#simulate_buy input {
+    padding: 8px;
+    background: rgb(245, 245, 245);
+    border-radius: 2px;
+    width: 150px;
+}
+
+#simulate_buy > .line {
+    border-bottom: 1px dashed rgb(200, 200, 200);
+    padding: 20px;
+    position: relative;
+}
+
+#simulate_buy .label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#simulate_buy #buy-stock-code {
+    width: 300px;
+}
+
+#buy-select {
+    position: absolute;
+    left: 105px;
+    top: 26px;
+    background: #195de7;
+    padding: 3px 8px;
+    color: white;
+    border-radius: 2px;
+}
+
+#buy-select .icon {
+    margin-left: 3px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#simulate_buy .buy-price-bar {
+    padding: 30px 20px;
+    position: relative;
+}
+
+#simulate_buy .buy-price-bar .wrap {
+    top: 20px;
+    left: 100px;
+    height: 60px;
+}
+
+#simulate_buy .price-calculate {
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    -webkit-user-select: none;
+}
+
+#simulate_buy .price-calculate .ynbtn {
+    padding: 7px 0;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+#simulate_buy .bg-red {
+    background: red;
+    border-color: red;
+}
+
+#simulate_buy .bg-green {
+    background: #09c909;
+    border-color: #09c909;
+}
+
+#simulate_buy .red {
+    color: red;
+}
+
+#simulate_buy .green {
+    color: #09c909;
+}
+
+#simulate_buy #buy-price {
+    position: relative;
+    top: -27px;
+    width: 180px;
+}
+
+#simulate_buy .buy-count {
+    padding: 30px 20px;
+}
+
+#simulate_buy #buy-maxCount {
+    left: 95px;
+    top: 70px;
+    font-size: 12px;
+    color: #0081ff;
+}
+
+#simulate_buy .limit-item {
+    padding: 8px 12px;
+    background: rgb(101, 101, 101);
+    border-color: rgb(101, 101, 101);
+    cursor: pointer;
+}
+
+#buy_avaliable {
+    font-size: 16px;
+}
+
+#simulate_buy .submits {
+    padding-top: 20px;
+}
+
+#simulate_buy .submits button {
+    margin: 0 10px;
+    padding: 6px 25px;
+}
+
+#realtimeContainer {
+    display: none;
+    top: 87px;
+    right: 20px;
+    overflow: hidden;
+    font-size: 15px;
+    background: rgb(245, 245, 245);
+    padding: 20px;
+}
+
+#realtimeContainer > * {
+    float: left;
+}
+
+#realtimeContainer .real-right {
+    width: 350px;
+}
+
+#realtimeContainer .real-right td {
+    border: 1px solid rgb(240, 240, 240);
+    text-align: center;
+    padding: 6px 10px;
+    background: white;
+}
+
+#realtimeContainer .real-right table {
+    width: 100%;
+}
+
+#realtimeContainer .real-left {
+    text-align: center;
+    width: 200px;
+    margin-top: 30px;
+}
+
+#realtimeContainer .real-left .line {
+    margin-bottom: 10px;
+}
+
+#realtimeContainer .real-left .stockName {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#realtimeContainer .real-left .line .txt {
+    width: 100px;
+    font-size: 13px;
+}
+
+#realtimeContainer .real-left .line .value {
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
+
+#realtimeContainer .stockPrice {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+
+/*持仓*/
+
+#simulate_hold {
+    padding: 0;
+}
+
+#simulate_hold table {
+    width: 100%;
+}
+
+#simulate_hold td {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-left: 1px solid rgb(200, 200, 200);
+    text-align: center;
+    padding: 10px;
+}
+
+#simulate_hold td:first-child {
+    border-left: none;
+}
+
+.table-header td {
+    background: rgb(235, 235, 235);
+}
+
+
+/*卖出*/
+
+#simulate_sell {
+    width: 550px;
+    padding: 20px 30px 30px 30px;
+}
+
+#simulate_sell .price-calculate {
+    overflow: hidden;
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+}
+
+#simulate_sell .price-calculate .item {
+    color: white;
+    display: inline-block;
+    padding: 8px;
+    float: left;
+    cursor: pointer;
+}
+
+#simulate_sell .price-calculate .item.minus {
+    border-right: 1px solid white;
+    background: #59a259;
+    margin: 0;
+}
+
+#simulate_sell .price-calculate .item.plus {
+    background: #e94444;
+}
+
+#simulate_sell .tip {
+    margin: 3px 0 0 80px;
+    font-size: 12px;
+    color: #008aff;
+}
+
+#simulate_sell .count-calculate {
+    overflow: hidden;
+    position: absolute;
+    margin-left: 10px;
+    border-radius: 2px;
+    -webkit-user-select: none;
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(245, 245, 245);
+}
+
+#simulate_sell .count-calculate .item {
+    display: inline-block;
+    padding: 8px 15px;
+    float: left;
+    cursor: pointer;
+    border-left: 1px solid rgb(220, 220, 220);
+    cursor: pointer;
+}
+
+#simulate_sell .count-calculate .item:first-child {
+    border-left: none;
+}
+
+#simulate_sell > .line {
+    border-bottom: 1px dashed rgb(200, 200, 200);
+    padding: 30px 0px;
+    position: relative;
+}
+
+#simulate_sell .line.submits {
+    border: none;
+    text-align: center;
+}
+
+#simulate_sell .line.submits button {
+    padding: 5px 50px;
+}
+
+#simulate_sell .label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#simulate_sell input {
+    padding: 8px;
+    background: rgb(245, 245, 245);
+    border-radius: 2px;
+    width: 180px;
+}
+
+#simulate_sell select {
+    padding: 5px;
+    background: rgb(245, 245, 245);
+    border-radius: 2px;
+    width: 180px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+
+/*撤单*/
+
+#simulate_rollback tr.header td {
+    background: rgb(236, 234, 224);
+}
+
+#simulate_rollback table {
+    width: 100%;
+}
+
+#simulate_rollback td {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    text-align: center;
+    padding: 8px;
+    border-left: 1px solid rgb(220, 220, 220);
+}
+
+#simulate_history table {
+    width: 100%;
+}
+
+#simulate_history td {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    border-left: 1px solid rgb(225, 225, 225);
+    padding: 10px 0;
+    text-align: center;
+}
+
+#simulate_history td:first-child {
+    border-left: none;
+}
+
+
+/*交流区*/
+
+#simulate_talk {
+    overflow: hidden;
+}
+
+#simulate_talk .left {
+    width: 880px;
+    float: left;
+}
+
+#simulate_talk .right {
+    float: right;
+    width: 310px;
+    padding-top: 20px;
+}
+
+.publish {
+    margin-bottom: 15px;
+}
+
+.publish .reply {
+    color: #f25b00;
+    padding: 5px;
+    overflow: hidden;
+    width: 280px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+.publish .reply .fa {
+    font-size: 18px;
+    margin-left: 3px;
+    cursor: pointer;
+    position: relative;
+    top: 1px
+}
+
+.publish .content {
+    padding: 20px 30px 15px 30px;
+}
+
+.publish textarea {
+    width: 100%;
+    background: rgb(229, 229, 229);
+    padding: 10px 10px 10px 10px;
+    line-height: 22px;
+}
+
+.publish .bottom {
+    padding: 0px 30px;
+}
+
+.publish .insertCode {
+    padding: 5px;
+    background: rgb(227, 227, 227);
+}
+
+.publish .submit {
+    float: right;
+}
+
+.publish .wordCount {
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+
+
+/*comments-filter-item*/
+
+.comments-filter {
+    padding-left: 30px
+}
+
+.comments-filter-item {
+    padding: 5px 30px;
+    margin: 20px 0;
+}
+
+.comments-filter-item {
+    background: white;
+    color: black;
+    border-color: gray;
+    margin-right: 5px;
+}
+
+.comments-filter-item.select {
+    background: gray;
+    color: white;
+}
+
+.comments {
+    padding-bottom: 15px;
+}
+
+.comments .item {
+    border-top: 1px dashed rgb(200, 200, 200);
+    padding: 15px 0px;
+    margin: 0 30px;
+}
+
+.comments .item.level1 {
+    margin: 0px 0px 20px 95px;
+    background: rgb(236, 239, 245);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.comments .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.comments .avatar img {
+    width: 100%;
+}
+
+.comments .info {
+    margin-left: 15px;
+    line-height: 25px;
+    width: 90%;
+}
+
+.comments .talker .fr {
+    line-height: 1em;
+    border-left: 1px solid rgb(100, 100, 100);
+    padding: 0 10px;
+}
+
+.comments .talker .setHide.type1 {
+    color: red;
+    border-color: red;
+}
+
+.comments .talker .actions {
+    margin-left: 0px;
+    font-size: 12px;
+    color: gray;
+}
+
+.comments .talker .action {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 3px 10px;
+    color: gray;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.comments .talker .actions .time {
+    margin: 0 15px;
+}
+
+.comments .talker .reply.subLevel {
+    display: none;
+}
+
+.comments .talker .time {
+    border-left: none;
+}
+
+.comments .talker .name {
+    font-size: 13px;
+}
+
+.comments .talker .words {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#simulateBar .action {
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+#simulate_talk .right .impress {
+    position: relative;
+}
+
+
+/*impress*/
+
+.impress .item {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+.impress .item .graph {
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+
+.impress .item button {
+    background: white;
+    color: black;
+    border: none;
+    font-size: 14px;
+}
+
+.impress .item .graph .wrap {
+    font-size: 13px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+#recordHistory {
+    padding: 20px;
+    font-size: 14px;
+}
+
+#recordHistory table {
+    width: 100%;
+}
+
+#recordHistory .item {
+    border: 1px solid rgb(220, 220, 220);
+    background: rgb(245, 245, 245);
+    margin-bottom: 15px;
+}
+
+#recordHistory .item td.title {
+    font-size: 15px;
+    padding: 10px 25px;
+    color: #1296cb;
+}
+
+#recordHistory .content td {
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: 10px 5px;
+}
+
+#recordHistory .content td.type {
+    text-align: center;
+}
+
+#recordHistory .content td.type .icon {
+    width: 90px;
+    height: 30px;
+    display: inline-block;
+    background: url(/public/icons/composite.png) no-repeat;
+}
+
+#recordHistory .content td.type .icon.type0 {
+    background-position: -81px -336px;
+}
+
+#recordHistory .content td.type .icon.type1 {
+    background-position: -81px -366px;
+}
+
+#recordHistory .content .addStock button {
+    border: 1px solid gray;
+    background: rgb(245, 245, 245);
+    color: gray;
+    padding: 3px 10px;
+}
+
+#recordHistory .content td.operate .type0 {
+    color: red;
+    margin-left: 5px;
+}
+
+#recordHistory .content td.operate .type1 {
+    color: #3aace3;
+    margin-left: 5px;
+}
+
+#recordCurrent table {
+    width: 100%;
+}
+
+#recordCurrent .header td {
+    background: rgb(245, 245, 245);
+}
+
+#recordCurrent td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    border-left: 1px solid rgb(242, 242, 242);
+}
+
+#recordCurrent td:first-child {
+    border-left: none;
+}
+
+#recordChart .impress {
+    overflow: hidden;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#recordChart .impress .item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.composite-style {
+    display: inline-block;
+    font-size: 13px;
+    color: rgb(178, 101, 1);
+    padding: 3px 5px;
+    margin-left: 10px;
+    background: #efef97;
+    border: 1px solid rgb(241, 230, 145);
+}

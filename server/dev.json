@@ -1,0 +1,26 @@
+{
+    "host": "101.201.41.116",
+    "port": 22,
+    "username": "root",
+    "password": "@LEUn9Q]*S",
+    "protocol": "sftp",
+    "agent": null,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "passive": false,
+    "interactiveAuth": false,
+    "remotePath": "/soft/tomcat7v1.0/webapps/ROOT/",
+    "uploadOnSave": true,
+    "syncMode": "update",
+    "watcher": {
+        "files": false,
+        "autoUpload": false,
+        "autoDelete": false
+    },
+    "ignore": [
+        "**/.vscode/**",
+        "**/.git/**",
+        "**/.DS_Store",
+        "**/node_modules/"
+    ]
+}

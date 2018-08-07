@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 22px;
+    font-family: "Microsoft YaHei";
+}
+.logo-bar,.footer{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.app {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 15px 25px;
+}
+
+.app .top {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EAE8E8;
+}
+
+.color333 {
+    color: #333;
+}
+
+.color666 {
+    color: #666;
+}
+
+.color999 {
+    color: #999;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.app .title {
+    font-size: 16px;
+}
+
+.app .t-icon {
+    display: inline-block;
+    width: 3px;
+    height: 15px;
+    background: red;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+}
+
+.app .msg {
+    margin-top: 5px;
+    position: relative;
+}
+.app .photo,
+.app .name,
+.app .time,
+.app .count {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+}
+
+.app .photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 8px;
+}
+
+.app .time {
+    font-size: 12px;
+}
+
+
+.app .photo img {
+    width: 100%;
+}
+
+.app .article {
+    line-height: 28px;
+    font-size:18px;
+}
+.app .article.normal{
+    font-size:18px;
+    line-height: 28px;
+}
+.app .article.small{
+    line-height: 23px;
+    font-size: 16px;
+}
+.app .article.large{
+    line-height: 50px;
+    font-size: 44px;
+}
+.app .reminder {
+    /*width: 100%;*/
+    border: 1px solid #EAA3A3;
+    background: #fbeeee;
+    text-align: left;
+    padding: 20px 35px;
+    margin: 15px auto;
+}
+
+.content {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAE8E8;
+}
+
+.content img {
+    width: 100% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.article {
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.article p {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*.title,
+.opinion-title {
+    display: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: balck;
+}
+
+.publish,
+.opinion-publish {
+    display: none;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: gray;
+}
+*/
+
+p {
+    text-align: justify;
+    margin: 12px 0;
+}
+
+.tip {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 8px 15px;
+    background: #fdf5f5;
+    border: 1px solid #fcc0c0;
+    line-height: 22px;
+    color: rgb(100, 100, 100);
+    margin-top: 25px;
+    border-radius: 3px;
+}
+
+.tip-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.warning {
+    margin-right: 5px;
+}
+
+.content img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.content p {
+    padding: 0;
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.app .top {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #EAE8E8;
+}
+
+.app .title {
+    font-size: 16px;
+}
+
+.app .t-icon {
+    display: inline-block;
+    width: 3px;
+    height: 15px;
+    background: red;
+    margin-right: 8px;
+    position: relative;
+    top: 1px;
+}
+
+.app .msg {
+    margin-top: 5px;
+}
+
+.app .photo,
+.app .name,
+.app .time,
+.app .count {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+}
+
+.app .photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 8px;
+}
+
+.app .time {
+    font-size: 12px;
+}
+
+.app .count {
+    position: absolute;
+    right:0;
+    top:9px;
+    background: url(/public/images/read_icon.png?04251) no-repeat;
+    background-size: 12px;
+    padding-left: 16px;
+    background-position: 0 10px;
+    font-size: 12px;
+}
+
+.app .photo img {
+    width: 100%;
+}

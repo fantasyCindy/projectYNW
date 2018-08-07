@@ -1,0 +1,91 @@
+/*====================直播大厅====================*/
+#emerging{
+    transform: translateZ(0);
+}
+#emerging .emerging-list {
+    background: #fff;
+    padding: 0 15px;
+}
+
+#emerging .emerging-list .emerging-item {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 15px 0;
+}
+
+#emerging .emerging-list .emerging-item:last-child {
+    border-bottom: none;
+}
+
+#emerging .emerging-item .avatar {
+    width: 84px;
+    height: 84px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#emerging .emerging-item .avatar .photo {
+    height: 100%;
+}
+
+#emerging .emerging-item .avatar .moods {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    min-width: 49px;
+    max-width: 55px;
+    text-align: center;
+    height: 16px;
+    font-size: 12px;
+    color: #fff;
+    background: rgba(0, 0, 0, .6);
+    line-height: 16px;
+    border-radius: 24.5px 0 0 24.5px;
+    padding: 0 5px;
+}
+
+#emerging .avatar .moods img {
+    width: 8px;
+    margin-right: 5px;
+}
+
+#emerging .emerging-item .content {
+    padding-top: 5px;
+    width: 65%;
+}
+
+#emerging .content .top {
+    line-height: 25px;
+}
+
+#emerging .content .title {
+    color: #222222;
+}
+
+#emerging .content .enter {
+    display: inline-block;
+    color: #e5484b;
+    border: 1px solid #e5484b;
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 3px;
+}
+
+#emerging .content .enter:hover {
+    color: #fff;
+    background: #ff8487;
+}
+
+#emerging .content .text {
+    font-size: 12px;
+    color: #666666;
+    margin-top: 10px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+}

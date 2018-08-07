@@ -1,0 +1,52 @@
+body {
+    background: #f9f6ec;
+    background: url(../images/app/app-refer-2.jpg) repeat;
+    padding: 15px 15px;
+    word-break: break-all;
+    line-height: 2.2em !important;
+    padding-top: 50px;
+    color: rgb(100, 100, 100);
+    text-shadow: 5px 5px 5px rgba(50, 50, 50, 0.1);
+    text-align: justify;
+    font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black !important;
+}
+
+.title-1 {
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.title-1 .name .line {
+    border-left: 3px solid;
+    display: inline-block;
+}
+
+.title-1 .time {
+    color: gray;
+    font-size: 13px;
+}
+
+.title-1 .value {
+    text-align: left;
+    font-size: 20px;
+    color: #8b650a;
+    font-weight: bold;
+    border-left: 3px solid;
+    padding-left: 10px;
+}
+
+img {
+    width: 95% !important;
+    display: block;
+    margin: auto;
+}

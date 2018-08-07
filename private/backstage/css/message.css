@@ -1,0 +1,154 @@
+#mymsg {
+    padding:20px;
+}
+#myInfo{
+    margin-top:18px;
+}
+#mymsg .menu {
+    width: 100%;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#mymsg .menu table {
+    width: 100%;
+}
+
+#mymsg .menu-item {
+    background: rgb(245,245,245);
+    text-align: center;
+    padding: 15px;
+    border: 1px solid rgb(235, 235, 235);
+    font-size:16px;
+}
+
+#mymsg .menu-item.select {
+    background: white;
+    border-bottom-color: white;
+    color: #d72621
+
+}
+
+#mymsg .items {
+    border-left: 1px solid rgb(245,245,245);
+    border-right: 1px solid rgb(245,245,245);
+}
+
+#mymsg .item:first-child {
+    border-top: none;
+}
+
+#mymsg .item {
+    border-bottom: 1px solid rgb(245,245,245);
+    padding: 10px;
+    cursor: pointer;
+}
+
+#mymsg .item:hover {
+    background: rgb(250,250,250);
+}
+
+#mymsg .item > * {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+#mymsg .item .state {
+    width: 25px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#mymsg .item .send {
+    width: 150px;
+}
+
+#mymsg .item .subject {
+    width: 550px;
+}
+
+#mymsg .item .time {
+    text-align: right;
+}
+
+/*reply*/
+.msg-reply {
+    position: absolute;
+    border: 1px solid rgb(245,245,245);
+    width: 700px;
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    box-shadow:2px 2px 35px rgba(0,0,0, 0.3);
+}
+
+.msg-reply .title {
+    padding: 15px;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(235,235,235);
+    background:rgb(250,250,250);
+}
+
+.msg-reply .title .fa{
+    margin-right:10px;
+}
+
+.msg-reply .close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.msg-reply .wrap {
+    margin: 20px;
+}
+
+.msg-reply .send .name {
+    width: 100px;
+    display: inline-block;
+}
+
+.msg-reply .send {
+    padding:0 20px;
+    color:gray;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.msg-reply .send-info {
+    padding: 8px 0px;
+    color: gray;
+    font-size: 12px;
+}
+
+.msg-reply .send-info .time {
+    float: right;
+}
+
+.msg-reply .send .content {
+    border-top: 1px solid rgb(230,230,230);
+    padding: 15px 0;
+    line-height:22px;
+    text-align:justify;
+}
+
+.msg-reply .indicate {
+    text-align: center;
+}
+
+.msg-reply textarea {
+    display:block;
+    width:620px;
+    padding: 20px;
+    margin: 15px auto;
+    background:rgb(245,245,245);
+}
+.msg-reply .wordCount{
+    margin-left:20px;
+}
+
+.msg-reply button {
+    display: block;
+    margin: auto;
+}

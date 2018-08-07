@@ -1,0 +1,88 @@
+#myCropper-overlay {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: gray;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    text-align: center;
+}
+
+#myCropper {
+    position: relative;
+    background: white;
+    border-radius: 4px;
+    margin: auto;
+    top: 100px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    overflow: hidden;
+}
+
+#myCropper > .title {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 13px 20px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.myCropper-content {
+    overflow: hidden;
+    background: white;
+    margin: 30px;
+    text-align: left
+}
+
+.myCropper-content-left {
+    border-right: 1px dashed #c7c7c7;
+    padding-right: 20px;
+}
+
+.myCropper-btn-choose {
+    font-size: 13px;
+    background: black;
+    border-color: black;
+    margin-bottom: 10px;
+    color:#fff;
+    padding:5px 10px;
+}
+
+.myCropper-origin {
+    width: 400px;
+    height: 300px;
+    background: rgb(220, 220, 220);
+    overflow: hidden;
+    float: left;
+}
+
+.myCropper-content-right {
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.myCropper-content-right .title {
+    font-size: 16px;
+}
+
+.myCropper-content-right .thumb {
+    background: rgb(220, 220, 220);
+    margin: 10px 0;
+}
+#myCropper-canvas {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.myCropper-btn-upload {
+    width: 160px !important;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#myCropper-overlay .close {
+    font-size: 26px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"
+         "http://tuckey.org/res/dtds/urlrewrite3.0.dtd">
+<!-- Configuration file for UrlRewriteFilter http://tuckey.org/urlrewrite/ -->
+<urlrewrite>
+	<rule>           
+            <from>^/([_a-zA-Z]+[_0-9a-zA-Z-/]*[_0-9a-zA-Z]+)/?$</from>         
+            <to type="forward">/$1.htm</to>
+         </rule>	
+	
+    
+	<rule>
+		<from>/article/index_([0-9]\d*)_([0-9]\d*).htm</from>
+		<to type="forward">/news/index.htm?t=$1&amp;p=$2&amp;pageSize=10</to>
+	</rule>
+	
+	<!-- 约牛头条url详情调整 -->
+	<rule>	
+		<from>/headlines/([0-9]\d*)/([0-9]\d*).htm</from>
+		<to type="forward">/headlines/headlinesDetail.htm?type=$1&amp;articleid=$2</to>
+	</rule>	
+	
+	<!-- 约牛学炒股首页名家战法url调整 -->
+	<rule>	
+		<from>/xcg.htm</from>
+		<to type="forward">/xuechaogu/index.htm?pageSize=10</to>
+	</rule>
+	<rule>	
+		<from>/mjzf.htm</from>
+		<to type="forward">/xuechaogu/index.htm?learningType=0&amp;pageSize=10</to>
+	</rule>
+	<!-- 约牛学炒股首页五分钟学炒股url调整 -->
+	<rule>	
+		<from>/wufz.htm</from>
+		<to type="forward">/xuechaogu/index.htm?learningType=1&amp;pageSize=10</to>
+	</rule>			
+	<!-- 约牛学炒股首页投资心理url调整 -->
+	<rule>	
+		<from>/tzxl.htm</from>
+		<to type="forward">/xuechaogu/index.htm?learningType=2&amp;pageSize=10</to>
+	</rule>	
+	
+	<!-- 约牛学炒股url详情调整 -->
+	<rule>	
+		<from>/learning/([0-9]\d*).htm</from>
+		<to type="forward">/learning/toLearStockInfo.htm?learning_stocksId=$1</to>
+	</rule>	
+	
+	<!-- 观点详情url调整 -->
+	<rule>	
+		<from>/opinion/([0-9]\d*).htm</from>
+		<to type="forward">/article/newDetail.htm?article_id=$1</to>
+	</rule>	
+	
+	<!-- 问股详情url调整 -->
+	<rule>	
+		<from>/consultation/([0-9]\d*).htm</from>
+		<to type="forward">/consultation/askStockDetail.htm?id=$1</to>
+	</rule>
+	
+	<rule>	
+		<from>/consultation/([0-9]\d*).htm</from>
+		<to type="forward">/consultation/askStockDetail.htm?id=$1</to>
+	</rule>	
+	
+	<!-- 直播详情url调整 -->
+	<rule>	
+		<from>/live/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailLive.htm?teacherid=$1</to>
+	</rule>	
+	<!-- 他的主页跳转 -->
+	<rule>	
+		<from>/liveDetail/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetail.htm?teacherid=$1</to>
+	</rule>
+	
+	
+	<!-- 观点分类列表 -->
+	<rule>	<!-- 观点大盘 -->
+		<from>/dapan.htm</from>
+		<to type="forward">/opinion/opinionCategory.htm?classify=0&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 观点题材 -->	
+		<from>/ticai.htm</from>
+		<to type="forward">/opinion/opinionCategory.htm?classify=1&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 观点鉴股 -->
+		<from>/jiangu.htm</from>
+		<to type="forward">/opinion/opinionCategory.htm?classify=2&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 观点股票学院 -->
+		<from>/gupiaoxueyuan.htm</from>
+		<to type="forward">/opinion/opinionCategory.htm?classify=3&amp;pageSize=10</to>
+	</rule>	
+	
+	<!-- 问股精彩回答列表 -->
+	<rule>	
+		<from>/best/([a-z]*).htm</from>
+		<to type="forward">/ask/index.htm?note_type=$1&amp;pageSize=10&amp;is_adopt=1</to>
+	</rule>	
+	<!-- 问股最新回答列表 -->
+	<rule>	
+		<from>/new/([a-z]*).htm</from>
+		<to type="forward">/ask/index.htm?note_type=$1&amp;pageSize=10</to>
+	</rule>	
+	
+	<!-- 老师个人中心跳转 -->
+	
+	<rule>	<!-- 老师内参跳转 -->
+		<from>/refer/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailRefer.htm?teacherid=$1</to>
+	</rule>	
+	
+	<rule>	<!-- 老师名家战法跳转 -->
+		<from>/tactics/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailTactics.htm?teacherid=$1&amp;pageSize=10</to>
+	</rule>
+	
+	<rule>	<!-- 老师个股问答跳转 -->
+		<from>/gegu/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailAnswer.htm?teacherid=$1&amp;type=2&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 老师板块问答跳转 -->
+		<from>/bankuai/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailAnswer.htm?teacherid=$1&amp;type=1&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 老师大盘问答跳转 -->
+		<from>/panmian/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailAnswer.htm?teacherid=$1&amp;type=0&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 老师知识问答跳转 -->
+		<from>/zhishi/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailAnswer.htm?teacherid=$1&amp;type=3&amp;pageSize=10</to>
+	</rule>
+		
+	
+	<rule>	<!-- 老师大盘观点跳转 -->
+		<from>/dapan/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailOpinion.htm?teacherid=$1&amp;classify=0&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 老师题材观点跳转 -->
+		<from>/ticai/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailOpinion.htm?teacherid=$1&amp;classify=1&amp;pageSize=10</to>
+	</rule>
+	<rule>	<!-- 老师鉴股观点跳转 -->
+		<from>/jiangu/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailOpinion.htm?teacherid=$1&amp;classify=2&amp;pageSize=10</to>
+	</rule>	
+	<rule>	<!-- 老师股票学院观点跳转 -->
+		<from>/gupiaoxueyuan/([0-9]\d*).htm</from>
+		<to type="forward">/live/liveDetailOpinion.htm?teacherid=$1&amp;classify=3&amp;pageSize=10</to>
+	</rule>	
+	
+	<!-- 观点详情页开始 -->
+	<rule>	<!-- 老师大盘观点跳转 -->
+		<from>/dapan/([0-9]\d*)/([0-9]\d*).htm</from>
+		<to type="forward">/article/newDetail.htm?article_id=$2</to>
+	</rule>	
+	<rule>	<!-- 老师题材观点跳转 -->
+		<from>/ticai/([0-9]\d*)/([0-9]\d*).htm</from>
+		<to type="forward">/article/newDetail.htm?article_id=$2</to>
+	</rule>
+	<rule>	<!-- 老师鉴股观点跳转 -->
+		<from>/jiangu/([0-9]\d*)/([0-9]\d*).htm</from>
+		<to type="forward">/article/newDetail.htm?article_id=$2</to>
+	</rule>	
+	<rule>	<!-- 老师股票学院观点跳转 -->
+		<from>/gupiaoxueyuan/([0-9]\d*)/([0-9]\d*).htm</from>
+		<to type="forward">/article/newDetail.htm?article_id=$2</to>
+	</rule>
+	<!-- 观点详情页结束 -->
+		
+	<rule><!-- 组合详情 -->
+		<from>/combination/([0-9]\d*).htm</from>
+		<to type="forward">/html/CompositeDetail.htm</to>
+	</rule>
+	<rule><!-- 内参详情-->
+		<from>/reference/([0-9]\d*).htm</from>
+		<to type="forward">/referp/list.htm?referenceid=$1</to>
+	</rule>	
+	<rule><!-- 视频详情-->
+		<from>/video/([0-9]\d*).htm</from>
+		<to type="forward">/video/detail.htm?videoId=$1</to>
+	</rule>	
+	
+	<!-- 约牛网头部链接url调整 -->		
+	<rule><!-- 组合 -->
+		<from>/combination.htm</from>
+		<to type="forward">html/returnCompositeJsp.htm</to>
+	</rule>		
+	<rule>
+		<from>/myCenters.htm</from>
+		<to type="forward">/myCenter/myCenter.htm</to>
+	</rule> 
+	
+</urlrewrite>

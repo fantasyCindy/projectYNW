@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+path = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
+pageContext.setAttribute("path", path);
+%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
+
+
+<script type="text/javascript">
+var path = "${path}";
+</script>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="/manage/manage/front/images/favicon.ico">
+<link rel="stylesheet" href="/manage/css/font-awesome.min.css" >
+<link rel="stylesheet" href="/manage/css/reset.css" >
+<link rel="stylesheet" href="https://cdn.bootcss.com/element-ui/1.4.3/theme-default/index.css">
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.js"></script>
+<script src="https://cdn.bootcss.com/lodash.js/4.17.4/lodash.min.js"></script>
+<script src="https://cdn.bootcss.com/vue/2.4.2/vue.min.js"></script>
+<script src="https://cdn.bootcss.com/element-ui/1.4.3/index.js"></script>
+<script src="https://cdn.bootcss.com/vue-router/2.7.0/vue-router.min.js"></script>
+<script src="https://cdn.bootcss.com/rxjs/5.4.3/Rx.min.js"></script>

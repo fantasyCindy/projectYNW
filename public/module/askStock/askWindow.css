@@ -1,0 +1,328 @@
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale3d(.3, .3, .3);
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#askTeacherWindow {
+    position: fixed;
+    border: 1px solid rgb(200, 200, 200);
+    background: white;
+    width: 900px;
+    font-size: 13px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+#askTeacherWindow .onlyInvite {
+    min-height: 150px;
+    text-align: center;
+}
+
+#askTeacherWindow .onlyInvite button {
+    margin: 20px auto;
+    display: inline-block;
+    width: 100px;
+}
+
+#askTeacherWindow>.close {
+    font-size: 28px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+
+#askTeacherWindow .left {
+    float: left;
+    width: 65%;
+    border-right: 1px solid rgb(200, 200, 200);
+    padding: 20px;
+}
+
+#askTeacherWindow .right {
+    float: right;
+    width: 35%;
+}
+
+#askTeacherWindow .left .title {
+    position: relative;
+    overflow: hidden;
+    border-left: 3px solid #d72621;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+#askTeacherWindow .left .title .name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#askTeacherWindow .left .title .times {
+    position: absolute;
+    right: 0px;
+}
+
+#askTeacherWindow .left .title .times .value {
+    color: #d72621;
+    font-weight: bold;
+    margin: 0 2px;
+}
+
+#askTeacherWindow .left .invite {
+    width: 100%;
+    border: 1px solid rgb(230, 230, 230);
+    overflow: hidden;
+}
+
+#askTeacherWindow .left .invite .list {
+    position: absolute;
+    background: white;
+    width: 550px;
+    left: 20px;
+    top: 100px;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(200, 200, 200);
+    z-index: 100;
+}
+
+#askTeacherWindow .left .invite .list .close {
+    float: right;
+    cursor: pointer;
+}
+
+#askTeacherWindow .left .invite .list .list-wrap {
+    margin-top: 10px;
+    overflow: auto;
+    height: 200px;
+    float: left;
+}
+
+#askTeacherWindow .left .invite .select {
+    font-size: 13px;
+    float: left;
+    padding: 9px 5px;
+    color: #62a5d9;
+}
+
+#askTeacherWindow .left .invite .select .item {
+    margin-right: 8px;
+}
+
+#askTeacherWindow .left .invite .select .fa {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#askTeacherWindow .left .invite input {
+    float: left;
+    padding: 10px;
+    border: none;
+    padding-left: 0;
+}
+
+#askTeacherWindow .left .values {
+    margin: 10px 0;
+}
+
+#askTeacherWindow .left textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+#askTeacherWindow .bottom {
+    /*overflow: hidden;*/
+    position: relative;
+}
+
+#askTeacherWindow .bottom .msg {
+    padding: 0 0 10px 0;
+}
+
+#askTeacherWindow .bottom .msg .msg-code {
+    margin: 0 5px;
+    color: #d72621;
+}
+
+#askTeacherWindow .bottom .msg .fa {
+    margin-right: 5px;
+}
+
+#askTeacherWindow .actions {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 300px;
+}
+
+#askTeacherWindow .action.search input {
+    padding: 5px;
+}
+
+#askTeacherWindow .action.search .icon {
+    color: gray;
+    position: relative;
+    left: -25px;
+}
+
+#askTeacherWindow .submit {
+    display: inline-block;
+    float: right;
+}
+
+#askTeacherWindow .submit .wordCount {
+    position: relative;
+    top: 6px;
+    right: 10px;
+}
+
+#askTeacherWindow .right {
+    padding: 25px;
+}
+
+#askTeacherWindow .right .content {
+    overflow: auto;
+}
+
+#askTeacherWindow .right .title {
+    color: #575757;
+    font-size: 15px;
+}
+
+#askTeacherWindow .right .items {
+    overflow: auto;
+    max-height: 278px;
+}
+
+#askTeacherWindow .teacher-item {
+    display: block;
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    cursor: pointer;
+    float: left;
+    width: 245px;
+}
+
+#askTeacherWindow .teacher-item:hover {
+    background: rgb(245, 245, 245);
+}
+
+#askTeacherWindow .teacher-item:first-child {
+    border-top: none;
+}
+
+#askTeacherWindow .teacher-item .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    float: left;
+    border-radius: 2px;
+}
+
+#askTeacherWindow .teacher-item .avatar img {
+    height: 100%;
+}
+
+#askTeacherWindow .teacher-item .info {
+    float: left;
+    margin-left: 10px;
+}
+
+#askTeacherWindow .teacher-item .info .value {
+    color: #ca2723;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+#askTeacherWindow .teacher-item .info .line1 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#askTeacherWindow .teacher-item .info .line2 {
+    font-size: 13px;
+    color: gray;
+}
+
+#askTeacherWindow input,
+#askTeacherWindow textarea {
+    outline: none;
+    resize: none;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.submit button {
+    color: white;
+    font-family: "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", tahoma, arial;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 2px;
+    background: rgb(215, 38, 33);
+    border-color: rgb(215, 38, 33);
+}
+
+
+/* 次数用完 */
+
+#askNoTimesWin {
+    width: 470px;
+    background: #fff;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .3);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    top: 220px;
+    left: 50%;
+    margin-left: -235px;
+    z-index: 1000;
+}
+
+#askNoTimesWin .goLiveRoom {
+    display: block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background: #F03333;
+    margin: 40px auto 0 auto;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#askNoTimesWin .ask-icon {
+    margin: 20px auto;
+}
+
+#askNoTimesWin .ask-tip {
+    margin: 10px auto;
+    color: #666;
+    font-size: 15px;
+}
+
+#askNoTimesWin .ask-close {
+    float: right;
+    position: relative;
+    right: 10px;
+    top: -9px;
+    cursor: pointer;
+}

@@ -1,0 +1,526 @@
+.clear:after {
+    content: "";
+    clear: both;
+    display: block;
+    *zoom: 1
+}
+
+#askStock {
+    width: 1200px;
+    margin: 0 auto
+}
+
+#askStock .wrap {
+    position: relative
+}
+
+#askStock .frame-left {
+    width: 100%
+}
+
+#askStock .frame-right {
+    width: 31.5%;
+    float: right;
+    top: 0;
+    right: 0
+}
+
+#ask-logo {
+    margin-bottom: 30px;
+    height: 250px;
+    min-width: 1200px;
+    background: url(/public/banner/askstock.jpg) no-repeat center;
+}
+
+#ask-logo .wrap {
+    position: relative;
+}
+
+#ask-logo .logo-text {
+    position: absolute;
+    top: 125px;
+    right: 65px;
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+}
+
+#ask-logo .logo-text .buttons {
+    position: relative;
+    top: 15px;
+    right: 40px;
+}
+
+#ask-logo .trigger {
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background: #feaa0c;
+    border: 2px solid #fff;
+}
+
+#ask-logo .trigger:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transition: background 0.3s;
+}
+
+#ask-logo .logo-text h1 {
+    margin: 46px 0 24px;
+    display: inline-block;
+    font-size: 66px
+}
+
+#ask-logo .logo-text p {
+    line-height: 30px;
+    font-size: 18px
+}
+
+#ask-logo .logo-text p strong {
+    font-size: 24px;
+    margin: 0 3px
+}
+
+#ask-logo .logo-text .info {
+    margin-top: 25px;
+    font-size: 24px;
+    display: inline-block;
+    width: 168px;
+    text-align: center;
+    line-height: 48px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer
+}
+
+#ask-logo .logo-text .calf {
+    position: absolute;
+    right: 0;
+    margin-top: -1%
+}
+
+#ask-logo .logo-wrap {
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#askStock .frame-left {
+    width: 864px
+}
+
+#askStock .frame-right {
+    width: 320px
+}
+
+#askStock .frame {
+    margin-bottom: 12px
+}
+
+#askStock .frame .title .fa-online {
+    position: relative;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat
+}
+
+#online-teacher {
+    background: white;
+    border: 1px solid rgb(220, 220, 220)
+}
+
+#online-teacher.frame .title {
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+#online-teacher.frame .title .fa-online {
+    top: 1px;
+    width: 14px;
+    height: 16px;
+    background-position: -583px -81px
+}
+
+#online-teacher.frame .title .tip {
+    color: gray;
+    font-size: 13px;
+    border-left: 1px solid rgb(200, 200, 200);
+    padding-left: 10px;
+    line-height: 1em;
+}
+
+#askStock .frame .title .text {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+#askStock .frame .action {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    -webkit-user-select: none;
+    cursor: pointer
+}
+
+#online-teacher .content {
+    overflow: hidden
+}
+
+#online-teacher .content .item {
+    padding: 20px;
+    position: relative;
+    float: left;
+    width: 50%
+}
+
+#online-teacher .content .item:nth-child(odd) {
+    border-right: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240)
+}
+
+#online-teacher .content .item:nth-child(even) {
+    border-bottom: 1px solid rgb(240, 240, 240)
+}
+
+#online-teacher .content .teacher-head {
+    width: 104px;
+    height: 104px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    margin-right: 16px
+}
+
+#online-teacher .teacher-head img {
+    height: 100%;
+    border: none;
+    transition: transform 0.3s;
+}
+
+#online-teacher .item:hover .teacher-head img {
+    transform: scale(1.3, 1.3);
+    transition: transform 0.3s;
+}
+
+#online-teacher .content .string {
+    height: 104px;
+    overflow: hidden;
+    width: 69%;
+    line-height: 25px
+}
+
+#online-teacher .string .name {
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#online-teacher .string .tec-tag {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height: 25px
+}
+
+#online-teacher .string .tec-tag .style {
+    font-size: 14px;
+    color: #333333
+}
+
+#online-teacher .tec-tag span:not(:first-child) {
+    margin: 0 10px
+}
+
+#online-teacher .string .context {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+#online-teacher .string .operative {
+    font-size: 14px;
+    color: rgb(215, 39, 33)
+}
+
+#online-teacher .operative span {
+    cursor: pointer;
+}
+
+#online-teacher .operative span:first-child {
+    margin-right: 10px;
+}
+
+#hotAsk.frame .title .fa-online {
+    top: 1px;
+    width: 14px;
+    height: 16px;
+    background-position: -626px -81px
+}
+
+#answerRanking.frame .title .fa-online {
+    top: 1px;
+    width: 14px;
+    height: 16px;
+    background-position: -626px -81px
+}
+
+#Answer .type-title {
+    background: white;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+#Answer .type-title .item {
+    cursor: pointer;
+    -webkit-user-select: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#Answer .type-title .item.select {
+    color: #d50000;
+}
+
+#Answer .title .indicate {
+    margin-top: -2px;
+    border-bottom: 2px solid rgb(215, 33, 39);
+    position: absolute;
+    left: 0;
+    text-align: center
+}
+
+#Answer .indicate .icon {
+    color: rgb(215, 33, 39);
+    position: relative;
+    top: 4px
+}
+
+#askStock .frame .title {
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+}
+
+#Answer .title {
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+#Answer .sub-title {
+    padding: 0 20px;
+    background: #fff;
+    border-top: none;
+}
+
+#Answer .sub-title .item {
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    padding: 14px 27px;
+}
+
+#Answer .sub-title .item.select {
+    color: rgb(215, 39, 33);
+    border-bottom: 2px solid rgb(215, 39, 33)
+}
+
+#Answer .content .item {
+    overflow: hidden;
+    display: block;
+    padding: 15px 20px;
+    margin: 13px 0;
+    background: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2)
+}
+
+#Answer .content .item .content-wrap img {
+    width: 25px;
+    height: 25px
+}
+
+#Answer .item .content-wrap {
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 760px;
+    word-break: break-all;
+    display: inline-table;
+    line-height: 28px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+#Answer .item .content-wrap:hover {
+    color: #d72621
+}
+
+#Answer .item .question .content-wrap {
+    color: #333;
+    font-size: 16px;
+}
+
+#Answer .answer .content-wrap {
+    color: #666;
+    font-size: 16px;
+    display: inline-block;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+#Answer .item .classify {
+    display: inline-block;
+    color: gray;
+    font-size: 12px
+}
+
+#Answer .item .classify i {
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat -103px -47px;
+    margin-right: 10px;
+    position: relative;
+    top: 3px
+}
+
+#Answer .item {
+    padding: 15px 0;
+    line-height: 25px
+}
+
+#Answer .question .faquestion {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat;
+    background-position: -841px -13px
+}
+
+#Answer .answer .faanswer {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat;
+    background-position: -885px -14px
+}
+
+#Answer .item .info {
+    margin-top: 10px;
+    padding-left: 25px
+}
+
+#Answer .info .user-photo {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #e1e1e1
+}
+
+#Answer .info .user-photo img {
+    border: none;
+    height: 100%
+}
+
+#Answer .info span {
+    line-height: 36px
+}
+
+#Answer .info span.user-name {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    margin: 0 10px 0 15px
+}
+
+#Answer .info span.time {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 15px;
+    white-space:nowrap;
+    position:relative;
+    top:3px;
+}
+
+#Answer .info span.info-btn {
+    font-size: 12px;
+    display: inline-block;
+    width: 75px;
+    color: #d6000b;
+    text-align: center;
+    line-height: 18px;
+    border: 1px solid #d6000b;
+    border-radius: 24px;
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+    top: 1px
+}
+
+#Answer .info span.info-btn:hover {
+    background: #d6000b;
+    color: white
+}
+
+#Answer .info .count {
+    font-size: 12px;
+    color: rgb(153, 153, 153)
+}
+
+#Answer .info span.count i {
+    font-style: normal;
+    display: inline-block;
+    margin: 0 10px
+}
+
+#Answer .info .count .look i {
+    width: 16px;
+    height: 9px;
+    background: url(/public/images/homeIcon.png) no-repeat -117px -51px
+}
+
+#Answer .info .count .read i {
+    width: 13px;
+    height: 14px;
+    background: url(/public/images/homeIcon.png) no-repeat -132px -48px;
+    position: relative;
+    top: 2px
+}
+
+#ynpagination {
+    margin: 30px auto
+}
+
+.judge-state {
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 0 5px;
+    line-height: 20px;
+    margin-left: 15px
+}
+
+.judge-state0 {
+    display: none
+}
+
+.judge-state.onNum {
+    background: red
+}
+
+.judge-state.downNum {
+    background: green
+}

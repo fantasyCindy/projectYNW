@@ -1,0 +1,411 @@
+body {
+    background: white;
+    font-size: 13px;
+}
+
+.title-1 {
+    font-size: 16px;
+    overflow: hidden;
+    background: rgb(245, 245, 245);
+}
+
+.title-1 span {
+    padding: 10px 30px;
+    background: rgb(245, 245, 245);
+    border-right: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid rgb(200, 200, 200);
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+.title-1 .item.select {
+    background: white;
+    border-bottom-color: white;
+}
+.flex{
+    display:flex
+}
+
+.column{
+    flex-direction:column;
+}
+
+.flex1{
+    flex:1
+}
+
+.flex.wrap{
+    flex-wrap:wrap;
+}
+.content-child {
+    padding: 20px 20px 200px;
+}
+
+#publish input {
+    padding: 5px;
+    border: 1px solid rgb(200, 200, 200)
+}
+
+#publish .line {
+    margin: 10px 0;
+}
+
+#publish .label {
+    font-size: 15px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+/*#publish select {
+    width: 150px;
+    padding: 5px;
+}*/
+
+#publish .submit {
+    text-align: center
+}
+
+#publish .submit button {
+    padding: 10px 30px;
+}
+
+#publish {
+    width: 1100px;
+}
+
+#publish .left {
+    width: 350px;
+    padding: 0 20px;
+}
+
+#publish .right {
+    width: 700px !important
+}
+
+#ueditContainer {
+    width: 100%
+}
+
+#thumb-wrap {
+    margin-top: 20px;
+    margin-bottom:40px;
+    width: 205px;
+    height: 130px;
+    background: rgb(245, 245, 245);
+}
+
+#list {
+    text-align: center;
+    width:100%;
+}
+
+#list .small {
+    width: 320px;
+}
+
+/*#list .action button {
+    margin: 0 10px;
+}*/
+
+#list .header {
+    padding: 10px 0;
+}
+
+#list .items .item {
+    padding: 10px 0;
+    line-height:30px;
+    border-top: 1px solid rgb(200, 200, 200)
+}
+#list .item .checkBox{
+    margin-right:5px;
+    margin-top:8px;
+}
+#list .item .title {
+    text-align: left;
+}
+#list .form-group span{
+    color:#fff;
+    border-radius:3px;
+    display:inline-block;
+    line-height:30px;
+    height:30px;
+    padding:0 10px;
+    margin-left:5px;
+    cursor:pointer;
+}
+#list .form-group input{
+    border:1px solid #e1e1e1;
+    border-radius:3px;
+    padding:0 5px;
+    line-height:30px;
+    width:15%;
+    font-size:14px;
+    color:#333333;
+    height:30px;
+    margin-right:15px;
+}
+#list .form-group .btn-inquire{
+    background:#4d90fe;
+}
+#list .form-group .btn-reset{
+    background:#db7c12;
+}
+#list .form-group .btn-severity{
+    background:#d72621;
+}
+#list .form-group .btn-natchSeverity{
+    background:#6B3ED8;
+}
+#list .form-group .fascicule{
+    margin-left:15px;
+}
+#branches{
+    border:1px solid #e1e1e1;
+    line-height:30px;
+    height:30px;
+    margin:0 5px;
+}
+/**/
+#publish .linea{
+    margin:10px 0;
+}
+.classify{
+    padding:10px 12px;
+    background:#171717;
+    color:#fff;
+    margin:5px 0;
+    text-align: center;
+    cursor: pointer;
+}
+.classify.active{  
+    background:#d72612;
+}
+
+#list .pc{
+    padding:5px;
+    width:200px;
+    margin-left:52px;
+    margin-top:20px;
+}
+#publish .pc{
+    padding:5px;
+    width:200px;
+    margin-top:20px;
+    margin-left:0;
+}
+/*列表*/
+#list .linea{
+    width:400px;
+    position: relative;
+    top: -5px;
+    left: -15px;
+}
+
+#list .linea .label{
+    color:black;
+    position: relative;
+    top:-15px;
+}
+#list select.category1{
+    position: relative;
+    top:-15px;
+    left:-50px;
+}
+#list .edit{
+    background:#4D90FE;
+    border:1px solid #4D90FE;
+}
+#list .toTop{
+    background:#DB7C12;
+    border:1px solid #DB7C12;
+}
+#list .post{
+    background:#6B3ED8;
+    border:1px solid #6B3ED8;
+}
+#list .recommend{
+    width:70px;
+    background:#9D5A6B;
+    border:1px solid #9D5A6B;
+    margin-right:3px;
+}
+#list .toTop.style1,
+#list .toTop.style2,
+#list .toTop.style3,
+#list .toTop.style4{
+    display: none;
+}
+/*关键字提示*/
+#list .key-layer,#list .push{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.5);
+    position: fixed;
+    top:0;
+    left:0;
+}
+#list .key-layer .layer-container,#list .push .layer-container{
+    width:545px;
+    height:535px;
+    position: fixed;
+    top:13%;
+    left:40%;
+    background:#fff;
+}
+#list .key-layer .layer-title,#list .push .layer-title{
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    background:#F5F5F5;
+}
+#list .key-layer .layer-select{
+    width:85%;
+    height:35px;
+    margin-top:30px;
+}
+#list .key-layer .layer-btn,#list .push .push-btn{
+    width:100px;
+    height:35px;
+    line-height: 35px;
+    text-align: center;
+    margin:0 auto;
+    margin-top:60px;
+    background:#4D90FE;
+    border:1px solid #4D90FE;
+    color:#fff;
+    border-right: 4px;
+    cursor: pointer;
+}
+#list .push .push-msg{
+    width:100%;
+    margin-top:30px;
+}
+#list .push .push-title{
+    width:77%;
+    height:40px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    display: inline-block;
+    margin-left:10px;
+    font-size:15px;
+    padding-left:10px;
+}
+/**/
+.editTitle input {
+    width:81%;
+    height:40px;
+    margin:20px 10px;
+}
+.editContent textarea{
+    padding:10px;
+    font-size:15px;
+}
+.ynpagination ul{
+    margin-bottom: 50px;
+}
+
+/**/
+.editContent {
+    margin-top: 10px;
+}
+.editTitle input {
+    width: 81%;
+    height: 40px;
+    margin: 10px 10px 0 10px;
+}
+
+.editTag .selectTag{
+    display: inline-block;
+    width:81%;
+    font-size:13px;
+    border:1px solid rgb(235,235,235);
+    margin: 10px 10px 0 10px;
+    text-align: left;
+    padding-left:5px;
+}
+.editTag .selectTag .exist{
+    display: inline-block;
+}
+.editTag .selectTag .exist .removeTag{
+    margin-left:5px;
+    cursor: pointer;
+}
+.editTag .selectTag .exist .exist-name{
+    display: inline-block;
+    padding:0 8px;
+    height:30px;
+    line-height:30px;
+    background:#62a5d9;
+    color:#fff;
+    border-radius: 2px;
+    margin-right:3px;
+}
+.editTag .selectTag .tagName{
+    color:#fff;
+    background:#62a5d9;
+    padding:3px 5px;
+}
+.editTag input {
+    /*width: 81%;*/
+    height: 40px;
+    border:none;
+}
+/*发布*/
+#publish .pub-selectTag input {
+    height: 40px;
+    margin: 10px 10px 0 10px;
+    border:none;
+    margin:0;
+}
+
+.pub-selectTag{
+    display: inline-block;
+    width:100%;
+    font-size:13px;
+    border:1px solid rgb(235,235,235);
+    margin: 10px 10px 0 10px;
+    text-align: left;
+    padding-left:5px;
+}
+.pub-exist{
+    display: inline-block;
+}
+.pub-removeTag{
+    margin-left:5px;
+    cursor: pointer;
+}
+.pub-exist-name{
+    display: inline-block;
+    padding:0 8px;
+    height:30px;
+    line-height:30px;
+    background:#62a5d9;
+    color:#fff;
+    border-radius: 2px;
+    margin-right:3px;
+}
+.pub-tagName{
+    color:#fff;
+    background:#62a5d9;
+    padding:3px 5px;
+}
+
+/*分平台推送*/
+
+.push-platform {
+    width: 84%;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+}
+.push-label{
+    margin-left:20px;
+    margin-right:7px;
+}
+.push-source{
+    width:16px;
+    height:16px;
+    position:relative;
+    top:4px;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.ynpagination{-webkit-user-select:none;margin-top:20px;text-align:center}
+.ynpagination li{font-size:12px;color:red;list-style-type:none;display:inline-block;border:1px solid rgb(200,200,200);height:30px;text-align:center;cursor:pointer;line-height:30px;padding:0 12px;margin-right:5px}
+.ynpagination li a{cursor:pointer}
+.ynpagination li:hover{background:rgb(245,245,245)}
+.ynpagination li.active{background:#d1183e;border-color:#d1183e}
+.ynpagination li.active a{color:white}
+.ynpagination li:first-child{border-left:1px solid rgb(200,200,200)}

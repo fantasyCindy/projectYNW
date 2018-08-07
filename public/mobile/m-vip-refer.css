@@ -1,0 +1,1240 @@
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    overflow: visible
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.m-icon {
+    width: 20px;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.app-contentBar {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.app-menu-top {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.app-menu-top a {
+    padding: 0 7px;
+}
+
+.icon-history {
+    font-size: 18px;
+    color: #000000;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+.menu-tab {
+    position: relative;
+    line-height: 44px;
+}
+
+.menu-tab a.router-link-active .name {
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+
+.menu-tab .menu-left-trigger {
+    color: #fff
+}
+
+.menu-tab .icon-history {
+    color: #fff
+}
+
+.menu-tab .name {
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.menu-tab .router-link-active .name {
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+
+.menu-tab.red {
+    background: #d72621;
+}
+
+.menu-tab.gray {
+    background: #9a9a9a;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.menu-top-3 {
+    line-height: 44px;
+    background: #d12b39;
+    color: white;
+}
+
+.menu-bottom-1 {
+    border-top: 1px solid #dbdbdb;
+    background: rgb(240, 240, 240);
+    line-height: 44px;
+    text-align: center;
+    z-index: 10000;
+}
+
+.menu-bottom-1 .menu-item {
+    width: 49%;
+    display: inline-block;
+    color: #d72621;
+    font-size: 15px;
+}
+
+.menu-bottom-1 .menu-item:first-child {
+    border-right: 1px solid #e1e1e1;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.app-menu-left {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    overflow: hidden;
+    transition: all 0.3s;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.app-menu-left.in {
+    transition: all 0.3s;
+    left: 0%;
+}
+
+.menu-left-items {
+    width: 50%;
+    height: 100%;
+    padding-top: 40px;
+    background: #2d2d2d;
+}
+
+.menu-left-item {
+    color: white;
+    display: block;
+    width: inherit;
+    padding: 15px;
+    border-bottom: 1px solid #333333;
+    text-indent: 15px;
+}
+
+.menu-left-trigger {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    display: block;
+    text-align: left;
+    width: 55px;
+}
+
+.menu-left-trigger .fa {
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.app-menu-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 10000
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+
+.fade-enter,
+.fade-leave {
+    opacity: 0;
+}
+
+img {
+    width: 100%;
+    display: inline-block;
+    margin-top: -1px;
+}
+
+.red {
+    color: #e33e3d;
+    font-style: normal;
+}
+
+.orange {
+    color: #d77e02;
+}
+
+.none {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+    display: block;
+}
+
+.m20 {
+    margin: 0 10px;
+}
+
+.unslider {
+    position: relative;
+    top: -10px;
+}
+
+.unslider-arrow {
+    display: none;
+}
+
+.unslider-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.unslider-nav li {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: rgb(200, 200, 200);
+    text-indent: 5em;
+    overflow: hidden;
+    margin: 0px 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: -5px;
+}
+
+.unslider-nav li.unslider-active {
+    background: red;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#login .relative {
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+    border 1px solid #c8c5c5;
+    background: #ececec;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#login .relative .person {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background: url(/public/images/caoh5/phone_icon.png);
+    background-size: 20px;
+}
+
+#login .relative .person1 {
+    background: url(/public/images/caoh5/verification_icon.png);
+    background-size: 20px;
+}
+
+#login .relative .person2 {
+    left: auto;
+    right: 10px;
+    background: url(/public/images/caoh5/display_icon.png);
+    background-size: 20px;
+    cursor: pointer;
+}
+
+#login {
+    max-width: 640px;
+    font-size: 16px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+#login .block {
+    display: block;
+    margin: 14px auto;
+}
+
+#login .main {
+    text-align: center;
+    margin: 14px 0;
+    margin-top: 40px;
+}
+
+.logo {
+    margin: 50px auto 40px;
+    width: 100px;
+}
+
+#login .main .btn {
+    width: 100%;
+    padding: 12px 90px;
+    margin-top: 5px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    background: #fb836b;
+    border-radius: 100px;
+    box-shadow: 2px 2px 8px rgba(214, 51, 3, 0.5);
+    cursor: pointer;
+}
+
+#login .main .btn.buy {
+    margin-top: 15px;
+    background: #2b47d1;
+    box-shadow: 2px 2px 8px rgba(69, 94, 218, 0.69);
+}
+
+#login .main .info {
+    width: 80%;
+    font-size: 14px;
+    margin: 20px auto;
+}
+
+#login .main .info .info-span {
+    float: left;
+}
+
+#login .main .info .fl {
+    color: #a19c9c;
+}
+
+#login .main .info .fr {
+    color: #fb836b;
+    float: right;
+}
+
+#buy {
+    max-width: 640px;
+    margin: 0 auto 80px;
+    color: #666;
+    font-size: 13px;
+    line-height: 1.2em;
+    position: relative;
+}
+
+#buy iframe {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#buy .scroll {
+    width: 100%;
+    position: absolute;
+}
+
+#buy .block {
+    display: block;
+    margin: 14px auto;
+}
+
+#buy .nav {
+    text-align: center;
+}
+
+#buy .nav-list {
+    padding-bottom: 3px;
+    display: inline-block;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #ffffff;
+}
+
+#buy .nav-list.active {
+    color: #333;
+    border-bottom: 2px solid #e33124;
+    transition: border 0.3s;
+    color: #d72621;
+}
+
+#buy .icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    margin-right: 10px;
+    background: url(/public/images/caoh5/live_icon.png);
+    background-size: 24px;
+}
+
+#buy .icon2 {
+    background: url(/public/images/caoh5/function_icon.png);
+    background-size: 24px;
+}
+
+#buy .main {
+    text-align: center;
+}
+
+#buy .refer .m-list .m-l-title {
+    color: #2ba7fd;
+}
+
+#buy .m-list {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ececec;
+    font-size: 13px;
+    text-wrap: wrap;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+#buy .m-list .line {
+    width: 3px;
+    height: 15px;
+    background: #e33124;
+    position: relative;
+    top: 3px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#buy .m-list:last-child {
+    border-bottom: 0;
+}
+
+#buy .m-list .m-top {
+    font-size: 13px;
+}
+
+#buy .m-list .m-top .title {
+    display: block;
+    height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#buy .m-list .m-top .title .name {
+    word-wrap: break-word;
+}
+
+#buy .m-list .time {
+    color: #b6b6b6;
+    font-size: 12px;
+    padding-left: 13px;
+}
+
+#buy .m-list .m-l-title {
+    color: #e33124;
+}
+
+#buy .m-list .m-l-text {
+    color: #999;
+    padding-left: 12px;
+    word-wrap: break-word;
+}
+
+#buy .rate {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding: 15px 20px 20px 50px;
+    position: relative;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+#buy .rate .icon {
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+#buy .rate2 {
+    border-bottom: none;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.history-list {
+    color: #666;
+    font-size: 13px;
+}
+
+.history-list table {
+    width: 100%;
+    margin: 0;
+}
+
+.history-list td {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.history-list {
+    overflow: hidden;
+}
+
+.history-list .his-time {
+    text-align: center;
+    padding: 8px 0;
+    background: #f8f8f8;
+    width: 20%;
+    font-size: 12px;
+    height: 100%;
+}
+
+.history-list .t-icon {
+    background: url(/public/images/caoh5/clock.png) no-repeat;
+    display: block;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.history-list .his-text {
+    padding: 10px;
+    font-size: 13px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#buy .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 24px;
+    border-top: 1px solid #dfd8d8;
+}
+
+#buy .foot-btn {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    background: #fff;
+    float: left;
+    color: #e33124;
+    position: relative;
+}
+
+#buy .foot-btn .wrap {
+    padding: 20px;
+}
+
+#buy .old-price {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    font-size: 15px;
+}
+
+#buy .btn-buy {
+    color: #fff;
+    background: #e33124;
+    border-top: 1px solid #e33124;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#live {
+    max-width: 640px;
+    margin: 0 auto 96px;
+    color: #333;
+    background: #fff;
+    font-size: 18px;
+}
+
+#live .block {
+    display: block;
+    margin: 14px auto;
+}
+
+#live .main {
+    background: #f0f0f0;
+}
+
+#live .list {
+    padding: 15px 30px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+    background: #fff;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#live .list p {
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#live .list .img {
+    width: 40px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid #818181;
+}
+
+#live .list .list-teach {
+    margin: 15px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+#live .list .teacher {
+    color: #167dec;
+}
+
+#live .list .info {
+    overflow: hidden;
+}
+
+#live .list .info p {
+    line-height: 1.8em
+}
+
+#live .list .blue {
+    color: #161616;
+    display: block;
+    font-size: 13px;
+}
+
+#live .list .title {
+    float: left;
+    margin: 8px 0;
+    position: relative;
+    top: -6px;
+}
+
+#live .list .title .inline {
+    font-size: 12px;
+}
+
+.img-container {
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.img-container .imgw {
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    background: white;
+    margin-right: 5px;
+}
+
+.img-container img {
+    float: left;
+    height: 100%;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#live .chat {
+    padding: 10px;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+#live .chat-time {
+    color: #c3c3c3;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 30px;
+    font-size: 12px;
+    clear: both;
+}
+
+#live .chat-list {
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.chat-list .indicate {
+    position: absolute;
+    font-size: 25px;
+    top: 15px;
+}
+
+.my-chat .indicate {
+    right: -6px;
+    color: #efefef;
+}
+
+.other-chat .indicate {
+    left: 13px;
+    color: #efefef;
+}
+
+.my-chat .float {
+    float: right;
+    text-align: right;
+}
+
+.other-chat .float {
+    float: left;
+    text-align: left;
+}
+
+.other-chat .san {
+    left: -3px;
+    background: url(/public/images/caoh5/jianjiao.png) no-repeat;
+    top: 15px;
+}
+
+#live .chat .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#live .chat .chat-title {
+    display: block;
+    font-size: 12px;
+    color: #ea453f;
+    padding: 0 15px;
+    position: relative;
+    z-index: 100;
+}
+
+#live .chat .answer {
+    width: 80%;
+}
+
+#live .chat .chat-con {
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    text-align: right;
+    position: relative;
+    padding: 10px;
+    top: -10px;
+}
+
+.chat-content {
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+    right: -10px;
+    text-align: justify;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 1.5em;
+    background: #efefef;
+}
+
+.chat-content img {
+    display: inline-block;
+    width: 100px;
+    position: relative;
+    top: 5px;
+}
+
+.chat-content > img {
+    display: inline-block;
+    width: 19px;
+    position: relative;
+    top: 5px;
+}
+
+.chat-content .reply span {
+    font-size: 12px;
+    color: gray;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#live .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    border-top: 1px solid #dbd7d7;
+}
+
+#live .footer .foot-w {
+    width: 34%;
+    height: 96px;
+    line-height: 96px;
+    font-size: 24px;
+    color: #ea453f;
+    display: inline-block;
+    border-right: 1px solid #dbd7d7;
+}
+
+#live .footer .foot-w:last-child {
+    border-right: 0;
+}
+
+#live .footer .icon {
+    display: inline-block;
+    width: 30%;
+    height: 96px;
+    border-right: 1px solid #dbd7d7;
+    background: url(/public/images/caoh5/footr_shang.png) no-repeat center;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.vip-ask textarea {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background: rgb(235, 235, 235);
+    resize: none;
+}
+
+.vip-ask .center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.vip-ask input {
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+}
+
+.vip-ask .center {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.vip-ask .submit {
+    padding: 10px 40px;
+    border: 1px solid #d72621;
+    display: inline-block;
+    background: #d72621;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.opinion-detail {
+    margin: 0 auto;
+    color: #6a6a6a;
+    font-size: 13px;
+    line-height: 1.5em;
+    text-align: justify;
+    max-width: 640px;
+}
+
+.article-contents {
+    line-height: 1.7em;
+    padding: 30px;
+}
+
+.article-contents img {
+    width: 90% !important;
+    display: block;
+    margin: auto;
+}
+
+.opinion-detail .titleBar {
+    padding: 20px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.opinion-detail .titleBar .title-1 {
+    font-size: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.opinion-detail .titleBar .author {
+    position: relative;
+}
+
+.opinion-detail .titleBar .view-count {
+    position: absolute;
+    right: 0;
+    color: gray;
+}
+
+.opinion-detail .titleBar .author .wrap {
+    padding-left: 65px;
+    padding-top: 10px;
+    line-height: 1.7em;
+}
+
+.opinion-detail .avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.opinion-detail .avatar img {
+    height: 100%;
+}
+
+.opinion-detail .icon-see {
+    display: inline-block;
+    width: 32px;
+    height: 17px;
+    margin-top: 15px;
+    position: relative;
+    top: 3px;
+    background: url(/public/images/caoh5/read_icon.png) no-repeat center;
+    background-size: 25px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+.register {
+    width: 80%;
+    margin: auto;
+    font-size: 13px;
+    line-height: 1em;
+}
+
+.register .logo {
+    margin: 20px auto;
+    width: 80px;
+}
+
+.register .line {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.register .icon {
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    width: 16px;
+    height: 16px;
+}
+
+.register .icon img {
+    width: 100%
+}
+
+.register .valid {
+    position: absolute;
+    right: 0px;
+    top: 9px;
+    font-size: 12px;
+}
+
+.register .valid.msg {
+    top: 7px;
+    right: -3px;
+    background: #ff4800;
+    border-radius: 4px;
+    color: white;
+    padding: 7px 10px;
+}
+
+.register .valid.msg.void {
+    background: gray;
+}
+
+.register input[type="text"],
+.register input[type="password"] {
+    width: 100%;
+    padding: 5px 5px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background: #efefef;
+    text-indent: 35px;
+    margin: auto;
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.register .submit {
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 50px;
+    background: red;
+    text-align: center;
+    color: white;
+    background: #fb836b;
+    font-size: 15px;
+    box-shadow: 1px 1px 8px rgba(214, 51, 3, 0.4);
+    margin-top: 20px;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#module-zoom-image {
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+#module-zoom-image .zoom-box {
+    width: 100%;
+    margin-top: 45%;
+    position: relative;
+}
+
+.logout {
+    text-align: center;
+}
+
+.logout .name {
+    margin-top: 30px;
+}
+
+.logout .action {
+    background: red;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 3px;
+    overflow: hidden;
+    color: white;
+    margin-top: 15px;
+}
+
+.chat-content .reply .name {
+    color: #6176f1;
+}
+
+.protocol {
+    padding: 30px;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.protocol .title {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.protocol p {
+    margin: 10px 0;
+}
+
+.article-contents p {
+    margin: 10px 0;
+    font-size: 15px;
+    line-height: 1.8em;
+}
+
+.warning {
+    text-align: center;
+    font-size: 12px;
+    padding: 10px 0;
+    width: 100%;
+    background: white;
+}
+
+#login .logo {
+    margin-bottom: 30px;
+}
+
+#index .notice {
+    background: #393939;
+    padding: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.remainder {
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    background: #eeeeee;
+    color: red;
+}
+
+.remainder .value {
+    font-weight: bold;
+    color: #ee7401;
+    margin: 0 3px;
+}
+
+.home {
+    max-width: 800px;
+    margin: auto;
+    background: #fff4ca;
+}
+
+.home-nav {
+    overflow: hidden;
+}
+
+.home-nav .item {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.home-nav .wrap {
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+}
+
+.home-nav .icon {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.home-nav .icon img {
+    width: 100%;
+}
+
+.home-nav .name {
+    color: #ec0619;
+    font-size: 16px;
+}
+
+.home-imgw {
+    margin-top: 25px;
+    position: relative;
+}
+
+.home-imgw.first,
+.home-imgw.last {
+    margin-top: 5px;
+}
+
+.home-notice {
+    padding: 10px 30px;
+    color: #494949;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.renew-btn {
+    color: red;
+    padding: 1px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    border: 1px solid red;
+    margin-left: 5px;
+}
+
+.home-bottom {
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+    background: rgb(255, 70, 2);
+    background: rgba(255, 69, 0, 0.81);
+    width: 100%;
+    text-align: center;
+    max-width: 800px;
+}
+
+.home-bottom .btn {
+    padding: 10px 30px;
+    background: #ffb000;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.home-bottom .count {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+
+
+/* banned */
+.banned {
+    width:100%;
+    padding:60px 0;
+    background:#E6E6E6;
+}
+.banned p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 28px;
+}
+.banned .btn{
+    width:120px;
+    height:20px;
+    line-height: 20px;
+    font-size:15px;
+    display: block;
+    padding:7px 10px;
+    background:#0EC0E8;
+    margin:20px auto 0 auto;
+    text-align: center;
+    color:#fff;
+    border-radius: 4px;
+}

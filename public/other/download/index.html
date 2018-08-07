@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <title>约投顾App下载-最专业的免费炒股软件,股票投资软件,股票学习软件,手机炒股软件下载官网</title>
+    <meta name="keywords" content="约投顾，约投顾App下载，免费炒股软件，股票投资软件，股票学习软件，手机炒股软件" />
+    <meta name="description" content="约投顾App，最专业的免费炒股软件，股票投资软件，股票学习软件，手机炒股软件下载就选约投顾。具体内容：全执业投资顾问在线，构建了以直播解盘、牛人观点、免费问股为核心的多层次产品服务体系，让您与大咖零距离互动，炒股更轻松。主要服务：【直播】-大咖实时解盘，捕捉盘中热点；【观点】-群英看市，深度剖析，挖掘投资新机【问股】-个股免费诊断，趋势研判；【学炒股】-热点事件解读，名家精研战法。" />
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content=always name=referrer>
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="sharecontent" data-msg-img="http://www.yuetougu.com/public/other/download/images/logo.jpg" data-msg-title="约执业投顾  做专业股民（应用商店用过）" data-msg-content="全执业投资顾问在线，专注中小散户股票投资服务" data-msg-callBack="" data-line-img="http://www.yuetougu.com/public/other/download/images/logo.jpg" data-line-title="约执业投顾  做专业股民（应用商店用过）" data-line-callBack="" />
+    <link rel="stylesheet" href="./css/index.css?v=0000003" />
+    <script>
+    // var msg_title = "约执业投顾  做专业股民（应用商店用过）";
+    // var msg_desc = "全执业投资顾问在线，专注中小散户股票投资服务";
+    // var msg_cdn_url = "";
+
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?cdf5cc671e64a2ce9d27df535342c9ae";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</head>
+
+<body>
+    <div class="content content1">
+        <img src="./images/01.jpg?v=00000005" />
+    </div>
+    <div class="content content2">
+        <img src="./images/02.jpg?v=00000005" />
+    </div>
+    <div class="content content3">
+        <img src="./images/03.jpg?v=00000005" />
+    </div>
+    <div class="content content4">
+        <img src="./images/04.jpg?v=00000004" />
+    </div>
+    <div class="content content5">
+        <img src="./images/05.jpg?v=00000004" />
+    </div>
+    <div class="content content6">
+        <img src="./images/06.jpg?v=00000006" />
+    </div>
+    <div class="content content7">
+        <img src="./images/07.jpg?v=00000004" />
+    </div>
+    <div class="content content8">
+        <img src="./images/08.jpg?v=00000004" />
+    </div>
+    <div class="content content9">
+        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.yueniuwang.yueniu&ckey=CK1385552501528">立即下载</a>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+    <script>
+    $(function() {
+        var href = window.location.href
+        $.post("/web/getjssdkInfo.htm", {
+            url: href
+        }, function(data) {
+            var back = JSON.parse(data)
+            if (back.status == 1) {
+                wx.config({
+                    debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+                    appId: back.data.appId, // 必填，公众号的唯一标识
+                    timestamp: back.data.timeStamp, // 必填，生成签名的时间戳
+                    nonceStr: back.data.nonceStr, // 必填，生成签名的随机串
+                    signature: back.data.signature, // 必填，签名，见附录1
+                    jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage'] //**分享朋友圈** 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+                });
+                wx.ready(function() {
+                    //分享朋友圈
+                    wx.onMenuShareTimeline({
+                        title: '约执业投顾  做专业股民', // 分享标题
+                        link: 'http://www.yuetougu.com/public/other/download/index.html?v=0022&from=singlemessage', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                        desc: '全执业投资顾问在线，专注中小散户股票投资服务',
+                        imgUrl: 'http://www.yuetougu.com/public/images/app-activity/applogo.png', // 分享图标
+                        success: function() {
+                            // 用户确认分享后执行的回调函数
+                            // alert('分享成功')
+                        },
+                        cancel: function() {
+                            // 用户取消分享后执行的回调函数
+                            // alert('分享失败')
+                        }
+                    });
+                    //分享给朋友
+                    wx.onMenuShareAppMessage({
+                        title: '约执业投顾  做专业股民', // 分享标题
+                        link: 'http://www.yuetougu.com/public/other/download/index.html?v=0022&from=singlemessage', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                        desc: '全执业投资顾问在线，专注中小散户股票投资服务',
+                        imgUrl: 'http://www.yuetougu.com/public/images/app-activity/applogo.png', // 分享图标
+                        success: function() {
+                            // 用户确认分享后执行的回调函数
+                            // alert('分享成功')
+                        },
+                        cancel: function() {
+                            // 用户取消分享后执行的回调函数
+                            // alert('分享失败')
+                        }
+                    });
+                });
+            }
+        })
+    })
+    </script>
+</body>
+
+</html>

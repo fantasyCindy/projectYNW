@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-family: "微软雅黑";
+   
+}
+a{	
+    text-decoration: none;
+}
+.hide{
+	display: none;
+}
+#app-welfare {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.welfare-login-wrap {
+    width: 100%;
+    margin: 0 auto;    
+    background: url(/public/mobile/images/bj.png) no-repeat center;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding:52% 0 20% 0;
+}
+.welfare-msg {
+	width:80%;
+	margin:0 auto;
+    margin-bottom: 15px;
+}
+.welfare-msg input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+    border:none;
+}
+.welfare-login-btn {
+    width: 80%;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    background: #F6684E;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin:0 auto;
+}
+.go-register {
+    width: 60px;
+    color: #999;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    left: 13%;
+    cursor: pointer;
+}
+/*register*/
+.welfare-register-wrap{
+	width: 100%;
+    margin: 0 auto;    
+    background: url(/public/mobile/images/bj.png) no-repeat center;
+    filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding:31% 0 10% 0;
+}
+.welfare-msg.welfare-phoneCode input{
+	width:58%;
+	border-radius: 20px 0 0 20px;
+}
+.welfare-phoneCode-btn{
+	width:42%;
+	display: inline-block;
+	font-size:12px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	background:#E85545;
+	border-radius:0 20px 20px 0;
+	position:relative;
+	top:-1px;
+
+}
+.welfare-agree{
+	width:80%;
+	height:40px;
+	line-height: 40px;
+	margin:0 auto;
+	font-size:12px;
+	color:#E85545;
+}
+.welfare-agree a{
+	color:#E85545;
+	text-decoration: none;
+	position:relative;
+	left:3%;
+}
+.welfare-already{
+	float:right;
+	position:relative;
+	right:5%;
+}
+.welfare-pass{
+	position: relative;
+}
+.welfare-by{
+	width:20px;
+	height:15px;
+	position: absolute;
+	right:10px;
+	top:10px;
+	/*background:url(/public/mobile/images/by.png) no-repeat;*/
+	/*background-size:100%;*/
+}
+.welfare-by img{
+	width:100%;
+}
+/*imgCode*/
+.welfare-pop{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	position:fixed;
+	left:0;
+	top:0;
+	transition:1s all;
+	z-index: 99;
+}
+.welfare-imgCode{
+	width:70%;
+	background:#fff;
+	margin:25% auto;
+	border-radius: 4px;
+	padding-top:20px;
+}
+.welfare-img{
+	display: block;
+	width:53%;
+	height:auto;
+	margin:0 auto;
+	text-align: center;
+}
+.welfare-img img{
+	width:100%;
+}
+.welfare-imgCode-input input{
+	width:70%;
+	height:30px;
+	display: block;
+	margin:15px auto;
+	border:none;
+	background:#ececec;
+	text-align: center;
+}
+.welfare-code-bar{
+	border-top:1px solid #DCDCDC;
+}
+.welfare-code-bar-btn{
+	width:48%;
+	height:35px;
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+	color:#6A6A6A;
+	border-left:1px solid #DCDCDC;
+	cursor: pointer;
+}
+.welfare-code-bar-btn:first-child{
+	border-left:none;
+}
+/*pay*/17744553740
+.app-welfare-pay{
+	padding:0 10px;
+}
+.app-welfare-pay-logo{
+	text-align: center;
+	padding:25px 0;
+}
+.app-welfare-pay-logo img{
+	width:60%;
+}
+.app-welfare-pay-price{
+	height:45px;
+	line-height: 45px;
+	font-size:16px;
+	border-top:1px solid #ececec;
+	border-bottom:3px solid #ececec;
+}
+
+.app-pay-icon{
+	color:#d72612;
+	font-size:15px;
+	float:right;
+}
+.app-welfare-pay-num{
+	font-size:18px;
+	color:#d72612;
+}
+.app-welfare-pay-way{
+	height:45px;
+	line-height: 45px;
+	font-size:16px;
+	border-bottom:1px solid #ececec;
+}
+.app-welfare-pay-type{
+	height:50px;
+	line-height: 50px;
+	border-bottom:1px solid #ececec;
+}
+.app-welfare-pay-type.pay-type-wx{
+	background:url(/public/images/wxpay.png) no-repeat;
+	padding-left:45px;
+	background-position: 7px 11px;
+}
+
+.app-welfare-pay-type.pay-type-alipay{
+	background:url(/public/images/alipay.png) no-repeat;
+	padding-left:45px;
+	background-position: 7px 11px;
+}
+.welfare-buy{
+	height:25px;
+	padding:0 10px;
+	line-height: 25px;
+	text-align: center;
+	background:#d72612;
+	float:right;
+	color:#fff;
+	font-size:12px;
+	border-radius: 4px;
+	position: relative;
+	top:13px;
+	cursor: pointer;
+}
+/*.welfare-buy input{
+	float:right;
+	width:22px;
+	height:22px;
+	position: relative;
+	top:15px;
+	background:#d72612;
+	border-radius: 50%;
+}*/
+.app-welfare-goBuy{
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	background:#d72612;
+	margin:25px 0;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.app-payFnish-title{
+	text-align: center;
+	margin-top:18%;
+}
+.app-payFinish-btn{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	line-height: 150px;
+	text-align: center;
+	color:#fff;
+	margin:20px auto;
+	cursor: pointer;
+}
+.app-payFinish-btn.app-pay-continue{
+	background:red;
+}
+.app-payFinish-btn.app-pay-finish{
+	background:green;
+}

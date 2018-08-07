@@ -1,0 +1,59 @@
+
+#loginSingle {
+    position: relative;
+    top:-5px;
+}
+
+.box-bg{
+	height: 600px;
+	background: #32bbf2;
+}
+
+.box-fg{
+	position: absolute;
+	width:100%;
+	height:400px;
+	top:100px;
+	left:0;	
+}
+
+#loginSingle .box{
+	position: absolute;
+	width:400px;
+	padding:40px;
+	margin-left:60%;
+	background:white;
+	border-radius:3px;
+	box-shadow: 0px 4px 35px #199fd5;
+}
+
+#loginSingle .box .line{
+	margin:25px 0;
+}
+#loginSingle .box .line .txt{
+	width:50px;
+	display:inline-block;
+	text-align:right;
+	margin-right:5px;
+}
+
+#loginSingle .box .line  input{
+	display:inline-block;
+	padding:8px;
+	border-radius:2px;
+	width:240px;
+}
+
+#loginSingle .box button{
+	display:block;
+	width:280px;
+	margin:auto;
+}
+
+#loginSingle .line.forget{
+	text-align: center;
+	font-size:12px;
+}
+#loginSingle .line.forget a{
+	margin-right:10px;
+}

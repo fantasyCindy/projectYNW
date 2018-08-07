@@ -1,0 +1,71 @@
+.person-info {
+    background: white;
+    padding: 17px;
+    /*text-align: center*/
+}
+
+.person-info > * {
+    /*margin: 10px*/
+}
+.person-info .avatar{
+    /*width:100%;*/
+}
+.person-info .avatar-photo {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    border-radius: 2px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    float:left;
+}
+.avatar-msg{
+    float:left;
+    margin-left:15px;
+}
+.person-info .name {
+    font-size: 18px
+}
+.person-info .teacherIcon{
+    display: inline-block;
+    width:12px;
+    position: relative;
+    left:5px;
+}
+.person-info .teacherIcon img{
+    width:100%;
+}
+.person-info .num {
+    font-size: 12px;
+    color:#666666;
+    margin-top:10px;
+}
+.person-info .action{
+    margin-top:18px;
+    cursor:pointer;
+}
+.person-info .avatar-photo img {
+    width: 100%
+}
+.person-info .ask{
+    margin-left:10px;
+    cursor:pointer;
+}
+.person-info .care{
+    cursor:pointer;
+}
+.person-info .content {
+    margin-top:10px;
+    color:#666;
+    text-align: justify;
+    line-height: 22px;
+    font-size: 13px
+}
+
+.person-opinion {
+    background: white
+}
+button{
+    outline:none;
+}

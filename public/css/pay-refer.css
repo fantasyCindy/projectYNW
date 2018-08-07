@@ -1,0 +1,480 @@
+@charset "UTF-8";
+
+body {
+    background: #f0f0f0;
+    font-size: 13px;
+}
+
+
+.pay-header {
+    margin: 10px auto;
+}
+
+
+.pay-center .box {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+
+.pay-center .titleBar {
+    padding: 10px 20px;
+    background: #333333;
+    font-size: 16px;
+    color: white;
+}
+
+
+.pay-center .contentBar {
+    padding: 40px;
+}
+
+
+.pay-center .title-1 {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+
+.pay-center .order {
+    padding: 15px 20px;
+    border: 1px solid #c8c8c8;
+}
+
+
+.pay-center .order .line {
+    padding: 5px;
+}
+
+
+.pay-center .order i {
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.pay-center .order strong {
+    color: red;
+    margin: 0 3px;
+}
+
+
+.pay-center .order .descript {
+    margin-left: 20px;
+}
+
+
+.pay-center .vip-refer {
+}
+
+
+.pay-center .vip-refer .items {
+    overflow: hidden;
+    min-height: 52px;
+}
+
+
+.pay-center .vip-refer .items .item {
+    float: left;
+    font-size: 18px;
+    padding: 10px 50px;
+    margin-right: 40px;
+    border: 1px solid #c8c8c8;
+    color: red;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.pay-center .vip-refer .items .item strong {
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    margin-right: 3px;
+}
+
+
+.pay-center .vip-refer .items .item i {
+    width: 28px;
+    height: 28px;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/public/images/pay/select.png);
+}
+
+
+.pay-center .vip-refer .items .item.active {
+    border-color: #d72621;
+    background: #fff4f4;
+}
+
+
+.pay-center .vip-refer .items .item.active i {
+    display: inline-block;
+}
+
+
+.pay-center .vip-refer .tip {
+    background: #efefef;
+    padding: 5px 20px;
+    color: #d72621;
+    border-radius: 3px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+
+.pay-center .vip-refer .tip strong {
+    margin: 0 3px;
+    font-size: 17px;
+}
+
+
+.pay-center .pay-category {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+
+.pay-center .pay-category .item {
+    float: left;
+    border: 1px solid #c8c8c8;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.pay-center .pay-category .item .icon {
+    display: none;
+    background: url(/public/images/pay/select.png);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.pay-center .pay-category .item.active {
+    border: 1px solid #d72621;
+}
+
+
+.pay-center .pay-category .item.active .icon {
+    display: inline-block;
+}
+
+
+.pay-center .cardBar .card-item {
+    overflow: hidden;
+    padding: 20px 10px;
+    background: whitesmoke;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+.pay-center .cardBar .card-item .imgw {
+    float: left;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+
+.pay-center .cardBar .card-item .imgw img {
+    width: 100%;
+}
+
+
+.pay-center .cardBar .card-item .info {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 1.8em;
+    font-size: 14px;
+}
+
+
+.pay-center .cardBar .card-item .info .num {
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+.pay-types {
+    min-height: 400px;
+    height: 400px;
+}
+
+
+.pay-type .content {
+    position: relative;
+}
+
+
+.alipay-computer {
+    position: absolute;
+    right: 40px;
+    top: -20px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+
+.alipay-computer img {
+    width: 100%;
+}
+
+
+.alipay-computer a {
+    display: block;
+}
+
+
+.alipay-computer .text {
+    background: #ff4d00;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.pay-tip {
+    padding: 10px 0;
+    font-size: 13px;
+}
+body {
+    background: #f0f0f0;
+    font-size: 13px;
+}
+
+.pay-header {
+    margin: 10px auto;
+}
+
+.pay-center .box {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.pay-center .titleBar {
+    padding: 10px 20px;
+    background: #333333;
+    font-size: 16px;
+    color: white;
+}
+
+.pay-center .contentBar {
+    padding: 40px;
+}
+
+.pay-center .title-1 {
+    font-size: 16px;
+    padding: 15px 0;
+}
+
+.pay-center .order {
+    padding: 15px 20px;
+    border: 1px solid #c8c8c8;
+}
+
+.pay-center .order .line {
+    padding: 5px;
+}
+
+.pay-center .order i {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pay-center .order strong {
+    color: red;
+    margin: 0 3px;
+}
+
+.pay-center .order .descript {
+    margin-left: 20px;
+}
+
+.pay-center .vip-refer {
+    /* 购买必读 */
+}
+
+.pay-center .vip-refer .items {
+    overflow: hidden;
+    min-height: 52px;
+}
+
+.pay-center .vip-refer .items .item {
+    float: left;
+    font-size: 18px;
+    padding: 10px 50px;
+    margin-right: 40px;
+    border: 1px solid #c8c8c8;
+    color: red;
+    position: relative;
+    cursor: pointer;
+}
+
+.pay-center .vip-refer .items .item strong {
+    font-size: 23px;
+    font-weight: normal;
+    position: relative;
+    margin-right: 3px;
+    font-weight: bold;
+}
+
+.pay-center .vip-refer .items .item i {
+    width: 28px;
+    height: 28px;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/public/images/pay/select.png);
+}
+
+.pay-center .vip-refer .items .item.active {
+    border-color: #d72621;
+    background: #fff4f4;
+}
+
+.pay-center .vip-refer .items .item.active i {
+    display: inline-block;
+}
+
+.pay-center .vip-refer .tip {
+    background: #efefef;
+    padding: 5px 20px;
+    color: #d72621;
+    border-radius: 3px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+.pay-center .vip-refer .tip strong {
+    margin: 0 3px;
+    font-size: 17px;
+}
+
+.pay-center .pay-category {
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.pay-center .pay-category .item {
+    float: left;
+    border: 1px solid #c8c8c8;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pay-center .pay-category .item .icon {
+    display: none;
+    background: url(/public/images/pay/select.png);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.pay-center .pay-category .item.active {
+    border: 1px solid #d72621;
+}
+
+.pay-center .pay-category .item.active .icon {
+    display: inline-block;
+}
+
+.pay-center .cardBar .card-item {
+    overflow: hidden;
+    padding: 20px 10px;
+    background: whitesmoke;
+    border-bottom: 1px solid gainsboro;
+}
+
+.pay-center .cardBar .card-item .imgw {
+    float: left;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+.pay-center .cardBar .card-item .imgw img {
+    width: 100%;
+}
+
+.pay-center .cardBar .card-item .info {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 1.8em;
+    font-size: 14px;
+}
+
+.pay-center .cardBar .card-item .info .num {
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.pay-types {
+    min-height: 400px;
+    height: 400px;
+}
+
+.pay-type {
+    position: relative;
+}
+
+.alipay-computer {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+.alipay-computer img {
+    width: 100%;
+}
+
+.alipay-computer a {
+    display: block;
+}
+
+.alipay-computer .text {
+    background: #ff4d00;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: white;
+}
+
+.pay-tip {
+    padding: 10px 0;
+    font-size: 13px;
+}

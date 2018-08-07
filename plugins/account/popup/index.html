@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name shrink="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="../lib/jquery.min.js"></script>
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="app" class="flex">
+        <!-- 正式服务器 -->
+        <div class="server-wrap flex column" id="the-pro">
+            <div class="title">正式服务器</div>
+            <div class="items flex column">
+                <div class="item flex">
+                    <div class="name shrink">约投顾</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-tg-t" class="role teacher">老师</span>
+                        <span data-key="pro-tg-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">操盘内线</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-cp-t" class="role teacher">老师</span>
+                        <span data-key="pro-cp-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">黄金TD</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-td-t" class="role teacher">老师</span>
+                        <span data-key="pro-td-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">科德投资</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-kd-t" class="role teacher">老师</span>
+                        <span data-key="pro-kd-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">专业版</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-jcz-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">黄金版</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-jch-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="line">后台管理</div>
+                <div class="item flex">
+                    <div class="name shrink">约投顾后台</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-bg-tg-m" class="role teacher">管理员</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">黄金TD后台</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-bg-td-m" class="role teacher">管理员</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">决策分析后台</div>
+                    <div class="roles flex grow">
+                        <span data-key="pro-bg-jc-m" class="role teacher">管理员</span>
+                        <span data-key="pro-bg-jc-t" class="role teacher">老师</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 测试服务器 -->
+        <div class="server-wrap flex column" id="the-dev">
+            <div class="title">测试服务器</div>
+            <div class="items flex column">
+                <div class="item flex">
+                    <div class="name shrink">约投顾</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-tg-t" class="role teacher">老师</span>
+                        <span data-key="dev-tg-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">操盘内线</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-cp-t" class="role teacher">老师</span>
+                        <span data-key="dev-cp-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">黄金TD</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-td-t" class="role teacher">老师</span>
+                        <span data-key="dev-td-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">科德投资</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-kd-t" class="role teacher">老师</span>
+                        <span data-key="dev-kd-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">专业版</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-jcz-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">黄金版</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-jch-u" class="role user">用户</span>
+                    </div>
+                </div>
+                <div class="line">后台管理</div>
+                <div class="item flex">
+                    <div class="name shrink">约投顾后台</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-bg-tg-m" class="role teacher">管理员</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">黄金TD后台</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-bg-td-m" class="role teacher">管理员</span>
+                    </div>
+                </div>
+                <div class="item flex">
+                    <div class="name shrink">决策分析后台</div>
+                    <div class="roles flex grow">
+                        <span data-key="dev-bg-jc-m" class="role teacher">管理员</span>
+                        <span data-key="dev-bg-jc-t" class="role teacher">老师</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- OTHER-ACTIONS  -->
+    <div class="actions">
+        <span class="item" data-key="iframe-free">分离iFrame</span>
+    </div>
+</body>
+
+</html>

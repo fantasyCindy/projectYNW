@@ -1,0 +1,60 @@
+#opinioning_box .wrap_list{
+	margin:0 15px;
+	padding:15px 0 10px;
+	border-bottom:1px dashed #cccccc;
+}
+#opinioning_box .wrap_list:last-child{
+	border:none;
+	margin-bottom:0;
+}
+#opinioning_box .wrap_list .wrap_title{
+	line-height:21px;
+	height:21px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	color:#333333;
+	font-size:14px;
+}
+#opinioning_box .wrap_title .icon{
+	display:inline-block;
+	width:15px;
+	height:15px;
+	position:relative;
+	background:#d72621;
+	border-radius:1px;
+	color:#fff;
+	font-size:10px;
+	line-height:15px;
+	text-align:center;
+}
+#opinioning_box .wrap_list .wrap_description{
+	margin-top:6px;
+	line-height:20px;
+	color:#333333;
+	font-size:13px;
+	border-bottom:1px dashed #e4e4e4;
+	padding-bottom:5px;
+}
+#opinioning_box .wrap_list .user{
+	color:#999999;
+	font-size:11px;
+	line-height:20px;
+	padding:10px 0 0;
+}
+#opinioning_box .user .photo{
+	height:20px;
+	margin-right:6px;
+	width:20px;
+	float:left;
+	display:inline-block;
+	border-radius:50%;
+	border:1px solid #e1e1e1;
+	overflow:hidden;
+}
+#opinioning_box .user .photo img{
+	width:100%;
+}
+#opinioning_box .user .day{
+	float:right;
+}

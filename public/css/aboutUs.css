@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.aboutUs .first{
+	width:100%;
+	margin-left:0;
+	margin-right:0;
+}
+
+.aboutUs .title{
+	font-size:20px;
+	color:#333333;
+	line-height:55px;
+	text-align:center;
+}
+.aboutUs aside{
+	padding:0 13px;
+	font-size:17px;
+	color:#555555;
+	line-height:25px;
+	text-indent:2em;
+	margin-bottom:15px;
+}
+.aboutUs img{
+	width:93%;
+	margin:0 10px 15px;
+}

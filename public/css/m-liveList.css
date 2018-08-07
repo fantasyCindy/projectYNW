@@ -1,0 +1,90 @@
+#return{
+	text-align:center;
+	line-height:53px;
+	border-bottom: 1px solid #e4e4e4;
+	color:#333333;
+	font-size:17px;
+	position:relative;
+}
+#return .icon{
+	position:absolute;
+	left:20px;
+	top:13px;
+	font-size:25px;
+}
+#tag{
+	text-align:center;
+}
+#tag span{
+	display:inline-block;
+	width:32%;
+	line-height:36px;
+	font-size:14px;
+	
+}
+#tag span.select{
+	border-bottom:2px solid #d72621;
+	transition:all .3s;
+}
+#liveList .wrap_list{
+	padding:0 15px;
+	margin-bottom:15px;
+}
+#liveList .wrap_list:last-child{
+	margin-bottom:0;
+}
+#liveList .wrap_list .wrap_cont{
+	float:left;
+	width:82%;
+	padding:15px 0;
+	border-bottom:1px dashed #cccccc;
+}
+#liveList .wrap_list:last-child .wrap_cont{
+	border:none;
+}
+#liveList .wrap_list .photo{
+	width:45px;
+	height:45px;
+	float:left;
+	border-radius:50%;
+	border:1px solid #e1e1e1;
+	overflow:hidden;
+}
+#liveList .wrap_list .photo img{
+	width:100%;
+}
+#liveList .wrap_list .quantity{
+	float:right;
+	text-align:center;
+	width:14%;
+	border-left:1px solid #cccccc;
+	padding:5px;
+	line-height:20px;
+	color:#666666;
+	position:relative;
+	top:16px;
+	left:9px;
+	font-size:11px;
+}
+#liveList .wrap_list .quantity p{
+	color:#e33124;
+}
+#liveList .wrap_list .wrap_intro{
+	width:76%;
+	float:left;
+	padding-left:7px;
+}
+#liveList .wrap_list .wrap_title{
+	font-size:14px;
+	color:#666666;
+	line-height:23px;
+}
+#liveList .wrap_list .intro{
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	color:#999999;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	font-size:11px;
+}

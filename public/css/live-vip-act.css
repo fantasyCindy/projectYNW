@@ -1,0 +1,1072 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F0F0F0;
+}
+
+.auto {
+    margin: 0 auto;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+#vip-act {
+    min-width: 1200px;
+}
+
+#vip-act .container-box {
+    width: 100%;
+    background: #fff;
+}
+
+#vip-act .vip-act-header {
+    width: 100%;
+    background: #fff;
+}
+
+#vip-act .header-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 17px 0;
+    height: 81px;
+    background: #fff;
+}
+
+#vip-act .header-logo {
+    float: left;
+}
+
+#vip-act .header-txt {
+    float: left;
+    line-height: 50px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+}
+
+#vip-act .login {
+    display: inline-block;
+}
+
+#vip-act .act-banner1 {
+    min-width: 1200px;
+    height: 186px;
+    background: url(../images/vipact/act-banner_01.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vip-act .act-banner2 {
+    min-width: 1200px;
+    height: 193px;
+    background: url(../images/vipact/act-banner_02.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vip-act .act-banner3 {
+    min-width: 1200px;
+    height: 165px;
+    background: url(../images/vipact/act-banner_03.jpg) no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vip-act .act-banner img {
+    width: 100%;
+}
+
+#vip-act .banner-wrap {
+    width: 1200px;
+    height: 165px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#vip-act .buy {
+    width: 186px;
+    height: 42px;
+    line-height: 42px;
+    background: #fff7a8;
+    background: linear-gradient(to bottom, #fff7a8, #fed63e);
+    border-radius: 20px;
+    font-size: 22px;
+    box-shadow: 0 3px 3px #bd6c03;
+    color: #803e1d;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+#vip-act .banner-teacher {
+    position: absolute;
+    font-size: 18px;
+    bottom: 15px;
+    line-height: 29px;
+    color: #fff;
+    left: 53px;
+}
+
+#vip-act .fl {
+    width: 236px;
+}
+
+#vip-act .banner-name {
+    font-size: 24px;
+}
+
+#vip-act .banner-opacity {
+    color: #c1b9b9;
+}
+
+#vip-act .act-who {
+    width: 100%;
+    height: 189px;
+    background: url(../images/vipact/webg.png) no-repeat center;
+}
+
+#vip-act .who-wrap {
+    width: 1200px;
+    height: 189px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#vip-act .who-im-i,
+#vip-act .who-im-ii {
+    width: 15%;
+    height: 189px;
+    padding-top: 50px;
+    font-size: 30px;
+    float: left;
+    color: rgb(51, 51, 51);
+}
+
+#vip-act .who-im-ii {
+    width: 85%;
+    font-size: 20px;
+    padding-right: 15px;
+    line-height: 34px;
+    color: rgb(51, 51, 51);
+    margin-top: -10px;
+}
+
+#vip-act .vip-wrap {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+#vip-act .three-func {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family: "å¾®è½¯é›…é»‘";
+    font-weight: bold;
+}
+
+#vip-act .lunbo1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#vip-act .buy1 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/*===*/
+
+#vip-act .platinum-case {
+    margin-bottom: 40px;
+}
+
+#vip-act .case_title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#vip-act .case_title .primary_title {
+    font-size: 40px;
+    color: #333333;
+    font-weight: bold;
+}
+
+#vip-act .case_title .primary_stitle {
+    font-size: 18px;
+    color: #333333;
+    margin-top: 14px;
+}
+
+#vip-act .case_list .case_item {
+    width: 591px;
+    float: left;
+    margin-right: 18px;
+}
+
+#vip-act .case_list .case_item+.case_item {
+    margin: 0;
+}
+
+#vip-act .case_list:after {
+    content: "";
+    clear: both;
+    display: block;
+    *zoom: 1;
+}
+
+#vip-act .case_item_top {
+    position: relative;
+    height: 274px;
+    border: 1px solid #d6d7dc;
+}
+
+#vip-act .case_item_top .stock_infor {
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    padding: 5px 8px;
+    border-radius: 0 5px 5px 0;
+}
+
+#vip-act .case_item_top .stock_infor span {
+    display: block;
+}
+
+#vip-act .case_item_top .stock_infor .stock_code {
+    color: rgb(250, 55, 55);
+    ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#vip-act .case_item_top .stock_infor .stock_time {
+    color: rgb(247, 187, 92);
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+#vip-act .case_item_bottom {
+    padding: 20px;
+    background: #fff;
+}
+
+#vip-act .case_item_bottom .stock_correlation {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 15px;
+}
+
+#vip-act .case_item_bottom .stock_correlation:after {
+    content: "";
+    clear: both;
+    display: block;
+    *zoom: 1;
+}
+
+#vip-act .stock_correlation .stock_correlation_left {
+    float: left;
+}
+
+#vip-act .stock_correlation_left span {
+    display: block;
+}
+
+#vip-act .stock_correlation_left .stock_code {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+}
+
+#vip-act .stock_correlation_left .stock_time {
+    font-size: 16px;
+    color: rgb(119, 119, 119);
+    line-height: 28px;
+}
+
+#vip-act .stock_correlation .stock_correlation_right {
+    float: right;
+}
+
+#vip-act .stock_correlation_right .range {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#vip-act .stock_correlation_right .range_icon {
+    position: relative;
+    top: 7px;
+    right: 5px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(../images/vipact/up.png) no-repeat;
+}
+
+#vip-act .stock_correlation_right font {
+    font-size: 23px;
+    line-height: 28px;
+    color: rgb(254, 57, 57);
+}
+
+#vip-act .case_item_bottom .reason {
+    margin-top: 15px;
+}
+
+#vip-act .reason .reason_title {
+    background: #f3d851;
+    border-radius: 3px;
+    font-size: 16px;
+    display: inline-block;
+    width: 110px;
+    line-height: 28px;
+    text-align: center;
+    /* height:22px; */
+    font-weight: bold;
+}
+
+#vip-act .reason_list {
+    margin-top: 10px;
+}
+
+#vip-act .reason_list .reason_item {
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    display: block;
+    line-height: 28px;
+}
+
+#vip-act .reason_list .reason_icon {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: url(../images/vipact/dot.png) no-repeat;
+    background-size: 100%;
+}
+
+#vip-act .case-title {
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+#vip-act .case-tit {
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000;
+    text-align: center;
+    margin: 0px 0 40px 0;
+    font-weight: bold;
+}
+
+#vip-act .case-stitle {
+    width: 100%;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+#vip-act .case-stit {
+    width: 100%;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    line-height: 36px;
+    text-indent: 2em;
+    padding: 0 48px;
+}
+
+#vip-act .act-zheng {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#vip-act .act-zheng img {
+    margin: 8px 0;
+}
+
+#vip-act .vip-act-footer {
+    width: 100%;
+    height: 150px;
+    background: #1a1e2c;
+}
+
+#vip-act .footer-wrap {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+#vip-act .connect-way {
+    width: 621px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 35px;
+    color: rgb(515, 213, 56);
+    background: rgba(255, 255, 255, 0.1) url(../images/vipact/phone.png) no-repeat;
+    background-position: 70px 7px;
+    background-size: 4%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+#vip-act .footer-txt {
+    width: 800px;
+    color: rgb(230, 230, 229);
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px auto 0 auto;
+}
+
+
+/*=è½®æ’­ä¸Š=*/
+
+#vip-act .lunbo-items {
+    height: 350px;
+    overflow: hidden;
+}
+
+#vip-act .lunbo-items li {
+    width: 100%;
+    height: 350px;
+    /*border:1px solid black;*/
+    margin: 0 auto;
+    list-style: none;
+    font-size: 18px;
+}
+
+#vip-act .ynlogo {
+    position: relative;
+    width: 45%;
+    height: 350px;
+    float: left;
+}
+
+#vip-act .yntxt {
+    width: 48%;
+    height: 350px;
+    float: left;
+    padding: 30px 72px;
+    line-height: 34px;
+}
+
+#vip-act .imac {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#vip-act .mac {
+    position: absolute;
+    right: 137px;
+    bottom: 34px;
+}
+
+.livetime {
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-right: 10px;
+    font-size: 20px;
+    color: rgb(247, 83, 68);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -70px;
+}
+
+.slide {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    min-height: 180px;
+}
+
+.slide .img {
+    overflow: hidden;
+    transition: width 0.4s, height 0.4s, top 0.4s, left 0.4s, z-index 0.4s;
+    position: absolute;
+}
+
+.slide .img img {
+    width: calc(100% - 14px);
+    height: calc(100% - 14px);
+    margin: 7px;
+}
+
+.slide .img1 {
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: -50%;
+    z-index: 1;
+}
+
+.slide .img2 {
+    width: 34%;
+    height: 67%;
+    top: 16%;
+    left: 5%;
+    z-index: 2;
+}
+
+.slide .img3 {
+    width: 37%;
+    height: 73%;
+    top: 13%;
+    left: 31%;
+    z-index: 3;
+}
+
+.slide .img3 .three2 {
+    border: 1px solid red;
+}
+
+.slide .img2 .three1,
+.slide .img4 .three1 {
+    border: 1px solid #d6d7dc;
+}
+
+.slide .img4 {
+    width: 34%;
+    height: 67%;
+    top: 16%;
+    left: 61%;
+    z-index: 2;
+}
+
+.slide .img5 {
+    width: 40%;
+    height: 40%;
+    top: 30%;
+    left: 110%;
+    z-index: 1;
+}
+
+.slide-bt {
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+    z-index: 10;
+}
+
+.slide-bt span {
+    width: 24px;
+    height: 4px;
+    background: #c9caca;
+    float: left;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.slide .slide-bt .on {
+    background: #d72621;
+}
+
+.btnPrev {
+    width: 59px;
+    height: 48px;
+    background: url(../images/vipact/left.png);
+    position: absolute;
+    top: 217px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.btnNext {
+    width: 59px;
+    height: 48px;
+    background: url(../images/vipact/right.png);
+    position: absolute;
+    top: 217px;
+    right: 1px;
+    cursor: pointer;
+}
+
+.a {
+    color: #fff;
+}
+
+.index-show {
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 50px;
+    display: inline-block;
+    margin-right: 35px;
+    color: rgb(153, 153, 153);
+}
+
+
+/*====è½®æ’­ä¸‹=====*/
+
+#vip-act .lunbo2 {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    margin-top:80px;
+}
+
+#vip-act .lunbo2 .teacherCard {
+    width:587px;
+    height:507px;
+    background: url(../images/vipact/bg.png) no-repeat no-repeat;
+}
+#vip-act .teacherCard .photo{
+    position: relative;
+    top:-40px;
+    left:30px;
+}
+#vip-act .teacherCard .name{
+    position: relative;
+    top:-115px;
+    left:214px;
+    font-size:24px;
+}
+#vip-act .teacherCard .content{
+    font-size:18px;
+    line-height: 35px;
+    width:83%;
+    margin:0 auto;
+    margin-top:-30px;
+}
+
+.unslider {
+    overflow: visible !important;
+}
+
+.unslider-arrow {
+    display: none;
+}
+
+.unslider-nav {
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 20px;
+    opacity: 0.8;
+}
+
+.unslider-nav li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f8d6cd;
+    text-indent: 10em;
+    overflow: hidden;
+    margin-left: 10px !important;
+}
+
+.unslider-nav li.unslider-active {
+    background: #ff3500;
+    transition: background 0.3s;
+}
+
+
+/*å¼¹çª—æç¤º*/
+
+#prompt {
+    width: 100%;
+    height: 100%;
+    filter: progid: DXImageTransform.Microsoft.Gradient(startColorstr=#99000000, endColorstr=#99000000);
+    background: rgba(78, 77, 77, .4);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#prompt .pro-prompt {
+    width: 804px;
+    height: 516px;
+    background: #fff;
+    box-shadow: 14px 16px 13px rgba(8, 8, 8, 0.17);
+    border-radius: 8px;
+    position: relative;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 140px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #666;
+}
+
+#prompt .pro-head {
+    padding: 10px;
+    background: #d72621;
+    color: #fff;
+    border-radius: 6px 6px 0 0;
+}
+
+#prompt .pro-img {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+    background: url(/public/images/vip/wran.png) no-repeat;
+}
+
+#prompt .pro-close {
+    float: right;
+    background: url(/public/images/vip/colse.png) no-repeat;
+}
+
+#prompt .pro-content {
+    height: 424px;
+    overflow: scroll;
+    padding: 20px 20px 0;
+}
+
+#prompt .pro-bold {
+    font-weight: bold;
+    color: #333;
+}
+
+#prompt .pro-center {
+    text-align: center;
+}
+
+#prompt .pro-sign {
+    overflow: hidden;
+    height: 95px;
+}
+
+#prompt .pro-jia {
+    float: left;
+    width: 50%;
+}
+
+#prompt .pro-right {
+    text-align: right;
+}
+
+#prompt .pro-footer {
+    padding: 7px;
+    overflow: hidden;
+    border-top: 2px solid #e2dcdc;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+#prompt .pro-btn {
+    display: inline-block;
+    padding: 2px 18px;
+    background: #d72621;
+    color: #fff;
+    float: right;
+    margin-right: 30px;
+    border-radius: 8px 8px
+}
+
+
+/* banner */
+
+.vip-banner {
+    position: relative;
+}
+
+.banner-content {
+    height: 470px;
+    background: url(/public/banner/vip-banner.jpg) no-repeat center;
+    min-width: 1200px;
+    width: 100%;
+}
+
+.banner-btn-bar {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+}
+
+.banner-btn-bar .wrap {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-buy {
+    position: relative;
+    display: inline-block;
+    left: 510px;
+}
+
+.vip-banner .countDown {
+    width: 100%;
+    position: absolute;
+    bottom: 203px;
+    left: 0;
+    z-index: 1000;
+}
+
+.vip-banner .countDown .wrap {
+    min-width: 1200px;
+    width: 1200px;
+    margin: auto;
+    text-align: right;
+    height: 35px;
+    position: relative;
+}
+
+.vip-banner .countDown .times {
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    right: -12px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.vip-banner .countDown .time {
+    font-size: 28px;
+    margin-right: 32px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    float: left;
+    line-height: 33px;
+}
+
+.top1{
+    background:url(../images/vipact/weixin.png) no-repeat;
+    background-position: 0 3px;
+    padding:5px 0;
+    padding-left:30px;
+    margin-bottom:10px;
+}
+.top2{
+    background:url(../images/vipact/alipay.png) no-repeat;
+    background-position: 0 3px;
+    padding:5px 0;
+    padding-left:30px;
+    margin-bottom:10px;
+}
+.ewm{
+    width:23%;
+}
+.ewm img{
+    width:100%;
+}
+.scan{
+    padding:5px 20px;
+    color:gray;
+}
+.pay {
+    width: 1000px;
+    height: 640px;
+    background: #fff;
+    position: fixed;
+    top: 10%;
+    left: 23%;
+    z-index: 200;
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+    padding:20px;
+    box-shadow: 2px 2px 20px rgba(56, 51, 51, 0.25);
+}
+.pay-center .vip-refer .title-1{
+    font-size:16px;
+    font-weight: bold;
+    padding:7px 0;
+}
+.pay-center .vip-refer .items {
+    overflow: hidden;
+    min-height: 52px;
+}
+.pay-center .title-top{
+    font-size:18px;
+    font-weight: bold;
+    color:#d72612;
+    position: relative;
+    top:-5px;
+    width:300px;
+}
+
+.pay-center .vip-refer .items .item {
+    float: left;
+    font-size: 18px;
+    padding: 10px 50px;
+    margin-right: 40px;
+    border: 1px solid #c8c8c8;
+    color: red;
+    position: relative;
+}
+
+.pay-center .vip-refer .items .item strong {
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    margin-right: 3px;
+}
+
+.pay-center .vip-refer .items .item i {
+    width: 28px;
+    height: 28px;
+    display: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url(/public/images/pay/select.png);
+}
+
+.pay-center .vip-refer .items .item.active {
+    border-color: #d72621;
+    background: #fff4f4;
+}
+
+.pay-center .vip-refer .items .item.active i {
+    display: inline-block;
+}
+
+.pay-center .vip-refer .tip {
+    background: #efefef;
+    padding: 5px 20px;
+    color: #d72621;
+    border-radius: 3px;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+.pay-center .vip-refer .tip strong {
+    margin: 0 3px;
+    font-size: 17px;
+}
+
+.pay-center .pay-category {
+    overflow: hidden;
+    padding: 13px 0;
+}
+
+.pay-center .pay-category .item {
+    float: left;
+    border: 1px solid #c8c8c8;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.pay-center .pay-category .item .icon {
+    display: none;
+    background: url(/public/images/pay/select.png);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.pay-center .pay-category .item.active {
+    border: 1px solid #d72621;
+}
+
+.pay-center .pay-category .item.active .icon {
+    display: inline-block;
+}
+
+.pay-center .cardBar .card-item {
+    overflow: hidden;
+    padding: 15px 10px;
+    background: whitesmoke;
+    border-bottom: 1px solid gainsboro;
+}
+
+.pay-center .cardBar .card-item .imgw {
+    float: left;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+.pay-center .cardBar .card-item .imgw img {
+    width: 100%;
+}
+
+.pay-center .cardBar .card-item .info {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 1.8em;
+    font-size: 14px;
+}
+
+.pay-center .cardBar .card-item .info .num {
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.pay-types {
+    min-height: 400px;
+    height: 400px;
+}
+
+.pay-type .content {
+    position: relative;
+}
+
+.alipay-computer {
+    position: absolute;
+    right: 40px;
+    top: -20px;
+    text-align: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+.alipay-computer img {
+    width: 100%;
+}
+
+.alipay-computer a {
+    display: block;
+}
+
+.alipay-computer .text {
+    background: #ff4d00;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 3px;
+    color: white;
+}
+
+.pay-tip {
+    padding: 10px 0;
+    font-size: 13px;
+}
+.web-yueniucj .login-box{
+    display: none;
+}

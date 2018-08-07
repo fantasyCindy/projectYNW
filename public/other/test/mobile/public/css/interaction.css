@@ -1,0 +1,53 @@
+/*interaction */
+
+#interaction {
+    max-width: 640px;
+    margin: 0 auto;
+    color: #666;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+#interaction .block {
+    display: block;
+    margin: 14px auto;
+}
+
+#interaction .list {
+    padding: 20px 20px 15px;
+    line-height: 26px;
+    border-bottom: 1px solid #dbd7d7;
+}
+
+#interaction .list .img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#interaction .list .list-teach {
+    margin: 15px 0 0;
+    padding-top: 10px;
+    border-top: 1px solid #dbd7d7;
+}
+
+#interaction .list .teacher {
+    color: #ee5349;
+}
+
+#interaction .list .info {
+    overflow: hidden;
+    margin: 0 0 5px;
+}
+
+#interaction .list .blue {
+    color: #167dec;
+    display: block;
+    font-size: 24px;
+}
+
+#interaction .list .title {
+    float: left;
+    margin: 8px 0;
+}

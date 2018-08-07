@@ -1,0 +1,73 @@
+#model-valid-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    background: rgba(255, 255, 255, 0.33);
+    z-index: 100;
+}
+
+
+/*///////////////////////////////////////////////////////////////////*/
+
+#model-valid-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    background: rgba(80, 80, 80, 0.33);
+    z-index: 100;
+}
+
+#model-valid-img .box {
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 1px 1px 15px rgba(92, 92, 92, 0.21);
+    overflow: hidden;
+}
+
+#model-valid-img .box .title {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px;
+}
+
+#model-valid-img .box .contentBar {
+    padding: 40px;
+}
+
+#model-valid-img .bottom {
+    overflow: hidden;
+    border-top: 1px solid #d4d4d4;
+    background: #efefef;
+}
+
+#model-valid-img .bottom .b-btn {
+    float: left;
+    width: 49%;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#model-valid-img .bottom .yes {
+    border-left: 1px solid #d4d4d4;
+}
+
+#model-valid-img .valid-img {
+    overflow: hidden;
+}
+
+#model-valid-img .valid-img input {
+    padding: 6px;
+    float: left;
+    margin-right: 10px;
+    background: #f1f1f1;
+}

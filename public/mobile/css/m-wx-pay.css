@@ -1,0 +1,203 @@
+body {
+    background: white;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 100%;
+    z-index: 10000;
+    background: white;
+}
+
+.logo {
+    padding: 20px 0;
+    width: 100%;
+    background: #fafafa;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+.logo > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-yn {
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid gainsboro;
+}
+
+.logo-yn img {
+    width: 70px;
+}
+
+.logo-vip img {
+    height: 40px;
+}
+
+.title-1 {
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    text-indent: 10px;
+}
+
+.pay-types {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pay-types .width {
+    width: 33.3333%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.pay-types .item {
+    font-size: 13px;
+    border-left: 1px solid rgb(220, 220, 220);
+    display: block;
+    width: 100%;
+}
+
+.pay-types .width:first-child .item {
+    border-left: none;
+}
+
+.pay-types .item .price {
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.pay-types .width.active .item {
+    color: red;
+    font-weight: bold;
+}
+
+.confirm {
+    position: relative;
+    border-bottom: 6px solid rgb(220, 220, 220);
+    padding: 5px 0px;
+}
+
+.confirm .price {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: red;
+}
+
+.confirm .price .value {
+    font-size: 23px;
+    font-weight: bold;
+    position: relative;
+    top: 2px;
+}
+
+.notice {
+    border-top: 1px solid rgb(220, 220, 220);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 10px;
+    line-height: 1.8em;
+    font-size: 13px;
+    color: rgb(150, 150, 150);
+}
+
+.notice .icon {
+    float: left;
+    width: 25px;
+}
+
+.cate-item {
+    padding: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    overflow: hidden;
+    position: relative;
+}
+
+.cate-item .avatar {
+    width: 25px;
+    height: 25px;
+    background: red;
+    display: inline-block;
+    float: left;
+    background: url(/public/mobile/images/pay/alipay_icon.png) no-repeat center;
+    background-size: 25px;
+}
+
+.cate-item .name {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.cate-item .choose {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    border: 1px solid #d72621;
+    background: #d72621;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+.cate-item .choose.active {
+    background: url(/public/mobile/images/pay/selected_icon.png) no-repeat center;
+    background-size: 30px;
+}
+
+.cate-item.wxpay .avatar {
+    background: url(/public/mobile/images/pay/wechat.png) no-repeat center;
+    background-size: 25px;
+}
+
+.cate-item.cardpay .avatar {
+    background: url(/public/mobile/images/pay/-card_icon.png) no-repeat center;
+    background-size: 25px;
+}
+
+.cardBar {
+    padding: 10px;
+}
+
+.card-item {
+    padding: 25px 15px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(139, 139, 139, 0.22);
+    margin-bottom: 20px;
+    background: url(/public/mobile/images/pay/yh-texture.jpg) repeat-x;
+    text-align: center;
+}
+
+.card-item .left {
+    text-align: left;
+}
+
+.card-item .left div {
+    padding: 3px 0;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.card-item .num {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-item .icon-bank {
+    height: 50px;
+}

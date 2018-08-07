@@ -1,0 +1,107 @@
+@import 'color.scss';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fafafa;
+    font-family: '微软雅黑'
+}
+
+.hide {
+    display: none;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: auto;
+}
+
+.common-header {
+    width: 100%;
+    background: $g235;
+    padding: 25px 0;
+    background: $color;
+    .logo {
+        width: 250px;
+        display: inline-block;
+        img {
+            width: 100%;
+        }
+    }
+    .menu {
+        display: inline-block;
+        float: right;
+        position: relative;
+        top: -21px;
+        ul {
+            overflow: hidden;
+            li {
+                padding: 0 10px;
+                height: 115px;
+                line-height: 115px;
+                float: left;
+                margin: auto 25px;
+                color: $black;
+                cursor: pointer;
+                list-style: none;
+                &.select {
+                    color: $red;
+                    border-bottom: 2px solid $red;
+                }
+                .login,
+                .register {
+                    margin: 0 5px;
+                }
+                .login.select,
+                .register.select {
+                    color: $red;
+                }
+            }
+        }
+    }
+}
+
+.yn-content {
+    margin-bottom: 50px;
+}
+
+.news-title {
+    margin: 10px auto;
+    font-size: 17px;
+    .news-title-icon {
+        display: inline-block;
+        width: 2px;
+        height: 16px;
+        background: #0e99e1;
+        position: relative;
+        top: 2px;
+    }
+}
+
+.ynzx-content {
+    background: $white;
+    padding: 20px 20px 35px 20px;
+    box-shadow: 3px 3px 15px #CBCBCB;
+    line-height: 25px;
+    p {
+        text-indent: 2em;
+        margin-bottom: 15px;
+    }
+}
+
+.common-footer {
+    background: $gray;
+    padding: 20px 0;
+    color: $white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: -4px;
+    ;
+    .footer-text {
+        width: 900px;
+        margin: 0 auto;
+    }
+}

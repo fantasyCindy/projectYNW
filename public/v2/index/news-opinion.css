@@ -1,0 +1,71 @@
+/*最新观点*/
+.color999{
+    color: #999;
+}
+.news-opinion .content{
+    background: #fff;
+    padding: 5px 20px;
+}
+.news-opinion .news-title{
+    border-bottom: 2px solid rgb(240,240,240);
+}
+.news-opinion .news-title .news-list{
+    display: inline-block;
+    padding: 12px 8px;
+    margin-right: 20px;
+    color: #222;
+    position: relative;
+    top: 2px;
+}
+.news-opinion .news-title .news-list.select{
+    color: rgb(255,80,84);
+    border-bottom: 2px solid rgb(255,80,84);
+}
+.item.news-content{
+    padding: 16px 0 16px;
+    display: block;
+    border-top: 1px dashed rgb(240,240,240);
+}
+
+.item.news-content:first-child{
+    border-top: 0;
+}
+
+.news-content .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.news-content .image img{
+    width: 100%;
+    height: 100%;
+}
+.news-content .string{
+    margin-left: 15px;
+    line-height: 1.5;
+    width: 91%;
+}
+.news-content .string .opinion-lastest-title{
+    font-weight: bold;
+}
+.news-content .string .opinion-lastest-title:hover{
+    color: #ff5054;
+}
+.news-content .string .subtext,.news-content .string .author{
+    color: #666;
+    margin-top: 5px;
+}
+.news-content .string .author-list{
+    margin-right: 20px;
+}
+.news-content .string .author-icon{
+    display: inline-block;
+    width: 20px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+    background: url(/public/v2/index/images/news-opinion.png) no-repeat -3px -4px;
+}
+.news-content .string .viewCount .author-icon{
+    background-position: -28px -3px;
+}

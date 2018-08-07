@@ -1,0 +1,594 @@
+#shareDetail:after,
+#marketLine:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+#marketLine .tc {
+    text-align: center
+}
+
+#marketLine .fl {
+    float: left
+}
+
+#marketLine #tit a,
+.fr {
+    float: right
+}
+
+#marketLine .gray {
+    color: #999
+}
+
+#marketLine .black {
+    color: #333
+}
+
+#marketLine .green {
+    color: #1EBB3B
+}
+
+#marketLine .orange {
+    color: #e94b4b
+}
+
+#marketLine .tit {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    overflow: hidden;
+    color: #d72621;
+    padding: 15px;
+    font-size: 16px
+}
+
+#marketLine .tit span {
+    border-left: 3px solid #d72621;
+    padding-left: 10px
+}
+
+#marketLine .tit .more {
+    float: right;
+    margin-right: 10px;
+    font-size: 16px!important;
+    position: relative;
+    top: 3px;
+    font-size: 12px!important
+}
+
+#marketLine .tit .more i {
+    margin: 0 5px
+}
+
+#marketLine #tit span {
+    display: block;
+    float: left;
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 4px solid #fd7d00;
+    height: 21px;
+    margin: 10px 0;
+    line-height: 20px
+}
+
+#marketLine #tit a {
+    color: #999;
+    text-decoration: none
+}
+
+#marketLine .idhover {
+    background: #fff;
+    border-radius: 2px
+}
+
+#marketLine {
+    width: 1200px;
+    margin: 0 auto
+}
+
+#marketLine .marketLine_left {
+    width: 740px
+}
+
+#shareDetail {
+    margin: 15px 0;
+    position: relative;
+    height: 480px;
+    border: 1px solid rgb(235, 235, 235)
+}
+
+#shareDetail .tabBar table {
+    position: relative;
+    width: 100%;
+    margin: 0
+}
+
+#shareDetail .tabBar table td {
+    font-size: 14px;
+    line-height: 30px
+}
+
+#shareDetail .tabBar table td.item.select {
+    background: #fff;
+    position: relative;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #fff;
+    color: red
+}
+
+#shareDetail .tabBar table td.item {
+    cursor: pointer;
+    font-size: 17px;
+    padding: 3px;
+    width: 24%;
+    margin-right: 1px;
+    text-align: center;
+    background: #f0f0f0;
+    border-left: 1px solid rgb(220, 220, 220)
+}
+
+#shareDetail .tabBar table td.item:first-child {
+    border-left: none
+}
+
+#shareDetail #shareSheetWrap {
+    background: #fff;
+    float: left;
+    padding-top: 10px;
+    min-height: 400px;
+    padding-left: 15px;
+    width: 98%
+}
+
+#articles,
+#MyOptional,
+#newconsultation {
+    margin-bottom: 10px;
+    border: 1px solid rgb(235, 235, 235)
+}
+
+#shareDetail #shareSheetWrap .spline {
+    width: 100%;
+    height: 2px;
+    z-index: 900;
+    position: absolute;
+    top: 1px
+}
+
+#shareDetail #shareSheetWrap .shareContainer {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    width: 90%;
+    overflow: hidden
+}
+
+#shareDetail #shareSheetWrap .shareContainer img {
+    border: none
+}
+
+#articles .goodarticles {
+    margin: 0;
+    padding-top: 15px
+}
+
+#articles .goodarticles li {
+    list-style: none;
+    overflow: hidden;
+    line-height: 30px;
+    border-bottom: 1px solid #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#articles .goodarticles li:hover {
+    border-bottom: 1px solid #dcdcdc
+}
+
+#articles .goodarticles li a {
+    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    width: 85%;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#articles .goodarticles li a:hover {
+    color: #e94b4b
+}
+
+#articles .goodarticles li span {
+    float: right;
+    color: #999;
+    font-size: 12px
+}
+
+#marketLine .marketLine_right {
+    width: 440px
+}
+
+#MyOptional table {
+    width: 90%;
+    margin: auto
+}
+
+#MyOptional table tr.body:hover td {
+    background: rgb(245, 245, 245);
+    cursor: pointer
+}
+
+#MyOptional table td {
+    line-height: 30px;
+    width: 20%;
+    text-align: center;
+    border-top: 1px solid rgb(245, 245, 245);
+    padding: 6px 0
+}
+
+#MyOptional button {
+    padding: 3px 10px
+}
+
+#MyOptional table td a.code {
+    color: #555;
+    text-decoration: none
+}
+
+#MyOptional table tr.head td {
+    border-top: none;
+    color: rgb(180, 180, 180)
+}
+
+#MyOptional table td.first {
+    width: 33%;
+    text-align: center;
+    border-top: none
+}
+
+#newconsultation .user_words {
+    overflow: hidden;
+    margin-top: 15px
+}
+
+#newconsultation .user_words .widget-thumb {
+    height: 40px;
+    line-height: 25px
+}
+
+#newconsultation .user_words .widget-thumb img {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px
+}
+
+#newconsultation .container1 {
+    margin-top: -20px;
+    font-size: 9pt;
+    display: block;
+    width: 100%;
+    background: 0 0;
+    margin-bottom: 15px
+}
+
+#newconsultation .container1 i,
+#newconsultation .container1 s {
+    position: relative;
+    display: block;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border-style: dashed dashed solid;
+    border-width: 10px
+}
+
+#newconsultation .container1 s {
+    z-index: 1;
+    left: 20px;
+    border-color: transparent transparent #E6E6E6
+}
+
+#newconsultation .container1 i {
+    top: -9px;
+    left: -10px;
+    border-color: transparent transparent #F8F8F8
+}
+
+#newconsultation .container1 .words {
+    border: 1px solid #E6E6E6;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    width: 97%;
+    height: auto;
+    line-height: 25px
+}
+
+#newconsultation .information a {
+    float: left;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #656565;
+    text-decoration: none
+}
+
+#newconsultation .information .answer {
+    float: none;
+    color: #999;
+    line-height: 25px;
+    font-size: 12px
+}
+
+#newconsultation .information .answer a {
+    float: none;
+    color: #999
+}
+
+.stock-top {
+    overflow: hidden;
+    background: white;
+    padding: 25px;
+    border: 1px solid rgb(235, 235, 235)
+}
+
+#_now {
+    font-size: 39px;
+    font-weight: normal
+}
+
+#_up,
+#_radio {
+    position: relative;
+    top: -7px;
+    left: 15px
+}
+
+#_radio {
+    margin-left: 15px
+}
+
+#stockInfo {
+    width: 530px
+}
+
+#stockInfo .txt {
+    color: gray
+}
+
+#shareInfo {
+    width: 150px
+}
+
+#stock_name {
+    font-size: 32px;
+    font-weight: normal;
+    text-align: center
+}
+
+#shareInfo > * {
+    margin-bottom: 10px
+}
+
+#stockInfo table td {
+    padding: 5px 15px
+}
+
+#shareInfo button {
+    display: block;
+    margin: auto;
+    color: white;
+    background: #d72621;
+    border-color: #d72621
+}
+
+#page_stock_code {
+    text-align: center;
+    font-size: 15px
+}
+
+#askStock .items {
+    padding: 0 32px
+}
+
+#askStock .item {
+    padding: 15px 0;
+    border-top: 1px solid rgb(245, 245, 245);
+    position: relative
+}
+
+#askStock .item:first-child {
+    border: none
+}
+
+#askStock .item > * {
+    margin-bottom: 5px
+}
+
+#askStock .item .answer .nickname {
+    color: #ec2f09
+}
+
+#askStock .item .answer .answertext {
+    line-height: 20px
+}
+
+#askStock .item .answer .answertext * {
+    display: inline-block;
+    wrod-break: break-all
+}
+
+#askStock .item .answer .fa {
+    color: #ec2f09;
+    margin-right: 10px
+}
+
+#askStock .item .time {
+    display: block;
+    color: rgb(160, 160, 160)
+}
+
+#askStock .item .type {
+    color: #6c96dd
+}
+
+#askStock .item .user {
+    color: #6c96dd
+}
+
+#articles .items {
+    padding: 0 40px
+}
+
+#articles .item {
+    padding: 15px 10px;
+    display: block;
+    border-top: 1px solid rgb(245, 245, 245);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer
+}
+
+#articles .item:hover {
+    background: rgb(245, 245, 245)
+}
+
+#articles .item:first-child {
+    border-top: none
+}
+
+#articles .item > * {
+    float: left
+}
+
+
+
+#articles .avatar {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    overflow: hidden
+}
+
+#articles .avatar img {
+    height: 70%
+}
+
+#articles .story {
+    width: 550px;
+    margin-left: 15px;
+    text-align: justify;
+    line-height: 22px
+}
+
+#articles .story .titleShort {
+    color: #f44f06
+}
+
+#articles .time {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    color: gray
+}
+
+#articles .item span.time{
+    overflow: hidden;
+    white-space:nowrap;
+}
+#relativeChat {
+    background: white;
+    margin-bottom: 10px;
+    border: 1px solid rgb(235, 235, 235)
+}
+
+#relativeChat .title {
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(230, 230, 230)
+}
+
+#relativeChat .title .name {
+    color: #4c85ec
+}
+
+#relativeChat .title .code {
+    color: #4c85ec
+}
+
+#relativeChat .content {
+    padding: 15px
+}
+
+#relativeChat .content .line {
+    border: 1px solid rgb(245, 245, 245);
+    height: 8px;
+    background: rgb(235, 235, 235);
+    border-radius: 4px;
+    overflow: hidden
+}
+
+#relativeChat .content .line .up {
+    width: 50%;
+    background: red;
+    height: 8px;
+    display: inline-block;
+    float: left
+}
+
+#relativeChat .content .line .down {
+    width: 50%;
+    background: #1fbc3b;
+    height: 8px;
+    display: inline-block;
+    float: right
+}
+
+#relativeChat .content .txts {
+    overflow: hidden;
+    margin-top: 10px;
+    color: rgb(150, 150, 150)
+}
+
+#relativeChat .content .txt.down {
+    float: right
+}
+
+#relativeChat .items {
+    padding: 15px;
+    padding-top: 0
+}
+
+#relativeChat .item {
+    padding: 10px 0;
+    border-top: 1px solid rgb(245, 245, 245)
+}
+
+#relativeChat .item .line1 {
+    margin-bottom: 10px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden
+}
+
+#relativeChat .item .line1 a {
+    color: #4b84eb
+}
+
+#relativeChat .line2 {
+    color: rgb(150, 150, 150);
+    overflow: hidden;
+    font-size: 12px
+}
+
+#relativeChat .line2 .answer {
+    float: right
+}
+

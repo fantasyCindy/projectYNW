@@ -1,0 +1,165 @@
+.clear:after{
+	content:"";
+	clear:both;
+	display:block;
+	*zoom:1;
+}
+#deposit .titlebar{
+    margin-bottom:15px;
+    border-bottom:1px solid #c8c8c8;
+    padding-bottom:15px;
+}
+#deposit .titlebar .check-log{
+	color:#e84f4d;
+	cursor:pointer;
+}
+#deposit .deposit-type{
+	font-size:14px;
+	color:rgb(30,30,30);
+}
+#deposit .deposit-type span{
+	display:inline-block;
+	font-size:16px;
+	border-radius:5px;
+	margin:10px;
+	cursor:pointer;
+}
+#deposit .deposit-type span.thisclass{
+	padding:2px 10px;
+	background:#e74e4c;
+	color:#fff;
+}
+#deposit form{
+	height:238px;
+	color:rgb(30,30,30);
+	padding:20px 30px;
+	background:#f7f8f9;
+	border:1px solid #e0e1e2;
+	margin:20px -20px 0;
+}
+#deposit table tr{
+	line-height:49px;
+}
+#deposit form .bank{
+	border: 1px solid #c8c8c8;
+    color: rgb(90,90,90);
+    border-radius: 3px;
+    font-size:16px;
+    height:40px;
+    line-height:40px;
+    transition: box-show .2s linear;
+    background: rgb(250,250,250);
+    width: 300px;
+}
+#deposit form input{
+	font-size:16px;
+	color:rgb(90,90,90);
+	width:300px;
+	padding:10px;
+	border-radius:3px;
+	border:1px solid #c8c8c8;
+}
+#deposit .deposit-money{
+	margin:50px;
+	color:rgb(30,30,30);
+}
+#deposit .deposit-money font{
+	margin-left:20px;
+}
+#deposit .deposit-money .balance{
+	color:rgb(90,90,90);
+}
+#deposit .deposit-money input{
+	margin:5px;
+	padding:6px;
+	border:1px solid #c8c8c8;
+}
+#deposit .deposit-money .deposit-btn{
+	display:block;
+	cursor:pointer;
+	margin:30px auto;
+	width:90px;
+	border-radius:5px;
+	font-size:16px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	background:#e64e4c;
+	border:1px solid #e63d39;
+	transition:all .3s;
+}
+#deposit .deposit-money .deposit-btn:hover{
+	background:#e63d39;
+	border:1px solid #e64e4c;
+}
+#deposit-log .return{
+	text-align:right;
+	color:#e84f4d;
+	cursor:pointer;
+}
+#deposit-log .inquire-indent{
+	margin-top:15px;
+}
+#deposit-log .inquire-indent table{
+	width:100%;
+	color:rgb(30,30,30);
+	line-height:22px;
+}
+#deposit-log .inquire-indent .txtbox{
+	text-align:center;
+	border:1px solid #c7c7c7;
+	height:24px;
+	line-height:24px;
+	font-size: 13px;
+	width:118px;
+	border-radius:3px;
+	margin:0 5px;
+    -webkit-transition: box-shadow .2s linear;
+    transition: box-shadow .2s linear;
+}
+#deposit-log .inquire-indent select{
+	border:1px solid #c7c7c7;
+	color:rgb(90,90,90);
+	border-radius:3px;
+	font-size:14px;
+	line-height:24px;
+	height:24px;
+	transition:box-show .2s linear;
+	background:rgb(250,250,250);
+	width:60px;
+}
+#deposit-log .inquire-indent .inquire-btn{
+	color:#fff;
+	display:inline-block;
+	padding:0 3px;
+	background:#f00029;
+	border-radius:4px;
+	cursor:pointer;
+}
+#deposit-log .deposit-wrap{
+	margin-top:35px;
+}
+#deposit-log .deposit-wrap table{
+    width:100%;
+}
+#deposit-log .deposit-wrap thead{
+	background:#f5f5f5;
+	color:rgb(30,30,30);
+}
+#deposit-log .deposit-wrap tbody{
+	color:rgb(90,90,90);
+}
+#deposit-log .deposit-wrap td{
+	text-indent:10px;
+}
+#deposit-log .deposit-wrap tr{
+	border-bottom:1px solid #e1e2e7;
+	line-height:40px;
+}
+#deposit-log .deposit-wrap .operate{
+	color:#579dfe;
+	cursor:pointer;
+}
+#deposit-log .deposit-wrap .operate:hover{
+	text-decoration:underline;
+}

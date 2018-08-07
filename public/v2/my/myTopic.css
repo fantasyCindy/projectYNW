@@ -1,0 +1,174 @@
+#myTopic{
+    width:1200px;
+    margin:20px auto 0 auto;
+}
+.topicList,.publishTopic{
+    padding:10px;
+}
+.right {}
+
+.topicList-title {
+    font-size: 18px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.topicList-title-icon {
+    display: inline-block;
+    width: 3px;
+    height: 18px;
+    background: #d72612;
+    position: relative;
+    top: 2px;
+}
+
+.goPublish {
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    background: #d72612;
+    float: right;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.topicList-table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.topicList-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.topicList-table table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid rgb(220, 220, 220);
+    font-size: 13px;
+    color: #333;
+}
+
+.topicList-table table td.topic-titles {
+    width: 32%;
+}
+
+.topicList-table table .table-title td {
+    font-size: 15px;
+    background: #e9f6ff;
+}
+
+.topic-item-title a {
+    color: #2579E2;
+}
+
+.publishContent {
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.pub-topic-title {
+    margin: 10px;
+}
+
+.pub-topic-title span {
+    display: inline-block;
+}
+
+.pub-title-text {
+    margin-right: 10px;
+}
+
+.pub-title-right {
+    width: 100%;
+    position: relative;
+}
+
+.pub-title-right input {
+    width: 91%;
+    height: 38px;
+    padding-left: 10px;
+    float: right;
+}
+
+.topic-pic {
+    width: 180px;
+    margin-left: 95px;
+}
+
+.topic-pic .upload {
+    display: block;
+    width: 180px;
+    height: 180px;
+    background: #e0e1e2 url(/public/images/uploadCover.png) no-repeat;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+}
+
+.note {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pub-btn {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+.pubBtn {
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.publishBtn {
+    background: #d72312;
+}
+
+.cancel {
+    background: #ccc;
+}
+
+#publish-topic-edit {
+    width: 90%;
+    display: inline-block;
+    float: right;
+}
+.publish-topic-edit{
+    width: 90%;
+    display: inline-block;
+    float: right;
+    padding:10px;
+}
+.wordCount{
+    display: inline-block;
+    position: absolute;
+    bottom:5px;
+    right:10px;
+    color:#666;
+}
+#edui1 {
+    width: 100%!important;
+}
+
+.topicList-table table .topicDelete {
+    cursor: pointer;
+    color: #2579E2;
+}
+
+.none {
+    padding: 40px 0;
+}

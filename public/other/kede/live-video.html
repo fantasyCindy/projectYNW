@@ -1,0 +1,133 @@
+<!--老师直播室使用 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>科德投资</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link href="http://cdn.bootcss.com/meyer-reset/2.0/reset.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/video-helper.css?v=20170724180706">
+</head>
+
+<body>
+    <div class="container flex column">
+        <div id="market">
+            <div class="logo row">
+                <img src="./logo.png?v20171221143124" style="height:150px;">
+            </div>
+            <div class="tip">国内指数</div>
+            <div class="market_rise row">
+                <span>名称</span>
+                <span>最新</span>
+                <span>涨跌</span>
+                <span>涨跌幅%</span>
+            </div>
+            <div class="market_list">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/public/js/lodash.js"></script>
+    <script>
+    var MarketIndex = function() {
+        var container = null;
+        var cacheData = [];
+
+        var getData = function(callback) {
+            $.getJSON("/html/querySinaMarketData1.htm", function(data) {
+                callback(_.map(["上证指数", "深证成指", "中小板指", "创业板指", "沪深300"], function(item) {
+                    item = handleData(data.market[item]);
+                    return item;
+                }));
+            });
+
+            var handleData = function(data) {
+                data.curdot = setDecimal(data.curdot);
+                var rate = parseFloat(data.rate);
+                data.color = rate > 0 ? "red" : "green";
+                data.direction = rate > 0 ? "up" : "down"
+                if (rate === 0) {
+                    data.color = "gray";
+                }
+                return data;
+            }
+            var setDecimal = function(origin, ops) {
+                var number = parseFloat(origin);
+                if (isNaN(number)) {
+                    console.log(`setDecimal error : ${origin} is not valid! `)
+                    return origin
+                }
+                ops = _.extend({
+                    step: 2,
+                    math: "floor"
+                }, ops);
+
+                if (number === 0) {
+                    return _.padRight("0.", ops.step + 2, "0")
+                }
+
+                //处理负数
+                var prefix = "";
+                if (number < 0) {
+                    number = Math.abs(number);
+                    prefix = "-";
+                }
+
+                //去掉多余的位数
+                var step = +_.padRight("1", ops.step + 1, "0"); //相乘的基数:2=>100, 3=>1000
+                var zoom = number * step;
+                if (zoom < 1) return String(origin).match(/[0.]+[^0]/)[0];
+
+                number = Math[ops.math](zoom) / step;
+                var result = String(number).split(".");
+                if (result.length < 2) {
+                    result[1] = "";
+                }
+                result[1] = _.padRight(result[1], ops.step, "0")
+                return prefix + result.join(".");
+            }
+        }
+
+        var createHTML = function(data, index) {
+            return `<div class="market-item row ${data.color}">
+                            <span class="market_name">${data.name}</span>
+                            <span class="best_new">${data.curdot}</span>
+                            <span class="market_change"><kbd><i class="fa fa-play ${data.direction}"></i>${data.curprice}</kbd></span>
+                            <span>${data.rate}</span>
+                        </div>`
+        }
+
+        var compile = function() {
+            getData(function(data) {
+                container.empty()
+                _.forEach(data, function(item, index) {
+                    var tag = createHTML(item, index);
+                    container.append(tag);
+                    cacheData[index] = item;
+                })
+            })
+        }
+
+        return {
+            render: function(_container) {
+                container = _container;
+                compile();
+                setInterval(function() {
+                    compile();
+                }, 5000)
+            }
+        }
+    }()
+
+
+
+    /*///////////////////////////////////////////////////////////////////*/
+
+    $(function() {
+        MarketIndex.render($('#market .market_list'))
+    })
+    </script>
+</body>
+
+</html>

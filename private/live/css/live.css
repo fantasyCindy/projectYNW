@@ -1,0 +1,414 @@
+/*==========base.css==========*/
+@charset "UTF-8";
+
+body{
+    font-size:14px;
+    background: #f8f8f8;
+}
+/*------------跑马灯--------------------------------*/
+
+.mar-container {
+    background: #d6d7dc;
+    overflow: hidden;
+    min-width: 1200px;
+}
+
+.mar-wrap {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    height: 40px;
+    position: relative;
+}
+
+#marscroll{
+    width:1530px;
+    position:absolute;
+    top:13px;
+    font-size:13px;
+    left:500px;
+
+}
+
+#marscroll .mar-item {
+    margin-right: 20px;
+}
+
+#marscroll .mar-item a:hover{
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#marscroll .mar-item img{
+    position: relative;
+    top:2px;
+}
+
+#marscroll .mar-item > * {
+    margin: 0 5px;
+}
+
+.scroll_green{
+   color:green;
+}
+.scroll_red{
+    color:red;
+}
+.hide{
+	display: none;
+}
+
+/*------------新模块--------------------------------*/
+.mr20 {
+	margin-right: 20px
+}
+
+.mr15 {
+	margin-right: 15px
+}
+
+.content {
+	width: 100%;
+	border: 1px solid #e1e1e1;
+	overflow: hidden;
+	background: #fff
+}
+
+.content:hover {
+	box-shadow: 0 3px 3px rgb(245,245,245);
+}
+
+.tit {
+	margin: 25px 0 10px;
+	position: relative
+}
+
+.tit .titi {
+	border-left: 8px solid #fd7d00;
+	font-size: 18px;
+	height: 20px;
+	padding-left: 10px;
+	color: #212121;
+	font-weight: 700
+}
+
+.tit .sort {
+	float: right;
+	position: absolute;
+	top: -3px;
+	right: 1px;
+	z-index: 1;
+	background: white;
+}
+
+.tit .sort a {
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	color: #666;
+	padding: 0 8px;
+	line-height: 34px;
+	border-radius:4px 4px 0 0;
+}
+
+.tit .sort a.thisclass {
+	color: #fff;
+	background: #eb7d25
+}
+
+.tit .hot {
+	position: absolute;
+	top: -9px
+}
+
+#liveindex {
+	width: 1200px;
+	margin: 0 auto
+}
+
+#liveindex #liveindexLeft {
+	width: 818px;
+	float: left
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist {
+	overflow: hidden;
+	border-bottom: 1px solid rgb(240,240,240);
+	padding: 8px 20px;
+	cursor: pointer
+}
+#liveindex #liveindexLeft .content1 .dynamiclist:last-child {
+	border:none;
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist:hover {
+	box-shadow: 0 2px 10px #e6e6e6
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .userhead {
+	float: left;
+	border: 1px solid #e9e9e9;
+	border-radius: 5px;
+	width: 65px;
+	height: 65px;
+	margin-right: 15px;
+	overflow:hidden;
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .userhead img {
+	width: 100%;
+	height: 100%;
+	border: none
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .title {
+	font-size: 18px;
+	color: #212121;
+	float: left;
+	margin-right: 18px;
+	line-height: 67px;
+	width:74px;
+}
+#liveindex #liveindexLeft .content1 .dynamiclist .title a:hover{
+	color:red;
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .time {
+	float: left;
+	font-size: 16px;
+	color: #999;
+	margin-right: 18px;
+	line-height: 67px
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .article {
+	float: left;
+	font-size: 14px;
+	color: #212121;
+	margin-right: 40px;
+	line-height: 67px;
+	width: 403px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .info {
+	float: right;
+	padding: 17px 0;
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .info a {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fd7d00;
+	border: 1px solid #fd7d00;
+	font-size: 14px;
+	text-decoration: none;
+	border-radius: 2px;
+}
+
+#liveindex #liveindexLeft .content1 .dynamiclist .info a:hover {
+	color: #fff;
+	background: #fd7d00
+}
+
+#liveindex #liveindexLeft .content2 {
+	border-top: 1px solid #eb7d25;
+	overflow: hidden
+}
+
+#liveindex #liveindexLeft .content2 .halllist {
+	float: left;
+	overflow: hidden;
+	margin: 25px;
+	width: 43%;
+	position: relative;
+}
+#liveindex .halllist .actions{
+	position:absolute;
+	bottom:5px;
+}
+#liveindex .halllist .action{
+	font-size:12px; 
+	border: 1px solid #f6b74f;
+    padding: 2px 6px;
+    color: #f6b74f;
+    background: #fffdd6;
+}
+
+#liveindex #liveindexLeft .content2 .halllist .userhead {
+	float: left;
+	border: 1px solid #e1e1e1;
+	width: 110px;
+	height: 110px;
+	border-radius: 5px;
+	position: relative;
+	overflow:hidden;
+}
+
+#liveindex #liveindexLeft .content2 .halllist .userhead img {
+	width: 100%;
+	border: none
+}
+
+#liveindex #liveindexLeft .content2 .halllist .sub {
+	width: 63%;
+	float: left
+}
+
+#liveindex #liveindexLeft .content2 .halllist .sub .title {
+	font-size: 18px;
+	color: #212121;
+	font-weight: 700;
+	line-height: 25px;
+}
+
+#liveindex #liveindexLeft .content2 .halllist .sub .title a:hover{
+	cursor:pointer;
+	color: red;
+}
+
+#liveindex #liveindexLeft .content2 .halllist .sub .article {
+	font-size: 14px;
+	color: #666;
+	height: 55px;
+	overflow: hidden;
+	line-height: 19px;
+}
+
+#liveindex #liveindexLeft .content2 .halllist .sub .info a {
+	text-decoration: none;
+	display: block;
+	width: 106px;
+	line-height: 20px;
+	text-align: center;
+	color: #fd7d00;
+	border: 1px solid #fd7d00;
+	border-radius:2px;
+	position: absolute;
+	bottom: 0;
+}
+
+#liveindex #liveindexLeft .content2 .halllist .sub .info a:hover {
+	color: #fff;
+	background: #fd7d00
+}
+
+#liveindex #liveindexRight {
+	width: 360px;
+	float: right
+}
+
+#liveindex #liveindexRight .content1 .groomlist,#liveindex #liveindexRight .content2 .groomlist {
+	padding: 10px;
+	border-bottom: 1px solid rgb(240,240,240);
+	overflow: hidden
+}
+#liveindex #liveindexRight .content1 .groomlist:hover,
+#liveindex #liveindexRight .content2 .groomlist:hover {
+	background:#f8f8f8;
+	cursor:pointer;
+}
+#liveindex #liveindexRight .content1 .groomlist:last-child,
+#liveindex #liveindexRight .content2 .groomlist:last-child {
+	border:none;
+}
+
+#liveindex #liveindexRight .content1 .groomlist .userhead,#liveindex #liveindexRight .content2 .groomlist .userhead {
+	border: 1px solid #e9e9e9;
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius:50%;
+	overflow:hidden;
+	border:1px solid #e1e1e1;
+}
+
+#liveindex #liveindexRight .content1 .groomlist .userhead img,#liveindex #liveindexRight .content2 .groomlist .userhead img {
+	width: 110%;
+	border: none;
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub,#liveindex #liveindexRight .content2 .groomlist .sub {
+	width: 75%;
+	float: left
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .title,#liveindex #liveindexRight .content2 .groomlist .sub .title {
+	line-height: 25px
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .title .alt,#liveindex #liveindexRight .content2 .groomlist .sub .title .alt {
+	font-size: 15px;
+	color: #088CCB;
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .title .popularity,#liveindex #liveindexRight .content2 .groomlist .sub .title .popularity {
+	float: right;
+	font-size: 12px;
+	color: #b3b3b3
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .subject .article,#liveindex #liveindexRight .content2 .groomlist .sub .subject .article {
+	float: left;
+	width: 181px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #8A8A8A;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .subject .info,#liveindex #liveindexRight .content2 .groomlist .sub .subject .info {
+	float: right
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .subject .info a,#liveindex #liveindexRight .content2 .groomlist .sub .subject .info a {
+	display: block;
+	width: 70px;
+	height: 24px;
+	border-radius:2px;
+	line-height: 24px;
+	color: #fff;
+	background: #fd7d00;
+	text-align: center;
+	text-decoration: none;
+	font-size:12px;
+}
+
+#liveindex #liveindexRight .content1 .groomlist .sub .subject .info a:hover,#liveindex #liveindexRight .content2 .groomlist .sub .subject .info a:hover {
+	background: #fd6b24
+}
+
+
+
+#homeslide .content{
+    z-index:9;
+}
+
+#homeslide .pageIndex{
+    position:absolute;
+    bottom:15px;
+    left:45%;
+    height:20px;
+    z-index:10;
+}
+
+#homeslide .pageIndex .item{
+	cursor: pointer;
+	display:inline-block;
+    margin-right:15px;
+    width:14px !important;
+    height:14px;
+    background:url(http://img.9666sr.com/sr/images/common/2015/btn.png) no-repeat;
+    z-index:100;
+}
+
+#homeslide .pageIndex .item.focus{
+   background: url(http://img.9666sr.com/sr/images/common/2015/btn_hover.png) no-repeat !important;
+}

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #fafafa;
+  font-family: '微软雅黑'; }
+
+.hide {
+  display: none; }
+
+.w1200 {
+  width: 1200px;
+  margin: auto; }
+
+.common-header {
+  width: 100%;
+  background: #ebebeb;
+  padding: 25px 0;
+  background: white; }
+  .common-header .logo {
+    width: 250px;
+    display: inline-block; }
+    .common-header .logo img {
+      width: 100%; }
+  .common-header .menu {
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -21px; }
+    .common-header .menu ul {
+      overflow: hidden; }
+      .common-header .menu ul li {
+        padding: 0 10px;
+        height: 115px;
+        line-height: 115px;
+        float: left;
+        margin: auto 25px;
+        color: #000;
+        cursor: pointer;
+        list-style: none; }
+        .common-header .menu ul li.select {
+          color: #d72612;
+          border-bottom: 2px solid #d72612; }
+        .common-header .menu ul li .login,
+        .common-header .menu ul li .register {
+          margin: 0 5px; }
+        .common-header .menu ul li .login.select,
+        .common-header .menu ul li .register.select {
+          color: #d72612; }
+
+.yn-content {
+  margin-bottom: 50px; }
+
+.news-title {
+  margin: 10px auto;
+  font-size: 17px; }
+  .news-title .news-title-icon {
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background: #0e99e1;
+    position: relative;
+    top: 2px; }
+
+.ynzx-content {
+  background: #fff;
+  padding: 20px 20px 35px 20px;
+  box-shadow: 3px 3px 15px #CBCBCB;
+  line-height: 25px; }
+  .ynzx-content p {
+    text-indent: 2em;
+    margin-bottom: 15px; }
+
+.common-footer {
+  background: #333333;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  margin-top: -4px; }
+  .common-footer .footer-text {
+    width: 900px;
+    margin: 0 auto; }

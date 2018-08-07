@@ -1,0 +1,140 @@
+#newslist {
+    overflow: hidden;
+}
+
+.list .title-1 {
+    background: #d72621;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.list {
+    background: white;
+    padding-bottom: 15px;
+}
+
+.list .item {
+    border-bottom: 1px solid rgb(235, 235, 235);
+    ;
+    padding: 20px 15px;
+    overflow: hidden;
+}
+
+.list .item .avatar {
+    float: left;
+    overflow: hidden;
+    width: 25%;
+    height: 130px;
+}
+
+.list .item .avatar img {
+    height: 100%;
+}
+
+.list .item .info {
+    float: left;
+    display: block;
+    width: 65%;
+    margin-left: 15px;
+    position:relative;
+    height:130px;
+}
+
+.list .item .info .title {
+    font-size: 18px;
+    color: black;
+    width: 550px;
+    display: inline-block;
+    margin-bottom: 5px;
+    overflow: hidden;
+    height:23px;
+}
+
+.list .item .info .subject {
+    width: 550px;
+    text-align: justify;
+    line-height: 23px;
+    height: 70px;
+    color: rgb(81, 81, 81);
+    font-size: 15px;
+    overflow:hidden;
+}
+
+.list .item .msg {
+    color: #a49f9f;
+    font-size: 12px;
+    position:absolute;
+    bottom:0;
+}
+
+.list .item .msg > * {
+    margin-right: 10px;
+}
+
+.list .item .msg .time{
+    display: inline-block;
+    overflow: hidden;
+    white-space:nowrap;
+    position:relative;
+    top:3px;
+}
+
+.list .item .msg .count {
+    margin: 0 5px;
+}
+
+.right-child {
+    margin-bottom: 15px;
+    background: white;
+    position:relative;
+}
+
+.right-child .more{
+    position:absolute;
+    top:13px;
+    right:13px;
+    font-size:12px;
+    color:gray;
+    cursor: pointer;
+}
+.right-child .more .fa{
+    position:relative;
+    top:-2px;
+    margin-left:2px;
+}
+.right-child .title {
+    font-size: 16px;
+    padding: 12px 18px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.right-child .items {
+    padding: 0 20px;
+}
+
+.right-child .item {
+    font-size: 13px;
+    padding: 12px 0;
+    display: block;
+    border-top: 1px dashed rgb(220, 220, 220);
+}
+
+.right-child .item .yn-icon-circle {
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+
+.right-child .item:first-child {
+    border-top: none;
+}
+
+#stockIndex {
+    margin-bottom: 15px;
+    background:white;
+}
+
+#stockIndex tr:first-child td{
+    border-bottom:1px solid rgb(220,220,220);
+}

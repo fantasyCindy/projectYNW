@@ -1,0 +1,204 @@
+/*retrieve-pass */
+$f14:24px;
+$f16:18px;
+$orange:#fb836b;
+$hui:#a8a8a8;
+$fff:#fff;
+$red:#ea453f;
+
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($shadows...){
+  @if length($shadows) >= 1 {
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+  } @else {
+    $shadows: 0 0 2px rgba(#000,.25);
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+}
+
+img{
+    width: 100%;
+}
+
+.red{
+    color: $red;
+    margin-right: 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+.f12{
+    font-size: 12px;
+}
+.f14{
+    font-size: 14px;
+}
+
+.f16{
+    font-size: 16px;
+}
+
+.w50{
+    width: 68%;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 10px;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+}
+::-webkit-scrollbar-corner {
+    background: transparent
+}
+#buy{
+    max-width: 640px;
+    margin: 0 auto 80px;
+    color: #595555;
+    font-size: $f16;
+    line-height: 26px;
+    position: relative;
+    // overflow: auto;
+    // ,.nav,.banner,.main,.refer,.history
+    .scroll{
+        width: 100%;
+        position: absolute;
+    }
+    .block{
+        display: block;
+        margin: 14px auto;
+    }
+    .nav{
+        text-align: center;
+    }
+    .nav-list{
+        padding-bottom: 3px;
+        display: inline-block;
+        margin: 10px 20px;
+        cursor: pointer;
+    }
+    .nav-list:hover{
+        color: #000;
+        border-bottom: 2px solid $red;
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        position: relative;
+        top: 1px;
+        margin-right: 10px;
+        background: url(/public/images/caoh5/live_icon.png);
+        background-size: 24px;
+    }
+    .icon2{
+        background: url(/public/images/caoh5/function_icon.png);
+        background-size: 24px;
+    }
+    .main{
+        text-align: center; 
+    }
+    .refer .m-list .m-l-title{
+        color: #2ba7fd;
+    }
+    .m-list{
+        text-align: left;
+        padding: 15px;
+        border-bottom: 1px solid #dadada;
+        .line{
+            width: 2px;
+            height: 18px;
+            background: $red;
+            position: relative;
+            top: 3px;
+            margin-right: 15px;
+            display: inline-block;
+        }
+        &:last-child{
+            border-bottom: 0;
+        }
+        .m-top{
+            margin-bottom: 8px;
+        }
+        .m-l-time{
+            color: $hui;
+        }
+        .m-l-title{
+            color: $red;
+        }
+        .m-l-text{
+            color: $hui;
+        }
+    }
+    .rate{
+        border-bottom: 1px solid #dadada;
+        overflow: hidden;
+        padding: 10px 10px 10px 20px;
+    }
+    .rate2{
+        border-bottom: 0;
+    }
+    .his-list{
+        overflow: hidden;
+        border-bottom: 1px solid #dadada;
+        &:first-child{
+            border-top: 1px solid #dadada;
+        }
+        .his-time{
+            text-align: center;
+            padding: 8px 20px;
+            background: #f8f8f8;
+        }
+        .icon3{
+            background: url(/public/images/caoh5/clock.png);
+            background-size: 24px;
+        }
+        .his-text{
+            padding: 20px;
+        }
+    }
+    .footer{
+        position: fixed;
+        bottom: -4px;
+        width: 100%;
+        font-size: 24px;
+    }
+    .foot-btn{
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+        padding: 18px 0;
+        background: #fff;
+    }
+    .foot-price{
+        color: $red;
+        position: relative;
+        border-top: 1px solid #e0dada;
+    }
+    .old-price{
+        position: absolute;
+        right: 50%;
+        top: 3px;
+        margin-right: -71px;
+    }
+    .btn-buy{
+        color: #fff;
+        background: $red;
+        border-top: 1px solid $red;
+    }
+
+}
+
+
+
+
+

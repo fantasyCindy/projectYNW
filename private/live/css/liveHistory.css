@@ -1,0 +1,100 @@
+#history-list {
+    padding: 20px;
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px;
+    background: white;
+}
+
+#history-list table {
+    width: 100%;
+}
+
+#history-list td {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding: 8px 0;
+    text-indent: 10px;
+    text-align: center;
+}
+
+#history-list .title {
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-left: 3px solid #DC0101;
+    padding-left: 10px;
+}
+
+#history-list .tr-title td {
+    text-align: center;
+    background: rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
+    border-bottom: 2px solid #d72621;
+    padding:10px 0;
+}
+
+#history-list td.subject {
+    width: 650px;
+    text-align: left
+}
+
+
+#live-info {
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px;
+    background: white;
+    margin-bottom:10px;
+}
+
+#live-info .avatar{
+    width:128px;
+    height:128px;
+    border:1px solid rgb(200,200,200);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#live-info .avatar img{
+    height:100%;
+}
+
+#live-info .subject{
+    font-size:16px;
+    padding:15px;
+    margin-bottom: 15px;
+    border-bottom:1px solid rgb(235,235,235);
+}
+
+#live-info .person{
+    overflow: hidden;
+    padding:20px;
+    padding-bottom:30px;
+}
+
+#live-info .person .column{
+    float:left;
+}
+
+#live-info .column2{
+    width:600px;
+    margin-left:15px;
+}
+
+#live-info .column2 .action {
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+#live-info .column2 .action span{
+    display: inline-block;
+    background: #d72621;
+    margin-right: 10px;
+    padding:3px 15px;
+    color:white;
+    border-radius: 2px;
+}
+
+#live-info .column2 .name{
+    font-size:18px;
+}
+

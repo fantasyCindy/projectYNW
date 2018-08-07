@@ -1,0 +1,81 @@
+
+#feedback {
+    width:1000px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+    border-radius: 3px;
+    margin:18px auto;
+    min-height: 625px;
+}
+
+#feedback .wrap {
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding: 40px;
+}
+
+
+#feedback .line {
+    margin: 10px 0
+}
+
+#feedback .wordCount {
+    line-height: 31px;
+}
+
+#feedback .wordCount:after {
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1
+}
+
+#feedback .comCode {
+    width: 74px;
+    height: 31px;
+    line-height: 31px;
+    text-indent: 8px;
+}
+
+#feedback .complain {
+    line-height: 31px
+}
+
+#feedback .complain img {
+    position: relative;
+    top: 3px;
+    left: 2px
+}
+
+#feedback .complain span {
+    position: relative;
+    top: -3px
+}
+
+#feedback .field {
+    padding: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 2px;
+}
+
+#feedback textarea {
+    height: 160px
+}
+
+#feedback button {
+    padding:10px 50px;
+}
+
+.feedback-trigger {
+    cursor: pointer
+}
+
+.feedback-trigger:hover {
+    transition: all 0.3s;
+    color: white
+}

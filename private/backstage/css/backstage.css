@@ -1,0 +1,2477 @@
+@charset "UTF-8";
+body {
+    font-size: 14px
+}
+.hidden {
+    display: none
+}
+
+.ynlink {
+    cursor: pointer
+}
+
+.hide {
+    display: none
+}
+
+.ynbutton {
+    cursor: pointer
+}
+
+.ynchecked {
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    width: 128px;
+    height: 39px;
+    border: 2px solid #6f96be;
+    line-height: 39px;
+    background: url(/public/images/checked.jpg) 100% 0 no-repeat
+}
+
+.ynbutton-black {
+    border: 1px solid #3c3c3c;
+    background: #1e1e1e;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px
+}
+
+.ynbutton-blue {
+    border: 1px solid #458eda;
+    background: #458eda;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px
+}
+
+.ynbutton-black:hover {
+    background: #505050;
+    border: 1px solid #5a5a5a
+}
+
+.ynbutton-red {
+    background: #d72621;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px
+}
+
+.ynbutton-red:hover {
+    background: #f31a0b
+}
+
+.left {
+    float: left;
+    width: 220px;
+    background:#fff;
+    position: relative
+}
+
+.right {
+    width: 960px;
+    float: right;
+    background: white;
+    border-radius: 2px;
+    overflow: hidden
+}
+
+#customeStock .container .right #contentWrap {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative
+}
+
+input {
+    outline: none
+}
+
+#mySelectStock .title,
+#myOpinion .title,
+#myLive .title,
+#myVideo .title {
+    font-size: 16px;
+    border-left: 4px solid #f31a0b;
+    padding-left: 10px
+}
+
+#mySelectStock .searchBar {
+    padding: 10px 0
+}
+
+#mySelectStock .searchBar input {
+    margin-right: 10px;
+    padding: 5px;
+    width: 250px;
+    border-radius: 2px;
+    border: 1px solid #c8c8c8
+}
+
+#mySelectStock .searchBar .button {
+    padding: 5px 20px;
+    margin-right: 5px;
+    border-radius: 3px;
+    background: black;
+    color: white;
+    overflow: hidden;
+    cursor: pointer
+}
+
+#mySelectStock .searchBar .button:hover {
+    background: #646464
+}
+
+#mySelectStock .content {
+    font-size: 13px;
+    margin-top: 15px
+}
+
+#mySelectStock .content table {
+    width: 100%
+}
+
+#mySelectStock .content td {
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #e6e6e6;
+    padding: 5px 0;
+    position: relative
+}
+
+#mySelectStock .content tr.theader td {
+    border-top: none;
+    border-bottom: 3px solid #e6e6e6
+}
+
+#mySelectStock .content tr.theader input {
+    position: relative;
+    top: 2px;
+    margin-right: 4px
+}
+
+#trends .message {
+    position: relative;
+    font-size: 18px;
+    font-weight: bold
+}
+
+#trends .message .txt {
+    position: absolute;
+    top: 6px;
+    margin-left: 10px;
+    color: black
+}
+
+#trends .message .fa {
+    color: #f31a0b
+}
+
+#trends .recommond {
+    margin-top: 20px;
+    border: 1px solid #e6e6e6
+}
+
+#trends .recommond .title {
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 10px 0;
+    font-size: 16px
+}
+
+#trends .recommond .title .fa {
+    margin-right: 10px;
+    color: #f31a0b
+}
+
+#trends .recommond .title .change {
+    color: gray;
+    font-size: 13px;
+    position: absolute;
+    right: 15px;
+    top: 12px
+}
+
+#trends .recommond .title .change .fa {
+    color: gray
+}
+
+#trends .recommond .content {
+    overflow: hidden
+}
+
+#trends .recommond .content .item {
+    width: 32%;
+    background: whitesmoke;
+    padding: 10px;
+    float: left;
+    margin-left: 9px;
+    margin-bottom: 9px
+}
+
+#trends .recommond .content .item .favicon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 3px
+}
+
+#trends .recommond .content .item .favicon img {
+    width: 120%
+}
+
+#trends .recommond .content .item .line {
+    margin-bottom: 10px;
+    font-size: 13px
+}
+
+#trends .recommond .content .item .line1 .name {
+    margin-left: 8px;
+    font-size: 16px;
+    position: absolute
+}
+
+#trends .recommond .content .item .line1 .type {
+    margin-left: 8px;
+    font-size: 12px;
+    color: gray
+}
+
+#trends .recommond .content .item .line2 .care {
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+    width: 57px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/btn.png) 0 -134px no-repeat
+}
+
+#trends .recommond .content .item .line2 .care:hover {
+    background-position: -74px -134px;
+    color: #fff
+}
+
+#trends .recommond .content .item .line2 .txt {
+    font-size: 12px
+}
+
+#trends .recommond .content .item .line2 .count {
+    color: #fb660d
+}
+
+#trends .recommond .content .item .line3 {
+    padding-top: 10px;
+    border-top: 1px solid gainsboro
+}
+
+#trends .recommond .content .item .line3 .dirction {
+    color: gray
+}
+
+#myFeeds .title {
+    width: 100%
+}
+
+#myFeeds .title table {
+    width: 100%
+}
+
+#myFeeds .title td {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 12px 0;
+    width: 25%;
+    cursor: pointer;
+    background: #fafafa
+}
+
+#myFeeds .title td.select {
+    border-top: 3px solid #f31a0b;
+    border-bottom: none;
+    background: white
+}
+
+#myFeeds .content a {
+    color: black
+}
+
+#myFeeds .content a:hover {
+    text-decoration: underline
+}
+
+#myFeeds .content .item {
+    padding: 25px 0px;
+    overflow: hidden;
+    border-top: 1px solid gainsboro
+}
+
+#myFeeds .content .item .favicon {
+    float: left;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 4px
+}
+
+#myFeeds .content .item .favicon img {
+    width: 120%
+}
+
+#myFeeds .content .item .info {
+    float: left;
+    width: 830px;
+    padding: 0 15px
+}
+
+#myFeeds .content .item .info .line {
+    margin-bottom: 10px
+}
+
+#myFeeds .content .item .info .line1 {
+    font-size: 15px
+}
+
+#myFeeds .content .item .info .line1 span {
+    margin-right: 10px
+}
+
+#myFeeds .content .item .info .line1 .icon {
+    margin-left: -5px;
+    color: #f6554a
+}
+
+#myFeeds .content .item .info .line1 .name {
+    font-size: 16px
+}
+
+#myFeeds .content .item .info .line1 .type {
+    color: gray
+}
+
+#myFeeds .content .item .info .line1 .state {
+    font-size: 12px;
+    background: #e83e3e url(http://js.jrjimg.cn/zqt-red-1000/images/jx.jpg) no-repeat 6px center;
+    padding: 6px 10px 5px 25px;
+    color: white
+}
+
+#myFeeds .content .item .info .line2 .title {
+    font-size: 20px;
+    font-weight: bold
+}
+
+#myFeeds .content .item .info .line2-2 {
+    font-size: 12px;
+    margin: 15px 0;
+    background: #f0f0f0;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    border-radius: 3px
+}
+
+#myFeeds .content .item .info .line3 .subject {
+    line-height: 21px
+}
+
+#myFeeds .content .item .info .line4 {
+    font-size: 12px;
+    color: gray
+}
+
+#myAdviser {
+    font-size: 13px;
+    color: #464646
+}
+
+#myAdviser .items .item:last-child {
+    border: none
+}
+
+#myAdviser .items .item {
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 25px 0
+}
+
+#myAdviser .items .item .column {
+    float: left;
+    margin-right: 10px
+}
+
+#myAdviser .items .item .column1 .avatar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 3px
+}
+
+#myAdviser .items .item .column1 .avatar img {
+    width: 120%
+}
+
+#myAdviser .items .item .column2 {
+    width: 650px;
+    margin-left: 15px
+}
+
+#myAdviser .items .item .column2 .line {
+    margin-bottom: 5px
+}
+
+#myAdviser .items .item .column2 .line1>* {
+    margin-right: 10px
+}
+
+#myAdviser .items .item .column2 .line1 .name {
+    margin-right: 0;
+    font-size: 16px;
+    color: black
+}
+
+#myAdviser .items .item .column2 .line1 .fa {
+    color: red;
+    font-size: 14px
+}
+
+#myAdviser .items .item .column2 .line2 .name {
+    background: #DFFDFF;
+    padding: 3px 8px;
+    margin-left: -5px
+}
+
+#myAdviser .items .item .column2 .line3 {
+    margin-top: 15px;
+    line-height: 22px
+}
+
+#myAdviser .items .item .column2 .line3 .name {
+    font-weight: bold
+}
+
+#myAdviser .items .item .column3 {
+    margin-left: 10px;
+    text-align: center
+}
+
+#myAdviser .items .item .column3 .line {
+    margin-bottom: 8px
+}
+
+#myAdviser .items .item .column3 .line1 .ask {
+    cursor: pointer;
+    width: 115px;
+    height: 32px;
+    line-height: 32px;
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/btn.png) 0 -289px no-repeat;
+    overflow: hidden;
+    -webkit-transition: none;
+    transition: none;
+    color: #333;
+    padding-left: 20px;
+    font-size: 14px
+}
+
+#myAdviser .items .item .column3 .line1 .ask:hover {
+    background-position: 0 -324px;
+    color: #fff
+}
+
+#myOrders {
+    font-size: 13px!important
+}
+
+#myOrders .line {
+    margin-bottom: 10px
+}
+
+#myOrders .line.title {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    padding-left: 20px;
+    border-left: 3px solid #f31a0b
+}
+
+#myOrders .line.actions {
+    border-top: 1px solid gainsboro;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 12px
+}
+
+#myOrders .line.actions span:first-child {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid
+}
+
+#myOrders .line.actions .select {
+    color: #f31a0b
+}
+
+.title-1 {
+    font-size: 16px;
+    padding-left: 10px;
+    border-left: 3px solid #f31a0b
+}
+
+.button-1 {
+    display: inline-block;
+    width: 126px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 5px;
+    box-shadow: 0 3px #b7072b;
+    font-size: 18px;
+    background: #d1183e;
+    color: white;
+    padding-left: 10px;
+    position: absolute;
+    right: 20px
+}
+
+.button-1:hover {
+    box-shadow: 0 3px #9d0625;
+    background: #b61536
+}
+
+#myOpinion .line,
+#myAnswer .line {
+    margin-botton: 10px
+}
+
+#myOpinion .line.statistics,
+#myAnswer .line.statistics {
+    margin-top: 30px;
+    width: 100%
+}
+
+#myOpinion .line.statistics table,
+#myAnswer .line.statistics table {
+    width: 100%
+}
+
+#myOpinion .line.statistics td,
+#myAnswer .line.statistics td {
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    overflow: hidden
+}
+
+#myOpinion .line.statistics tr.theader td,
+#myAnswer .line.statistics tr.theader td {
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    margin-top: 5px;
+    border-bottom: none;
+    padding-top: 10px
+}
+
+#myOpinion .line.statistics tr.tbody td,
+#myAnswer .line.statistics tr.tbody td {
+    font-size: 28px;
+    text-align: center;
+    color: #fb5e00;
+    border-top: none;
+    padding-bottom: 10px
+}
+
+#myOpinion .line.itemsHead,
+#myAnswer .line.itemsHead {
+    wdith: 100%;
+    margin-top: 25px
+}
+
+#myOpinion .line.itemsHead table,
+#myAnswer .line.itemsHead table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+#myOpinion .line.itemsHead td.action,
+#myAnswer .line.itemsHead td.action {
+    cursor: pointer;
+    padding: 15px 20px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    background: #fafafa
+}
+
+#myOpinion .line.itemsHead td.action:first-child,
+#myAnswer .line.itemsHead td.action:first-child {}
+
+#myOpinion .line.itemsHead td.select,
+#myAnswer .line.itemsHead td.select {
+    border-top: 3px solid #f31a0b;
+    color: #f31a0b;
+    border-bottom-color: white;
+    background: white
+}
+
+#myOpinion .line.items,
+#myAnswer .line.items {
+    margin-top: 20px
+}
+
+#myOpinion .line.items .item:first-child,
+#myAnswer .line.items .item:first-child {
+    border-top: none
+}
+
+#myOpinion .line.items .item,
+#myAnswer .line.items .item {
+    padding: 25px 10px;
+    border-top: 1px solid #e6e6e6
+}
+
+#myOpinion .line.items .item .title,
+#myAnswer .line.items .item .title {
+    margin-bottom: 10px
+}
+
+#myOpinion .line.items .item .title .name,
+#myAnswer .line.items .item .title .name {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+}
+
+#myOpinion .line.items .item .title .name:hover,
+#myAnswer .line.items .item .title .name:hover {
+    text-decoration: underline
+}
+
+#myOpinion .line.items .item .title .type,
+#myAnswer .line.items .item .title .type {
+    color: gray;
+    position: absolute;
+    right: 30px
+}
+
+#myOpinion .line.items .item .content,
+#myAnswer .line.items .item .content {
+    color: #777;
+    line-height: 22px
+}
+
+#myOpinion .line.items .item .info,
+#myAnswer .line.items .item .info {
+    margin-top: 10px;
+    color: #777;
+    text-align: left;
+}
+
+#myOpinion .line.items .item .info .ynbutton {
+    margin-left: 10px;
+}
+
+#myOpinion .line.items .item .info .info-item,
+#myAnswer .line.items .item .info .info-item {
+    margin: 0 5px
+}
+
+#myOpinion .line.items .item .info .time,
+#myAnswer .line.items .item .info .time {}
+
+#myOpinion .items.release .info-item,
+#myAnswer .items.release .info-item {
+    display: inline-block!important
+}
+
+#myOpinion .items.draft .ynbutton,
+#myAnswer .items.draft .ynbutton {
+    display: inline-block!important
+}
+
+#myAnswer {
+    color: gray
+}
+
+#myAnswer .line {
+    margin-bottom: 10px
+}
+
+#myAnswer .title-1 {
+    color: black
+}
+
+#myAnswer .items.task .evaluate {
+    display: none
+}
+
+#myAnswer .items.task .answer {
+    display: none
+}
+
+#myAnswer .items.done .action.no,
+#myAnswer .items.done .action.yes {
+    display: none!important
+}
+
+#myAnswer .item .question,
+#myAnswer .item .answer {
+    font-size: 20px;
+    color: black
+}
+
+#myAnswer .item .question .name,
+#myAnswer .item .answer .name {
+    overflow: hidden;
+    word-wrap: break-word;
+    font-size: 17px
+}
+
+#myAnswer .item .question .icon,
+#myAnswer .item .answer .icon {
+    position: relative;
+    top: 2px;
+    padding-left: 32px;
+    padding-top: 5px;
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/icon-ask.png) 0 0px no-repeat;
+    font-size: 18px;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word
+}
+
+#myAnswer .item .answer .icon {
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/sample-21.jpg) no-repeat
+}
+
+#myAnswer .item .answer .name {
+    font-size: 14px;
+    line-height: 22px;
+    color: #646464
+}
+
+#myAnswer .item .publisherInfo {
+    overflow: hidden;
+    padding-right: 20px;
+    position: relative
+}
+
+#myAnswer .item .publisherInfo .actions {
+    position: absolute;
+    right: 0;
+    bottom: 5px
+}
+
+#myAnswer .item .publisherInfo .actions .action {
+    margin-left: 10px
+}
+
+#myAnswer .item .publisherInfo .actions .evaluate {
+    color: #fb5e00
+}
+
+#myAnswer .item .publisherInfo .textWrap {
+    position: relative;
+    top: 5px;
+    margin-left: 10px
+}
+
+#myAnswer .item .publisherInfo .textWrap>* {
+    margin-right: 10px
+}
+
+#myAnswer .item .publisherInfo .avatar {
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+#myAnswer .item .publisherInfo .avatar img {
+    width: 100%
+}
+
+#myLive {
+    width: 100%
+}
+
+#myLive .body.status0 {
+    background: #f0f4d0;
+}
+
+#myLive .top .ynbutton {
+    position: absolute;
+    top: 15px;
+    right: 20px
+}
+
+#myLive .contentWrap {
+    margin-top: 20px;
+    width: 100%
+}
+
+#myLive .contentWrap table {
+    width: 100%
+}
+
+#myLive .contentWrap td {
+    padding: 10px 0px;
+    text-indent: 10px;
+}
+
+#myLive .contentWrap tr.head td {
+    font-size: 14px;
+    border: 1px solid #f0f0f0;
+    border-bottom: 3px solid #f0f0f0;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.center {
+    text-align: center !important;
+    text-indent: 0 !important;
+}
+
+#myLive .contentWrap tr.body td {
+    font-size: 13px;
+    text-align: left;
+    border: 1px solid #e6e6e6
+}
+
+#myLive .contentWrap td.record a {
+    color: #5378a9
+}
+
+#myLive .contentWrap td.operate {
+    text-align: center!important;
+}
+
+#myLive .contentWrap td.operate.liveClose {
+    color: #d72612;
+    cursor: pointer;
+}
+
+#myGroup {
+    overflow: hidden
+}
+
+#myGroup .titleBar {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    height: 40px;
+    position: relative
+}
+
+#myGroup .titleBar .name {
+    position: absolute;
+    padding: 7px 0;
+    border-bottom: 3px solid #f6554a;
+    font-size: 18px
+}
+
+#myGroup .titleBar .create {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #4a86ea
+}
+
+#myGroup .contentBar {
+    margin-top: 20px
+}
+
+#myGroup .contentBar .items .item {
+    overflow: hidden;
+    margin-bottom: 15px
+}
+
+#myGroup .contentBar .items .item .left {
+    background: #fafafa;
+    padding: 30px 20px;
+    width: 50%;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 4px 25px #c8c8c8;
+    height: 200px;
+    z-index: 100
+}
+
+#myGroup .contentBar .items .item .left .line1 {
+    font-size: 14px;
+    margin-bottom: 20px
+}
+
+#myGroup .contentBar .items .item .left .line1 .txt {
+    margin-right: 10px;
+    font-size: 15px
+}
+
+#myGroup .contentBar .items .item .left .line1 .totalIncome {
+    font-size: 36px;
+    color: #f6554a;
+    font-family: Arial, sans-serif
+}
+
+#myGroup .contentBar .items .item .left .line1 .ynbutton {
+    background: #f6554a;
+    position: absolute;
+    top: 25px;
+    right: 35px
+}
+
+#myGroup .contentBar .items .item .left .line2 {
+    overflow: hidden
+}
+
+#myGroup .contentBar .items .item .left .line2 .favicon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 3px
+}
+
+#myGroup .contentBar .items .item .left .line2 .favicon img {
+    width: 120%
+}
+
+#myGroup .contentBar .items .item .left .line2 .info {
+    float: right;
+    width: 340px
+}
+
+#myGroup .contentBar .items .item .left .line2 .info .name {
+    font-size: 15px
+}
+
+#myGroup .contentBar .items .item .left .line2 .info .name .fa {
+    margin-left: 5px;
+    color: #fe7e00
+}
+
+#myGroup .contentBar .items .item .left .line2 .info .subject {
+    height: 50px;
+    margin-top: 5px;
+    line-height: 22px;
+    color: #787878;
+    overflow: hidden
+}
+
+#myGroup .contentBar .items .item .right {
+    height: 200px;
+    background: #fafafa;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ebebeb;
+    position: relative;
+    z-index: 99
+}
+
+#myGroup .contentBar .items .item .right .sellIcon {
+    display: inline-block;
+    width: 25px;
+    height: 27px;
+    background: url(http://js.jrjimg.cn/zqt-red-1000/images/v2/misc.png) 0 -440px no-repeat;
+    position: absolute;
+    right: 25px;
+    top: -3px
+}
+
+#myGroup .contentBar .items .item .right .content {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    color: gray
+}
+
+#myGroup .contentBar .items .item .right .content .info {
+    float: left;
+    width: 30%
+}
+
+#myGroup .contentBar .items .item .right .content .info .count {
+    color: black;
+    margin-top: 15px;
+    font-size: 30px
+}
+
+#myGroup .contentBar .items .item .right .content .info .count .txt {
+    font-size: 16px
+}
+
+#myGroup .contentBar .items .item .right .content .chartWrap {
+    float: right;
+    width: 70%
+}
+
+#createGroup {
+    font-size: 14px
+}
+
+#createGroup .titleBar {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    height: 40px;
+    position: relative
+}
+
+#createGroup .titleBar .name {
+    position: absolute;
+    padding: 7px 0;
+    border-bottom: 3px solid #f6554a;
+    font-size: 18px
+}
+
+#createGroup .titleBar .create {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #4a86ea
+}
+
+#createGroup .contentBar {
+    margin-top: 40px;
+    padding-bottom: 20px
+}
+
+#createGroup .contentBar input,
+#createGroup .contentBar textarea {
+    background: #fafafa;
+    outline: none;
+    border-style: none;
+    border: 1px solid #dedede;
+    resize: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    width: 700px
+}
+
+#createGroup .contentBar .line {
+    margin-bottom: 15px
+}
+
+#createGroup .contentBar .txt {
+    margin-right: 10px;
+    font-size: 15px
+}
+
+#createGroup .contentBar .line2 .txt {
+    float: left
+}
+
+#createGroup .contentBar .line2 .info {
+    margin-top: 5px;
+    text-indent: 450px
+}
+
+#createGroup .contentBar .line2 textarea {
+    margin-left: 5px
+}
+
+#createGroup .contentBar .line3 .action {
+    border: 1px solid #c8c8c8;
+    padding: 5px 15px;
+    cursor: pointer
+}
+
+#createGroup .contentBar .line3 .action.select {
+    border-color: #f31a0b;
+    background-color: #f31a0b;
+    color: white
+}
+
+#createGroup .contentBar .line3 .paidOptions {
+    margin-top: 20px
+}
+
+#createGroup .contentBar .line3 .paidOptions>* {
+    margin-bottom: 10px;
+    margin-left: 165px
+}
+
+#createGroup .contentBar .line3 .paidOptions .txt {
+    display: inline-block;
+    width: 100px;
+    text-align: right
+}
+
+#createGroup .contentBar .line3 .paidOptions input {
+    width: 330px;
+    margin-right: 5px
+}
+
+#createGroup .contentBar .line3 .paidOptions .fa {
+    margin-left: 5px
+}
+
+#createGroup .contentBar .line3 .row1 {
+    color: #f6554a;
+    margin-left: 230px;
+    margin-bottom: 20px
+}
+
+#createGroup .contentBar .line3.free .paidOptions {
+    display: none
+}
+
+#createGroup .contentBar .line4 {
+    border-top: 1px solid #c8c8c8;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 50px
+}
+
+#createGroup .contentBar .line4 span {
+    padding: 10px 60px;
+    margin: 0 10px
+}
+
+#myNotice {
+    font-size: 14px
+}
+
+#myNotice .content {
+    margin-top: 20px
+}
+
+#myNotice .content textarea {
+    resize: none;
+    width: 100%;
+    padding: 20px;
+    border-style: none;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    outline: none
+}
+
+#myNotice .info {
+    height: 50px;
+    position: relative
+}
+
+#myNotice .info .count {
+    position: absolute;
+    top: 10px
+}
+
+#myNotice .info .submit {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    padding: 10px 55px
+}
+
+#setting {}
+
+#setting .titleBar {
+    margin-bottom: 20px;
+    width: 100%
+}
+
+#setting .titleBar table {
+    width: 100%
+}
+
+#setting .titleBar table td {
+    width: 33%;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    background: #ebebeb;
+    border: 1px solid #dbdbdb;
+    cursor: pointer
+}
+
+#setting .titleBar table td.select {
+    /* background: white;
+    border-top: 3px solid #f31a0b;
+    border-bottom-color: white;
+    color: #f31a0b */
+    background: #d72612;
+    color: #fff;
+    border-top: 1px solid #d72612;
+    border-bottom: 1px solid #d72612;
+}
+
+#setting .state_done {
+    padding: 10px 20px
+}
+
+#setting .state_done .editButton {
+    position: absolute;
+    right: 40px;
+    color: #5378a9;
+    cursor: pointer
+}
+
+#setting .state_done .title-2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c8c8c8
+}
+
+#setting .state_done .line {
+    margin-bottom: 30px
+}
+
+#setting .state_done .basicInfo {
+    overflow: hidden;
+    color: #646464
+}
+
+#setting .state_done .basicInfo .basicInfo-content {
+    margin-top: 30px
+}
+
+#setting .state_done .basicInfo .basicInfo-content .favicon {
+    float: left;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden
+}
+
+#setting .state_done .basicInfo .basicInfo-content .favicon img {
+    height: 100%
+}
+
+#setting .state_done .basicInfo .basicInfo-content .info {
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 300px;
+    float: left
+}
+
+#setting .state_done .basicInfo .basicInfo-content .info p {
+    margin-bottom: 15px
+}
+
+#setting .state_done .basicInfo .basicInfo-content .info .txt {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px
+}
+
+#setting .state_done .basicInfo .basicInfo-content .info .value {
+    margin-left: 10px
+}
+
+#setting .state_done .export .info {
+    margin-left: 190px;
+    color: #646464
+}
+
+#setting .state_done .export .info .dirction {
+    margin-bottom: 10px
+}
+
+#setting .state_done .export .info .dirction .value {
+    margin-left: 10px
+}
+
+#setting .state_done .export .info .goodat {
+    overflow: hidden
+}
+
+#setting .state_done .export .info .goodat .title {
+    float: left
+}
+
+#setting .state_done .export .info .goodat .goodat-items {
+    overflow: hidden;
+    width: 400px;
+    margin-left: 12px;
+    float: left
+}
+
+#setting .state_done .export .info .goodat .goodat-items .goodat-item {
+    float: left;
+    text-align: center;
+    margin: 0px 5px 5px 5px;
+    width: 128px;
+    height: 39px;
+    border: 2px solid #6f96be;
+    line-height: 39px;
+    background: url(/public/images/checked.jpg) 100% 0 no-repeat
+}
+
+#setting .state_done .personInfo .content {
+    color: #646464;
+    padding: 20px 60px;
+    line-height: 22px
+}
+
+#judge-stockWrap {
+    border-radius: 2px;
+    background: #596a8e;
+    color: white;
+    padding: 0 10px;
+    margin: 0 5px
+}
+
+#judge-stockWrap .item {
+    padding: 5px 0;
+    display: inline-block
+}
+
+#postAdviser .judgeItem {
+    border: 1px solid rgb(150, 150, 150);
+    padding: 3px 15px;
+    border-radius: 3px;
+    margin-right: 5px;
+    display: inline-block;
+    cursor: pointer
+}
+
+#postAdviser .judgeItem.judgeItem0.select {
+    background: red;
+    border-color: red;
+    color: white
+}
+
+#postAdviser .judgeItem.judgeItem1.select {
+    background: green;
+    border-color: green;
+    color: white
+}
+
+#postAdviser .line {
+    margin-bottom: 20px
+}
+
+#postAdviser .title-1 {
+    font-size: 17px;
+    margin-bottom: 20px
+}
+
+#postAdviser .title-2 {
+    margin-top: 5px;
+    padding-bottom: 10px;
+    color: #1c74af;
+    font-size: 15px
+}
+
+#postAdviser .labels-title strong {
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 15px;
+    color: blue
+}
+
+#postAdviser .title-2.modifyPubTime {
+    width: 500px;
+    margin-left: 25px
+}
+
+#postAdviser #modifyPubTime {
+    padding: 3px 15px;
+    margin-left: 15px;
+    width: 180px
+}
+
+#postAdviser input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border-style: none;
+    border: 1px solid #b4b4b4
+}
+
+#postAdviser #stock-judge {
+    width: 150px;
+    padding: 6px;
+    margin: 0 5px
+}
+
+#postAdviser .types {
+    padding-top: 10px
+}
+
+#postAdviser .types .item {
+    border: 1px solid #969696;
+    padding: 6px 40px;
+    border-radius: 2px;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+#postAdviser .types .item.select {
+    background: #666;
+    border-color: #666;
+    color: white
+}
+
+#postAdviser .lablels-wrap {
+    overflow: hidden;
+    border: 1px solid #c8c8c8;
+    padding: 2px;
+    height: 46px
+}
+
+#postAdviser .lablels-wrap input {
+    float: left;
+    width: 290px;
+    padding-left: 5px;
+    border: none;
+    height: 100%
+}
+
+#postAdviser .lablels-wrap #labels {
+    float: left
+}
+
+#postAdviser .lablels-wrap #labels .tags {
+    margin-top: 1%
+}
+
+#postAdviser .lablels-wrap #labels .tags .tag {
+    height: 40px;
+    padding-right: 30px;
+    padding-left: 20px;
+    border-right: 3px solid white;
+    background: #6d95e0;
+    color: white;
+    position: relative
+}
+
+#postAdviser .lablels-wrap #labels .tags .tag .value {
+    font-size: 15px
+}
+
+#postAdviser .lablels-wrap #labels .tags .tag .fa {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    cursor: pointer
+}
+
+#postAdviser .buttons {
+    padding: 30px 0;
+    text-align: center;
+    margin: auto
+}
+
+#postAdviser .buttons .button {
+    margin-right: 15px;
+    padding: 10px 45px
+}
+
+#publishRefer {}
+
+#publishRefer input,
+#publishRefer textarea {
+    padding: 8px 15px;
+    border-style: none;
+    border: 1px solid #c8c8c8;
+    margin: 10px 0
+}
+
+#publishRefer .titleBar {
+    font-size: 18px;
+    margin-bottom: 20px
+}
+
+#publishRefer .contentBar {
+    overflow: hidden
+}
+
+#publishRefer .contentBar .imageBar {
+    float: left;
+    width: 200px;
+    height: 100px;
+    background: gray
+}
+
+#publishRefer .contentBar .infoBar {
+    margin-left: 15px;
+    float: left
+}
+
+#publishRefer .contentBar .infoBar .name input {
+    width: 600px
+}
+
+#publishRefer .contentBar .infoBar textarea {
+    width: 600px;
+    resize: none
+}
+
+#publishRefer .contentBar .infoBar .priceBar .prices .key {
+    display: inline-block;
+    width: 1200px;
+    text-align: right;
+    background: red
+}
+
+#publishRefer .contentBar .infoBar .priceBar .prices .line {
+    margin: 8px 0
+}
+
+#publishRefer .contentBar .infoBar .priceBar .prices input {
+    margin: 0 5px
+}
+
+#ynEditer {
+    display: none;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #646464;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+#ynEditWrap {
+    position: absolute;
+    top: 100px;
+    z-index: 1000;
+    width: 800px!important;
+    margin-left: 50%;
+    position: relative;
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    box-shadow: 3px 3px 20px #646464;
+    overflow: hidden
+}
+
+#ynEditWrap .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 25px;
+    cursor: pointer
+}
+
+#ynEditWrap .title {
+    background: #fafafa;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 15px 30px;
+    font-size: 20px
+}
+
+#ynEditWrap .wrap {
+    margin: 10px 30px 30px 30px
+}
+
+#ynEditWrap .question {
+    border-bottom: 1px dashed rgb(200, 200, 200);
+    border-radius: 2px;
+    padding: 10px 0;
+    margin: 10px 0 30px 0;
+    color: rgb(170, 170, 170)
+}
+
+#ynEditWrap .wrap .info input {
+    width: 250px;
+    border-style: none;
+    border: 1px solid #c8c8c8;
+    padding: 10px 20px;
+    margin: 10px 0
+}
+
+#ynEditWrap .wrap .info .submit {
+    float: right;
+    margin: 10px 0;
+    padding: 8px 50px
+}
+
+#signCondition {
+    padding: 30px
+}
+
+#signCondition .title {
+    font-size: 15px;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 10px
+}
+
+#signCondition .items {
+    margin: 60px 10px
+}
+
+#signCondition .items .item {
+    border: 1px solid #c8c8c8;
+    padding: 10px 25px
+}
+
+#signCondition .info .name {
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+#signCondition .info .conditions {
+    line-height: 25px
+}
+
+#teacherRegister {}
+
+#teacherRegister .fr {
+    float: right
+}
+
+#teacherRegister .mt30 {
+    margin-top: 30px
+}
+
+#teacherRegister .ml5 {
+    margin-left: 5px
+}
+
+#teacherRegister .mt25 {
+    margin-top: 25px
+}
+
+#teacherRegister td {
+    position: relative
+}
+
+#teacherRegister .sexGroup {
+    text-align: left;
+    position: absolute;
+    left: 95px;
+    width: 200px;
+    top: 10px
+}
+
+#teacherRegister .sexGroup input {
+    margin-left: 10px
+}
+
+#teacherRegister #site-main-right {
+    width: 890px;
+    padding: 20px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo {
+    padding: 20px 30px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .title {
+    overflow: hidden;
+    font-size: 14px;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 30px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .title .save-wrap {
+    display: none
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .title .save-wrap span {
+    color: #5378a9;
+    margin-left: 10px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .title a {
+    color: #5378a9
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-edit {
+    display: none
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register {
+    margin-left: 40px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td.field {
+    line-height: 30px;
+    color: #999;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 14px;
+    padding-top: 10px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td.field .required {
+    color: #c33;
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    margin-right: 3px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .msg-wrap {
+    line-height: 20px;
+    display: inline-block;
+    margin-top: 6px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .msg-wrap .msg-info {
+    color: #999;
+    font-size: 12px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .img-validCode {
+    cursor: pointer;
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .txtbox {
+    border: 1px solid #c7c7c7;
+    height: 34px;
+    line-height: 24px;
+    padding: 6px 9px 5px 9px;
+    color: #666;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-transition: box-shadow .2s linear;
+    transition: box-shadow .2s linear
+}
+
+.inline {
+    display: inline-block;
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .img-validCode {
+    height: 33px;
+    position: relative;
+    top: 11px;
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .icon {
+    overflow: hidden;
+    background: url(/public/images/icon.png) no-repeat
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .icon-tooltip {
+    display: inline-block;
+    background: url(/public/images/icon.png) no-repeat;
+    overflow: hidden;
+    width: 15px;
+    height: 15px;
+    background-position: 0 -571px;
+    cursor: pointer
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .icon-right {
+    width: 24px;
+    height: 24px;
+    background: url(/public/images/icon.png) no-repeat;
+    background-position: 0 -397px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register .middle .icon-error {
+    width: 24px;
+    height: 24px;
+    background-position: -24px -397px
+}
+
+#btnModify {
+    height: 35px;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #458eda;
+    background: #458eda;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td {
+    padding-bottom: 5px;
+    padding: 15px;
+    padding-right: 0;
+    font-size: 14px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td p.error-msg {
+    font-size: 12px;
+    color: #c33;
+    height: 24px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td .newListSelected {
+    width: 202px;
+    color: #000;
+    height: 37px;
+    line-height: 37px;
+    float: left;
+    background: url(/public/images/select-bg.png) no-repeat;
+    outline: none;
+    margin-right: 10px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td .newListSelected .selectedTxt {
+    width: 152px;
+    overflow: hidden;
+    height: 37px;
+    line-height: 37px;
+    padding: 0 40px 0 10px;
+    outline: none;
+    color: #666
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td .SSContainerDivWrapper {
+    margin: 0;
+    padding: 0;
+    width: 202px;
+    position: absolute;
+    top: 22px;
+    left: 0;
+    z-index: 2
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td .SSContainerDivWrapper ul.newList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #000;
+    background: #fff;
+    border: 1px solid #8cb2d9;
+    overflow: auto
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td .SSContainerDivWrapper ul.newList a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 0 8px;
+    height: 28px;
+    line-height: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-1-edit .table-register td .SSContainerDivWrapper ul.newList * {
+    margin: 0;
+    padding: 0
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit {
+    display: none
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner {
+    margin-left: 70px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner h2.block-title {
+    background: none;
+    padding-left: 0;
+    font-size: 14px;
+    color: #333;
+    height: 24px;
+    font-weight: normal;
+    line-height: 24px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner h2.block-title span {
+    color: #999;
+    font-size: 14px;
+    margin-left: 5px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox {
+    overflow: hidden
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox li {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    border: 1px solid #ddd;
+    line-height: 41px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-right: 16px;
+    cursor: pointer
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox li.checked {
+    width: 128px;
+    height: 39px;
+    border: 2px solid #6f96be;
+    line-height: 39px;
+    background: url(/public/images/checked.jpg) 100% 0 no-repeat;
+    color: #6f96be
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox-2 {
+    overflow: hidden
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox-2 li {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 130px;
+    height: 41px;
+    border: 1px solid #ddd;
+    line-height: 41px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-right: 16px;
+    cursor: pointer
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox-2 li.checked {
+    width: 128px;
+    height: 39px;
+    border: 2px solid #6f96be;
+    line-height: 39px;
+    background: url(/public/images/checked.jpg) 100% 0 no-repeat;
+    color: #6f96be
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-3-edit .block-3-edit-inner .custom-checkbox-2 li.new {
+    width: 130px;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #93beeb;
+    background: #e5f2ff url(/public/images/plus.png) 50% 50% no-repeat;
+    cursor: pointer
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-4-edit .register-editor-wrap {
+    margin-left: 70px;
+    position: relative;
+    height: 225px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .block-4-edit .register-editor-wrap .fool-topbar-num {
+    float: right;
+    display: inline;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 5px
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .tc {
+    text-align: center
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .tc .btn-113-30 {
+    display: inline-block;
+    width: 113px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 3px #b7072b;
+    font-size: 14px;
+    background: #d1183e;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    overflow: hidden;
+    cursor: pointer
+}
+
+#teacherRegister #site-main-right .tab-cnt-userinfo .tc .btn-113-30:hover {
+    box-shadow: 0 3px #9d0625;
+    background: #b61536
+}
+
+.upload-img .thickdiv,
+.upload-img iframe {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    top: 0
+}
+
+.replay-comment .thickbox-mycollect .operat .btn {
+    margin-top: 20px
+}
+
+.upload-img {
+    display: none
+}
+
+.upload-img iframe {
+    z-index: 100;
+    border: 0;
+    filter: alpha(opacity=0.2);
+    opacity: .2
+}
+
+.upload-img .thickdiv {
+    z-index: 101;
+    border: 2px;
+    filter: alpha(opacity=15);
+    opacity: .15
+}
+
+.upload-img .thickbox {
+    top: 10%;
+    position: fixed;
+    z-index: 102;
+    overflow: hidden;
+    padding: 0;
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    margin-left: -400px;
+    bottom: 150px;
+    background-color: #fff
+}
+
+.upload-img .thickbox .thicktitle {
+    padding: 0 10px;
+    text-align: left
+}
+
+.upload-img .thicktitle {
+    height: 27px;
+    width: 96%;
+    padding: 0 9px;
+    background: #F3F3F3;
+    line-height: 27px;
+    font-family: "\5b8b\4f53", arial;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    float: left
+}
+
+.upload-img .thickbox>span {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 60px;
+    left: 50%
+}
+
+.upload-img .thickclose {
+    float: right;
+    padding: 0 8px;
+    cursor: pointer;
+    background: #F3F3F3;
+    height: 27px;
+    line-height: 27px
+}
+
+.upload-img .container {
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -300px
+}
+
+.upload-img .imageBox {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid #aaa;
+    background: no-repeat #fff;
+    overflow: hidden;
+    cursor: move;
+    box-shadow: 4px 4px 12px #B0B0B0
+}
+
+.upload-img .action {
+    width: 400px;
+    height: 30px;
+    margin: 10px 0
+}
+
+.upload-img .cropped {
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    top: 0;
+    width: 200px;
+    border: 1px solid #ddd;
+    height: 475px;
+    padding: 4px;
+    box-shadow: 0 0 12px #ddd;
+    text-align: center
+}
+
+.upload-img .imageBox .thumbBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.5);
+    background: none
+}
+
+.upload-img .imageBox .spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 400px;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.upload-img .Btnsty_peyton,
+.upload-img a.upload-img {
+    line-height: 57px;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px #B0B0B0
+}
+
+.upload-img .Btnsty_peyton {
+    float: right;
+    width: 66px;
+    display: inline-block;
+    height: 57px;
+    margin: 0 2px;
+    background-color: #f38e81;
+    border-radius: 3px;
+    border: 0 solid #fff
+}
+
+.upload-img .new-contentarea {
+    width: 165px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    float: left
+}
+
+.upload-img .new-contentarea label {
+    width: 100%;
+    height: 100%;
+    display: block
+}
+
+.upload-img .new-contentarea input[type=file] {
+    width: 188px;
+    height: 60px;
+    background: #333;
+    margin: 0 -94px 0 auto;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    opacity: 0;
+    z-index: 2
+}
+
+.upload-img a.upload-img {
+    width: 165px;
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 57px;
+    background-color: #f38e81;
+    border-radius: 3px;
+    border: 0 solid #fff
+}
+
+.upload-img a.upload-img:hover {
+    background-color: #ec7e70
+}
+
+.upload-img .tc {
+    text-align: center
+}
+
+.upload-img .thickbox>button {
+    position: absolute;
+    bottom: 20px;
+    margin-left: -50px;
+    left: 50%;
+    background-color: #ff544a;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px
+}
+
+.favicons {
+    width: 500px;
+    margin: 30px auto
+}
+
+.favicons .uploadButton {
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    padding: 10px 25px
+}
+
+.favicons>span {
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 20px;
+    text-align: center
+}
+
+.favicons .fav1 img {
+    width: 180px;
+    height: 180px
+}
+
+.favicons .fav2 img {
+    width: 128px;
+    height: 128px
+}
+
+.favicons .fav3 img {
+    width: 64px;
+    height: 64px
+}
+
+#teacherRegister .select-form {
+    width: 180px;
+    padding: 7px;
+    position: absolute;
+    margin-left: 15px;
+    border: 1px solid #c8c8c8;
+    border-radius: 3px
+}
+
+#teacherRegister #personalInfo {
+    display: block;
+    width: 700px;
+    resize: none;
+    padding: 20px;
+    font-size: 14px
+}
+
+#teacherRegister #personalInfo-count {
+    margin-top: 5px
+}
+
+#teacherRegister #btn-wrap {
+    text-align: center!important;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#teacherRegister #btn-wrap span {
+    text-align: center
+}
+
+#personIntro>* {
+    margin: 10px 0
+}
+
+#myInfo {
+    overflow: hidden;
+    width: 1200px;
+    margin: auto;
+    min-height: 700px
+}
+
+#ynEditer .categray {
+    margin: 0 0 15px 0
+}
+
+#ynEditer .categray>* {
+    display: inline-block
+}
+
+#ynEditer .categray .name {
+    margin-right: 10px
+}
+
+#ynEditer .categray .item {
+    border: 1px solid rgb(160, 160, 160);
+    padding: 3px 10px;
+    margin-right: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-user-select: none
+}
+
+#ynEditer .categray .item.select {
+    background: #d72621;
+    border: 1px solid #d72621;
+    color: white
+}
+
+#ynEditer .submit {
+    display: block;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    margin-top: 20px
+}
+
+#ynEditStockCode {
+    padding: 6px;
+    float: right;
+    border: 1px solid rgb(200, 200, 200);
+    position: relative;
+    top: -5px;
+    border-radius: 2px
+}
+
+#ynEditer .info {
+    margin-top: 12px
+}
+
+#ynEditer .info .judge {
+    background: gray;
+    border: none;
+    padding: 3px 15px;
+    margin-left: 5px
+}
+
+#ynEditer .info .judge i {
+    margin-left: 5px
+}
+
+#ynEditer .info .judge.up.select {
+    background: #d72621
+}
+
+#ynEditer .info .judge.down.select {
+    background: green
+}
+
+#centerMenu {
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    background: rgb(240, 240, 240)
+}
+
+#centerMenu .title {
+    padding: 10px;
+    background: rgb(220, 220, 220);
+    position: relative
+}
+
+#centerMenu .title .fa-caret-down {
+    position: absolute;
+    right: 20px;
+    top: 13px
+}
+
+#centerMenu .item {
+    display: block;
+    position: relative;
+    padding: 10px 10px;
+    border-top: 1px solid rgb(220, 220, 220);
+    cursor: pointer
+}
+
+#centerMenu .item.select {
+    background: #d72621;
+    color: white;
+    border-color: #d72621
+}
+
+#centerMenu .item .fa-angle-right {
+    position: absolute;
+    right: 20px;
+    top: 13px
+}
+
+tr.count-item td {
+    font-size: 15px;
+    color: #d72621;
+    border: 1px solid rgb(222, 222, 222);
+    background: #f5f5f5;
+    color: #f64102;
+    text-align: center;
+}
+
+tr.count-item td span {
+    margin-right: 20px;
+}
+
+#phoneModify button {
+    background: black;
+    border-color: black;
+}
+
+#myOpinion .item .delete {
+    margin-right: 5px;
+    background: black;
+    border-color: black;
+}
+
+
+/* modifyPassword */
+
+#updatePassword {
+    padding: 25px;
+}
+
+#updatePassword .item {
+    margin: 30px 0;
+    position: relative;
+}
+
+#updatePassword .item .txt {
+    text-align: right;
+    display: inline-block;
+    width: 70px;
+    margin-right: 10px;
+}
+
+#updatePassword .error-msg {
+    color: red;
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+#updatePassword input {
+    padding: 5px 10px;
+    width: 350px;
+    display: inline-block;
+}
+
+#updatePassword button {
+    display: block;
+    margin: auto !important;
+}
+
+#updatePassword {
+    width: 500px;
+    padding: 25px;
+    margin: auto;
+}
+
+#updatePassword strong {
+    color: black;
+    margin: 0 3px;
+}
+
+#updatePassword .format {
+    font-size: 12px;
+    margin-left: 90px;
+    margin-top: 5px;
+    color: red;
+}

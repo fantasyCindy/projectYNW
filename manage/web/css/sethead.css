@@ -1,0 +1,560 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     font-family: "Arial","Microsoft YaHei","黑体",sans-serif;
+}
+
+ol,
+ul {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a[href],
+input[type='submit'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+    cursor: pointer;
+}
+
+html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+article,
+aside,
+dialog,
+footer,
+header,
+section,
+footer,
+nav,
+figure,
+menu {
+    display: block;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px
+}
+
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.clearfix:after,
+.container-fluid:after,
+.container:before,
+.col-md-offset-1 {
+    margin-left: 8.33333333%;
+}
+
+.col-md-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+.col-md-offset-3 {
+    margin-left: 25%;
+}
+
+.col-md-offset-4 {
+    margin-left: 33.33333333%;
+}
+
+.col-md-offset-5 {
+    margin-left: 41.66666667%;
+}
+
+.col-md-offset-6 {
+    margin-left: 50%;
+}
+
+.col-md-offset-7 {
+    margin-left: 58.33333333%;
+}
+
+.col-md-offset-8 {
+    margin-left: 66.66666667%;
+}
+
+.col-md-offset-9 {
+    margin-left: 75%;
+}
+
+.col-md-offset-10 {
+    margin-left: 83.33333333%;
+}
+
+.col-md-offset-11 {
+    margin-left: 91.66666667%;
+}
+
+.col-md-offset-12 {
+    margin-left: 100%;
+}
+
+.col-xs-1 {
+    width: 8.33333333%;
+}
+
+.col-xs-2 {
+    width: 16.66666667%;
+}
+
+.col-xs-3 {
+    width: 25%;
+}
+
+.col-xs-4 {
+    width: 33.33333333%;
+}
+
+.col-xs-5 {
+    width: 41.66666667%;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.col-xs-7 {
+    width: 58.33333333%;
+}
+
+.col-xs-8 {
+    width: 66.66666667%;
+}
+
+.col-xs-9 {
+    width: 75%;
+}
+
+.col-xs-10 {
+    width: 83.33333333%;
+}
+
+.col-xs-11 {
+    width: 91.66666667%;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    float: left;
+}
+
+.hid {
+    display: none;
+}
+
+.web_rise {
+    background: #F7F7F7;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 14px;
+}
+
+.web_rise .container .row [class^=col-] a,
+.web_rise .container .row [class^=col-] dl dt {
+    line-height: 42px;
+}
+
+.web_rise .container .row [class^=col-] a {
+    padding: 0 5px;
+}
+
+.web_rise .container .row [class^=col-] dl {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.web_rise .container .row [class^=col-] dl {
+    *display: inline;
+}
+
+.web_rise .container .row [class^=col-] dl+span {
+    border-left: 1px solid #999999;
+    padding: 0 5px;
+}
+
+.web_rise .container .row [class^=col-] dl dd {
+    display: none;
+    position: absolute;
+    margin-top: -8px;
+    z-index: 1;
+}
+
+.web_rise .container .row [class^=col-] dl dd.ewm {
+    text-align: left;
+    background: url("../images/ewm1.png") no-repeat center;
+    width: 242px;
+    height: 134px;
+    padding: 25px 20px;
+    line-height: 25px;
+}
+
+.web_rise .container .row [class^=col-] dl dd.ewm img {
+    float: left;
+    margin-right: 15px;
+    border: none;
+    width: 70px;
+    height: 70px;
+}
+
+.web_rise .container .row [class^=col-] dl dd li {
+    list-style: none;
+}
+
+.web_rise .container .row [class^=col-] dl dd {
+    line-height: 36px;
+}
+
+.web_rise .container .row [class^=col-] dl:hover dd {
+    display: block;
+    margin-left: -60px;
+}
+
+.web_rise .container .row [class^=col-] dl+span+dl:hover dd {
+    display: block;
+    width: 90px;
+    height: 94px;
+    margin-left: -13px;
+    padding-top: 8px;
+    background: url(../images/jiao.png) no-repeat center;
+}
+
+.center {
+    text-align: center;
+}
+
+.bg-orange {
+    background: #cf1623;
+}
+
+nav {
+    position: relative;
+}
+
+nav input {
+    height: 34px;
+    width: 238px;
+    border: 1px solid #EB1927;
+    margin: 6px 0;
+    padding-left: 5px;
+}
+
+nav button {
+    height: 34px;
+    margin: 6px -2px;
+    border: 1px solid #EB1927;
+    width: 60px;
+    background: #fff;
+}
+
+.navigation_mobile_click {
+    display: none;
+}
+
+
+
+#head_user_img {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    top: 7px;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+
+.yn-wrap{
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0;
+    margin-bottom:0;
+    width:1200px;
+}
+
+#yn-header{
+    color:#999;
+    width:100%;
+    background:#f8f8f8;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    position:fixed;
+    top:0;
+    z-index:9999;
+    border-bottom:1px solid rgb(235,235,235);
+}
+
+#yn-header .yn-wrap{
+    padding:9px 5px;
+
+}
+
+#yn-header .isLogin .imgw{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    overflow:hidden;
+    position:absolute;
+    top:5px;
+} 
+#yn-header .isLogin .imgw img{
+    width:100%;
+}
+#yn-header .isLogin .username{
+    margin-left:30px;
+}
+#yn-header .isLogin .logout:hover,
+#yn-header .isLogin .username span:hover{
+    color:#FF4200;
+}
+#yn-header .account{
+    position:absolute;
+    top: 10px;
+    right:0;
+    cursor: pointer;
+    padding-right: 25px;
+}
+#yn-header .account .item:hover{
+  color: #fe7e00;
+}
+
+#yn-header .account td:first-child{
+    border:none;
+}
+#yn-header .account td{
+    padding:0 10px;
+    border-left:1px solid #999; 
+}
+#yn-header .yn-sign{
+    color:#fe7e00;
+    padding-right:6px;
+    padding-left:-3px;
+}
+#yn-header .yn-register{
+    border-left:1px solid #999;
+    color:#fe7e00;
+    padding:0 10px;
+}
+
+#yn-top{
+   height: 108px;
+   overflow:hidden;
+   background: white;
+   margin-top: 22px;
+}
+
+#yn-top .logo{
+    position:absolute;
+    top:10px;
+    left: -18px;
+}
+#yn-top .search{
+    position:absolute;
+    right:0;
+    top:10px;
+}
+
+#yn-menu{
+    width:100%;
+    background:#cf1623;
+}
+#yn-menu table{
+    margin:0;
+    padding:0;
+}
+
+#yn-menu td{
+    padding:10px 25px;
+    font-size:19px;
+    color:white;
+    cursor:pointer;
+    border:none;
+    line-height:19px !important;
+}
+#yn-menu td.selected,
+#yn-menu td:hover{
+    background:#ba0821;
+}
+
+#yn-top .search{
+    width:500px;
+    top: 24px;
+    right:25px;
+}
+#yn-top .inputs td{
+    height:25px;
+}
+
+
+#yn-top #btn_search{
+    background: #ec1928;
+}
+
+
+#yn-top #btn_search:hover{
+    background:#ba0821;
+    border-color:#ba0821;
+}
+#yn-top .types td{
+    cursor: pointer;
+    color:gray;
+    font-size:15px;
+    position:relative;
+    border:2px solid #ec1928;
+    padding : 4px 18px 6px 18px;
+}
+#yn-top .types td.select{
+    background:#ec1928;
+    color:white;
+}
+#yn-top .types td .triangle{
+    display: none;
+    position:absolute;
+    bottom:-12px;;
+    left:40px;;
+    color:#ec1928;
+}
+#yn-top .types td .triangle.select{
+    display: block;
+}
+#yn-top .inputs{
+    width:100%
+}
+#yn-top .inputs table{
+    width:100%;
+}
+#yn-top .inputs td{
+    border:1px solid rgb(220,220,220);
+}
+#yn-top input{
+    width:400px;
+    outline:none;
+    margin:0;
+    height:100%;
+    border:none;
+    padding:10px;
+}
+#yn-top td#btn_search{
+    cursor: pointer;
+    font-size:14px;
+    padding:0 25px;
+    border-color:#ec1928;
+    color:white;
+}

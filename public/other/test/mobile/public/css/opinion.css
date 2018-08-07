@@ -1,0 +1,71 @@
+/*retrieve-pass */
+body {
+  background: #f0f0f0; }
+
+.mb12 {
+  margin-bottom: 12px; }
+
+.fr {
+  float: right; }
+
+#opinion {
+  max-width: 640px;
+  margin: 0 auto;
+  color: #6a6a6a;
+  font-size: 18px; }
+  #opinion .block {
+    display: block;
+    margin: 14px auto; }
+  #opinion .list {
+    padding: 20px 20px 0;
+    line-height: 26px;
+    background: #fff; }
+    #opinion .list .list-title {
+      display: block;
+      color: #404040; }
+    #opinion .list .gray {
+      color: #a8a8a8; }
+    #opinion .list .img {
+      width: 90px;
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%; }
+    #opinion .list .info {
+      overflow: hidden;
+      margin: 0 0 5px; }
+    #opinion .list .blue {
+      color: #e33e3d;
+      display: block;
+      font-size: 24px; }
+    #opinion .list .title {
+      margin: 8px 0 0; }
+      #opinion .list .title .fr {
+        position: relative;
+        top: -10px;
+        font-size: 14px;
+        color: #a8a8a8; }
+    #opinion .list .line {
+      font-size: 14px;
+      padding: 10px 0;
+      border-top: 1px solid #ddd; }
+    #opinion .list .see {
+      display: inline-block;
+      width: 32px;
+      height: 17px;
+      margin-top: 15px;
+      position: relative;
+      top: 3px;
+      background: url(/public/images/caoh5/read_icon.png) no-repeat center;
+      background-size: 25px; }
+  #opinion .share {
+    text-align: center;
+    background: #fff;
+    margin-top: 15px;
+    font-size: 14px;
+    padding: 20px 0 10px; }
+  #opinion .icon {
+    display: inline-block;
+    width: 30%;
+    height: 96px;
+    margin-top: 15px;
+    background: url(/public/images/caoh5/footr_shang.png) no-repeat center; }

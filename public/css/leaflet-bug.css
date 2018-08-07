@@ -1,0 +1,143 @@
+body{
+	background:#f7f7f7;
+}
+#leaflet_logo{
+	height:200px;
+	min-width:1200px;
+	background:url(/public/images/leaflet_logo.jpg) no-repeat center;
+}
+
+.form-group{
+	font-size:20px;
+	margin-top:50px;
+	line-height:40px;
+}
+.form-group:after{
+	content:"";
+	clear:both;
+	display:block;
+	*zoom:1;
+	-ms-zoom:1;
+}
+.form-group label{
+	float:left;
+	line-height:40px;
+	text-align:right;
+	width:141px;
+	display:inline-block;
+}
+
+.form-group .form-imgBox{
+	float:left;
+	width:78%;
+	background: #efefef;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.form-group .form-imgBox:after{
+	content:"";
+	clear:both;
+	display:block;
+	*zoom:1;
+	-ms-zoom:1;
+}
+.form-group .form-imgBox .yet{
+	width: 150px;
+    height: 150px;
+    float:left;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 5px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.form-group .form-imgBox .yet img{
+	width:100%;
+}
+.form-group .form-imgBox .add{
+	width: 150px;
+    height: 150px;
+    float:left;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 5px;
+    border-radius: 3px;
+    background: url(/public/images/add.png) no-repeat;
+    overflow: hidden;
+}
+
+.form-group .form-control{
+	height:38px;
+	line-height:38px;
+	background:#ffffff;
+	border-radius:3px;
+	border:1px solid #e1e1e1;
+	color:#666666;
+	font-size:20px;
+	padding:0 15px;
+}
+.form-group .form-textarea{
+	float:left;
+	width:78%;
+	height:205px;
+	/*max-height:205px;
+	max-width:78%;*/
+	border-radius:3px;
+	border:1px solid #e1e1e1;
+	padding:15px;
+	font-size:20px;
+	line-height:23px;
+	resize:none;
+}
+
+#leaflet{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #e0e0e0;
+	margin-top:25px;
+	background:#fff;
+}
+#leaflet .leaflet_title{
+	height:87px;
+	line-height:87px;
+	border-bottom:1px dashed #e0e0e0;
+	padding:0 25px;
+	position:relative;
+}
+#leaflet .leaflet_title span{
+	padding-left:15px;
+	border-left:6px solid #d72122;
+	font-size:30px;
+	font-weight:bold;
+	color:#000000;
+}
+#leaflet .leaflet_title a{
+	display:inline-block;
+	position:absolute;
+	right:18px;
+	top:30px;
+	width:34px;
+	height:27px;
+	background:url(/public/images/return.png) no-repeat;
+}
+#leaflet .leaflet_title a:hover{
+	background:url(/public/images/onreturn.png) no-repeat;
+}
+#leaflet_form{
+	padding:30px 180px;
+}
+
+#leaflet_form .confirm{
+	font-size:22px;
+	margin:50px auto;
+	border-radius:5px;
+	display:block;
+	width:260px;
+	height:56px;
+	line-height:56px;
+	text-align:center;
+	cursor:pointer;
+	background:#ef6067;
+	color:#fff;
+}

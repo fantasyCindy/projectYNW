@@ -1,0 +1,556 @@
+@charset "UTF-8";
+
+#yn-top {
+    min-width: 1200px;
+    background:white;
+    box-shadow: 0 2px 5px rgba(100,100,100,.1);
+    margin-bottom:15px;
+    height:90px;
+}
+
+body {
+    background: #f8f8f8
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.organe {
+    text-decoration: none;
+    color: #FF4200 !important;
+}
+.userphoto{
+    width:22px;
+    height:22px;
+    border:none;
+    position:absolute;
+    top:6px;
+}
+.username{margin-left:26px;}
+.organe:hover {
+    text-decoration: underline
+}
+
+.orghover {
+    color: rgb(200,200,200);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.orghover:hover {
+    color: #FF4200;
+    text-decoration: underline
+}
+
+.tc {
+    text-align: center
+}
+
+.hid {
+    display: none
+}
+
+.yn-wrap {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto
+}
+
+.yn-wrap:after {
+    display: block
+}
+
+#yn-header {
+    color: rgb(200,200,200);
+    font-size: 13px!important;
+    line-height: 16px!important;
+    height: 34px;
+    background: rgb(62, 62, 62);
+    min-width:1200px;
+}
+#yn-header a{
+    color:rgb(200,200,200);
+}
+
+#yn-header .yn-wrap {
+    padding: 9px 5px
+}
+
+#yn-header .yn-in {
+    display: inline-block;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 10px;
+    margin-left: 5px
+}
+
+#yn-header .account .app img,
+#yn-header .account .ewm img {
+    display: block
+}
+
+#yn-header .yn-in .icon {
+    position: relative;
+    top: -1px;
+    right: 2px
+}
+
+#yn-header .rline {
+    padding-right: 5px;
+    border-right: 1px solid #e5e5e5
+}
+
+#yn-header .account {
+    position: relative
+}
+
+#yn-header .account:after {
+    display: block
+}
+
+#yn-header .account span {
+    margin-left: 5px;
+    position: relative
+}
+#yn-header .account .tactful {
+    width: 33px;
+    height: 34px;
+    top: -9px;
+    background: url(require('../images/tactful.png')) center center no-repeat;
+    text-align: center;
+    cursor: pointer
+}
+
+#yn-header .account .mobile:hover,
+#yn-header .account .tactful:hover {
+    background: url(require('../images/tactful.png')) center center no-repeat #fff
+}
+
+#yn-header .account .tactful .icon {
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    color: #fff
+}
+
+#yn-header .account .mobile .icon {
+    position: relative;
+    top: 7px;
+    font-size: 21px
+}
+
+#yn-header .account .envelope {
+    width: 33px;
+    height: 34px;
+    top: -9px;
+    cursor: pointer;
+    text-align: center
+}
+
+#yn-header .account .app,
+#yn-header .account .ewm {
+    padding: 10px;
+    width: 96px;
+    float: none;
+    z-index: 2;
+    background: #fff
+}
+
+#yn-header .account .envelope:hover {
+    background: #fff
+}
+
+#yn-header .account .envelope .icon {
+    position: relative;
+    top: 8px;
+    font-size: 18px;
+}
+
+#yn-header .account .envelope .reddot {
+    position: absolute;
+    right: 7px;
+    top: 9px;
+    display:none;
+}
+
+#yn-header .account .ewm {
+    position: absolute;
+    right: 76px;
+    top: 25px
+}
+
+#yn-header .account .ewm span {
+    line-height: 25px;
+    float: none
+}
+
+#yn-header .account .app {
+    position: absolute;
+    right: 37px;
+    top: 25px
+}
+
+#yn-header .account .app span {
+    line-height: 25px;
+    float: none
+}
+
+#yn-header .account .dope {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    z-index: 2;
+    border: 1px solid rgb(223, 223, 223);
+}
+
+#yn-header .account .dope .dope-block {
+    width: 188px;
+    background: #fff
+}
+
+#yn-header .account .dope .dope-block ul li {
+    height: 31px;
+    line-height: 31px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    list-style: none
+}
+
+#yn-header .account .dope .dope-block ul li a {
+    text-decoration: none;
+    height: 31px;
+    line-height: 31px;
+    display: inline-block;
+    width: 174px;
+    padding-left: 14px;
+    color: #666
+}
+
+#yn-header .account .dope .dope-block ul li a span {
+    margin: 0;
+    color: #333;
+    font-weight: 400
+}
+
+#yn-header .account .dope .dope-block ul li.more a {
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    width: 188px;
+    color: #3486d9
+}
+
+#yn-header .account .dope .dope-block ul li span.notify {
+    display: none;
+    height: 14px;
+    line-height: 14px;
+    background: #d80505;
+    font-style: 12px;
+    color: #fff;
+    font-family: Tahoma, Helvetica, Geneva, sans-serif;
+    margin: 8px 14px 0 0;
+    padding: 0 5px;
+    border-radius: 10px;
+    float: right
+}
+
+#yn-top .logo {
+    width: 200px;
+    margin-top: 5px;
+}
+
+#yn-top .logo img {
+    width: 100%;
+    border: none
+}
+
+#yn-top .search {
+    position: relative;
+    margin-top: 25px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #d72621;
+    color: #848484;
+    overflow:hidden;
+}
+
+#yn-top .search .search-key{
+    float:left;
+    padding:6px 7px 6px 15px;
+    cursor:pointer;
+}
+
+#yn-top .search .search-key .key{
+    color: #262424;
+    font-size:13px;
+}
+
+#ynsearchlist.select{
+    border:1px solid;
+}
+
+#yn-top .search .searchlist {
+    float: left;
+    background:white;
+    padding:1px 4px;
+}
+
+#yn-top .search .searchlist li {
+    cursor: pointer;
+    padding: 6px 15px;
+    list-style: none;
+}
+
+#yn-top .search .searchlist .list {
+    padding-right: 3px;
+}
+
+#yn-top .search .searchlist .caret {
+    position: absolute;
+    top: 8px;
+    left: 68px;
+}
+
+#yn-top .search .search-type-item {
+    margin-left: 25px;
+    height: 28px;
+    line-height: 28px;
+    border: none;
+    outline: 0;
+    width: 49%;
+}
+
+#yn-top .search #btn_search {
+    width: 44px;
+    height:100%;
+    line-height: 28px;
+    background: #d72621;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+#yn-top .search #btn_search .icon{
+    font-size:15px;
+    line-height:25px;
+}
+
+#yn-top .yn-mean {
+    position: relative;
+    margin-top: 40px;
+    left: 5%;
+}
+
+#yn-top .yn-mean ul {
+    position: relative;
+    height: 50px
+}
+
+#yn-top .yn-mean ul li {
+    list-style: none;
+    float: left;
+    padding: 0 17px;
+    position: relative;
+}
+
+#yn-top .yn-mean ul li a {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    font-size: 18px;
+    color: #474d6d;
+    text-decoration: none
+}
+
+#yn-top .yn-mean ul li a:hover,
+#yn-top .yn-mean ul li.cur a {
+    color: #d72621
+}
+
+#yn-top .yn-mean ul li .i-new {
+    background: url(require('../images/icon-new.png')) no-repeat;
+    right: -1px;
+    top: -8px;
+    position: absolute;
+    display: block;
+    width: 21px;
+    height: 10px;
+    display:none;
+}
+
+#yn-top .yn-mean ul .reddown_row {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    display: inline-block;
+    position: absolute;
+    left: 4.5px;
+    bottom: 0;
+    width: 57px;
+    height: 3px;
+    background: url(require('.../images/nav-slider.png')) no-repeat;
+}
+
+
+/*申请入驻*/
+
+
+
+#contentart_res {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 10000;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,
+        StartColorStr='#50000000', EndColorStr='#50000000');
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+#contentart_res #residencies {
+    z-index:50;
+    position: fixed;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding: 0 55px;
+}
+
+#contentart_res #residencies .close {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding: 10px
+}
+
+#contentart_res #residencies .my-body {
+    padding: 50px 0 60px;
+    color: #7d7d7d
+}
+
+#contentart_res #residencies .my-body ul {
+    overflow: hidden
+}
+
+#contentart_res #residencies .my-body ul li {
+    list-style: none;
+    float: left;
+    width: 210px;
+    margin: 0 10px
+}
+
+#contentart_res #residencies .my-body ul li h2 {
+    height: 33px;
+    line-height: 33px;
+    padding-left: 78px;
+    color: #fff;
+    font-size: 20px;
+    background: url(require('../images/Agency-pop.png')) 40px -46px no-repeat #f65a5c
+}
+
+#contentart_res #residencies .my-body ul li h2 strong {
+    font-size: 24px;
+    font-weight: 400;
+    padding-left: 5px
+}
+
+#contentart_res #residencies .my-body ul li.dl-2 h2 {
+    background-color: #eacc7b;
+    background-position: 40px -79px
+}
+
+#contentart_res #residencies .my-body ul li.dl-3 h2 {
+    background-color: #87b6f6;
+    background-position: 40px -112px
+}
+
+#contentart_res #residencies .my-body ul li .bg {
+    height: 35px;
+    background: url(require('../images/Agency-pop.png')) 0 -146px
+}
+
+#contentart_res #residencies .my-body ul li .dl-content {
+    height: 152px;
+    padding: 0 20px;
+    overflow: hidden
+}
+
+#contentart_res #residencies .my-body ul li .dl-content h3 {
+    padding: 0 0 10px;
+    text-align: center;
+    font-weight: 400
+}
+
+#contentart_res #residencies .my-body ul li .dl-content ol li {
+    height: 33px;
+    line-height: 33px
+}
+
+#contentart_res #residencies .my-body ul li .dl-content ol li i {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-top: -2px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: url(require('../images/Agency-pop.png')) no-repeat
+}
+
+#contentart_res #residencies .my-body ul li .dl-content ol li i.i-two {
+    background-position: -20px 0
+}
+
+#contentart_res #residencies .my-body ul li .btn {
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    border: 1px solid #ec4345;
+    text-align: center;
+    color: #ec4345;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#contentart_res #residencies .my-body ul li .btn i {
+    color: #ec4345;
+    font-size: 19px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#contentart_res #residencies .my-body ul li .btn:hover {
+    color: #fff;
+    background: #ec4345
+}
+
+#contentart_res #residencies .my-body ul li .btn:hover i {
+    color: #fff
+}
+
+
+#searchKeyItems{
+    position:absolute;
+    background:white;
+    z-index:10000;
+    border:1px solid rgb(235,235,235);
+    cursor:pointer;
+}
+#searchKeyItems td{
+    font-size:13px;
+    padding:8px 14px;
+}
+#searchKeyItems td:first-child{
+    border-bottom:1px solid rgb(235,235,235);
+}

@@ -1,0 +1,200 @@
+#personIntro {
+    width: 450px;
+    position: absolute;
+    border: 1px solid rgb(220, 220, 220);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .3);
+    border-radius: 2px;
+    z-index: 1000;
+}
+
+#personIntro .indicate {
+    font-size: 36px;
+    position: absolute;
+    color: white;
+    top: 25px
+}
+
+#personIntro .indicate.left {
+    left: -10px
+}
+
+#personIntro .indicate.right {
+    right: -10px
+}
+
+#personIntro .infoView {
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+#personIntro .teacher-profile-avatar {
+    width: 80px;
+    height: 80px;
+    overflow: hidden
+}
+
+#personIntro .teacher-profile-avatar img {
+    width: 80px;
+}
+
+#personIntro .infoView .column2 {
+    margin-left: 10px
+}
+
+#personIntro .infoView .name {
+    font-weight: bold;
+}
+
+#personIntro .infoView .title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#personIntro .infoView .postion {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+    margin-top: 10px;
+}
+
+#personIntro .infoView .number {
+    display: inline-block;
+    font-size: 13px;
+    color: #d72621;
+    margin-top: 10px;
+}
+#personIntro .infoView .number.hide{
+    display: none;
+}
+
+#personIntro .infoView .title .item-icon-guwen {
+    display: inline-block;
+    width:14px;
+    height:20px;
+}
+#personIntro .infoView .title .item-icon-guwen img{
+    width:100%;
+}
+
+
+/* #personIntro .infoView .buttons .care {
+    background: black;
+    border-color: black;
+    color: #fff;
+} */
+
+#personIntro .infoView .buttons .care {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background: #ff8487;
+    font-size: 14px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#personIntro .infoView .buttons .care:hover {
+    background: #ff5054;
+}
+
+#personIntro .infoView .buttons .sign {
+    background: rgb(200, 200, 200);
+    border-color: rgb(200, 200, 200)
+}
+
+#personIntro .infoView .style {
+    margin-top: 15px;
+    width: 300px;
+    line-height: 1.5;
+    color: #666;
+}
+
+#personIntro .infoView .style .item {
+    display: inline-block;
+    font-size: 12px;
+    padding: 2px
+}
+
+#personIntro .infoView>* {
+    float: left
+}
+
+#personIntro .countView {
+    border-top: 1px dashed rgb(200, 200, 200);
+    padding-top: 15px;
+    position: relative
+}
+
+#personIntro .countView .msg {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+#personIntro .countView .msg a {
+    color: #666;
+}
+
+#personIntro .countView .msg a:hover {
+    color: #ff5054;
+}
+
+#personIntro .countView .msg .colorLight {
+    color: #ff5054;
+    font-weight: bold;
+}
+
+#personIntro .countView table {
+    width: 280px
+}
+
+#personIntro .countView td {
+    text-align: center;
+    padding: 3px 0;
+    border-left: 1px solid rgb(220, 220, 220)
+}
+
+#personIntro .countView .value td {
+    font-size: 21px;
+    font-weight: bold;
+    color: #f97b02
+}
+
+#personIntro .countView td:first-child {
+    border: none
+}
+
+#personIntro .countView .live-link {
+    position: absolute;
+    top: 25px;
+    right: 5px
+}
+
+
+/*  */
+
+#personIntro .liveBtn {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background: #ff8487;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+#personIntro .liveBtn.hide {
+    display: none;
+}
+
+#personIntro .liveBtn:hover {
+    background: #ff5054;
+}

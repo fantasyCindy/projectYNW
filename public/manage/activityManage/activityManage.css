@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table thead {
+    background: #B2DCF4;
+}
+
+table .activeName {
+    width: 30%;
+}
+
+table td {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.edit {
+    cursor: pointer;
+}
+
+.activity-manage {
+    padding: 15px;
+}
+
+.activity-none {
+    margin: 70px auto;
+    text-align: center;
+}
+
+.createBtn {
+    width: 110px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background: #1E9FFF;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.createBtn:hover {
+    background: #01AAED;
+}
+
+.createWin {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.createWinContent {
+    width: 600px;
+    height: 370px;
+    background: #fff;
+    box-shadow: 2px 2px 20px gray;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -300px;
+    border-radius: 2px;
+}
+
+.createTitle {
+    height: 40px;
+    line-height: 40px;
+    background: #EBEBEB;
+    color: #333;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.createContent {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.createTag {
+    padding: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.createTag input {
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.createTag select {
+    width: 140px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.create-bottom {
+    text-align: center;
+}
+
+.createbtn {
+    display: inline-block;
+    margin: 15px;
+    color: #fff;
+    width: 70px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-submit {
+    background: #1E9FFF;
+}
+
+.btn-cancel {
+    background: #FF5722;
+}
+
+#page {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.edit {
+    color: #00A1FF;
+}

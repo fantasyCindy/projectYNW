@@ -1,0 +1,42 @@
+	#isRisk {
+	    width: 420px;
+	    height: 250px;
+	    box-shadow: 2px 2px 20px #969292;
+	    position: fixed;
+	    background: #fff;
+	}
+	
+	#isRisk .isRisk-title {
+	    padding: 12px;
+	    text-align: left;
+	    font-size: 14px;
+	    background: #eee;
+	}
+	
+	#isRisk p {
+	    display: block;
+	    margin: 40px auto;
+	    text-align: center;
+	}
+	
+	#isRisk .isRisk-btn {
+	    width: 65%;
+	    height: 35px;
+	    line-height: 35px;
+	    text-align: center;
+	    background: #d72612;
+	    margin: 0 auto;
+	    border-radius: 4px;
+	}
+	
+	#isRisk .isRisk-btn a {
+		width:100%;
+	    color: #fff;
+	    display: inline-block;
+	    text-decoration: none;
+	}
+	
+	#isRisk .close {
+	    float: right;
+	    margin-right: 15px;
+	}

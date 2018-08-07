@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>错误报告</title>
+    <link rel="stylesheet" href="../css/fonts/fonts.css?20170628152824">
+    <link rel="stylesheet" href="../css/error.css?65989864">
+</head>
+
+<body>
+    <div class="error-container flex column">
+        <div class="flex column fixed">
+            <div class="error-category flex">
+                <span class="item select" data-type="ynw">约牛网</span>
+                <span class="item" data-type="cj">约牛财经</span>
+                <span class="item" data-type="soft">约牛决策系统</span>
+                <span class="item" data-type="zx0093">约牛决策系统网站</span>
+            </div>
+            <div class="error-title grow flex error-line">
+                <span class="item time">错误时间</span>
+                <span class="item url">错误文件</span>
+                <span class="item line">错误行号</span>
+                <span class="item client">浏览器</span>
+                <span class="item msg grow">报错信息</span>
+            </div>
+        </div>
+        <div class="error-items error-line flex column shrink"></div>
+        <div class="error-more cursor" style="display: none;">加载更多</div>
+    </div>
+    <script src="../source/jquery.min.js"></script>
+    <script src="../entry/error.js?v=20170810184125"></script>
+</body>
+
+</html>

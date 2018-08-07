@@ -1,0 +1,169 @@
+#login_register {
+    width: 100%;
+    height: 100%;
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr=#99000000,endColorstr=#99000000);
+    background: rgba(20, 20, 20, 0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: 1s all;
+    z-index: 99999
+}
+
+#vip-act .login{
+	cursor: pointer;
+	position: relative;
+	font-size:16px;
+	color:rgb(153,153,153);
+}
+
+#vip-act .userphoto{
+	top: 1px;
+}
+
+#login_register .l-r-content{
+    width: 497px;
+    height: auto;
+    margin: 155px auto;
+    z-index: 11009;
+    padding: 0 35px 21px;
+    background: #f3f3f3;
+    position: relative;
+    top: -60px;
+}
+
+#login_register .l-r-topti{
+	padding: 0 0 16px;
+}
+
+#login_register .l-r-topti .fa{
+	font-size: 20px;
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	cursor: pointer;
+}
+
+#login_register .l-r-fa{
+	width: 198px;
+	height: 46px;
+	position: relative;
+	top: 16px;
+	display: inline-block;
+	background: url(../images/vipact/logo.png);
+}
+
+#login_register .l-r-title{
+	padding: 10px 30px;
+	font-size: 14px;
+	background: #fff;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#login_register .l-r-title.on{
+	background: #cb2a2d;
+	color: #fff;
+}
+
+#login_register .l-r-input{
+	width: 429px;
+	padding: 12px 10px;
+	font-size: 17px;
+	border-radius: 5px;
+	margin-bottom: 12px;
+}
+.login-info{
+	height:66px;
+	padding-top:15px;
+}
+
+#login_register .l-r-submit{
+	width:47%;
+	display: inline-block;
+	background: #cb2a2d;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	float:left;
+	position: relative;
+}
+
+#login_register .l-r-buy{
+	width:47%;
+	display: inline-block;
+	background:#ffae00;
+	padding: 10px 0;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	float:right;
+}
+
+#login_register input{
+	border: 1px solid #bfbaba;
+}
+
+i{
+	font-style: normal;
+}
+
+.mgl20{
+	margin-left: 30px;
+}
+
+/*登录*/
+
+.login .login-box{
+	margin-bottom: 15px;
+}
+
+/*注册*/
+
+.register .register-blue{
+	color: blue;
+}
+
+.register .register-blue:hover{
+	text-decoration: underline;
+}
+
+.register .register-inpt{
+	position: relative;
+}
+
+.register .register-fa{
+	position: absolute;
+	right: 6px;
+	top: 5px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 10px 17px;
+	background: #20a0ff;
+}
+
+.register .image-code{
+	position: absolute;
+	right: 8px;
+	top: 6px;
+	width: 93px;
+	cursor: pointer;
+}
+
+.register .r-see{
+	padding: 13px 20px;
+	top: 8px;
+	background: url(../images/vipact/see.png) no-repeat;
+}
+
+.register .r-see1{
+	background: url(../images/vipact/no-see.png) no-repeat;
+}
+
+.m10{
+	margin-top: 30px;
+	color: #666;
+}

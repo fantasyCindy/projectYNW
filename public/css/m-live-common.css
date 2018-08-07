@@ -1,0 +1,142 @@
+#live-info{
+	background:#cf140e url(/public/images/yn-h5/live_bg.jpg) no-repeat bottom center;
+	background-size:100%;
+	height:231px;
+	position:relative;
+	padding-top:49px;
+	overflow:hidden;
+
+}
+#return{
+	position:absolute;
+	top:0px;
+}
+#return .icon{
+	color:#fff;
+	font-size:26px;
+	margin:35px 19px;
+}
+#live-info .photo{
+	border:1px solid #fff;
+	width:67px;
+	height:67px;
+	border-radius:50%;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+#live-info .photo img{
+	width:100%;
+}
+#live-info .nickname{
+	text-align:center;
+	color:#fff;
+	font-size:17px;
+	margin-top:10px;
+}
+#live-info .instrument{
+	text-align:center;
+	color:#fff;
+	margin-top:19px;
+	font-size:14px;
+}
+#live-info .instrument span{
+	display:inline-block;
+	width:30%;
+	line-height:22px;
+	border-right:1px solid #f6b9b3;
+}
+#live-info .instrument span:last-child{
+	border:none;
+}
+#live-info .intro{
+	color:#fff;
+	width:89%;
+	margin-top:20px;
+	font-size:12px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+#live-info .intro span{
+	display:inline-block;
+	width:90%;
+	height:12px;
+	line-height:12px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	
+
+}
+#live-info .intro .icon{
+	color:#fff;
+	font-size:18px;
+	position:absolute;
+	top:-3px;
+	right:0;
+}
+#live-info .advantage{
+	color:#fff;
+	width:89%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	margin-top:8px;
+	font-size:12px;
+	line-height:21px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+#live-info .advantage span{
+	display:inline-block;
+	padding:0 4px;
+	line-height:21px;
+	background:rgba(0,0,0,.5);
+	border-radius:5px;
+	margin:0 3px;
+}
+
+#reward{
+	background:#f8f8f8;
+	text-align:center;
+	line-height:49px;
+	border-bottom:1px solid #cccccc;
+}
+#reward span{
+	border-right:1px solid #cccccc;
+	width:32%;
+	float:left;
+	height:49px;
+	display:inline-block;
+	font-size:13px;
+	color:#e33124;
+}
+#reward span .icon{
+	font-size:16px;
+	position:relative;
+	top:1px;
+	margin-right:3px;
+}
+#reward span:nth-of-type(2){
+	background:url(/public/images/yn-h5/cow.jpg) no-repeat center;
+	background-size:35%;
+}
+#reward span:last-child{
+	border:none;
+}
+#live-tag{
+	text-align:center;
+}
+#live-tag span{
+	color:#666666;
+	line-height:45px;
+	font-size:13px;
+	width:32%;
+	display:inline-block;
+}
+#live-tag span.cur{
+	color:#333333;
+	border-bottom:2px solid #e33124;
+}

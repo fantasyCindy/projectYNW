@@ -1,0 +1,423 @@
+body,input {
+    -webkit-highlight: none;
+    -webkit-tap-highlight-color: transparent
+}
+
+.hidden,.hide {
+    display: none
+}
+
+.a-l {
+    text-align: left
+}
+
+.a-r {
+    text-align: right
+}
+
+.a-j {
+    text-align: justify
+}
+
+#simulateStock #simulate #c5 p,#simulateStock table td,.a-c {
+    text-align: center
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+table {
+    border-collapse: collapse
+}
+
+body {
+    font-family: "Microsoft YaHei","helvetica,sans-serif";
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    font-size: 13px
+}
+
+div,p,span {
+    text-align: justify
+}
+
+input {
+    text-decoration: none;
+    outline: 0
+}
+
+@font-face {
+    font-family: 'Chrono Regular';
+    src: url(../font/ChronoWebRegular.eot?#iefix) format("embedded-opentype"),url(../font/ChronoWebRegular.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Chrono Medium';
+    src: url(../font/ChronoWebMedium.eot?#iefix) format("embedded-opentype"),url(../font/ChronoWebMedium.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Chrono Medium Italic';
+    src: url(../font/ChronoWebMediumItalic.eot?#iefix) format("embedded-opentype"),url(../font/ChronoWebMediumItalic.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Chrono Light';
+    src: url(../font/ChronoWebLight.eot?#iefix) format("embedded-opentype"),url(../font/ChronoWebLight.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Chrono Light Italic';
+    src: url(../font/ChronoWebLightItalic.eot?#iefix) format("embedded-opentype"),url(../font/ChronoWebLightItalic.woff) format("woff")
+}
+
+.number {
+    font-family: 'Chrono Regular'
+}
+
+.number-b {
+    font-family: 'Chrono Medium'
+}
+
+.ynbtn {
+    display: inline-block;
+    border: 1px solid #B0C1F6;
+    border-radius: 3px;
+    padding: 3px 15px;
+    background: #e5ebfd;
+    cursor: pointer;
+    font-size:12px;
+}
+
+.ynbtn:hover {
+    background-color: #AEBDEC
+}
+
+.bgred {
+    background-color: #ec1928
+}
+
+.fgred {
+    color: #ec1928
+}
+
+.green {
+    color: #1aa31a
+}
+
+.red {
+    color: red
+}
+
+#yn_stcok_list {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px #a0a0a0
+}
+
+#yn_stcok_list table {
+    width: 100%;
+    cursor: pointer
+}
+
+#yn_stcok_list td {
+    padding: 3px 5px;
+    font-size: 13px
+}
+
+#yn_stcok_list tr:hover td {
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background: #AEBDEC
+}
+
+#simulateStock {
+    width: 890px;
+    /* padding:40px; */
+    margin: 0;
+}
+
+#simulateStock .wrap {
+    position: relative
+}
+
+#simulateStock .ratio {
+    color: #00f;
+    margin-right: 5px;
+    cursor: pointer
+}
+
+#simulateStock .canBuy,#simulateStock .canSell {
+    font-weight: 700
+}
+
+#simulateStock table td.tdheader,#simulateStock table tr.tdheaders td {
+    background: #f5f5f5
+}
+
+#simulateStock table td {
+    background: #fff;
+    padding: 12px 10px;
+    font-size: 14px;
+    border: 1px solid #e6e6e6
+}
+
+#simulateStock td.title1 {
+    border: none;
+    background: #fff;
+    height: 40px
+}
+
+#simulateStock h1 {
+    font-size: 17px;
+    color: #1f7397;
+    text-align: left;
+    font-weight: 400
+}
+
+#simulateStock #account,#simulateStock #account table,#simulateStock #income,#simulateStock #income table {
+    width: 100%
+}
+
+#simulateStock #simulate {
+    width: 100%;
+    clear: both;
+    margin-top: 20px;
+    position: relative
+}
+
+#simulateStock #simulate h1 {
+    margin-bottom: 10px
+}
+
+#simulateStock #simulate .titles {
+   margin:20px 0;
+}
+
+#simulateStock #simulate .titles button{
+   border:none;
+   outline:none;
+   border: 1px solid #B0C1F6;
+   padding:8px 30px;
+   border-radius:2px;
+   margin-right:10px;
+   background: #e5ebfd;
+   font-size:15px;
+   color:black;
+}
+
+#simulateStock #simulate .titles button.select{
+   background: #d72621;
+   color:white;
+   border-color:#d72621;
+}
+
+#simulateStock #simulate .titles td.select {
+    background: #d72621;
+    color:white;
+    border-color:#d72621;
+}
+
+#simulateStock #simulate .contents {
+    position: relative;
+    overflow: hidden;
+}
+
+#simulateStock #simulate .contents .content {
+    width: 100%;
+    top: 0;
+    min-height:350px;
+}
+
+#simulateStock #simulate .contents table {
+    width: 100%
+}
+
+#simulateStock #simulate .content {
+    display: none
+}
+
+#simulateStock #simulate .content.select {
+    display: block
+}
+
+#simulateStock #simulate #c5 .tdheaders td {
+    background: #f0f0f0;
+    margin: 0;
+    text-align: center;
+    padding: 5px 0
+}
+
+#realtime {
+    position:absolute;
+    right:0;
+    top:95px;
+    display: none;
+    width: 480px !important;
+    overflow: hidden;
+    background:rgb(245,245,245) !important;
+    padding:20px 10px;
+}
+
+#realtime td{
+    padding:5px !important;
+    background:rgb(245,245,245) !important;
+}
+
+#realtime table {
+    float: left
+}
+
+#realtime table.left {
+    width: 170px !important;
+}
+
+#realtime table.left td {
+    border: none;
+    padding: 5px 0
+}
+
+#realtime table.left .name {
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-top: 15px
+}
+
+#realtime table.left .now {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 0;
+    padding-bottom: 5px
+}
+
+#realtime table.left .min {
+   
+}
+
+#realtime table.left .a-l {
+    text-align: left;
+    padding-left: 8px;
+}
+
+#realtime table.left .a-r {
+    text-align: right;
+    padding-right: 8px;
+}
+
+#realtime table.left .ynbtn {
+    position: relative;
+    top: 5px
+}
+
+#realtime table.right {
+    width: 270px !important;
+    border-left: 1px solid #c8c8c8;
+}
+
+#realtime table.right td {
+   border:1px solid rgb(220,220,220);
+}
+
+#realtime table.right td.current {
+    background: #f5f5f5;
+    padding: 12px auto;
+    font-weight: 700
+}
+
+
+#buy{
+    width:400px ;
+}
+#buy .line{
+   padding:15px 0;
+}
+#buy .txt{
+    display:inline-block;
+    width:100px !important;
+    text-align:right;
+    margin-right:10px;
+    color: #4584D3;
+}
+
+#buy .inline{
+    display:inline-block;
+}
+#buy .math{
+    display:inline-block;
+}
+
+#buy .left{
+   float:none !important;
+    width:50px !important;
+}
+#buy .right{
+    float:none !important;
+    width:50px !important;
+}
+
+#buy .wrap{
+    margin:auto;
+    width:140px;
+}
+
+
+
+#sell{
+    width:400px ;
+}
+
+#simulateStock input, #simulateStock select{
+    outline: none;
+   width:95%;
+   padding:5px;
+   border-style:none;
+   border:1px solid rgb(230,230,230);
+   border-radius:3px;
+   background: rgb(245,245,245);
+}
+#sell .line{
+   padding:15px 0;
+}
+#sell .txt{
+    display:inline-block;
+    width:100px !important;
+    text-align:right;
+    margin-right:10px;
+    color: #4584D3;
+}
+
+#buy-between-right{
+    padding:0;
+}
+
+#sell-between-right{
+  padding:0;   
+}
+
+#sell .inline{
+    display:inline-block;
+}
+#sell .math{
+    display:inline-block;
+}
+
+#sell .left{
+   float:none !important;
+    width:50px !important;
+}
+#sell .right{
+    float:none !important;
+    width:50px !important;
+}
+
+#sell .wrap{
+    margin:auto;
+    width:140px;
+}

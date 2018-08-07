@@ -1,0 +1,85 @@
+/*牛人排行*/
+.block{
+    display: block;
+}
+.ranking-content{
+    color: #222;
+    background: #fff;
+}
+.ranking-content .ranking-title{
+    padding: 0 25px;
+    border-bottom: 1px solid rgb(240,240,240);
+}
+.ranking-content .ranking-title-list{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px 5px;
+    position: relative;
+    top: 1px;
+}
+.ranking-content .ranking-title-list.select{
+    color: rgb(255,80,84);
+    border-bottom: 2px solid rgb(255,80,84);
+}
+.ranking-content .ranking-main-list{
+    padding: 16px 12px;
+    position: relative;
+    border-top: 1px dashed rgb(240,240,240);
+    margin: 0 13px;
+}
+.ranking-content .ranking-main-list:first-child{
+    border-top: 0;
+}
+.ranking-content .ranking-icon{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 12px;
+    left: 59px;
+    display: inline-block;
+    background: url(/public/v2/index/images/ynw-ranking.png) no-repeat -120px 0;
+}
+.ranking-content .ranking-main-list1{
+    padding-top: 30px;
+}
+.ranking-content .ranking-main-list2{
+    padding-top: 30px;
+}
+.ranking-content .ranking-main-list3{
+    padding-top: 30px;
+}
+.ranking-content .ranking-main-list1 .ranking-icon{
+    background-position: 0 0;
+}
+.ranking-content .ranking-main-list2 .ranking-icon{
+    background-position: -38px 0;
+}
+.ranking-content .ranking-main-list3 .ranking-icon{
+    background-position: -77px 0;
+}
+.ranking-content .ranking-main-list .image{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.ranking-content .ranking-text{
+    position: relative;
+    top: -30px;
+    margin-left: 20px;
+}
+.ranking-content .ranking-people:hover{
+    color: rgb(255,80,84);
+}
+.ranking-content .ranking-num{
+    top: 15px;
+    width: 69px;
+    color: #eb575a;
+    text-align: center;
+    line-height: 1.5;
+}
+.ranking-content .ranking-num .ranking-people-num{
+    font-weight: normal;
+    color: #c2c2c2;
+    font-size: 13px;
+    display: block;
+}

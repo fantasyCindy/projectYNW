@@ -1,0 +1,116 @@
+#answerWindow {
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1000
+}
+
+#answerWindow .answerWindow-wrap {
+    border-radius: 5px;
+    overflow: hidden
+}
+
+#answerWindow .question {
+    background: rgb(245, 245, 245);
+    padding: 10px 20px;
+    font-size: 13px;
+    color: gray
+}
+
+#answerWindow .title {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    overflow: hidden;
+    padding-left: 20px
+}
+
+#answerWindow .title .close-window {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer
+}
+
+#answerWindow .title .icon-title {
+    float: left;
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px
+}
+
+#answerWindow .title .name {
+    font-size: 16px
+}
+
+#answerWindow .content {
+    padding: 15px 20px 20px 20px
+}
+
+#answerWindow .category {
+    margin-bottom: 15px
+}
+
+#answerWindow .category .item {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 1px 10px;
+    margin-right: 5px;
+    border-radius: 2px;
+    cursor: pointer
+}
+
+#answerWindow .category .item.select {
+    border-color: #d72621;
+    background: #d72621;
+    color: white
+}
+
+#answerWindow .judge {
+    margin-bottom: 15px
+}
+
+#answerWindow .judge button {
+    padding: 3px 10px;
+    border-color: gray;
+    background: white;
+    color: #202020;
+    margin: 0 5px
+}
+
+#answerWindow .judge button.up.select {
+    background: #d72621;
+    border-color: #d72621;
+    color: white
+}
+
+#answerWindow .judge button.down.select {
+    background: green;
+    border-color: green;
+    color: white
+}
+
+#answerWindow button.submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 100px;
+    text-align: center
+}
+
+#answerWindow .bottom {
+    margin-top: 10px
+}
+
+#answerWindow .search input {
+    padding: 5px 30px 5px 10px;
+    width: 200px;
+    background: rgb(245, 245, 245)
+}
+
+#answerWindow .search .fa-search {
+    position: relative;
+    right: 30px;
+    color: gray
+}

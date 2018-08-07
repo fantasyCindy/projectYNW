@@ -1,0 +1,31 @@
+.ynui-checkbox-item {
+    margin-right: 10px;
+}
+
+.ynui-checkbox-item .outer {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border: 1px solid rgb(150, 150, 150);
+    position: relative;
+    top: 3px;
+    border-radius: 50%;
+    margin-right: 3px;
+    cursor: pointer;
+    background: rgb(245, 245, 245);
+}
+
+.ynui-checkbox-item .inner {
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+.ynui-checkbox-item .inner.select {
+    background: red;
+}

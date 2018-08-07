@@ -1,0 +1,119 @@
+body{
+    background:#fff!important
+    ;
+}
+.bold {
+    font-weight: bold
+}
+
+.red {
+    color: red;
+}
+
+
+/* detail */
+
+#app {
+    padding: 20px;
+}
+
+.query-actions {
+    text-align: center;
+}
+
+#app .el-date-editor {
+    width: 120px;
+}
+
+#app .el-picker-panel {
+    width: 320px !important;
+}
+
+#app .el-select {
+    width: 120px;
+}
+
+.query-result {}
+
+.query-result table {
+    width: 100%;
+}
+
+.query-result td {
+    border: 1px solid #d8d8d8;
+    padding: 10px 5px;
+}
+
+.query-result thead td {
+    background: #e0eefd;
+    font-weight: bold;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+#chartBar {
+    overflow: hidden;
+    height: 260px;
+    background: #f9f9f9;
+    margin: 15px 0;
+}
+
+#chartBar .wrap {
+    margin: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+#chartBar .left {
+    width: 50%;
+    float: left;
+    position: relative;
+    top: 30px;
+}
+
+#chartBar .left .items {
+    overflow: hidden;
+}
+
+#chartBar .left .item {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#chartBar .left .item .value {
+    font-size: 16px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#chartBar .left .item .title {
+    font-size: 16px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#chartBar .right {
+    width: 50%;
+    float: left;
+}
+
+.el-date-table td {
+    line-height: 32px;
+}
+.center.none{
+    text-align: center;
+    padding:50px 0;
+}
+.financeUpload{
+    cursor: pointer;
+}
+.avatar-uploader .avatar{
+    width:100px;
+    height:100px;
+}
+
+

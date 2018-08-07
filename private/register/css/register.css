@@ -1,0 +1,218 @@
+@charset "UTF-8";
+body {
+    background: rgb(250, 250, 250);
+}
+
+#registerPage {
+    margin-top: 20px !important;
+    padding: 15px;
+    width: 800px;
+    border-radius: 3px;
+    border: 1px solid rgb(240, 240, 240);
+    margin: 20px auto;
+    line-height: 42px;
+    font-family: "Microsoft YaHei", Helvetica, Arial, sans-serif;
+    background: white;
+    min-height:650px;
+}
+
+#registerPage input{
+    outline:none;
+    border:1px solid rgb(240,240,240);
+}
+
+#registerPage .registerTitles {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#registerPage .registerTitle {
+    margin:0 25px;
+    font-size: 18px;
+    cursor:pointer;
+}
+#registerPage .registerTitles .thisclass{
+    color:#d3091c;
+}
+#registerPage .col-xs-5 center {
+    position: relative;
+    left: 17px;
+}
+
+#registerPage .loginButton {
+    font-size: 14px;
+    position: absolute;
+    right: 15px;
+    ;
+}
+
+#registerPage p span {
+    color: #555;
+    font-size: 18px;
+    font-size: 14px;
+}
+
+#registerPage p span a:hover {
+    text-decoration: underline;
+    color: #cf1623;
+}
+
+
+#registerPage p span+span a {
+    color: #EB1927;
+}
+
+#registerPage input {
+    margin-bottom: 24px;
+}
+
+#registerPage .tel {
+    border-radius: 2px;
+    width: 430px;
+    height: 42px;
+    padding-left: 10px;
+}
+
+#registerPage .Verification_code {
+    padding-left: 5px;
+    border-radius: 2px;
+    width: 160px;
+    height: 42px;
+    float: left;
+    margin-right: 10px;
+}
+
+#registerPage .Verification_code+img {
+    vertical-align: middle;
+}
+
+#registerPage .Verification_code+img+span {
+    color: #CBCBCB;
+    font-size: 14px;
+}
+
+#registerPage .btn-login {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #666666;
+}
+
+#registerPage .forget {
+    float: right;
+}
+
+#registerPage input {
+    padding-left: 15px !important;
+    background:rgb(250,250,250);
+}
+
+#registerPage .btn-login {
+    border-radius: 4px;
+    width: 340px;
+    font-weight: bold;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    color: #fff;
+    background-color: #ededed;
+    font-size: 16px;
+}
+
+.loginred {
+    background-color: #EB1927 !important;
+}
+
+#registerPage .login-line {
+    border-top: 1px solid #D1D1D1;
+}
+
+#registerPage .login-line span {
+    display: block;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+    margin-top: -10px;
+    width: 127px;
+    margin: -10px auto;
+    height: 20px;
+    background: #fff;
+}
+
+#registerPage .hz {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#registerPage .hz li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#registerPage .hz li+li+li {
+    margin: 0;
+}
+
+#registerPage.sendafter {
+    display: inline-block;
+    width: 200px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    text-align: center;
+    background: #999;
+}
+
+#registerPage .green {
+    color: #1bbc3a
+}
+
+#registerPage .changeImg {
+    margin-left: 5px;
+}
+
+#registerPage .red {
+    color: #FF2F00;
+}
+
+#registerPage .glyphicon-exclamation-sign:before {
+    position: relative;
+    top: 2px;
+    margin-right: 3px;
+}
+
+#registerPage .col-xs-2 center {
+    text-align: right;
+}
+
+#registerPage .green span,
+#registerPage .red span {
+    line-height: 42px;
+    font-size: 14px;
+}
+
+#registerPage.sendafter {
+    display: inline-block;
+    width: 200px;
+    height: 42px;
+    line-height: 42px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    text-align: center;
+    background: #999;
+}
+
+#registerPage .sendbefore {
+    display: inline-block;
+    width: 120px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 42px;
+    padding: 0 5px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    text-align: center;
+    background: #F0F0F0;
+    color: #7D7979;
+}

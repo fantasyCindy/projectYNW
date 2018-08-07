@@ -1,0 +1,64 @@
+.container {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#newsDetail {
+    width: 850px;
+    margin: auto;
+    float: left;
+    background: white;
+    padding: 40px;
+}
+
+#rightBar {
+    width: 330px;
+    float: right;
+}
+
+#newsDetail .title-1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#newsDetail .publish {
+    text-align: center;
+    margin: 10px 0;
+    color: gray;
+}
+
+#newsDetail .publish > * {
+    margin: 0 5px;
+}
+
+#newsDetail p {
+    margin: 10px 0;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#newsDetail .tip {
+    margin: 10px 0;
+    background: rgb(255, 248, 248);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(252, 239, 239)
+}
+
+
+/*common*/
+
+.header {
+    background: rgb(62, 62, 62);
+    margin-bottom: 15px;
+}
+
+.header a {
+    display: inline-block;
+    padding: 10px 0;
+    color: white;
+    margin-right:15px;
+}

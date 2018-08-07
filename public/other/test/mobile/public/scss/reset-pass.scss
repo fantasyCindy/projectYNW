@@ -1,0 +1,79 @@
+/*reset-pass */
+$f24:24px;
+$f16:18px;
+$orange:#fb836b;
+$hui:#b1b1b1;
+$fff:#fff;
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($shadows...){
+  @if length($shadows) >= 1 {
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+  } @else {
+    $shadows: 0 0 2px rgba(#000,.25);
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+}
+
+.relative{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    .person{
+        position: absolute;
+        left: 20px;
+        top: 5px;
+        width: 34px;
+        height: 34px;
+        background: url(/public/images/caoh5/verification_icon.png);
+        background-size: 34px;
+    }
+}
+
+#reset-pass{
+    max-width: 640px;
+    margin: 0 auto;
+    color: $hui;
+    .block{
+        display: block;
+        margin: 14px auto;
+    }
+    .logo{
+        margin: 40px auto 30px;
+    }
+    .main{
+        text-align: center;
+        .input{
+            width: 60%;
+            display: block;
+            font-size: $f16;
+            margin: 14px 0;
+            padding: 16px 64px;
+            outline: none;
+            @include border-radius(8px);
+            border: 1px solid #c8c5c5;
+        }
+        .btn{
+            width: 80%;
+            padding: 12px 0;
+            margin-top: 40px;
+            border: 0;
+            outline: none;
+            color: $fff;
+            font-size: $f24;
+            background: $orange;
+            @include border-radius(100px);
+            @include box-shadow(2px 2px 8px rgba(214, 51, 3, 0.5));
+        }
+    }
+}
+
+
+
+
+
+

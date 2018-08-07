@@ -1,0 +1,725 @@
+#liveDetail {
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#liveDetail .loadMore {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: red;
+}
+
+#liveDetail .subject {
+    padding: 15px 0;
+    background: white;
+    text-indent: 20px;
+    font-size: 16px;
+}
+
+#liveDetail .menu {
+    border-bottom: 1px solid #d72621;
+    width: 1200px;
+    background: white;
+}
+
+#liveDetail .menu .wrap {
+    position: relative;
+    bottom: -1px;
+    overflow: hidden;
+}
+
+#liveDetail .menu .wrap .item {
+    margin: 0 !important;
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+    padding: 13px 35px;
+    cursor: pointer;
+    border-top: 3px solid white;
+    border-bottom: 1px solid #d72621;
+}
+
+#liveDetail .menu .wrap .item.select,
+#liveDetail .menu .wrap .item:hover {
+    border-bottom-color: white;
+    border-top-color: #d72621;
+    border-left: 1px solid #d72621;
+    border-right: 1px solid #d72621;
+}
+
+#liveDetail .menu .wrap .item:first-child.select,
+#liveDetail .menu .wrap .item:first-child:hover {
+    border-left: none;
+}
+
+
+#liveDetail .liveContent {
+    overflow: hidden;
+}
+
+#liveDetail .leftBar {
+    float: left;
+    width: 65%;
+    min-height: 200px;
+}
+
+#liveDetail .leftBar .leftBarChild {
+    max-height: 654px;
+    overflow: auto;
+    display: none;
+}
+
+#liveDetail .rightBar {
+    float: right;
+    width: 34%;
+    min-height: 200px;
+}
+
+#liveDetail .rightBar .rightBarChild {
+    max-height: 600px;
+    overflow: auto;
+    margin-bottom: 10px;
+}
+
+#liveDetail .rightBar > .title {
+    background: #d72621;
+    padding: 15px 0;
+    color: white;
+    text-indent: 20px;
+    font-size: 18px;
+}
+
+
+/* 直播*/
+
+#live {
+    background: white;
+}
+
+#live .items .item {
+    padding: 15px 20px;
+    border-top: 1px solid #f0f0f0;
+}
+
+#live .items .item .line {
+    margin-bottom: 5px;
+}
+
+#live .items .item:first-child {
+    border-top: none;
+}
+
+
+/*编辑器*/
+
+#pubEditer {
+    background: white;
+    margin-top: 10px;
+    padding: 10px 30px 30px 30px;
+}
+
+#pubEditer > .title {
+    padding: 10px 0;
+    font-size: 17px;
+    color: #D12F2F;
+    margin-bottom: 8px;
+}
+
+
+/* 互动*/
+
+#friendTalk {
+    background: white;
+    overflow: auto;
+    margin: 0;
+    position: relative;
+}
+
+#friendTalk .reply {
+    float: right;
+    cursor: pointer;
+}
+
+#friendTalk .item {
+    padding: 10px 25px;
+    border-top: 1px solid whitesmoke;
+}
+
+#friendTalk .item:first-child {
+    border: none;
+}
+
+#friendTalk .avatar {
+    display: inline-block;
+    background: red;
+    width: 10px;
+    height: 15px;
+    margin: 0 3px 0 0;
+    background: url(/public/images/n68.png) no-repeat -213px -154px
+}
+
+#friendTalk .name {
+    color: #3974D6;
+}
+
+#friendTalk .user_type {
+    color: red;
+    margin-left: 3px;
+}
+
+#friendTalk .line {
+    margin-bottom: 5px;
+}
+
+#friendTalk .line3 {
+    font-size: 12px;
+    color: gray;
+}
+
+#friendTalk .time {
+    margin-right: 5px;
+}
+
+#friendTalk .pubContent {
+    text-align: justify;
+    line-height: 22px;
+}
+
+
+/*互动窗口*/
+
+#talkWindow {
+    background: white;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+}
+
+#talkWindow .title {
+    padding-top: 20px;
+    padding-bottom: 0 !important;
+    background: white !important;
+    overflow: hidden;
+}
+
+#talkWindow .title span {
+    font-size: 17px;
+    color: #D12F2F;
+    float: left;
+    text-align: left;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    margin-left: 17px;
+    padding-left: 15px;
+}
+
+#talkWindow .content {
+    position: relative;
+    padding: 0 15px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+#talkWindow .content textarea {
+    border-style: none;
+    outline: none;
+    width: 345px;
+    border: 1px solid rgb(235, 235, 235);
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+    height: 210px;
+    margin: 20px;
+    resize: none;
+}
+
+#talkWindow .content .line2 span {
+    margin-left: 20px;
+    color: rgb(200, 200, 200);
+}
+
+
+}
+#talkWindow .content .line2 span a {
+    color: rgb(200, 200, 200) !important;
+}
+#talkWindow .btn {
+    bottom: 10px;
+    text-align: center;
+    position: absolute;
+    right: 27px;
+    background: #F6F6F6;
+    width: 100px;
+    color: black;
+    outline: none;
+    border: 1px solid rgb(220, 220, 220);
+}
+#talkWindow .btn:hover {
+    background: rgb(235, 235, 235)
+}
+
+/*问股*/
+.quesanswer {
+    font-size: 14px;
+    line-height: 1.5;
+    background: white;
+}
+.quesanswer .items {
+    padding: 0 30px;
+}
+.quesanswer .item {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(240, 240, 240);
+}
+.quesanswer .time {
+    color: gray;
+}
+.quesanswer .name {
+    color: #3974D6;
+}
+.quesanswer .belong {
+    color: #ea544a;
+}
+.quesanswer .publish {
+    font-size: 15px;
+}
+.quesanswer .publishContent {
+    margin-left: 25px;
+}
+.quesanswer .answerContent {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 13px;
+    color: black;
+}
+.quesanswer .publish .icon {
+    color: #ea544a;
+    margin-right: 5px !important;
+}
+.quesanswer .item .answer {
+    margin-top: 10px;
+}
+.quesanswer .answer {
+    padding: 0;
+}
+
+/*观点*/
+#opinion {
+    padding-left: 0px;
+    background: white;
+}
+#opinion .items {}
+#opinion .item {
+    border: 1px solid rgb(240, 240, 240);
+    border-left:none;
+    border-bottom:none;
+    display: block;
+    padding: 20px 20px 0px 20px;
+    padding-bottom: 0;
+}
+#opinion .item .name {
+    color: rgb(238, 84, 74);
+    font-size: 17px;
+}
+#opinion .line1 .icon {
+    color: #6E8FCB;
+    transform: scale(0.7);
+}
+#opinion .line1 .name:hover,
+#opinion .content:hover {
+    text-decoration: underline;
+}
+#opinion .time {
+    color: gray;
+    font-size: 12px;
+    margin-left: 15px;
+}
+#opinion .content {
+    margin-left: 15px;
+}
+#opinion .line {
+    margin-bottom: 5px;
+}
+#opinion .line1 {
+    margin-left: 14px;
+}
+#opinion .info {
+    padding: 8px;
+    text-align: center;
+    border-top: 1px solid rgb(230, 230, 230);
+    font-size: 13px;
+    margin: 0 -20px;
+    margin-top: 15px;
+    background: rgb(242, 242, 242);
+}
+#opinion .info>span {
+    display: inline-block;
+    width: 32%;
+}
+#opinion .read {
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+/*热门观点*/
+#hotOpinion {
+    background: white;
+}
+#hotOpinion .item {
+    display: block;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(245, 245, 245)
+}
+#hotOpinion .name {
+    font-size: 15px;
+    color: #df8b17;
+}
+#hotOpinion .name:hover {
+    text-decoration: underline;
+}
+#hotOpinion .item .icon {
+    transform: scale(0.7);
+    color: #6E8FCB;
+}
+#hotOpinion .item .content {
+    margin-left: 15px;
+}
+#hotOpinion .item .content:hover {
+    text-decoration: underline;
+}
+#hotOpinion .line {
+    margin-bottom: 5px;
+}
+#hotOpinion .info {
+    font-size: 12px;
+    color: gray;
+    margin-left: 15px;
+}
+#hotOpinion .item .read {
+    float: right;
+    margin-left: 10px;
+}
+#hotOpinion .item .comment {
+    float: right;
+}
+#hotOpinion .item:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background: rgb(250, 250, 250)
+}
+#hotOpinion .items {
+    overflow: auto;
+}
+
+/*内参*/
+#refer {
+    background: white;
+    padding: 30px;
+    max-height: 10000px !important;
+}
+#refer .feedButton-010 {
+    display: inline-block;
+}
+.red {
+    color: #cd0000
+}
+#refer .altogether {
+    color: #333;
+    font-size: 18px;
+    line-height: 30px
+}
+#refer .items .item {
+    padding: 10px 0;
+    border-top: 1px solid #dfdfdf
+}
+#refer .items .item:first-child {
+    border: none
+}
+#refer .items .item .refer-item-tit {
+    font-size: 18px;
+    color: #333
+}
+#refer .items .item .refer-item-tit a {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none
+}
+#refer .items .item .refer-item-cnt {
+    margin-top: 15px;
+    background: #f7f7f7;
+    padding: 8px;
+    position: relative;
+    overflow: hidden
+}
+#refer .items .item .refer-item-cnt .refer-item-pic {
+    float: left;
+    width: 185px;
+    height: 87px
+}
+#refer .items .item .refer-item-cnt .refer-item-pic .status-10 {
+    background: url(/public/images/refer-status-updating.png) no-repeat
+}
+#refer .items .item .refer-item-cnt .refer-item-pic .status-11 {
+    background: url(/public/images/refer-status-end.png) no-repeat
+}
+#refer .items .item .refer-item-cnt .refer-item-pic .status-pause {
+    background: url(/public/images/refer-status-pause.png) no-repeat
+}
+#refer .items .item .refer-item-cnt .refer-item-pic .status {
+    display: inline-block;
+    width: 55px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: -5px
+}
+#refer .items .item .refer-item-cnt .refer-item-desc {
+    float: left;
+    width: 500px;
+    height: 87px;
+    padding-left: 20px;
+    overflow: hidden
+}
+#refer .items .item .refer-item-cnt .refer-item-desc p {
+    line-height: 22px;
+    word-wrap: break-word
+}
+#refer .items .item .btn-wrap {
+    line-height: 30px;
+    color: #666;
+    font-size: 14px;
+    padding: 15px 0;
+    margin-top: 10px
+}
+#refer .items .item .btn-wrap .subscribe {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    background: #ea544a;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px
+}
+#refer .items .item .btn-wrap .subscribe:hover {
+    background: #f31a0b
+}
+
+/*内参订阅*/
+#refer-layer {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 999;
+    display: none;
+    background: rgba(0, 0, 0, .5);
+}
+
+#refer-layer .box {
+    position: fixed;
+    width: 650px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding: 0 15px
+}
+#refer-layer .close {
+    cursor: pointer;
+    position: absolute;
+    right: 13px;
+    top:13px;
+}
+
+#refer-layer  .gray{
+    padding:5px 15px;
+    background: rgb(230,230,230);
+    border-radius:2px;
+}
+
+#refer-layer .md-titlebar {
+    margin: 0 -15px;
+    text-indent:12px;
+    padding: 13px 20px;
+    font-size: 18px;
+    overflow: hidden;
+    color: #333;
+    border-bottom: 1px solid #ddd
+}
+#refer-layer .my-body {
+    padding: 0 0 15px;
+    color: #7d7d7d
+}
+#refer-layer .my-body .md-content {
+    color: #000;
+    font-size: 14px;
+    padding: 16px 16px 0
+}
+#refer-layer .my-body .md-content .product-dest {
+    padding: 10px 15px;
+}
+#refer-layer .my-body .md-content .product-dest h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+#refer-layer .my-body .md-content .product-dest p {
+    padding-bottom: 10px
+}
+#refer-layer .my-body .md-content .coupon-list .tit {
+    font-size: 14px;
+    padding-top: 10px
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap {
+    height: auto;
+    overflow: auto
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table {
+    width: 100%;
+    border-top:1px solid rgb(222,222,222);
+    border-bottom:1px solid rgb(222,222,222);
+    margin:5px 0;
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table td {
+    padding: 8px 0px;
+    color: #666;
+    font-size: 14px;
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table .col-1 {
+    width: 25px;
+    padding-left: 0
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table .col-2 {
+    width: 60px
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table .col-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 140px
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table .col-4 {
+    width: 150px;
+    text-align: center
+}
+#refer-layer .my-body .md-content .coupon-list .table-wrap table .col-5 {
+    width: 140px;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: break-word;
+    overflow: hidden
+}
+#refer-layer .my-body .md-content .coupon-list .note {
+    color: #999;
+    font-size: 12px;
+    padding: 10px 0
+}
+#refer-layer .my-body .md-content .coupon-list .middle {
+    vertical-align: middle
+}
+#refer-layer .my-body .md-content .coupon-list .btn-wrap {
+    border-top: 1px solid #cbcbcb;
+    padding: 20px 15px 20px 5px;
+    margin-top: 15px;
+    overflow: hidden
+}
+#refer-layer .my-body .md-content .coupon-list .btn-wrap .btn-89-31 {
+    font-size: 14px;
+    width: 108px;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    background: #f6554a;
+    border-radius: 3px;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+#refer-layer .my-body .md-content .coupon-list .btn-wrap .btn-89-31:hover {
+    background: #f31a0b
+}
+#refer-layer .my-body .md-content .coupon-list .btn-wrap .price {
+    font-size: 20px
+}
+#refer-layer .my-body .md-content .coupon-list .btn-wrap .price span {
+    font-size: 30px;
+    font-weight: 700
+}
+
+#referWindow{
+    background:white;
+}
+#referWindow img{
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
+}
+#live-info {
+    width: 1200px;
+    margin: auto;
+    min-width: 1200px;
+    background: white;
+    margin-bottom:10px;
+    padding-bottom:10px;
+}
+
+#live-info .avatar{
+    width:128px;
+    height:128px;
+    border:1px solid rgb(200,200,200);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#live-info .avatar img{
+    width:100%;
+}
+
+#live-info .subject{
+    padding:20px;
+    font-size:16px;
+    padding-bottom:15px;
+    margin-bottom: 15px;
+    border-bottom:1px solid rgb(235,235,235);
+}
+
+#live-info .person{
+    overflow: hidden;
+    margin:30px;
+}
+
+#live-info .person .column{
+    float:left;
+}
+
+#live-info .column2{
+    width:600px;
+    margin-left:15px;
+}
+
+#live-info .column2 .action {
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+#live-info .column2 .action span{
+    display: inline-block;
+    background: #d72621;
+    margin-right: 10px;
+    padding:3px 15px;
+    color:white;
+    border-radius: 2px;
+}
+
+#live-info .column2 .name{
+    font-size:18px;
+}

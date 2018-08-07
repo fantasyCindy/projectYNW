@@ -1,0 +1,79 @@
+.composite-run-high {
+    border: 1px solid rgb(245, 245, 245);
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.composite-run-high .contents {
+    background: rgba(0, 0, 0, 0.3);
+    float: left;
+    width: 100%;
+    padding-top: 35px;
+}
+
+.composite-run-high .title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.composite-run-high .title .type {
+    font-size: 12px;
+    background: #e99b08;
+    padding: 3px 10px;
+    color: white;
+    font-weight: normal;
+    border-radius: 2px;
+}
+
+.composite-run-high .bottom {
+    text-align: center;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    overflow: hidden;
+    position: relative;
+    padding: 8px;
+}
+
+.composite-run-high .bottom .liveTime {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-size: 15px;
+}
+
+.composite-run-high .bottom button {
+    float: right;
+    padding: 2px 20px;
+}
+
+.composite-run-high .income {
+    text-align: center;
+}
+
+.composite-run-high .income .txt {
+    color: #c81919;
+    font-size: 16px;
+}
+
+.composite-run-high .income .value strong {
+    font-size: 58px;
+}
+
+.composite-run-high .income .value .sign {
+    font-size: 28px;
+}
+
+.composite-run-high .status {
+    padding: 3px 10px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    font-size: 12px;
+    border-radius: 0 2px 2px 0;
+}

@@ -1,0 +1,65 @@
+#module-mobile-layer {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.11);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+#module-mobile-layer .box {
+    background: white;
+    width: 300px;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 200px;
+    box-shadow: 4px 4px 16px rgba(105, 105, 105, 0.24);
+}
+
+#module-mobile-layer .box > * {
+    display: none;
+}
+
+#module-mobile-layer .title {
+    padding: 10px;
+    padding-bottom: 0;
+    color: #a1a1a1;
+    font-size: 13px;
+}
+
+#module-mobile-layer .msg .title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#module-mobile-layer .info {
+    padding: 15px 30px;
+    font-size: 17px;
+    line-height: 1.5em;
+    padding-top: 5px;
+}
+
+#module-mobile-layer .msg .info {
+    padding: 30px 30px;
+}
+
+#module-mobile-layer .bottom {
+    border-top: 1px solid rgb(241, 241, 241);
+    overflow: hidden;
+}
+
+#module-mobile-layer .action {
+    padding: 13px 0;
+    display: inline-block;
+    width: 49%;
+    color: #6c6cef;
+    cursor: pointer;
+    float: left;
+}
+
+#module-mobile-layer .action:first-child {
+    border-right: 1px solid rgb(235, 235, 235);
+}

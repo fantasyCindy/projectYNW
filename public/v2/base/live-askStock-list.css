@@ -1,0 +1,330 @@
+/*问股弹窗*/
+
+#teacher-ask-win {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .4);
+    z-index:999;
+}
+
+.teacher-ask-wrap {
+    width: 800px;
+    height: 715px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -358px;
+    word-break: normal;
+}
+/**/
+.category table {
+    width: 100%
+}
+
+.category td {
+    text-align: center;
+    padding: 18px 0;
+    background:#E4E4E4;
+    cursor: pointer;
+    border-left: 1px solid rgb(200, 200, 200);
+    color:#333;
+    font-size:18px;
+}
+
+.category td:first-child {
+    border-left: none
+}
+
+.category td.select {
+    background: #C81E26;
+    color: white;
+    border-color: #d72621
+}
+.totalCount {
+    color: #F6554A;
+    font-size:16px;
+    padding:20px 28px;
+}
+.teacher-ask-wrap .ask-items{
+    padding:0 28px;
+    height:520px;
+    overflow: auto;
+}
+.list-question{
+    border-bottom:1px dotted #ececec;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+.list-item {
+    display: block;
+    padding: 15px 0;
+    background:rgba(247,247,247,1);
+    padding:15px 10px;
+    margin-bottom:15px;
+}
+
+.list-item .line1 .ask-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(/public/images/live/q_icon.png) no-repeat;
+    position: relative;
+    top: 3px
+}
+.list-item .line1 .answer-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(/public/images/live/a_icon.png) no-repeat;
+    position: relative;
+    top: 3px
+}
+.list-item .line1 .value {
+    width:694px;
+    display: inline-block;
+    font-size:14px;
+    color:#666;
+    line-height:24px;
+    margin-left:25px;
+    margin-top: -20px;
+}
+
+.list-item .line2 {
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 18px;
+    position: relative;
+    line-height: 25px;
+    height: 25px;
+}
+
+.list-item .line2>* {
+    margin: 0 5px;
+    color:#999;
+}
+.askPrice{
+    color:#DD503F;
+    margin:0 5px;
+}
+.list-item .line2 .time {
+    color: gray
+}
+
+.list-item .line2 .answerCount {
+    position: absolute;
+    right: 80px
+}
+
+.list-item .line2 .answerCount .value {
+    color: #d72621
+}
+
+.list-item .line2 .askButton {
+    width: 62px;
+    height: 24px;
+    text-align: center;
+    line-height: 23px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: 20px;
+    border: 1px solid #F6554A;
+    border-radius: 3px;
+    color: #d72621;
+    font-size: 12px;
+    cursor: pointer
+}
+
+.list-item .line2 .askButton:hover {
+    background: #F6554A;
+    color: white;
+    transition: all 0.3s
+}
+
+.list-item .line2 .ignoreButton {
+    width: 62px;
+    height: 24px;
+    text-align: center;
+    line-height: 23px;
+    position: absolute;
+    right: 73px;
+    top: 0;
+    margin-left: 20px;
+    border: 1px solid #5EA5F5;
+    border-radius: 3px;
+    color: #5EA5F5;
+    font-size: 12px;
+    cursor: pointer
+}
+
+.list-item .line2 .ignoreButton:hover {
+    background: #5EA5F5;
+    color: white;
+    transition: all 0.3s
+}
+.list-question .line2{
+    text-align: right;
+}
+/*个人中心回答问股弹窗*/
+.teacher-ask-container{
+    position:relative;
+    height:100%;
+}
+#answerWindow {
+    background:rgba(242,242,242,1);
+    border-radius: 4px;
+    position: absolute;
+    width:100%;
+    left:0;
+    bottom:0;
+    z-index: 1000;
+    box-shadow:2px 0px 8px rgba(6,13,36,0.36);
+}
+
+#answerWindow .answerWindow-wrap {
+    border-radius: 5px;
+    overflow: hidden;
+}
+#answerWindow .question {
+    background: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height:24px;
+    color: #666666;
+}
+
+#answerWindow .title {
+    position: relative;
+    padding: 10px;
+    border-bottom: none;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+#answerWindow .title .close-window {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width:12px;
+    height:12px;
+    background:url(/public/images/live/cha.png);
+    cursor: pointer
+}
+
+#answerWindow .title .icon-title {
+    float: left;
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px
+}
+
+#answerWindow .title .name,#answerWindow .category .name{
+    font-size: 16px;
+    color:#333;
+}
+#answerWindow .title .name:before,#answerWindow .category .name:before {
+    display: inline-block;
+    content:"";
+    width:3px;
+    height:15px;
+    background:#DD503F;
+    margin-right:5px;
+    position: relative;
+    top:2px;
+}
+
+#answerWindow .content {
+    padding: 15px 20px 10px;
+}
+
+#answerWindow .category {
+    margin-bottom: 15px
+}
+
+#answerWindow .category .item {
+    border: 1px solid #F6554A;
+    width:60px;
+    height:22px;
+    text-align:center;
+    line-height:18px;
+    margin-right:16px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color:#F6554A;
+    transition: .3s;
+}
+
+#answerWindow .category .item.select,#answerWindow .category .item:hover  {
+    border-color: #F6554A;
+    background:#F6554A;
+    color: white
+}
+
+#answerWindow .judge {
+    margin-bottom: 15px
+}
+
+#answerWindow .judge button {
+    padding: 3px 10px;
+    border-color: gray;
+    background: white;
+    color: #202020;
+    margin: 0 5px
+}
+#answerWindow .edui-editor{
+    border:1px solid #ececec;
+}
+#answerWindow .judge button.up.select {
+    background: #d72621;
+    border-color: #d72621;
+    color: white
+}
+
+#answerWindow .judge button.down.select {
+    background: green;
+    border-color: green;
+    color: white;
+}
+
+#answerWindow button.submit {
+    display: block;
+    margin: auto;
+    width:80px;
+    height:31px;
+    line-height:22px;
+    color:#fff;
+    background:rgba(246,85,74,1);
+    border:none;
+    border-radius:4px;
+    text-align: center;
+    float:right;
+    font-size:14px;
+}
+
+#answerWindow .bottom {
+    margin-top: 10px
+}
+
+#answerWindow .search{
+    display: inline-block;
+}
+#answerWindow .search input {
+    padding: 0 5px;
+    width: 112px;
+    height:31px;
+    background: #fff;
+}
+
+#answerWindow .search .fa-search {
+    position: relative;
+    right: 30px;
+    color: gray
+}
+

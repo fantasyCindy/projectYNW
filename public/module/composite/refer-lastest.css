@@ -1,0 +1,44 @@
+.refer-lastest-item {
+    float:left;
+    width: 240px;
+    text-align: center;
+    padding: 15px 0;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 2px;
+    margin: 10px;
+    position: relative;
+}
+
+.refer-lastest-item .title {
+    font-size: 17px;
+    padding: 8px 0
+}
+
+.refer-lastest-item .cover {
+    width: 85%;
+    margin: 10px auto;
+    height: 100px;
+    background: #e2e2e2;
+    overflow: hidden
+}
+
+.refer-lastest-item img {
+    height: 100%
+}
+
+.refer-lastest-item .time {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px
+}
+
+.refer-lastest-item .link {
+    width: 195px;
+    background: #d72621;
+    padding: 6px 5px;
+    color:white;
+    border-radius: 5px;
+    display: block;
+    margin:auto;
+    font-size:16px;
+}

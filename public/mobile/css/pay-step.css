@@ -1,0 +1,125 @@
+body {
+    background: white;
+}
+
+.step {
+    border-bottom: 10px solid rgb(230, 230, 230);
+    padding: 20px 0;
+}
+
+.top {
+    background: #d5d5d5;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1.5em;
+}
+
+.top strong {
+    font-weight: bold;
+    color: red;
+}
+
+.step.three .strong {
+    padding: 10px 20px;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+
+.step.one .phone {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #de2621;
+}
+
+.title-1 {
+    font-size: 16px;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    text-indent: 20px;
+}
+
+.cate-item {
+    padding: 15px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    overflow: hidden;
+    position: relative;
+}
+
+.cate-item .avatar {
+    width: 25px;
+    height: 25px;
+    background: red;
+    display: inline-block;
+    float: left;
+    background: url(/public/mobile/images/pay/alipay_icon.png) no-repeat center;
+    background-size: 25px;
+}
+
+.cate-item .name {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.cate-item .choose {
+    background: url(/public/mobile/images/pay/notselected_icon.png) no-repeat center;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.cate-item .choose.active {
+    background: url(/public/mobile/images/pay/selected_icon.png) no-repeat center;
+    background-size: 30px;
+}
+
+.cate-item.wxpay .avatar {
+    background: url(/public/mobile/images/pay/wechat.png) no-repeat center;
+    background-size: 25px;
+}
+
+.cate-item.cardpay .avatar {
+    background: url(/public/mobile/images/pay/-card_icon.png) no-repeat center;
+    background-size: 25px;
+}
+
+.cardBar {
+    padding: 10px;
+}
+
+.card-item {
+    padding: 25px 15px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(139, 139, 139, 0.22);
+    margin-bottom: 20px;
+    background: url(/public/mobile/images/pay/yh-texture.jpg) repeat-x;
+    text-align: left;
+}
+
+.card-item .imgw {
+    width: 100%;
+    text-align: center;
+}
+
+.card-item > div {
+    padding: 6px 0;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.card-item .num {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-item .icon-bank {
+    height: 50px;
+}

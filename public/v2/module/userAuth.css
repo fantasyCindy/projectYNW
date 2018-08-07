@@ -1,0 +1,181 @@
+#auth-verify {
+    width: 450px;
+    background: white;
+    border: 1px solid #ededed;
+    box-shadow: 8px 7px 13px rgba(201, 201, 201, 0.19);
+    border-radius: 4px;
+    margin: auto;
+    position: absolute;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#auth-overlay {
+    background: white;
+    background: rgba(255, 255, 255, 0.21);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#auth-verify {
+    animation-name: myZoomIn;
+    animation-duration: 0.3s;
+}
+
+.shake {
+    animation-name: myShake;
+    animation-duration: 0.6s;
+}
+
+@keyframes myZoomIn {
+    from {
+        transform: scale3d(.1, .1, .1);
+        opacity: 0;
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+        opacity: 1
+    }
+}
+
+@keyframes myShake {
+    from, to {
+        transform: translate3d(0, 0, 0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translate3d(-10px, 0, 0);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translate3d(10px, 0, 0);
+    }
+}
+
+#auth-verify .title {
+    padding: 10px;
+    border-bottom: 1px solid #f5f5f5;
+    position: relative;
+    font-size: 15px;
+    text-indent: 10px;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+
+#auth-verify .close:hover {
+    color: red;
+}
+
+#auth-verify .auth-frame {
+    padding: 20px 20px 30px 20px;
+}
+
+#auth-verify .form-text {
+    font-size: 13px;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#auth-verify .close {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#auth-verify .auth-frame.card .line {
+    margin-bottom: 15px;
+}
+
+#auth-verify .auth-frame {
+    position: relative;
+    display: none;
+}
+
+#auth-verify .auth-frame.card input {
+    height: 35px;
+    line-height: 35px;
+    text-indent: 10px;
+    width: 285px;
+    display: inline-block;
+    border-radius: 3px;
+    background: #f7f7f7;
+}
+
+#auth-verify .auth-frame.card .submitBar {
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#auth-verify .auth-frame.card .auth-error {
+    color: red;
+    position: absolute;
+    bottom: 52px;
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#auth-verify .auth-frame.card .submit {
+    background: #c40f0f;
+    width: 320px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+#auth-verify .auth-frame.card .form-item.done {
+    display: none;
+    text-align: center;
+}
+
+#auth-verify .form-item.done .icon-done-big {
+    background-image: url(/public/sprite/src/done-big.png);
+    background-position: 0px 0px;
+    width: 84px;
+    height: 84px;
+    margin: auto;
+}
+
+#auth-verify .form-item.done .to-btn {
+    background: #4a4a4a;
+    width: 250px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    margin: 15px auto;
+}
+
+#auth-verify .form-item.done p {
+    font-size: 15px;
+    color: #16d528;
+    margin: 10px auto;
+}
+
+#auth-verify .auth-frame.appraisal {
+    text-align: center;
+}
+
+#auth-verify .appraisal-btn {
+    background: #d31010;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+#auth-verify .auth-remind{
+    font-size: 12px;
+    color: #8B8B8B;
+    text-align: center;
+    margin-top: 2px;
+}

@@ -1,0 +1,124 @@
+body {
+    font-family: "微软雅黑"
+}
+
+#headline {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#headline .banner {
+    width: 1200px;
+    height: 321px;
+    background: url(/public/banner/yn-news-top.jpg) no-repeat;
+}
+
+#headline .container {
+    background: #fff;
+    margin-top: 25px;
+    padding: 0 20px;
+    padding-bottom:30px;
+}
+
+#headline .container .list {
+    border-bottom: 1px dashed #ccc;
+    padding: 20px 0;
+}
+
+#headline .list .title a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+#headline .list .title a:hover {
+    color: #ff5054;
+    text-decoration: underline;
+}
+
+#headline .list .content {
+    line-height: 25px;
+    overflow: hidden;
+    color: gray;
+    font-size: 15px;
+}
+
+#headline .list .msg {
+    height: 25px;
+    margin-top: 10px;
+}
+
+#headline .list .keywords,
+#headline .list .time {
+    display: inline-block;
+    margin-right: 15px;
+    height: 20px;
+}
+
+#headline .list .keywords {
+    border: 1px solid #2B8DEE;
+    border-radius: 13px 0 13px 0;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 10px;
+    color: #2B8DEE;
+    position: relative;
+    top: 1px;
+}
+
+#headline .list .time {
+    padding-left: 17px;
+    background: url(./images/time.png) no-repeat;
+    background-position: 0 1px;
+    color: gray;
+    font-size: 13px;
+}
+
+.page {
+    background: #fff;
+    padding: 10px 0;
+    padding-bottom: 25px;
+}
+
+.ynpagination {
+    -webkit-user-select: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ynpagination li {
+    font-size: 12px;
+    color: red;
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid rgb(200, 200, 200);
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    padding: 0 12px;
+    margin-right: 5px;
+}
+
+.ynpagination li a {
+    cursor: pointer;
+}
+
+.ynpagination li:hover {
+    background: rgb(245, 245, 245);
+}
+
+.ynpagination li.active {
+    background: #d1183e;
+    border-color: #d1183e;
+}
+
+.ynpagination li.active a {
+    color: white;
+}
+
+.ynpagination li:first-child {
+    border-left: 1px solid rgb(200, 200, 200);
+}

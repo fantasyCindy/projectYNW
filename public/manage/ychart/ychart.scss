@@ -1,0 +1,87 @@
+#ycharts {
+    font-size: 15px;
+    padding: 30px;
+    .title-1 {
+        font-size: 33px;
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .data-sum {
+        table {
+            width: 100%;
+        }
+        .thead {
+            td {
+                background: #fffbf6;
+                font-size: 14px;
+            }
+        }
+        td {
+            border: 1px solid #f7f2ab;
+            text-align: center;
+            padding: 8px 0;
+            font-size: 20px;
+            &.label {
+                font-size: 14px;
+                background: #fffbf6
+            }
+        }
+    }
+    .charts-menu {
+        text-align: center;
+        margin: 20px auto;
+        .item {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #564c29;
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+            -webkit-user-select: none;
+            &.active {
+                background: #d72621;
+            }
+        }
+    }
+    /* charts */
+    .charts-detail {
+        height: 600px;
+        border: 1px solid #ffea74;
+        border-radius: 4px;
+        &>div {
+            padding: 10px 0;
+        }
+        .detail-title {
+            font-size: 22px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .detail-sum {
+            table {
+                width: 85%;
+                margin: auto;
+            }
+            td {
+                text-align: center;
+                padding: 8px;
+                border: 1px solid #ece9db;
+            }
+            .tbody td {
+                font-size: 19px;
+            }
+        }
+    }
+}
+
+
+/*  注册分析 */
+
+.chart-register {
+    .chart-info {
+        width: 600px;
+        margin: auto;
+    }
+}

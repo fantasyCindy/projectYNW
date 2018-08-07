@@ -1,0 +1,71 @@
+/*投顾问股*/
+.ask-stock-main{
+    background: #fff;
+    padding: 0 0 10px 15px;
+}
+.ask-stock-main-content{
+    height: 485px;
+    overflow: auto;
+}
+.stock-content{
+    line-height: 1.5;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    word-wrap: break-word !important;
+}
+.stock-content .ask{
+    margin-bottom: 5px;
+}
+.stock-content .stocklist{
+    padding: 8px 7px 15px 0;
+    border-bottom: 1px dashed rgb(240,240,240);
+}
+.stock-content .stocklist:last-child{
+    border-bottom: 0;
+}
+.stock-content .ask-off{
+    color: rgb(73,160,247);
+}
+.stock-content .image{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    position: relative;
+    top: 10px;
+}
+.stock-content .ask-time{
+    position: relative;
+    top: 18px;
+}
+.stock-content .ask-width{
+    display: inline-block;
+    width: 90%;
+    margin-left: 8px;
+}
+.stock-content .ask-width.hide{
+    display: none;
+}
+.stock-content .ask .ask-width:hover{
+    color: #ff5054 !important;
+}
+.stock-content .ask-width img{
+    width: 83%;
+}
+.stock-content .ask-icon{
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    position: relative;
+    top: 3px;
+    background: url(/public/v2/index/images/ask-stock.png) no-repeat -4px -2px;
+}
+.stock-content .ask-answer .ask-icon{
+    background-position: -29px -2px;
+}
+.stock-content .ask-answer .ask-off{
+    position: relative;
+    bottom: 0;
+    right: -255px;
+}

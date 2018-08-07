@@ -1,0 +1,114 @@
+/*retrieve-pass */
+$f24:24px;
+$f16:18px;
+$orange:#fb836b;
+$hui:#6a6a6a;
+$fff:#fff;
+$red:#e33e3d;
+
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
+@mixin box-shadow($shadows...){
+  @if length($shadows) >= 1 {
+    -webkit-box-shadow: $shadows;
+    box-shadow: $shadows;
+  } @else {
+    $shadows: 0 0 2px rgba(#000,.25);
+    -webkit-box-shadow: $shadow;
+    box-shadow: $shadow;
+  }
+}
+
+body{
+    background: #f0f0f0;
+}
+
+.mb12{
+    margin-bottom: 12px;
+}
+.fr{
+    float: right;
+}
+
+#opinion{
+    max-width: 640px;
+    margin: 0 auto;
+    color: $hui;
+    font-size: $f16;
+    .block{
+        display: block;
+        margin: 14px auto;
+    }
+    .list{
+       padding: 20px 20px 0;
+       line-height: 26px;
+       background: #fff; 
+       .list-title{
+            display: block;
+            color: #404040;
+       }
+       .gray{
+            color: #a8a8a8;
+       }
+       .img{
+            width: 90px;
+            float: left;
+            margin-right: 20px;
+            @include border-radius(50%);
+       }
+       .info{
+            overflow: hidden;
+            margin: 0 0 5px;
+       }
+       .blue{
+            color: $red;
+            display: block;
+            font-size: $f24;
+       }
+       .title{
+            margin: 8px 0 0;
+            .fr{
+                position: relative;
+                top: -10px;
+                font-size: 14px;
+                color: #a8a8a8;
+            }
+       }
+       .line{
+            font-size: 14px;
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+       }
+       .see{
+            display: inline-block;
+            width: 32px;
+            height: 17px;
+            margin-top: 15px;
+            position: relative;
+            top: 3px;
+            background: url(/public/images/caoh5/read_icon.png) no-repeat center;
+            background-size: 25px;
+        }
+    }
+    .share{
+        text-align: center;
+        background: #fff; 
+        margin-top: 15px;
+        font-size: 14px;
+        padding: 20px 0 10px;
+    }
+    .icon{
+        display: inline-block;
+        width: 30%;
+        height: 96px;
+        margin-top: 15px;
+        background: url(/public/images/caoh5/footr_shang.png) no-repeat center;
+    }
+}
+
+
+
+
+

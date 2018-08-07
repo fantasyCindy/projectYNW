@@ -1,0 +1,337 @@
+#helpWrap{
+    width: 1200px;
+     margin: 0 auto;
+}
+
+#helpWrap .contentItem {
+    /* display: none; */
+    min-height:600px;
+}
+.help-banner{
+    margin-bottom:20px;
+}
+#help {
+    position:relative;
+    padding:0;
+}
+
+#help:after {
+    content: "";
+    display: block;
+    clear: both;
+    *zoom:1;}
+
+.help-left {
+    width: 186px;
+    z-index:1;
+    position:relative;
+    margin-left:-1px;
+    margin-right:-3px;
+    background: #fff;
+}
+
+.help-left ul {
+    margin-bottom:0;
+}
+
+.help-left li {
+    list-style: none;
+    width: 100%;
+    line-height: 60px;
+    cursor: pointer;
+    color: rgb(130, 127, 127);
+    font-size: 18px;
+}
+
+.help-left li.thisclass {
+    background: #D6D6D6;
+    border-top:1px solid rgb(235,235,235);
+    border-bottom:1px solid rgb(235,235,235);
+    border-left:2px solid #d72621;
+    color: #000;
+}
+
+.help-right {
+    padding: 0 70px 50px;
+    width: 850px;
+    background: #fff;
+    z-index: 0;
+    border:1px solid #e9eaeb;
+    margin-left:-1px;
+}
+
+.help-right img {
+    width:800px;
+    display: block;
+    margin: 0 auto;
+}
+
+.help-right span {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*帮助中心*/
+.help-right .title {
+    display: block;
+    height: 34px;
+    border-bottom: 1px solid #c3c4c4;
+    margin-bottom: 50px;
+    margin-top:20px;
+}
+
+.help-right .tc {
+    width: 200px;
+    background: #fff;
+    display: block;
+    margin: 0 auto;
+    font-size:25px;
+    font-weight: bold;
+}
+
+.help-right .title font {
+    font-size: 18px;
+    font-weight: 400;
+    color: #262626;
+}
+
+#help-center .subtitle {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#help-center .subtitle i {
+    margin-right: 10px;
+}
+
+#help-center .state {
+    margin-bottom: 20px;
+    color: #5b5c5e;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#help-center .tit {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #000 !important;
+}
+
+#help-center .aside {
+    color: rgb(94,94,94);
+}
+
+/*法律声明/免责条款／风险提示*/
+#legal .texind,#risk .texind,#aboutus .texind {
+    text-indent: 2em;
+    color: rgb(94,94,94);
+}
+
+#legal aside,#exceptions aside,#risk aside,#aboutus aside {
+    font-size: 14px;
+    color: rgb(94,94,94);
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#legal .subtitle,#exceptions .subtitle,#risk .subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: rgb(51,51,51);
+    line-height: 30px;
+}
+
+#legal .rules p {
+    font-size: 14px;
+    color: rgb(94,94,94);
+    line-height: 25px;
+}
+
+/*关于我们*/
+#aboutus .orange {
+    color: #d41726;
+    margin-bottom: 15px;
+}
+
+#aboutus span {
+    line-height: 30px;
+    color: rgb(94,94,94);
+}
+
+#aboutus .englishtitle {
+    margin-bottom: 15px;
+    color: #121213;
+    border-left: 3px solid #d98100;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 18px;
+}
+#join .title{color:#000;}
+#join{color:rgb(94,94,94);}
+#join .hot{line-height:35px;}
+#join .jobs{font-size:18px;line-height:25px;margin:40px 0 0;}
+#join .depict{font-size:14px;margin:10px 0;}
+#join .depict strong{font-weight:700}
+#join .jobs .fa{color:#fa8910;padding-right:8px;}
+#join .map{margin-top:15px;}
+
+#contact .list ul {
+    /* margin: 35px 0 15px 0; */
+    margin: 20px auto;
+    /*padding-left: 130px;*/
+    text-align: center;
+}
+
+#contact .list ul li {
+    display: inline-block;
+    margin: 0 44px;
+    width: 58px;
+    height: 58px;
+    background: url(/private/help/images/helpcenter12.png) no-repeat;
+    -webkit-transition: all .3s;
+    transition: all .3s
+}
+
+#contact .list ul .list_one {
+    background-position: -20px -20px
+}
+
+#contact .list ul .list_one:hover {
+    background-position: -20px -98px
+}
+
+#contact .list ul .list_two {
+    background-position: -88px -20px
+}
+
+#contact .list ul .list_two:hover {
+    background-position: -88px -98px
+}
+
+#contact .list ul .list_three {
+    background-position: -156px -20px
+}
+
+#contact .list ul .list_three:hover {
+    background-position: -156px -98px
+}
+
+#contact .list ul .list_four {
+    background-position: -14pc -20px
+}
+
+#contact .list ul .list_four:hover {
+    background-position: -14pc -98px
+}
+
+#contact .list ul .list_five {
+    background-position: -292px -20px
+}
+
+#contact .list ul .list_five:hover {
+    background-position: -292px -98px
+}
+
+#contact .list_text {
+    overflow: hidden;
+    margin: 25px 0;
+    color: #777879;
+    /*padding-left: 127px;*/
+    text-align: center;
+}
+
+#contact .list_text span {
+    /*float: left;*/
+    margin: 0 18px;
+    width: 115px;
+    text-align: center;
+    font-size:12px;
+}
+
+#contact #allmap {
+    overflow: hidden;
+    width: 851px;
+    height: 500px;
+    border: 1px solid #e1e1e1
+}
+#weixin-tip{position: fixed; left:0; top:0; background: rgba(0,0,0,0.8); filter:alpha(opacity=80); width: 100%; height:100%; z-index: 100;} #weixin-tip p{text-align: center; margin-top: 10%; padding:0 5%;}
+
+#helpWrap .about-title{
+    text-align: center;
+    color: #C6A731;
+    font-size: 26px;
+    margin: 20px 0;
+}
+#aboutus p{
+    text-indent: 2em;
+    line-height:25px;
+    font-size:16px;
+    color:gray;
+}
+#aboutus .about-stitle{
+    text-align: center;
+    color:red;
+    font-size:16px;
+}
+#aboutus .help-img{
+    display: inline-block;
+    text-align: center;
+    width:115px;
+    height:120px;
+    margin:0 82px;
+    margin-top:40px;
+    color:gray;
+    font-size:16px;
+}
+#aboutus .help-img img{
+    width:118px;
+    margin-bottom:10px;
+}
+#aboutus .about-office{
+    width:620px;
+    margin:0 auto;
+}
+#aboutus .about-office img{
+    width:100%;
+    margin:20px 0;
+}
+#aboutus .zigezheng{
+    text-align: center;
+    font-size:20px;
+}
+#aboutus .zigezheng img{
+    width:700px;
+    margin-top:10px;
+}
+/*企业账户*/
+.account1{
+    width:638px;
+    height:400px;
+    margin:40px auto;
+    border:1px solid #DBDCDD;
+    border-radius: 10px;
+}
+.account1 img{
+    width:630px;
+    margin:0 auto;
+    position:relative;
+    top:0px;
+}
+.bank{
+    width:100%;
+    margin:30px auto;
+    border-bottom:1px dashed #DBDCDD;
+}
+.account1 .bank img{
+    width:371px;
+    margin:20px auto;
+}
+#helpWrap .txt{
+    width:80%;
+    margin:20px 0 0 100px;
+    text-align: left;
+    line-height:40px;
+    font-size:22px;
+}

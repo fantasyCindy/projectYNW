@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 onclick="change">Hello world</h1>
+    <img src="" onclick="passValue2(this.src)">
+    <script>
+    function change() {
+        this.style.color = "red"
+    }
+
+    function passValue2(src) {
+        alert(src)
+    }
+    </script>
+</body>
+
+</html>

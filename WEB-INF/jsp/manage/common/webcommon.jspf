@@ -1,0 +1,47 @@
+<%@page import="com.cattle.stock.common.util.ContextUtil"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+path = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
+pageContext.setAttribute("path", path);
+Map head = ContextUtil.getHeadConfig();
+pageContext.setAttribute("head", head);
+%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %> 
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<meta content=always name=referrer>
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>约牛，让股民与牛人相约</title>
+<link rel="shortcut icon" href="${path}/web/images/favicon.ico">
+<script type="text/javascript">
+var path = "${path}";
+</script>
+<script type="text/javascript" src="/manage/web/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/manage/web/js/common.js"></script>
+<script type="text/javascript" src="/manage/js/validate.js"></script>
+<script type="text/javascript" src="/manage/plugins/layer/layer.js"></script>
+<script type="text/javascript" src="/manage/js/common_function.js"></script>
+<script type="text/javascript" src="/manage/web/js/template.js"></script>
+<%-- <script type="text/javascript"  src="${path}/plugins/baidu/tongjibaidu.js"></script> --%>
+<script type="text/javascript">
+	/*
+    var Sys = {};
+    var ua = navigator.userAgent.toLowerCase();
+    if (window.ActiveXObject){
+        Sys.ie = ua.match(/msie ([\d.]+)/)[1]
+        if (Sys.ie<=7){
+            alert('你目前的IE版本为'+Sys.ie+'版本太低，请升级！');location.href="http://windows.microsoft.com/zh-CN/internet-explorer/downloads/ie";
+        }
+    }
+    */
+</script>
+<%-- <jsp:include page="/WEB-INF/jsp/web/login_pop.jsp"></jsp:include> --%>
+<%@include file="/WEB-INF/jsp/manage/web/login_pop.jsp" %>
+<%@include file="/WEB-INF/jsp/manage/web/residencies.jsp" %>
+

@@ -1,0 +1,30 @@
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content=always name=referrer>
+<meta name="360-site-verification" content="5b18dc92dc39cb33159f3c8483a1bfe7" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="baidu-site-verification" content="SazBhJIKg5" />
+<link rel="shortcut icon" href="/public/images/favicon.ico">
+ 
+ <script type="text/javascript">
+ 	var __path = "${path}"
+    var live_path = "${live_path}"; //直播base.
+    var ask_path = "${ask_path}"; //问股
+    var opinion_path = "${opinion_path}"; //观点
+    var tougu_path = "${tougu_path}"; //找投顾
+    var us_path = "${us_path}"; //我的
+    var news_path = "${news_path}"; //资讯
+    var video_path = "${video_path}"; //视频
+    var xuechaogu_path = "${xuechaogu_path}"; //学炒股
+    var neican_path = "${neican_path}"; //内参
+    var yuanzhuo_path = "${yuanzhuo_path}"; //圆桌
+    var sso_path = '${sso_path}';
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?cdf5cc671e64a2ce9d27df535342c9ae";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>

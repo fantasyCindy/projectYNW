@@ -1,0 +1,155 @@
+
+#yn-footer .fl {
+    float: left
+}
+
+#yn-footer .fr {
+    float: right
+}
+
+#yn-footer .organe {
+    text-decoration: none;
+    color: #FF4200
+}
+
+#yn-footer .organe:hover {
+    text-decoration: underline
+}
+
+#yn-footer .orghover {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer
+}
+
+#yn-footer .orghover:hover {
+    color: #FF4200;
+    text-decoration: underline
+}
+
+#yn-footer .tc {
+    text-align: center
+}
+
+#yn-footer .hid {
+    display: none
+}
+
+#yn-footer .fr:after,
+#yn-footer:after,
+.yn-wrap:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+.yn-wrap {
+    position: relative;
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+#yn-footer {
+    margin-top:20px;
+    background: #333;
+    min-width: 1200px;
+    color: #fff;
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+#yn-footer a {
+    color: #fff;
+    text-decoration: none
+}
+
+#yn-footer .fl p {
+    opacity: .6;
+    font-size: 12px;
+    line-height: 22px
+}
+
+#yn-footer .fl p:first-child {
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-size: 14px;
+    opacity: .8
+}
+
+#yn-footer .middle {
+    margin-left: 30px
+}
+
+#yn-footer .middle img {
+    width: 80%
+}
+
+#yn-footer .fr h3 {
+    font-size: 16px;
+    opacity: .8;
+    line-height: 25px;
+    margin-bottom: 15px
+}
+
+#yn-footer .fr ul {
+    float: left;
+    padding-right: 15px;
+    opacity: .8
+}
+
+#yn-footer .fr ul li {
+    font-size: 12px;
+    opacity: .6;
+    list-style: none;
+    line-height: 20px
+}
+
+#yn-footer .fr ul:last-child {
+    opacity: .8;
+    border-left: 1px solid #fff;
+    padding: 0 0 0 15px
+}
+
+#yn-footer .fr ul:last-child li {
+    font-size: 16px;
+    line-height: 31px
+}
+
+
+#yn-footer .ewm{
+    padding:5px;
+    overflow: hidden;
+    background:#fff;
+}
+#yn-footer .ewm p{
+    color:#000;
+}
+#yn-footer .ewm img{
+    width:100%;
+}
+
+#yn-footer .scan{
+    overflow: hidden;
+}
+
+#yn-footer .concact .fa{
+    margin-right:10px;
+}
+
+table.home-foot-info{
+    margin-top:15px;
+    color: rgb(160, 160, 160);
+}
+.home-foot-info td{
+    font-size:15px;
+    padding:7px 28px;
+}
+.home-foot-info td:nth-of-type(2n){
+    border-left:1px solid #fff;
+}
+
+.home-foot-info .fa{
+    width:15px;
+    margin-right:8px;
+}

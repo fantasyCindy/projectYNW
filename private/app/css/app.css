@@ -1,0 +1,118 @@
+#app  {
+    margin-top:-15px;
+    min-width:1200px;
+}
+
+#app .mt50 {
+    margin-top: 50px;
+}
+
+#app .yn-app {
+    min-width: 990px;
+    height: 612px;
+    width: 100%;
+    background: url(/private/app/images/bg.png) no-repeat center;
+}
+
+#app .yn-wrap {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app .banner {
+    position:relative;
+    top:104px;
+    height: 482px;
+    background: url(/private/app/images/banner.png) no-repeat center;
+}
+
+#app .banner .down {
+    height: 200px;
+    width: 445px;
+    position: relative;
+    top: 40%;
+    left: 38px;
+}
+
+#app .banner .down .appdown {
+    width: 240px;
+    height: 60px;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+#app .banner .down .android-app {
+    top:50px;
+    background: url(/private/app/images/android-app.png) no-repeat center center;
+}
+
+#app .banner .down .iphone-app {
+    background: url(/private/app/images/iphone-app.png) no-repeat center center;
+}
+
+#app .banner .down .android-app:hover {
+    background: url(/private/app/images/android-apphover.png) no-repeat center center;
+}
+
+#app .banner .down .iphone-app:hover {
+    background: url(/private/app/images/iphone-apphover.png) no-repeat center center;
+}
+
+#app .live {
+    background: url(/private/app/images/live.png) no-repeat center center;
+    height: 626px;
+}
+
+#app .question {
+    background: url(/private/app/images/question.png) no-repeat center center;
+    height: 626px;
+}
+
+#app .information {
+    background: url(/private/app/images/information.png) no-repeat center center;
+    height: 626px;
+}
+
+#app .group {
+    background: url(/private/app/images/group.png) no-repeat center center;
+    height: 626px;
+}
+
+#app .client {
+    height: 626px;
+    line-height: 30px;
+}
+
+#app .client h3 center {
+    font-size: 22px;
+    color: rgb(51, 51, 51);
+}
+
+#app .client center {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+
+#app .client .ct {
+    display: block;
+    margin: 20px auto;
+}
+
+#app .client .ct .sub {
+    width: 200px;
+    height: 60px;
+    display: block;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#app .client .ct .subiphone {
+    background: url(/private/app/images/iphone.png) no-repeat center center;
+}
+
+#app .client .ct .subandroid {
+    background: url(/private/app/images/Android.png) no-repeat center center;
+}

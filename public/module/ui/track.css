@@ -1,0 +1,64 @@
+.ynui-track-item {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 0 50px 0 5px;
+    position: relative;
+    min-width: 200px;
+}
+
+.ynui-track-text {
+    position: absolute;
+    right: 7px;
+    top: -7px;
+    font-size: 12px;
+}
+
+.ynui-track {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.ynui-train {}
+
+.ynui-bg-red {
+    background: #FF4E50 !important;
+    @background: -webkit-linear-gradient(to left, #FF4E50, #F9D423) !important;
+    @background: linear-gradient(to left, #FF4E50, #F9D423) !important;
+}
+
+.ynui-bg-blue {
+    background: #02AAB0 !important;
+    @background: -webkit-linear-gradient(to left, #02AAB0, #00CDAC) !important;
+    @background: linear-gradient(to left, #02AAB0, #00CDAC) !important;
+}
+
+.ynui-bg-green {
+    background: #56ab2f !important;
+    @background: -webkit-linear-gradient(to left, #56ab2f, #a8e063) !important;
+    @background: linear-gradient(to left, #56ab2f, #a8e063) !important;
+}
+
+.ynui-bg-black {
+    background: #859398 !important;
+    @background: -webkit-linear-gradient(to left, #283048, #859398) !important;
+    @background: linear-gradient(to left, #283048, #859398)!important;
+}
+
+
+/*color*/
+
+.ynui-black {
+    color: #859398 !important;
+}
+
+.ynui-red {
+    color: #FF4E50 !important;
+}
+
+.ynui-blue {
+    color: #02AAB0;
+}
+
+.ynui-green {
+    color: #56ab2f !important;
+}

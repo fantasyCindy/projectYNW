@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/public/js/gt.js"></script>
+    <div id="popup-captcha">正在加载验证码</div>
+    <script>
+        /* 拖动验证 */
+        var dragValidate = function (phone) {
+            $.ajax({
+                url: "http://www.yuetougu.com/geetest/register.htm?t=" + (new Date()).getTime(),
+                type: "get",
+                dataType: "json",
+                data: {
+                    user_name: phone
+                },
+                success: function (back) {
+                    var data = back.data
+                    initGeetest({
+                        gt: data.gt,
+                        challenge: data.challenge,
+                        offline: !data.success,
+                        new_captcha: true,
+                        product: "popup",
+                    }, handlerPopup);
+                }
+            })
+
+            function handlerPopup(captchaObj) {
+                captchaObj.appendTo("#popup-captcha");
+                captchaObj.onReady(function () {
+                    captchaObj.show()
+                })
+
+                captchaObj.onSuccess(function () { //成功回调
+                    var validate = captchaObj.getValidate();
+
+                    // 二次验证
+                    var send = {
+                        geetest_challenge: validate.geetest_challenge,
+                        geetest_validate: validate.geetest_validate,
+                        geetest_seccode: validate.geetest_seccode
+                    }
+
+
+                })
+            }
+        }
+
+        window.onload = function () {
+            dragValidate(18612568049)
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+/*login */
+.relative {
+  width: 75%;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 1px solid #c8c5c5; }
+  .relative .person {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    width: 34px;
+    height: 34px;
+    background: url(/public/images/caoh5/phone_icon.png);
+    background-size: 34px; }
+  .relative .person1 {
+    background: url(/public/images/caoh5/verification_icon.png);
+    background-size: 34px; }
+  .relative .person2 {
+    left: auto;
+    right: 10px;
+    background: url(/public/images/caoh5/display_icon.png);
+    background-size: 34px; }
+
+#login {
+  max-width: 640px;
+  font-size: 16px;
+  margin: 0 auto; }
+  #login .block {
+    display: block;
+    margin: 14px auto; }
+  #login .main {
+    text-align: center;
+    margin: 14px 0; }
+    #login .main .logo {
+      margin: 40px auto 30px; }
+    #login .main .input {
+      display: block;
+      font-size: 18px;
+      margin: 14px auto;
+      padding: 18px 0 0 16px;
+      border: 0;
+      outline: none; }
+    #login .main .btn {
+      width: 76%;
+      padding: 12px 90px;
+      margin-top: 40px;
+      border: 0;
+      outline: none;
+      color: #fff;
+      font-size: 24px;
+      background: #fb836b;
+      border-radius: 100px;
+      box-shadow: 2px 2px 8px rgba(214, 51, 3, 0.5); }
+    #login .main .info {
+      width: 76%;
+      font-size: 18px;
+      margin: 30px auto; }
+      #login .main .info .info-span {
+        float: left; }
+      #login .main .info .register {
+        color: #a19c9c; }
+      #login .main .info .forget {
+        float: right;
+        color: #fb836b; }

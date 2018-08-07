@@ -1,0 +1,80 @@
+
+#yncalendar {
+    -webkit-user-select: none;
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    font-family: "SimHei,arial,helvetica,sans-serif,Microsoft YaHei";
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    z-index: 10000;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.2)
+}
+
+#yncalendar .ynhide {
+    display: none
+}
+
+#yncalendar table {
+    margin: 20px;
+    border-collapse: collapse
+}
+
+#yncalendar td,
+#yncalendar th {
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #e6e6e6
+}
+
+#yncalendar .info {
+    padding: 10px 10px;
+    background: #E12B51;
+    color: white
+}
+
+#yncalendar .info span {
+    display: inline-block;
+    margin: 0 5px
+}
+
+#yncalendar .info span span {
+    font-size: 18px
+}
+
+#yncalendar .info .leftMonth {
+    cursor: pointer;
+    float: left;
+    margin-right: 10px
+}
+
+#yncalendar .info .rightMonth {
+    cursor: pointer;
+    float: right;
+    margin-left: 10px
+}
+
+#yncalendar td.date {
+    cursor: pointer
+}
+
+#yncalendar td.date:hover {
+    background: #f0f0f0
+}
+
+#yncalendar td.today {
+    border-color: #E12B51;
+    background: #E12B51;
+    color: white
+}
+
+#yncalendar td.today:hover {
+    background: #E12B51;
+    color: white
+}
+
+#yncalendar .week-title th {
+    background: #F5F5F5
+}

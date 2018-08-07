@@ -1,0 +1,662 @@
+#askStockDetail {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden
+}
+
+#askStockDetail .frame {
+    border: 1px solid rgb(220, 220, 220);
+    margin-bottom: 15px
+}
+
+#askStockDetail .items.hasAccept .use {
+    display: none!important
+}
+
+#askStockDetail .chart {
+    background: white
+}
+
+#askStockDetail .left {
+    width: 835px;
+    float: left
+}
+
+#askStockDetail .right {
+    width: 350px;
+    float: right
+}
+
+#askStockDetail .question {
+    padding: 15px;
+    background: white
+}
+
+#askStockDetail .question .line1 {
+    margin-bottom: 10px;
+    vertical-align: middle
+}
+
+#askStockDetail .question .line2 {
+    font-size: 13px;
+    text-indent: 35px;
+    color: gray
+}
+
+#askStockDetail .question .line2 > * {
+    margin-right: 10px
+}
+
+#askStockDetail .question .invite {
+    color: #4b87e9
+}
+
+#askStockDetail .question .puber {
+    position: relative;
+    color: #333;
+}
+
+#askStockDetail .question .refer-icon:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: -6px;
+    width: 25px;
+    height: 25px;
+    background: url(/public/images/refer-icon.png) no-repeat;
+    background-size: 100%;
+}
+
+#askStockDetail .question .refer-icon {
+    position: relative;
+    margin-right: 27px;
+}
+
+#askStockDetail .question .line1 .icon {
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+    background: url(/public/images/homeIcon.png) no-repeat -67px -45px;
+    vertical-align: top
+}
+
+#askStockDetail .question .name {
+    font-size: 17px;
+    margin-left: 10px;
+    display: inline-block;
+    line-height: 25px;
+    width: 93%;
+    word-break:break-all;
+    white-space: normal;
+}
+
+#askStockDetail .question .share {
+    display: inline-block;
+    float: right;
+    font-size: 13px
+}
+
+#askStockDetail .question .share .shareIcon {
+    cursor: pointer
+}
+
+#askStockDetail .question .icon.share {
+    width: 10px;
+    height: 10px
+}
+
+#askStockDetail .answer .line {
+    overflow: hidden;
+    padding: 15px
+}
+
+#askStockDetail .answer .item .line1 {
+    padding-bottom: 0
+}
+
+#askStockDetail .answer .item .line2 {
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0px 20px 10px 65px;
+    ;
+}
+
+#askStockDetail .answer .item .line2 img {
+    cursor: pointer
+}
+
+#askStockDetail .answer .item {
+    margin-bottom: 10px;
+    background: white;
+    position: relative;
+    border: 1px solid rgb(220, 220, 220)
+}
+
+#askStockDetail .answer .item .up .icon {
+    margin: 0 10px;
+    width: 16px;
+    height: 16px;
+    background: url(/public/images/homeIcon.png) no-repeat -214px -47px
+}
+
+#askStockDetail .answer .item .down .icon {
+    margin: 0 10px;
+    width: 16px;
+    height: 16px;
+    background: url(/public/images/homeIcon.png) no-repeat -214px -47px
+}
+
+#askStockDetail .answer .item .down .icon.light {
+    background-position: -246px -47px
+}
+
+#askStockDetail .answer .item .up .icon.light {
+    background-position: -198px -47px
+}
+
+#askStockDetail .answer .item .action {
+    cursor: pointer
+}
+
+.hasAccept .action-use {
+    display: none !important;
+}
+
+#askStockDetail .answer .action.adopt1 {
+    display: none
+}
+
+#askStockDetail .answer .accept.adopt0 {
+    display: none
+}
+
+#askStockDetail .answer .item .line1 .imgw {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    overflow: hidden;
+    float: left;
+    border: 1px solid rgb(245, 245, 245);
+    border-radius: 50%
+}
+
+#askStockDetail .answer .item .line1 .imgw img {
+    height: 100%
+}
+
+#askStockDetail .answer .item .line1 .name {
+    float: left;
+    font-size: 15px;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    color: rgb(100, 100, 100);
+}
+
+#askStockDetail .answer .living {
+    color: #f60000;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    margin-left: 15px;
+    border: 1px solid red;
+    padding: 1px 3px;
+    background: red;
+    color: white;
+}
+
+#askStockDetail .answer .living .icon {
+    width: 16px;
+    height: 9px;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    background-image: url(/public/images/homeIcon.png);
+    background-repeat: no-repeat;
+    background-position: -154px -50px
+}
+
+#askStockDetail .answer .living a {
+    font-size: 12px
+}
+
+#askStockDetail .answer .item .line1 .time {
+    float: right;
+    font-size: 13px;
+    color: #888;
+    overflow: hidden;
+    position: relative;
+    top: 15px;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+#askStockDetail .answer .item .line1 .time span {
+    display: block;
+}
+
+#askStockDetail .answer .contents {
+    font-size: 17px;
+    line-height: 29px;
+    color: #444;
+    text-align: justify;
+    word-break:break-all;
+}
+
+#askStockDetail .answer .item img {
+    max-width: 300px
+}
+
+#askStockDetail .answer .info {
+    text-indent: 15px;
+    padding: 15px 0;
+    border-top: 1px solid rgb(240, 240, 240);
+    color: gray
+}
+
+#askStockDetail .answer .info .icon {
+    display: inline-block;
+    position: relative;
+    top: 2px
+}
+
+#askStockDetail .answer .action.select {
+    color: #d72721
+}
+#askStockDetail .answer .action {
+    height:20px;
+    line-height:20px;
+}
+#askStockDetail .answer .action .icon.help {
+    margin-right: 10px;
+    width: 14px;
+    height: 13px;
+    background: url(/public/images/homeIcon.png) no-repeat -170px -49px;
+    position: relative;
+    top:0;
+}
+
+#askStockDetail .answer .action.select .icon.help {
+    background-position: -184px -49px
+}
+
+#askStockDetail .answer .action .icon.use {
+    margin-left: 5px;
+    width: 18px;
+    height: 16px;
+    background: url(/public/images/homeIcon.png) no-repeat -289px -48px;
+    position: relative;
+    top:2px;
+}
+
+#askStockDetail .answer .action.select .icon.use {
+    background-position: -306px -48px
+}
+
+#askStockDetail .tip {
+    color: #ff7f00;
+    padding: 15px;
+    font-size: 16px;
+    background: white
+}
+
+#askStockDetail .tip .txt {
+    position: relative;
+    top: -5px;
+    font-size: 13px
+}
+
+#askStockDetail .tip .icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    background: url(/public/images/homeIcon.png) no-repeat -324px -47px
+}
+
+#askStockDetail .answer .accept {
+    width: 70px;
+    height: 61px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: url(/public/images/homeIcon.png) no-repeat -394px -131px;
+    transform: rotate(-15deg)
+}
+
+#askStockDetail .ask {
+    background: #d72621;
+    border: 3px solid #d72621;
+    overflow: hidden
+}
+
+#askStockDetail .column {
+    float: left;
+    height: 76px;
+    position: relative
+}
+
+#askStockDetail .column1 {
+    width: 60%;
+    color: white;
+    font-size: 18px;
+    cursor: pointer
+}
+
+#askStockDetail .column1 .icon {
+    position: absolute;
+    top: 20px;
+    left: 20px
+}
+
+#askStockDetail .column1 .txt {
+    position: absolute;
+    top: 28px;
+    left: 70px
+}
+
+#askStockDetail .column1 .icon {
+    width: 31px;
+    height: 40px;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat -262px -40px;
+    position: relative;
+    top: 23px
+}
+
+#askStockDetail .column2 {
+    text-align: center;
+    background: white;
+    width: 40%;
+    color: #888;
+    font-size: 15px
+}
+
+#askStockDetail .column2 .number {
+    font-size: 17px
+}
+
+#askStockDetail .column2 .line {
+    padding: 8px 0
+}
+
+#askStockDetail .column2 .line1 {
+    border-bottom: 1px solid rgb(230, 230, 230)
+}
+
+#askStockDetail .chart .title {
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 10px 15px
+}
+
+#askStockDetail .chart .title {
+    font-size: 16px;
+    color: #4c85ec
+}
+
+#askStockDetail .chart .title button {
+    float: right;
+    top: 0;
+    padding: 3px 10px
+}
+
+#askStockDetail .chart .content {
+    padding: 10px
+}
+
+#askStockDetail .chart .content .imgw img {
+    width: 100%
+}
+
+#inviteBtn {
+    cursor: pointer;
+    color: #4c85ee
+}
+
+
+/* answerWindow */
+
+#answerWindow {
+    background: white;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1000
+}
+
+#answerWindow .answerWindow-wrap {
+    border-radius: 5px;
+    overflow: hidden
+}
+
+#answerWindow .question {
+    background: rgb(245, 245, 245);
+    padding: 10px 20px;
+    font-size: 13px;
+    color: gray
+}
+
+#answerWindow .title {
+    position: relative;
+    padding: 10px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    overflow: hidden;
+    padding-left: 20px
+}
+
+#answerWindow .title .close-window {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer
+}
+
+#answerWindow .title .icon-title {
+    float: left;
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+    margin-right: 5px
+}
+
+#answerWindow .title .name {
+    font-size: 16px
+}
+
+#answerWindow .content {
+    padding: 15px 20px 20px 20px
+}
+
+#answerWindow .category {
+    margin-bottom: 15px
+}
+
+#answerWindow .category .item {
+    border: 1px solid rgb(200, 200, 200);
+    padding: 1px 10px;
+    margin-right: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#answerWindow .category .item.select {
+    border-color: #d72621;
+    background: #d72621;
+    color: white
+}
+
+#answerWindow .judge {
+    margin-bottom: 15px
+}
+
+#answerWindow .judge button {
+    padding: 3px 10px;
+    border-color: gray;
+    background: white;
+    color: #202020;
+    margin: 0 5px
+}
+
+#answerWindow .judge button.up.select {
+    background: #d72621;
+    border-color: #d72621;
+    color: white
+}
+
+#answerWindow .judge button.down.select {
+    background: green;
+    border-color: green;
+    color: white
+}
+
+#answerWindow button.submit {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 100px;
+    text-align: center
+}
+
+#answerWindow .bottom {
+    margin-top: 10px
+}
+
+#answerWindow .search input {
+    padding: 5px 30px 5px 10px;
+    width: 200px;
+    background: rgb(245, 245, 245)
+}
+
+#answerWindow .search .fa-search {
+    position: relative;
+    right: 30px;
+    color: gray
+}
+
+#hotAsk {
+    background: white;
+    position: relative;
+    margin-bottom: 10px;
+    border: 1px solid rgb(220, 220, 220)
+}
+
+#hotAsk .title {
+    font-size: 17px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    padding: 10px 15px
+}
+
+#hotAsk .action {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: gray;
+    font-size: 12px;
+    cursor: pointer
+}
+
+#hotAsk .content {
+    margin: 0 16px
+}
+
+#hotAsk .content .item {
+    display: block;
+    padding: 12px 0;
+    border-top: 1px dashed #e6e7e8;
+    height: 80px
+}
+
+#hotAsk .content .item:first-child {
+    border: none
+}
+
+#hotAsk .content .item .stockInfo>span {
+    margin-right: 10px
+}
+
+#hotAsk .content .item .stockInfo .price {
+    font-size: 17px
+}
+
+#hotAsk .item .stockcode {
+    font-size: 14px;
+    color: rgb(74, 134, 234);
+    margin-bottom: 12px
+}
+
+#hotAsk .item .stockcode:hover {
+    color: #07009c
+}
+
+#hotAsk .stockcode .asknumber {
+    font-size: 12px;
+    color: rgb(153, 153, 153)
+}
+
+#hotAsk .item .chg {
+    font-size: 14px;
+    color: rgb(30, 188, 60)
+}
+
+#hotAsk .chg span:first-child {
+    font-size: 18px;
+    margin-right: 15px
+}
+
+
+/*price*/
+
+.askPrice {
+    color: #DD503F;
+    margin: 0 2px;
+}
+
+
+/**/
+
+.is_reply {
+    border: 1px solid rgb(220, 220, 220);
+    background: #fff;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+.is_reply.is_reply-item1{
+    display: none;
+}
+.is-reply-content.is_reply0,.is-reply-content.is_reply2  {
+    width: 344px;
+    height: 218px;
+    margin: 70px auto 50px auto;
+    background: url(/public/images/ask/shangweihuifu.png);
+}
+.is-reply-content.is_reply3 {
+    width: 336px;
+    height: 269px;
+    margin: 20px auto 30px auto;
+    background: url(/public/images/ask/waixingren.png);
+}
+
+.is-reply-text {
+    text-align: center;
+    color: #666666;
+    font-size: 16px;
+    margin:20px auto 0 auto;
+}
+
+.is-reply-btn {
+    width: 121px;
+    height: 31px;
+    line-height:31px;
+    text-align:center;
+    color:#fff;
+    font-size:14px;
+    margin:20px auto 0 auto;
+    background: rgba(246, 85, 74, 1);
+    border-radius: 4px;
+    cursor:pointer;
+}

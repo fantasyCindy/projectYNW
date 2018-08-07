@@ -1,0 +1,8 @@
+#wxcode{
+	text-align:center;
+	padding-bottom:5px;
+}
+#wxcode .applabel {
+    color: red;
+    width: 100%;
+}

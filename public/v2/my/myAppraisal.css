@@ -1,0 +1,189 @@
+
+body {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#myAppraisal {
+    min-height: 600px;
+    padding:20px;
+}
+
+#myAppraisal .ques-items {
+    min-height: 600px;
+}
+
+.questionBar {
+    display: none;
+}
+
+.question-item {
+    margin: 15px 0;
+    margin-top: 25px;
+}
+
+.question-item.unselect .question-title {
+    color: red;
+}
+
+.question-title {
+    font-weight: bold;
+    text-indent: 20px;
+    margin-bottom: 5px;
+}
+
+.question-options {
+    overflow: hidden;
+}
+
+.question-option {
+    color: #4c4c4c;
+    line-height: 2em;
+    cursor: pointer;
+}
+
+.question-option.active {
+    color: #0310bf;
+}
+
+.question-option.active i {
+    background-position: 0 0;
+}
+
+.question-option.fl {
+    float: left;
+}
+
+.question-option .label {
+    font-size: 13px;
+}
+
+.question-option i {
+    margin-left: 20px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+}
+
+.question-option .index {
+    margin-right: 5px;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit button {
+    padding: 10px 60px;
+    font-size: 15px;
+    background: gray;
+    border-color: gray;
+}
+
+.submit .confirm {
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px;
+    line-height: 1.5em;
+}
+
+.submit .confirm .indent {
+    text-indent: 30px;
+}
+
+.submit button.ready {
+    background: red;
+    border-color: red;
+}
+
+.tip {
+    margin: 20px;
+    line-height: 1.8em;
+    text-indent: 25px;
+}
+
+.appraisal-done {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px dashed rgb(234, 235, 237);
+    padding: 40px 10px;
+    background: #fdfdfd;
+    display: none;
+}
+
+.appraisal-done .result {
+    padding: 15px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px dashed #f4f1f1;
+}
+
+.appraisal-done .label {
+    color: #2c367f;
+}
+
+.appraisal-done .value {
+    border: 1px solid #2c367f;
+    display: inline-block;
+    padding: 2px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #2c367f;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.appraisal-done button {
+    background: white;
+    border-color: #2c367f;
+    color: #2c367f;
+    font-size: 16px;
+}
+
+.appraisal-done button:hover {
+    background: #2c367f;
+    color: white;
+}
+
+.prefix {
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+.prefix h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.prefix .descript {
+    text-indent: 28px;
+}
+
+.re-appraisal {
+    margin-bottom: 20px;
+}
+
+.appraisal-back {
+    position: relative;
+    left: 5px;
+    color: #d72612;
+    font-size: 16px;
+    display: none;
+}
+
+.icon-check-normal {
+    background-image: url(/public/sprite/dist/appraisal.png?v=20170802154441);
+    background-position: -30px 0px;
+    width: 18px;
+    height: 18px;
+}
+
+.appraisal-count {
+    display: inline-block;
+    margin: 0 5px;
+}

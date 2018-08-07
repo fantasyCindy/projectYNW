@@ -1,0 +1,29 @@
+#popStock {
+    display: none;
+    position: absolute;
+    z-index: 100000;
+    background: white;
+    box-shadow: 2px 6px 12px rgba(0, 0, 0, .2);
+    padding: 10px;
+    border: 2px solid #1864f6;
+    border-radius: 2px
+}
+
+#popStock .name {
+    font-size: 18px;
+    margin-right: 10px
+}
+
+#popStock td.title {
+    text-align: center
+}
+
+#popStock table td {
+    padding: 5px 10px;
+    text-align: left
+}
+
+#popStock button {
+    display: block;
+    margin: 10px auto
+}

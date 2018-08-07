@@ -1,0 +1,66 @@
+.titleBar {
+    padding: 10px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    background: #ebf0df;
+    border-bottom: 1px solid #adb697;
+}
+
+
+/* leaflet-list */
+
+.leaflet-list .contentBar {
+    overflow: hidden;
+}
+
+.leaflet-list .contentBar .item {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 15px;
+    border: 1px solid lightgrey;
+    box-shadow: 2px 2px 25px #bdbdbd;
+    float: left;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.leaflet-list .contentBar .item .avatar img {
+    width: 100%;
+}
+
+
+/* leaflet-detail */
+
+.leaflet-detail .avatar {
+    width: 300px;
+    height: 600px;
+}
+
+.leaflet-detail .avatar img {
+    width: 100%;
+}
+
+.leaflet-detail .contentBar {
+    padding: 10px;
+}
+
+.leaflet-detail .contentBar .contents {
+    padding: 0px 20px;
+}
+
+.leaflet-detail .titleBar .action {
+    margin-left: 15px;
+}
+
+.leaflet-detail .avatar {
+    width: 300px;
+}
+
+.url-items {
+    padding: 10px;
+}
+
+.url-items .item {
+    margin-bottom: 15px;
+}

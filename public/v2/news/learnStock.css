@@ -1,0 +1,168 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#learnStock {
+    width: 1200px;
+    margin: 0 auto;
+}
+#learnStock .container {
+    width:850px;
+    min-width: 600px;
+    background: #fff;
+    float:left;
+    margin: 0 0 10px 0;
+    padding-bottom:20px;
+}
+.address{
+    width:1200px;
+    margin:0 auto;
+}
+.address,
+.address a{
+    line-height: 30px;
+    margin: 5px auto;
+    color: #8E8C8C;
+}
+#learnStock .menu{
+    background:#f8f8f8;
+    border-bottom:1px solid #E2E2E2;
+}
+#learnStock .menu .item{
+    display: inline-block;
+    height:43px;
+    line-height: 43px;
+    text-align: center;
+    padding:0 36px;
+    cursor: pointer;
+    font-size:16px;
+
+}
+#learnStock .newsList {
+    padding:0 25px;
+    min-height: 800px;
+    background:#fff;
+}
+#learnStock .menu .item.select{
+    background:#ff5055;
+    color:#fff;
+}
+#learnStock .right{
+    width:330px;
+    float:right;
+}
+#learnStock .right-top{
+    background:#fff;
+}
+#learnStock .newsList .list {
+    border-top: 1px dashed #ccc;
+    padding: 20px 0;
+}
+#learnStock .newsList .list:first-child{
+    border-top:none;
+}
+
+#learnStock .list .title a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+#learnStock .list .title a:hover {
+    color: #ff5054;
+    text-decoration: underline;
+}
+
+#learnStock .list .content {
+    line-height: 25px;
+    overflow: hidden;
+    color: gray;
+    font-size: 15px;
+}
+#learnStock .list .content img{
+    display: block;
+    width:80%;
+    margin:10px auto;
+}
+#learnStock .list .msg {
+    height: 25px;
+    margin-top: 10px;
+}
+
+#learnStock .list .keywords,
+#learnStock .list .time {
+    display: inline-block;
+    margin-right: 15px;
+    height: 20px;
+}
+
+#learnStock .list .keywords {
+    border: 1px solid #2B8DEE;
+    border-radius: 13px 0 13px 0;
+    line-height: 20px;
+    text-align: center;
+    padding: 0 12px;
+    color: #2B8DEE;
+    position: relative;
+    top:2px;
+    font-size: 12px;
+}
+
+#learnStock .list .time {
+    padding-left: 17px;
+    background: url(./images/time.png) no-repeat;
+    background-position: 0 1px;
+    color: gray;
+    font-size: 13px;
+    position: relative;
+    top:3px;
+}
+#learnStock .right-t{
+    font-size:22px;
+    font-weight: bold;
+    height:60px;
+    line-height: 60px;
+    padding-left:50px;
+    border-bottom:1px solid #E2E2E2;
+    background:url(./images/icon.png) no-repeat;
+    background-position: 12px 16px;
+}
+#learnStock .right-list{
+    padding:10px;
+}
+#learnStock .right-item{
+    line-height: 2;
+    font-size:17px;
+    color:#000;
+    cursor: pointer;
+    list-style: none;
+    padding-left:10px;
+    margin-top:5px;
+}
+#learnStock .right-item:hover a{
+    color:#ff5054;
+}
+#learnStock .right-item:before{
+    content: "";
+    width:5px;
+    height:5px;
+    display: inline-block;
+    background:#cccccc;
+    position: relative;
+    top:-3px;
+    left:-5px;
+}
+#learnStock .right-bottom{
+    width:330px;
+    margin-top:30px;
+}
+#learnStock .right-bottom img{
+    width:100%;
+}
+#learnStock .listNone{
+    padding:100px 0;
+    text-align: center;
+}
+
+

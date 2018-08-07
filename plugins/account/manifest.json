@@ -1,0 +1,33 @@
+{
+    "name": "yueniu-login",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Fast Login For YueNiu",
+    "browser_action": {
+        "default_icon": "app.png",
+        "default_title": "快捷登录",
+        "default_popup": "popup/index.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": [
+            "lib/jquery.min.js",
+            "content.js"
+        ],
+        "css": ["inject.css"],
+        "run_at": "document_end"
+    }],
+    "background": {
+        "scripts": [
+            "lib/jquery.min.js",
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "http://*/",
+        "https://*/",
+        "activeTab"
+    ]
+}

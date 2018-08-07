@@ -1,0 +1,1663 @@
+.menu {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    margin-bottom: 15px;
+    border: 1px solid rgb(220, 220, 220);
+    border-top-color: rgb(235, 235, 235)
+}
+
+.menu .wrap {
+    position: relative;
+    bottom: -1px;
+    overflow: hidden
+}
+
+.menu .item {
+    margin: 0 !important;
+    font-size: 16px;
+    float: left;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-top: 3px solid white;
+    border-bottom:none;
+}
+
+.menu .item.select {
+    border-bottom: 3px solid #d72621;
+    color: #d72621
+}
+
+#liveDetail .living-subject {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+#liveDetail .living-subject .fr {
+    position: relative;
+    top: 3px
+}
+
+#liveDetail .living-subject .fr>* {
+    margin-right: 15px
+}
+
+#liveDetail .living-subject .fr .value {
+    margin: 0 4px
+}
+
+#liveDetail .living-subject .fr .history {
+    background: rgb(245, 245, 245);
+    cursor: pointer;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 2px;
+    padding: 4px 8px
+}
+
+#liveDetail .living-subject .fr .history:hover {
+    background: #d72621;
+    color: white;
+    border-color: #d72621
+}
+
+#liveDetail {
+    min-width: 1200px;
+    width: 1200px;
+    margin: 0 auto
+}
+
+
+#liveDetail .living-subject {
+    padding: 15px 0;
+    background: white;
+    text-indent: 20px;
+    font-size: 16px
+}
+
+#liveDetail .living-subject .fa-edit {
+    cursor: pointer;
+    margin-left: 15px;
+    position: relative;
+    top: 1px;
+}
+
+#liveDetail .living-subject .fa-edit:hover {
+    color: #d72621
+}
+
+#liveDetail .leftBar {
+    float: left;
+    width: 824px;
+}
+
+#liveDetail .rightBar {
+    float: right;
+    width: 360px;
+    min-height: 200px;
+    position: relative
+}
+
+#liveDetail .rightBar>.title {
+    background: #cf1928;
+    padding: 15px 0;
+    color: white;
+    text-indent: 20px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%
+}
+
+#live {
+    background: white;
+    overflow: hidden;
+    border: 1px solid rgb(220, 220, 220);
+    position: relative;
+    padding-bottom: 13px;
+}
+
+#live .yn-icon-sound {
+    position: relative;
+    top: 2px;
+}
+
+#live .setting {
+    font-size: 13px;
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: 10px 20px;
+    text-align: right;
+    background: rgb(245, 245, 245);
+    position: relative;
+}
+
+#live .setting .font {
+    margin-left: 10px
+}
+
+#live .setting .font-size-item {
+    font-size: 13px;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 1px 5px;
+    cursor: pointer;
+    background: #e7e7e7
+}
+
+#live .setting .font-size-item.select {
+    background: #d72621;
+    border-color: #d72621;
+    -webkit-user-select: none;
+    color: white;
+}
+
+#items-small .content span,
+#items-small .content p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+}
+
+#items-middle .content span,
+#items-middle .content p {
+    font-size: 17px !important;
+    line-height: 27px !important;
+}
+
+#items-large .content span,
+#items-large .content p {
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+
+#live p {
+    text-align: left
+}
+
+#live .item span {
+    line-height: 1.6em
+}
+
+#live .items .item {
+    padding: 15px 20px;
+    border-top: 1px solid #f0f0f0
+}
+
+#live .items .item .name {
+    color: #cf1928
+}
+
+#live .items .item .fa {
+    color: #cf1928;
+    margin-right: 5px
+}
+
+#live .items .item .avatar {
+    display: inline-block;
+    background: red;
+    width: 10px;
+    height: 15px;
+    margin: 0 3px 0 0;
+    background: url(/public/images/n68.png) no-repeat -213px -154px
+}
+
+#live .items .item .time {
+    color: rgb(226, 174, 4)
+}
+
+#live .items .item .line {
+    margin-bottom: 5px
+}
+
+#live .items img {
+    cursor: -webkit-zoom-in;
+    border-radius: 4px;
+    border: 1px solid #e1e1e1;
+}
+
+#live .items .item:first-child {
+    border-top: none
+}
+
+.live-item-2 {
+    padding: 15px 0 15px 20px;
+    line-height: 25px;
+    position: relative;
+}
+
+
+.live-item-2 .photo {
+    width: 35px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#live .live-item-2 .photo img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: default;
+}
+
+
+.live-item-2 .ishide {
+    display: none !important;
+}
+
+.live-item-2 .content.large p,
+.live-item-2 .content.large span {
+    font-size: 20px !important;
+    line-height: 30px
+}
+
+.live-item-2 .content.middle p,
+.live-item-2 .content.middle span {
+    font-size: 17px !important;
+    line-height: 28px
+}
+
+.live-item-2 .content.small p,
+.live-item-2 .content.small span {
+    font-size: 13px !important;
+    line-height: 25px
+}
+
+
+#pubEditer .contents {
+    padding: 0px 25px 25px 25px;
+    margin-top: 20px
+}
+
+#pubEditer .info {
+    padding: 15px 0;
+    position: relative;
+}
+
+#pubEditer input {
+    padding: 8px 10px;
+    border-radius: 2px;
+    background: rgb(245, 245, 245);
+    width: 250px;
+    float: left
+}
+
+#pubEditer button {
+    float: right;
+    padding: 8px 25px;
+    margin-left: 80px
+}
+
+#friendTalk {
+    background: white;
+    overflow: auto;
+    margin: 0;
+    position: relative;
+    margin-bottom: 15px;
+    border: 1px solid rgb(220, 220, 220)
+}
+
+#friendTalk .action {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+#friendTalk .items {
+    height: 600px;
+    overflow: auto
+}
+
+#friendTalk .reply {
+    float: right;
+    cursor: pointer
+}
+
+#friendTalk .isSelf .reply {
+    display: none;
+}
+
+#friendTalk .delete {
+    right: -15px;
+    top: 0;
+    font-size: 15px;
+    color: #cfcfcf;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#friendTalk .item {
+    padding: 10px 25px;
+    border-top: 1px solid rgb(235, 235, 235);
+    position: relative;
+}
+
+#friendTalk .item:first-child {
+    border-top: none;
+}
+
+#friendTalk .avatar {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 2px;
+}
+
+#friendTalk .avatar img {
+    width: 100%;
+}
+
+#friendTalk .name {
+    color: #3974D6;
+    padding-left: 48px;
+}
+
+#friendTalk .user_type {
+    display: none;
+}
+
+#friendTalk .isTeacher .user_type {
+    color: red;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+#friendTalk .line {
+    margin-bottom: 5px
+}
+
+#friendTalk .line1 {
+    position: relative;
+}
+
+#friendTalk .line3 {
+    font-size: 12px;
+    color: gray
+}
+
+#friendTalk .time {
+    margin-right: 5px
+}
+
+#friendTalk .pubContent {
+    text-align: justify;
+    line-height: 22px;
+    padding-left: 48px;
+}
+
+#friendTalk .isTeacher .pubContent {
+    color: #cf1928;
+}
+
+#friendTalk .pubContent .target {
+    color: #108af3;
+}
+
+#talkWindow {
+    background: white;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(220, 220, 220);
+    position: relative
+}
+
+#talkWindow .title {
+    padding-top: 20px;
+    padding-bottom: 0 !important;
+    background: white !important;
+    overflow: hidden
+}
+
+#talkWindow .title span {
+    font-size: 17px;
+    color: #D12F2F;
+    float: left;
+    text-align: left;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    margin-left: 17px;
+    padding-left: 15px
+}
+
+#talkWindow .content {
+    position: relative;
+    padding: 20px 16px 6px 16px;
+    width: 100%
+}
+
+#talkWindow .content .usereply {
+    border: 1px solid rgb(235, 235, 235);
+    width: 300px;
+    line-height: 19px;
+    font-size: 12px;
+    color: #000;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    padding: 3px;
+    padding-left: 10px;
+    background: #C1C1C1;
+}
+
+#talkWindow .content .usereply .close {
+    margin-top: 3px;
+    cursor: pointer
+}
+
+#talkWindow .content textarea {
+    border-style: none;
+    outline: none;
+    border: 1px solid rgb(235, 235, 235);
+    margin: 0;
+    padding: 20px 15px;
+    height: 100px;
+    resize: none;
+    display: block;
+    width: 300px;
+}
+
+#talkWindow .content .line2 {
+    overflow: hidden;
+    position: relative
+}
+
+#talkWindow .content .wordCount {
+    position: absolute;
+    right: 100px;
+    top: 7px;
+    color: #555;
+    font-size: 12px
+}
+
+#talkWindow .content .line2 .submit {
+    bottom: 10px;
+    text-align: center;
+    float: right;
+    width: 75px;
+    color: white;
+    outline: none;
+    margin-right: 13px
+}
+
+#talkWindow .content .line2 .face {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(/public/icons/face/weixiao.gif);
+    margin-left: 12px;
+    cursor: pointer;
+    position: absolute
+}
+
+#answer {
+    background: white;
+    line-height: 25px
+}
+
+#answer img {
+    width: 100%;
+    display: block
+}
+
+#answer .list-item {
+    padding: 15px 20px;
+    border-top: 1px solid rgb(235, 235, 235)
+}
+
+#answer .line1 {
+    margin-bottom: 10px
+}
+
+#answer .line1 .faquestion {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat;
+    background-position: -841px -13px
+}
+
+#answer .line1 .faanswer {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    background: url(/public/images/homeIcon.png) no-repeat;
+    background-position: -885px -14px
+}
+
+#answer .line2 {
+    font-size: 12px;
+    padding-left: 28px;
+    color: gray
+}
+
+#answer .line .content-wrap {
+    margin-left: 5px;
+    width: 700px;
+    word-break: break-all;
+    display: inline-table;
+    font-size: 15px;
+    text-align: justify;
+    cursor: pointer
+}
+
+#answer .answerCount {
+    float: right;
+    margin-right: 20px;
+    position: relative;
+    top: 3px
+}
+
+#answer .askButton {
+    float: right;
+    color: #d72621;
+    border: 1px solid #d72621;
+    padding: 2px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 18px;
+    position: relative;
+    top: 4px
+}
+
+#hotRefer {
+    background: #fff;
+}
+D
+
+#hotRefer .list {
+    border-bottom: 1px dashed #e7e8e9;
+    padding: 10px 0;
+}
+
+#hotRefer .list:last-child {
+    border: none;
+}
+
+#hotRefer .list p {
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    list-style-type: square;
+    margin-bottom: 5px;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#hotRefer .info {
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+#opinion {
+    padding-left: 0px;
+    background: white;
+    max-height: 10000px !important;
+    padding-bottom: 30px
+}
+
+#category {
+    border-bottom: 1px solid rgb(220, 220, 220)
+}
+
+#opinion .items {}
+
+#opinion .item {
+    border: none;
+    display: block;
+    padding: 20px;
+    border-top: 1px solid rgb(240, 240, 240)
+}
+
+#opinion .item:first-child {
+    border-top: none
+}
+
+#opinion .item .name {
+    color: rgb(238, 84, 74);
+    font-size: 17px
+}
+
+#opinion .line1 .icon {
+    color: #6E8FCB;
+    transform: scale(0.7)
+}
+
+#opinion .line1 .name:hover,
+#opinion .content:hover {
+    text-decoration: underline
+}
+
+#opinion .content {
+    margin-left: 10px
+}
+
+#opinion .line {
+    margin-bottom: 10px
+}
+
+#opinion .line1 {
+    margin-left: 14px
+}
+
+#opinion .line2 {
+    font-size: 13px;
+    padding-left: 5px
+}
+
+#opinion .line2>span {
+    margin: 0 10px
+}
+
+#hotOpinion {
+    background: white;
+    height: initial !important
+}
+
+#hotOpinion .item {
+    display: block;
+    padding: 15px 15px;
+    border-bottom: 1px solid rgb(245, 245, 245)
+}
+
+#hotOpinion .name {
+    font-size: 15px;
+    color: #df8b17
+}
+
+#hotOpinion .name:hover {
+    text-decoration: underline
+}
+
+#hotOpinion .item .icon {
+    transform: scale(0.7);
+    color: #6E8FCB
+}
+
+#hotOpinion .item .content {
+    margin-left: 15px
+}
+
+#hotOpinion .item .content:hover {
+    text-decoration: underline
+}
+
+#hotOpinion .line {
+    margin-bottom: 5px
+}
+
+#hotOpinion .info {
+    font-size: 12px;
+    color: gray;
+    margin-left: 15px
+}
+
+#hotOpinion .item .read {
+    margin-left: 10px
+}
+
+#hotOpinion .item .comment {
+    margin-left: 10px
+}
+
+#hotOpinion .item:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background: rgb(250, 250, 250)
+}
+
+#hotOpinion .items {
+    overflow: auto;
+    padding-top: 60px
+}
+
+#refer {
+    background: white;
+    padding: 30px;
+    max-height: 10000px !important
+}
+
+#refer .feedButton-010 {
+    display: inline-block
+}
+
+.red {
+    color: #cd0000
+}
+
+#refer .altogether {
+    color: #333;
+    font-size: 18px;
+    line-height: 30px
+}
+
+#live-info {
+    width: 1200px;
+    margin: 18px auto 0 auto;
+    min-width: 1200px;
+    background: #fffbfb;
+    border: 1px solid rgb(220, 220, 220);
+    border-bottom: none;
+}
+
+#live-info .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 2px;
+    overflow: hidden
+}
+
+#live-info .avatar img {
+    height: 100%
+}
+
+#live-info .subject {
+    padding: 20px;
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(235, 235, 235)
+}
+
+#live-info .person {
+    overflow: hidden;
+    padding: 20px;
+    position: relative
+}
+#live-info .item-icon-guwen{
+    display: inline-block;
+    width:14px;
+    height:20px;
+    position: relative;
+    top: 2px;
+}
+#live-info .item-icon-guwen img{
+    width:100%;
+}
+#live-info .person .column {
+    float: left
+}
+
+#live-info .column2 {
+    width: 470px;
+    margin-left: 25px
+}
+
+#live-info .column2 table {
+    margin-top: 5px;
+    position: relative;
+    left: -15px;
+    line-height:22px;
+}
+
+#live-info .column2 table .view {
+    border-right: none;
+}
+
+#live-info .column2 .action {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px
+}
+
+#live-info .column2 .action span {
+    display: inline-block;
+    background: #CF1928;
+    margin-right: 10px;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 2px;
+    line-height: 1.2em
+}
+
+#live-info .column2 .action span.care {
+    background: #171717
+}
+
+#live-info .column2 .name .icon {
+    color: red;
+    margin-left: 10px;
+    margin-right: 2px
+}
+
+#live-info .column2 .name .value {
+    font-size: 22px
+}
+
+#live-info .column2 .name .value1 {
+    font-size: 13px;
+    display:block;
+}
+
+#live-info .person .column3 {
+    width: 490px;
+    height: 100px;
+    border-left: 1px solid rgb(220, 220, 220);
+    position: absolute;
+    right: 10px;
+    padding: 0 14px;
+}
+
+
+#live-info .person td {
+    padding: 0px 40px 0 15px;
+    border-right: 1px solid rgb(200, 200, 200)
+}
+
+#live-info .person .column3 td.fans {
+    padding: 10px 15px;
+    border-right: none
+}
+
+#live-info .person .column3 td.fans .icon {
+    background: url(/public/icons/icon_01.png) no-repeat 0 -106px;
+    height: 18px;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    top: 3px
+}
+
+#live-info .person .column3 td.fans .value {
+    font-size: 25px;
+    color: red
+}
+
+#live-info .person .column3 td.view {
+    border-right: none
+}
+
+#live-info .person .column3 td .value {
+    margin-left: 5px
+}
+
+#live-info .person .column3 .name {
+    color: #1b5ecd
+}
+
+#live-info .person .column3 .description {
+    overflow: hidden
+}
+
+.viewHistory {
+    position: absolute;
+    right: 25px;
+    top: 15px
+}
+
+.viewHistory .fa {
+    margin-right: 5px
+}
+
+#liveHistory {
+    width: 1200px;
+    background: #fff;
+    font-size: 13px;
+    margin: 0 auto;
+    padding-bottom: 20px
+}
+
+#liveHistory .items {
+    width: 100%
+}
+
+#liveHistory table {
+    width: 100%
+}
+
+#liveHistory td {
+    padding: 10px 0;
+    text-align: center;
+    border-top: 1px solid rgb(235, 235, 235)
+}
+
+#liveHistory td a {
+    padding: 2px 10px;
+    font-size: 12px;
+}
+
+#liveHistory td.subject {
+    text-align: left;
+}
+
+/*#gift {
+    position: relative;
+    margin-top: 16px;
+    background:#fff;
+}
+
+.gift-list {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    position: relative;
+}
+
+.gift-list .arrow {
+    position: absolute;
+    top: 65px;
+    left: 12px;
+    font-size: 19px;
+    color: gray;
+    cursor: pointer
+}
+
+.gift-list .arrow.gray {
+    color: rgb(230, 230, 230) !important
+}
+
+.gift-list .arrow.right {
+    left: 595px
+}
+
+.gift-list .items {
+    width: 635px;
+    padding: 0 45px 0 45px;
+    border-right: 1px solid rgb(220, 220, 220);
+    overflow: hidden
+}
+
+.gift-item-container {
+    width: 520px;
+    overflow: hidden;
+    position: relative;
+    height: 135px
+}
+
+.gift-item-wrap {
+    padding: 10px 0;
+    overflow: hidden;
+    height: 135px;
+    position: absolute;
+    left: 0
+}
+
+.gift-list .item {
+    float: left;
+    cursor: pointer;
+    border: 3px solid white;
+    width: 104px;
+    text-align: center
+}
+
+.gift-list .item.select {
+    background: #d72621;
+    border: 3px solid #d72621
+}
+
+.gift-list .item.select .name {
+    color: white;
+    margin-top: 3px
+}
+
+.gift-list .item.select .price {
+    color: white
+}
+
+.gift-list .item .imgw {
+    width: 95px;
+    height: 65px;
+    position: relative;
+    background: white;
+    text-align: center;
+    margin-bottom: 5px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.gift-list .item .imgw img {
+    width: 65px
+}
+
+.gift-list .item .txt {
+    text-align: center;
+    position: relative
+}
+
+.gift-list .item .price {
+    color: #d72621
+}
+
+.gift-list .pay {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    text-align: center;
+    display: inline-block;
+    width: 140px
+}
+
+.gift-list .any {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-size: 15px;
+}
+
+.gift-list .pay .circle {
+    width: 80px;
+    height: 80px;
+    line-height:76px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #d72621;
+    margin-top: 35px;
+    cursor: pointer
+}
+
+.gift-list .pay .circle:hover {
+    background: #ba1915;
+    transition: all 0.3s
+}
+
+.gift-list .pay .circle .txt {
+    color: white;
+    font-size: 35px;
+    display: inline-block;
+    -webkit-user-select: none
+}
+
+.gift-send {
+    padding: 10px 15px;
+    font-size: 13px
+}
+
+.gift-send .sum {
+    margin: 0 5px;
+    color: red
+}
+
+.gift-send table {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin: 0 5px
+}
+
+.gift-send table td {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 2px 8px
+}
+
+.gift-send table td.gray {
+    color: rgb(180, 180, 180)
+}
+
+.gift-send table td.value {
+    padding: 2px 12px
+}
+
+.gift-send .submit {
+    margin-left: 40px
+}
+
+.gift-send .tip {
+    font-size: 12px;
+    color: gray
+}
+*/
+#bestOpinion {
+    background: white
+}
+
+.bestOpinion-item {
+    font-size: 14px;
+    line-height: 20px;
+    border-top: 1px solid rgb(235, 235, 235);
+    padding: 15px;
+}
+
+.bestOpinion-item-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    height: 20px;
+    overflow: hidden
+}
+
+.yn-icon-circle {
+    position: relative;
+    top: -3px
+}
+
+.bestOpinion-item-content {
+    font-size: 13px;
+    line-height: 22px;
+    color: rgb(120, 120, 120);
+    margin-left: 10px;
+    height: 45px;
+    overflow: hidden;
+    margin-bottom: 5px
+}
+
+.bestOpinion-item-info {
+    color: rgb(100, 100, 100);
+    font-size: 12px;
+    margin-left: 10px;
+    position: relative
+}
+
+.bestOpinion-item-info .view {
+    position: absolute;
+    right: 15px
+}
+
+#bestAnswer {
+    background: white
+}
+
+.home-child {
+    margin-bottom: 15px;
+    background: white
+}
+
+#home-live {
+    position: relative
+}
+
+#home-live .items {
+    padding: 15px;
+    overflow: hidden;
+    position: relative
+}
+
+#home-live .living-title {
+    font-size: 16px;
+    margin-bottom: 15px
+}
+
+#home-live .living-title .txt {
+    color: #d72621
+}
+
+#home-live .living-count {
+    margin-bottom: 23px
+}
+
+#home-live .living-count>span {
+    padding-left: 15px;
+    border-left: 1px solid rgb(220, 220, 220);
+    margin-right: 10px
+}
+
+#home-live .living-count>span:first-child {
+    border-left: none;
+    padding-left: 0
+}
+
+#home-live .living-count>span .value {
+    color: #d72621;
+    margin-right: 3px
+}
+
+#home-live .avatar {
+    width: 100px;
+    height: 100px;
+    background: #ececec !important;
+    float: left
+}
+
+#home-live .info {
+    float: left;
+    margin-left: 20px
+}
+
+.count_live {
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer
+}
+
+.count_live .fa {
+    margin-left: 5px
+}
+
+#home-info .items {
+    line-height: 25px;
+    font-size: 15px;
+    padding: 25px 35px;
+    text-align: justify
+}
+
+#home-goodat .items {
+    padding: 20px;
+    overflow: hidden;
+}
+
+#home-goodat .item {
+    float: left;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin: 5px;
+    background: rgb(245, 245, 245)
+}
+
+#home-askStock,
+#home-opinion {
+    position: relative
+}
+
+.leftBar .category {
+    position: absolute;
+    left: 150px;
+    top: 17px;
+    border-bottom: none
+}
+
+.leftBar .category span {
+    font-size: 13px;
+    padding: 0 20px;
+    border-bottom: none;
+    border-left: 1px solid rgb(220, 220, 220)
+}
+
+.leftBar .category span.select {
+    color: #d72621
+}
+
+.leftBar .category span:first-child {
+    border-left: none
+}
+
+.leftBar .more {
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    font-size: 12px;
+    cursor: pointer
+}
+
+.leftBar .more .count {
+    color: #d72621
+}
+
+.leftBar #myAnswer {
+    background: white;
+    padding-bottom:10px;
+}
+
+.answer-list-item .question {
+    line-height: 25px;
+    margin-bottom: 10px;
+    word-break: break-all;
+}
+
+.answer-list-item .question a {
+    font-size: 17px;
+    color: #0f477d;
+}
+
+.answer-list-item .answer {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.answer-list-item {
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 20px;
+}
+
+.answer-list-item .info {
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.answer-list-item .info .view {
+    margin-left: 8px;
+}
+
+#modify-subject-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    z-index: 1000;
+    background: black;
+    background: rgba(0, 0, 0, .5);
+}
+
+#modify-subject {
+    position: fixed;
+    width:584px;
+    height:259px;
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow:5px 0px 5px rgba(6,13,36,0.42);
+    padding: 15px;
+}
+
+#modify-subject .close {
+    cursor: pointer;
+    width:12px;
+    height:12px;
+    background:url(/public/images/live/cha.png);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#modify-subject .my-body {
+    color: #7d7d7d;
+}
+
+#modify-subject .my-body .md-titlebar {
+    background: #fff;
+    font-size: 18px;
+    height:20px;
+    overflow: hidden;
+    color: #333;
+    border-left:3px solid #d72612;
+    padding-left:10px;
+}
+
+#modify-subject .my-body .md-content {
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+    background: #fff;
+}
+
+#modify-subject .my-body .md-content textarea {
+    padding: 15px;
+    width: 100%!important;
+    min-height: 100px;
+    max-height:160px;
+    margin: 0 auto;
+    resize: none;
+}
+
+#modify-subject .my-body .md-content p {
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+    margin-top: 10px
+}
+
+#modify-subject .my-body .md-content p .yn-button {
+    width: 88px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #f6554a;
+    font-size: 14px;
+    border-radius: 3px;
+    display: inline-block;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    text-align: center;
+    cursor: pointer
+}
+
+#modify-subject .my-body .md-content p .yn-button:hover {
+    background: #f31a0b
+}
+
+.refer-category {
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.refer-items {
+    padding: 10px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+
+#myRefer {
+    background: white;
+    padding-bottom: 20px;
+}
+
+.hotRefer-item {
+    padding: 12px 0;
+    padding-left: 10px;
+    border-top: 1px solid rgb(245, 245, 245);
+}
+
+.hotRefer-item:first-child {
+    border-top: none;
+}
+
+.chat-pay-item {
+    padding: 10px;
+    border-top: 1px solid #ffd2d2;
+    background: #ffe9e9;
+    color: red;
+}
+
+#ynStcokListSpacial {
+    top: 796px !important;
+}
+
+.refer-list-item .refer-list-item-wrap .update,
+.refer-list-item .refer-list-item-wrap .ready,
+.refer-list-item .refer-list-item-wrap .end {
+    width: auto;
+    height: auto;
+    left: 0;
+    background: rgb(255, 80, 84);
+    color: #fff;
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 0 40px 40px 0;
+}
+
+.refer-list-item .sub_detail .feedBtn {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+.none {
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+}
+
+.contentStr {
+    height: 50px;
+    overflow: hidden;
+}
+
+
+/*禁言*/
+
+.allow {
+    position: relative;
+    top: -2px;
+}
+
+#friendTalk .banned {
+    position: relative;
+    right: -150px;
+}
+
+#friendTalk .user .banned,
+#friendTalk .isSelf .banned {
+    display: none;
+}
+
+#talkWindow .content.nochat,
+#talkWindow .content.nochat-f {
+    width: 90%;
+    height: 178px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background: #DCDCDC;
+}
+
+#talkWindow .content.nochat .msg,
+#talkWindow .content.nochat-f .msg {
+    line-height: 25px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#talkWindow .content.nochat-f button {
+    display: block;
+    background: #1396e2;
+    border-radius: 4px;
+    padding: 7px 40px;
+    border: none;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+
+/*内参用户图标*/
+
+.referUser img {
+    width: 100%;
+}
+
+.referUser.isReferUser {
+    display: inline-block;
+    width: 15px;
+    position: absolute;
+    bottom: -29px;
+    left: 32px;
+}
+
+.referUser.notReferUser {
+    display: none;
+    width: 15px;
+    position: absolute;
+    bottom: -29px;
+    left: 32px;
+}
+
+
+/* 公告 */
+
+.action-bar {
+    width: 100%;
+    height: 20px;
+    background: url(/public/images/live/announcement.png) no-repeat;
+    padding-left: 95px;
+    background-position: 2px 2px;
+    color: #999;
+}
+
+.action-bar-btn {
+    display: inline-block;
+    padding: 0 10px;
+    height: 18px;
+    border-radius: 2px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    margin: 0 8px;
+}
+
+.action-bar-delete {
+    background: #8b8b8b;
+}
+
+.action-bar-send {
+    background: #ff5054;
+}
+
+.action-bar-cancel {
+    background: #ff5054;
+}
+
+.action-bar-time {
+    display: inline-block;
+    float: right;
+}
+
+.announcement-msg,
+.announcement-msg-edit {
+    margin-top: 2px;
+    line-height: 20px;
+    color: #666;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.announcement-msg-edit {
+    position: relative;
+}
+
+.announcement-none {
+    color: #999;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.word-count {
+    display: inline-block;
+    color: #999;
+    position: absolute;
+    bottom: 1px;
+    right: 8px;
+}
+
+#ta-notice {
+    height: 75px;
+    border: 1px solid #CACACA;
+    overflow: auto;
+    background: #fff;
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+.opinion-none {
+    background: white;
+    text-align: center;
+    padding: 100px 0;
+    font-size: 14px;
+}
+.listNone{
+    text-align: center;
+    padding:50px;
+}
+/**/
+.askStock-category-item {
+    font-size: 16px;
+    padding: 10px 30px;
+    display: inline-block;
+    border-bottom: 3px solid white;
+    cursor: pointer
+}
+
+.askStock-category-item.select {
+    border-bottom-color: #d72621;
+    color: #d72621
+}
+/**/
+.tableView-title .value{
+    line-height:22px;
+    color:#0f477d;
+}
+.tableView-info{
+    margin-top:5px;
+}
+.opinion-list-item .info {
+    width: 100%;
+    float: right;
+}
+.tac-title{
+    line-height: 25px;
+}
+
+.pdf-link{
+  color:#E2B03D !important;
+}

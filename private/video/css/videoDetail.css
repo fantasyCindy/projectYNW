@@ -1,0 +1,247 @@
+.container {
+    margin-top: 15px;
+    position: relative;
+}
+
+.videoDetail-left {
+    float: left;
+    width: 70%;
+    position: relative;
+}
+
+.videoDetail-right {
+    float: right;
+    width: 28.6%;
+    background: white;
+}
+
+#video {
+    margin: 0px;
+    background: url(/public/images/view_bg.jpg);
+    position: relative;
+    padding: 30px;
+   
+}
+
+#video-container {
+    width: 800px;
+    margin: auto;
+    height:525px; 
+}
+
+#videoInfo {
+    margin: auto;
+    padding: 20px 40px;
+    overflow: hidden;
+    background: white;
+}
+
+#videoInfo .info > * {
+    margin-bottom: 5px;
+}
+
+#videoInfo .info .name {
+    color: #4d76c5;
+    font-size: 16px;
+}
+
+#videoInfo .imgw {
+    float: left;
+    width: 120px;
+    height: 120px;
+    background: rgb(245, 245, 245);
+    display: inline-block;
+    overflow: hidden;
+}
+
+#videoInfo .imgw img {
+    height: 100%;
+    position:relative;
+    left:-30px;
+}
+
+#videoInfo .info {
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    width: 620px;
+}
+
+#videoInfo .info .line2 > * {
+    margin-right: 15px;
+}
+
+#videoInfo .info .line2 span.time{
+    display: inline-block;
+    overflow: hidden;
+    line-height: 16px;
+    white-space:nowrap;
+    position:relative;
+    top:3px;
+}
+
+#relative .items {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    padding: 20px 40px;
+}
+
+#relative > .title {
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: #d72621
+}
+
+#relative .item {
+    width: 263px;
+    float: right;
+    border: 1px solid rgb(240, 240, 240);
+    padding: 15px;
+    overflow: hidden;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#relative .item:hover {
+    transition: box-shadow 0.5s;
+    box-shadow: 0 4px 20px rgb(220, 220, 220);
+}
+
+#relative .item .imgw {
+    width: 100%;
+    height: 150px;
+    background: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    overflow: hidden;
+    background: black;
+}
+
+#relative .item img {
+    width: 100%;
+}
+
+#videoComment > .title {
+    font-size: 18px;
+    padding: 15px 20px 20px 0px;
+    color: #d72621
+}
+
+#pubComment {
+    background: white;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+
+#pubComment > .title {
+    font-size: 18px;
+    padding: 22px 20px 20px 40px;
+    color: #d72621
+}
+
+#pubComment textarea {
+    width: 90%;
+    background: rgb(245, 245, 245);
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#pubComment .wordCountWrap {
+    margin-left: 42px;
+    margin-top: 10px;
+}
+
+#pubComment button {
+    display: block;
+    margin: auto;
+    padding: 8px 30px;
+    background: #d72621;
+    border-color: #d72621;
+    color: white;
+}
+
+#videoComment {
+    background: #fff;
+    margin-top: 15px;
+    padding-bottom: 12px;
+}
+
+#videoComment .item {
+    padding: 20px 30px;
+    ;
+    border-bottom: 1px solid rgb(245, 245, 245);
+    overflow: hidden;
+    position: relative;
+}
+
+#videoComment .item .imgw {
+    float: left;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    display: inline-block;
+    background: rgb(245, 245, 245);
+}
+
+#videoComment .item .comment {
+    width: 680px;
+    float: left;
+    margin-left: 15px;
+}
+
+
+
+#videoComment .item .comment .content {
+    line-height: 23px;
+}
+
+#videoComment .item .comment .name {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #5c73bf;
+}
+
+#videoComment .item .time {
+    position: absolute;
+    right: 15px;
+    color: gray;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 16px;
+    white-space:nowrap;
+}
+
+#videoComment .item .imgw img {
+    height: 100%;
+}
+
+.actions {
+    border-top: 1px solid rgb(220, 220, 220);
+    background: #fff;
+    text-align: right;
+    padding: 10px 20px;
+    ;
+}
+
+.actions > * {
+    margin-right: 10px;
+}
+
+.share {
+    cursor: pointer;
+}
+
+.actions .txt {
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+    color: gray;
+}
+#bdshare_weixin_qrcode_dialog{
+    height:auto !important;
+}

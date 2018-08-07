@@ -1,0 +1,58 @@
+/*retrieve-pass */
+.relative {
+  width: 85%;
+  position: relative;
+  margin: 0 auto; }
+  .relative .person {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 34px;
+    height: 34px;
+    background: url(/public/images/caoh5/phone_icon.png);
+    background-size: 34px; }
+  .relative .person1 {
+    background: url(/public/images/caoh5/verification_icon.png);
+    background-size: 34px; }
+
+#retrieve-pass {
+  max-width: 640px;
+  margin: 0 auto;
+  color: #b1b1b1;
+  font-size: 18px; }
+  #retrieve-pass .block {
+    display: block;
+    margin: 14px auto; }
+  #retrieve-pass .main {
+    text-align: center; }
+    #retrieve-pass .main .logo {
+      margin: 40px auto 30px; }
+    #retrieve-pass .main .input {
+      width: 64%;
+      display: inline-block;
+      font-size: 18px;
+      margin: 14px 0;
+      padding: 16px 53px;
+      outline: none;
+      border-radius: 8px;
+      border: 1px solid #c8c5c5; }
+    #retrieve-pass .main .text {
+      margin: 0 auto; }
+    #retrieve-pass .main .phone {
+      width: 32%; }
+    #retrieve-pass .main .p-code {
+      color: #fff;
+      padding: 12px 10px;
+      background: #fb836b;
+      border-radius: 5px; }
+    #retrieve-pass .main .btn {
+      width: 80%;
+      padding: 12px 0;
+      margin-top: 30px;
+      border: 0;
+      outline: none;
+      color: #fff;
+      font-size: 24px;
+      background: #fb836b;
+      border-radius: 100px;
+      box-shadow: 2px 2px 8px rgba(214, 51, 3, 0.5); }

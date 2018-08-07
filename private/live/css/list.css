@@ -1,0 +1,531 @@
+#ynlive_list .mar-wrap {
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    height: 40px;
+    position: relative
+}
+
+.mar-container {
+    background: #d6d7dc;
+    overflow: hidden;
+    margin: auto;
+    background: white;
+    width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid rgb(220, 220, 220);
+    height: 90px;
+}
+
+.mar-container td:first-child {
+    border-left: none !important;
+}
+
+.scroll_green {
+    color: green
+}
+
+.scroll_red {
+    color: red
+}
+
+#ynlive_list .mr20 {
+    margin-right: 20px
+}
+
+#ynlive_list .mr15 {
+    margin-right: 15px
+}
+
+#livelist {
+    margin-top: 15px;
+}
+
+#liveindex {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+#liveindexLeft {
+    width: 818px;
+    float: left
+}
+
+#livelist .item {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    padding: 8px 25px;
+    position: relative;
+    background: white;
+}
+
+#livelist .item:last-child {
+    border: none
+}
+
+#livelist .item .userhead {
+    float: left;
+    border: 1px solid #e9e9e9;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    overflow: hidden
+}
+
+#livelist .item .userhead img {
+    width: 100%;
+    height: 100%;
+    border: none
+}
+
+#livelist .item .title {
+    font-size: 14px;
+    color: #212121;
+    margin: 5px 0;
+}
+
+#livelist .item .title a {
+    color: #2983c2
+}
+
+#livelist .item .title a:hover {
+    color: red
+}
+
+#livelist .item .time {
+    font-size: 16px;
+    color: #d72621
+}
+
+#livelist .item .article {
+    font-size: 14px;
+    color: #212121;
+    margin-right: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+#livelist .item .info {
+    float: right;
+    padding: 17px 0
+}
+
+#livelist .item .info a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #d72621;
+    border: 1px solid #d72621;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px
+}
+
+#livelist .item .info a:hover {
+    color: #fff;
+    background: #d72621
+}
+
+#broadcast {
+    margin-top: 15px;
+    background: white;
+    position: relative;
+}
+
+#broadcast .actions{
+    position: absolute;
+    overflow:hidden;
+    left:120px;
+    top:9px;
+}
+#broadcast .action{
+    float:left;
+    padding:3px 15px;
+    font-size:14px;
+    cursor:pointer;
+    border-left:1px solid rgb(220,220,220);
+}
+#broadcast .action:first-child{
+    border-left:none;
+}
+#broadcast .action.select{
+    color:#d72621
+}
+#broadcast .items {
+    overflow: hidden;
+    padding: 20px;
+}
+
+#broadcast .item {
+    overflow: hidden;
+    width: 46%;
+    border: 1px solid rgb(220,220,220);
+    float: left;
+    margin: 2%;
+    border-radius: 2px;
+    background: rgb(250, 250, 250);
+}
+
+#broadcast .item .avatar {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    border-radius: 2px;
+}
+
+#broadcast .item .avatar img {
+    width: 100%;
+}
+
+#broadcast .item .top {
+    border-bottom: 1px solid rgb(220, 220, 220);
+    padding: 20px;
+    overflow: hidden;
+}
+
+#broadcast .item .top .content {
+    margin-left: 15px;
+    display: inline-block;
+    width: 230px;
+    overflow: hidden;
+}
+
+#broadcast .item .top .title {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+#broadcast .item .top .title .name{
+    color:black;
+}
+#broadcast .item .top .title .position{
+    font-size:12px;
+    position:relative;
+    top:-1px;
+}
+#broadcast .item .top .title .position .icon{
+    color:#d72621;
+    margin:0 2px 0 6px;
+}
+#broadcast .item .top .subject {
+    text-align: justify;
+    font-size: 12px;
+    height: 42px;
+    line-height: 20px;
+    color: #6e6e6e;
+    margin-top:2px;
+}
+
+#broadcast .item .bottom table {
+    width: 100%;
+}
+
+#broadcast .item .bottom table td {
+    text-align: center;
+    padding: 8px 0px;
+    color:gray;
+}
+#broadcast .item .bottom table td.bd{
+    border-right:1px solid rgb(220,220,220);
+}
+#liveindexRight {
+    width: 360px;
+    float: right
+}
+
+#newLive {
+    margin-top: 15px;
+    background: white;
+}
+
+#newLive .item {
+    padding: 15px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    overflow: hidden;
+    cursor: pointer
+}
+
+#newLive .item:last-child {
+    border: none
+}
+
+#newLive .item .userhead {
+    border: 1px solid #e9e9e9;
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 2px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1
+}
+
+#newLive .item .userhead img {
+    height: 100%;
+    border: none
+}
+
+#newLive .item .sub {
+    width: 75%;
+    float: left;
+    margin-left:15px;
+}
+
+#newLive .item .sub .title {
+    line-height: 25px
+}
+
+#newLive .item .sub .title .alt {
+    font-size: 15px;
+    color: #088CCB
+}
+
+#newLive .item .sub .title .popularity {
+    float: right;
+    font-size: 12px;
+    color: #b3b3b3
+}
+
+#newLive .item .sub .subject{
+    font-size: 13px;
+    color: #8A8A8A;
+    margin-top:5px;
+}
+#newLive .item .sub .subject >*{
+    margin-right:10px;
+}
+#recommend {
+    margin-top: 15px;
+    background: white;
+}
+
+#recommend .item {
+    padding: 15px;
+    border-bottom: 1px solid rgb(240, 240, 240);
+    overflow: hidden;
+    cursor: pointer
+}
+
+#recommend .item:hover {
+    background: rgb(245, 245, 245);
+}
+
+#recommend .item:last-child {
+    border: none
+}
+
+#recommend .item .userhead {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+#recommend .item .userhead img {
+    height: 100%;
+    border: none
+}
+
+#recommend .item .sub {
+    width: 75%;
+    float: left
+}
+
+#recommend .item .sub .title {
+    line-height: 25px
+}
+
+#recommend .item .sub .title .alt {
+    font-size: 15px;
+    color: #088CCB
+}
+
+#recommend .item .sub .title .popularity {
+    float: right;
+    font-size: 12px;
+    color: #b3b3b3
+}
+
+#recommend .item .sub .subject {
+    float: left;
+    width: 250px;
+    line-height: 24px;
+    font-size: 13px;
+    color: #8A8A8A;
+    margin-top:5px;
+}
+
+#recommend .item .sub .subject >*{
+    margin-right:5px;
+}
+/*#homeslide {
+    margin-top: -15px
+}
+
+#homeslide .content {
+    z-index: 9
+}
+
+#homeslide .pageIndex {
+    position: absolute;
+    bottom: 15px;
+    left: 45%;
+    height: 20px;
+    z-index: 10
+}
+
+#homeslide .pageIndex .item {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 15px;
+    width: 14px!important;
+    height: 14px;
+    background: url(http://img.9666sr.com/sr/images/common/2015/btn.png) no-repeat;
+    z-index: 100
+}
+
+#homeslide .pageIndex .item.focus {
+    background: url(http://img.9666sr.com/sr/images/common/2015/btn_hover.png) no-repeat!important
+}
+*/
+.content-frame {
+    float: left;
+    width: 580px
+}
+
+#live-now .items {
+    padding: 0
+}
+
+#live-now .item a {
+    color: #2983c2
+}
+
+/*新直播动态*/
+#livelist .item {
+    overflow: hidden;
+}
+
+#livelist .item > * {
+    float: left;
+}
+
+#livelist .item .content {
+    width: 620px;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+#livelist .item .avatar {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+#livelist .item .name {
+    display: inline-block;
+    width: 110px;
+    padding-right: 15px;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+}
+
+#livelist .item .time {
+    font-size: 13px;
+    color: gray;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+}
+
+#livelist .item .avatar img {
+    width: 100%;
+}
+
+#livelist .item .living-content {
+    width: 410px;
+    height: 18px;
+    overflow: hidden;
+    position: relative;
+    top: 2px;
+    line-height: 22px;
+}
+
+#livelist .item .enter {
+    position: absolute;
+    padding: 5px 10px;
+    top: 15px;
+    right: 25px;
+    border-radius: 2px;
+    background: #d72621;
+    color: white;
+}
+/*轮播*/
+
+#ynlive_list{
+    margin-top:-14px;
+}
+#homeslide{
+    min-width: 1200px;
+    height:350px;
+    position: relative;
+}
+#homeslide .content{
+    width:100%;
+    position: relative;;
+    top:-10px;
+    overflow: hidden;
+}
+#homeslide .content ul li{
+    float:left;
+    background-position: center;
+    width: 100%;
+    height:350px;
+}
+#homeslide .content ul li.banner2{
+    background-image:url(/private/live/images/live_3.jpg);
+}
+/*#homeslide .content ul li.banner2{
+    background-image:url(http://os6luyppb.bkt.clouddn.com/live_3.jpg);
+}*/
+.unslider {
+    overflow: visible !important;
+}
+
+.unslider-arrow {
+    display: none;
+}
+
+.unslider-nav {
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: -25px;
+    opacity: 0.8;
+}
+
+.unslider-nav li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    text-indent: 10em;
+    overflow: hidden;
+    margin-left: 10px !important;
+}
+
+.unslider-nav li.unslider-active {
+    background: rgba(206, 188, 188, 0.82);
+    transition: background 0.3s;
+}

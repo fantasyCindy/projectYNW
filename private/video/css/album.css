@@ -1,0 +1,94 @@
+#album {
+    width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+}
+
+#album .title-1 {
+    font-size: 16px;
+    border-left: 3px solid #d72621;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+#album .info {
+    margin: 20px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    overflow: hidden;
+    width: 95%;
+    border-radius: 3px;
+    padding: 15px 0px 35px 0px;
+}
+
+#album .infow {
+    padding: 10px;
+    float: left;
+    margin-left: 15px;
+}
+
+#album .infow > * {
+    margin-bottom: 5px;
+}
+
+#album .infow .title {
+    font-size: 20px;
+}
+
+#album .info .imgw {
+    float: left;
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#album .imgw img {
+    width: 100%;
+}
+
+#album .items {
+    overflow: hidden;
+    padding: 20px;
+}
+
+#album .item {
+    float: left;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid rgb(245, 245, 245);
+    width: 250px;
+    height: 240px;
+    display: block;
+    overflow: hidden;
+}
+
+#album .item:hover {
+    transition: all 0.3s;
+    box-shadow: 1px 4px 12px rgb(235, 235, 235);
+}
+
+#album .item p {
+    margin-bottom: 2px;
+}
+
+#album .item .title {
+    margin-top: 8px;
+}
+
+#album .item .teacher {
+    color: #1085c5;
+}
+
+#album .item .count {
+    font-size: 12px;
+}
+
+#album .item .imgw {
+    height: 140px;
+    overflow: hidden;
+    background: black;
+}
+
+#album .item .imgw img {
+    width: 100%;
+}

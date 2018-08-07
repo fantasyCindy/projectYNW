@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>APP下载</title>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content=always name=referrer>
+    <meta http-equiv="Content-Language" content="zh-CN" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="baidu-site-verification" content="98ebBPqVhQ" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+    body {
+        width: 100%;
+        max-width: 414px;
+        margin: 0 auto;
+        font-family: "Microsoft YaHei";
+    }
+    
+    img {
+        width: 100%;
+        float: left;
+    }
+    
+    .clear:after {
+        content: '';
+        display: block;
+        clear: both;
+        _zoom: 1;
+        *zoom: 1;
+    }
+    
+    .app-download-wrap1,
+    .app-download-wrap2 {
+        position: relative;
+    }
+    
+    .app-download-btn1 {
+        display: inline-block;
+        width: 150px;
+        height:42px;
+        position: absolute;
+        left: 50%;
+        bottom: 12%;
+        margin-left: -75px;
+        background:url(./images/download/button.jpg) no-repeat;
+        background-size: 150px
+    }
+    
+    .app-download-btn2 {
+        display: inline-block;
+        width: 40%;
+        position: absolute;
+        right: 6%;
+        bottom: 25%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="app-download">
+        <div class="app-download-wrap app-download-wrap1 clear"><img src="./images/download/01.png?0316" alt="">
+            <a class="app-download-btn app-download-btn1">
+                <!-- <img src="./images/download/button.jpg" alt=""> -->
+            </a>
+        </div>
+        <div class="app-download-wrap clear"><img src="./images/download/02.png?0316" alt=""></div>
+        <div class="app-download-wrap clear"><img src="./images/download/03.png?0316" alt=""></div>
+        <div class="app-download-wrap clear"><img src="./images/download/04.png?0316" alt=""></div>
+        <div class="app-download-wrap app-download-wrap2 clear"><img src="./images/download/05.png?0316" alt="">
+            <a class="app-download-btn app-download-btn2"><img src="./images/download/button.jpg" alt=""></a>
+        </div>
+    </div>
+        <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "/public/other/app/yncj/js/app-download.js?" + Date.now();
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+        
+    </script>
+</body>
+
+</html>

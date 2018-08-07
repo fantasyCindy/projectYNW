@@ -1,0 +1,146 @@
+#myRefer .titleBar {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #c8c8c8;
+    margin-bottom:20px;
+}
+
+#myRefer .titleBar .title {
+    font-size: 18px;
+}
+.contentBar{
+    margin-top:20px;
+}
+#myRefer .fa {
+    cursor: pointer;
+}
+
+#myRefer .titleBar .ynbutton {
+    position: absolute;
+    right: 20px
+}
+
+
+#teacher-refer table, #myRefer .category table {
+    width: 100%
+}
+
+#myRefer .menu-item {
+    text-align: center;
+    padding: 10px 0;
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+    font-size: 16px;
+    border-left: 1px solid rgb(200, 200, 200)
+}
+
+#myRefer .menu-item:first-child {
+    border-left: none
+}
+
+#myRefer .menu-item.select {
+    background: #d72621;
+    color: white;
+    border-color: #d72621
+}
+
+#myRefer .contentBar table {
+    width: 100%;
+    text-align: center;
+}
+
+#myRefer .contentBar table td {
+    border: 1px solid #e8e9ea;
+    line-height: 30px;
+    position: relative;
+}
+
+#myRefer .contentBar table td .status {
+    cursor: pointer;
+}
+
+#myRefer .contentBar thead {
+    background: #e8f6fe;
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+}
+
+#myRefer .contentBar tbody {
+    color: rgb(30, 30, 30);
+    font-size: 14px;
+}
+
+#myRefer .contentBar .delete, #myRefer .contentBar .edit {
+    cursor: pointer;
+}
+
+#myRefer .contentBar .detail {
+    color: #346ad0;
+    text-decoration: underline;
+}
+
+#myRefer .contentBar .refer_name {
+    display: inline-block;
+    max-width: 378px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#auditstatus {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #99aedf;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+#auditstatus li {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#auditstatus li:first-child {
+    border-bottom: 1px solid #99aedf;
+}
+
+#teacher-refer .content {
+    margin-top: 20px;
+}
+
+#teacher-refer .content td {
+    padding: 8px;
+    border: 1px solid #dfdfdf;
+    text-align: center;
+}
+
+#teacher-refer .content tr:nth-child(odd) td {
+    background: #fafafa;
+}
+
+#teacher-refer .none {
+    padding: 40px 0;
+}
+
+#teacher-refer .none .fa {
+    margin: auto 5px;
+}
+
+.pub-new-refer {
+    width: 150px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background: #355fab;
+    border: none;
+    padding: 10px;
+}
+
+#myRefer {
+    min-height: 500px;
+}

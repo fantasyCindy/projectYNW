@@ -1,0 +1,388 @@
+@charset "UTF-8";
+
+#quotation .quotation_left #shareDetail:after,#quotation:after {
+    content: "";
+    clear: both;
+    display: block
+}
+
+body {
+    background: #f8f8f8!important
+}
+
+.tc {
+    text-align: center
+}
+
+.fl {
+    float: left
+}
+
+#tit a,.fr {
+    float: right
+}
+
+.gray {
+    color: #999
+}
+
+.black {
+    color: #333;
+    font-weight: 700
+}
+
+.green {
+    color: #1EBB3B
+}
+
+.orange {
+    color: #e94b4b
+}
+
+.mt40 {
+    margin-top: 40px
+}
+
+#navg {
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 16px;
+    color: #888
+}
+
+#navg a {
+    text-decoration: none;
+    color: #888
+}
+
+#navg .current,#navg .home {
+    color: #e94b4b
+}
+
+#navg .home {
+    font-size: 18px;
+    margin-right: 3px
+}
+
+#tit {
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden
+}
+
+#tit span {
+    display: block;
+    float: left;
+    font-size: 18px;
+    padding-left: 10px;
+    border-left: 8px solid #fd7d00;
+    height: 21px;
+    margin: 10px 0;
+    line-height: 20px;
+    font-weight: 700
+}
+
+#tit a {
+    color: #999;
+    text-decoration: none
+}
+
+.idhover {
+    background: #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    border: 1px solid #dcdcdc;
+    border-radius: 2px
+}
+
+.idhover:hover {
+    box-shadow: 1px 1px 5px #dcdcdc
+}
+
+#quotation {
+    width: 1200px;
+    margin: 15px auto
+}
+
+#quotation .quotation_left {
+    width: 740px
+}
+
+#quotation .quotation_left #shareInfo {
+    padding: 25px 10px 40px;
+    position: relative;
+    overflow: hidden
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_left {
+    width: 23%;
+    padding: 0 15px
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_left #stock_name {
+    font-size: 32px
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_left #page_stock_code {
+    margin: 10px 0
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_left .btn-optional {
+    font-size: 18px;
+    width: 140px;
+    padding: 10px;
+    line-height: 20px;
+    background: #e94b4b;
+    border: none;
+    color: #fff;
+    margin: auto;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_right {
+    width: 69%
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_right .increase {
+    position: relative;
+    top: 13px
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_right ul {
+    margin: 10px 0;
+    padding: 0;
+    overflow: hidden
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_right ul li {
+    list-style: none;
+    font-size: 14px;
+    float: left;
+    margin-right: 20px
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_right ul li #sPrice {
+    font-size: 28px
+}
+
+#quotation .quotation_left #shareInfo .shareInfo_right ul li span {
+    font-size: 16px;
+    margin-left: 16px
+}
+
+#quotation .quotation_left #shareDetail {
+    margin: 25px 0;
+    position: relative
+}
+
+#quotation .quotation_left #shareDetail .tabBar table {
+    position: relative;
+    bottom: -1px;
+    width: 100%;
+    margin: 0
+}
+
+#quotation .quotation_left #shareDetail .tabBar table td {
+    font-size: 14px;
+    line-height: 30px
+}
+
+#quotation .quotation_left #shareDetail .tabBar table td.item.select {
+    background: #fff;
+    position: relative;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #fff;
+    font-weight: 700;
+    color: red
+}
+
+#quotation .quotation_left #shareDetail .tabBar table td.item {
+    cursor: pointer;
+    font-size: 17px;
+    padding: 3px;
+    width: 24%;
+    margin-right: 1px;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+#quotation .quotation_left #shareDetail #shareSheetWrap {
+    background: #fff;
+    float: left;
+    border-top: 1px solid #dcdcdc;
+    padding-top: 10px;
+    min-height: 400px;
+    padding-left: 15px;
+    width: 98%
+}
+
+#quotation .quotation_left #articles,#quotation .quotation_right #MyOptional,#quotation .quotation_right #newconsultation {
+    padding: 15px
+}
+
+#quotation .quotation_left #shareDetail #shareSheetWrap .spline {
+    width: 100%;
+    height: 2px;
+    z-index: 900;
+    position: absolute;
+    top: 1px
+}
+
+#quotation .quotation_left #shareDetail #shareSheetWrap .shareContainer {
+    position: relative;
+    left: -12px
+}
+
+#quotation .quotation_left #shareDetail #shareSheetWrap .shareContainer img {
+    border: none
+}
+
+#quotation .quotation_left #articles .goodarticles {
+    margin: 0;
+    padding-top: 15px
+}
+
+#quotation .quotation_left #articles .goodarticles li {
+    list-style: none;
+    overflow: hidden;
+    line-height: 30px;
+    border-bottom: 1px solid #fff;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#quotation .quotation_left #articles .goodarticles li:hover {
+    border-bottom: 1px solid #dcdcdc
+}
+
+#quotation .quotation_left #articles .goodarticles li a {
+    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    width: 85%;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-transition: all .2s;
+    transition: all .2s
+}
+
+#quotation .quotation_left #articles .goodarticles li a:hover {
+    color: #e94b4b
+}
+
+#quotation .quotation_left #articles .goodarticles li span {
+    float: right;
+    color: #999;
+    font-size: 12px
+}
+
+#quotation .quotation_right {
+    width: 440px
+}
+
+#quotation .quotation_right #MyOptional table {
+    margin: 15px 0;
+    width: 100%
+}
+
+#quotation .quotation_right #MyOptional table td {
+    line-height: 30px;
+    width: 20%;
+    text-align: center
+}
+
+#quotation .quotation_right #MyOptional table td a.code {
+    color: #555;
+    text-decoration: none
+}
+
+#quotation .quotation_right #MyOptional table td.first {
+    width: 33%;
+    text-align: left
+}
+
+#quotation .quotation_right #newconsultation .user_words {
+    overflow: hidden;
+    margin-top: 15px
+}
+
+#quotation .quotation_right #newconsultation .user_words .widget-thumb {
+    height: 40px;
+    line-height: 25px
+}
+
+#quotation .quotation_right #newconsultation .user_words .widget-thumb img {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px
+}
+
+#quotation .quotation_right #newconsultation .container1 {
+    margin-top: -20px;
+    font-size: 9pt;
+    display: block;
+    width: 100%;
+    background: 0 0;
+    margin-bottom: 15px
+}
+
+#quotation .quotation_right #newconsultation .container1 i,#quotation .quotation_right #newconsultation .container1 s {
+    position: relative;
+    display: block;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    line-height: 0;
+    border-style: dashed dashed solid;
+    border-width: 10px
+}
+
+#quotation .quotation_right #newconsultation .container1 s {
+    z-index: 1;
+    left: 20px;
+    border-color: transparent transparent #E6E6E6
+}
+
+#quotation .quotation_right #newconsultation .container1 i {
+    top: -9px;
+    left: -10px;
+    border-color: transparent transparent #F8F8F8
+}
+
+#quotation .quotation_right #newconsultation .container1 .words {
+    border: 1px solid #E6E6E6;
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    width: 97%;
+    height: auto;
+    line-height: 25px
+}
+
+#quotation .quotation_right #newconsultation .information a {
+    float: left;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #656565;
+    text-decoration: none
+}
+
+#quotation .quotation_right #newconsultation .information .answer {
+    float: none;
+    color: #999;
+    line-height: 25px;
+    font-size: 12px
+}
+
+#quotation .quotation_right #newconsultation .information .answer a {
+    float: none;
+    color: #999
+}

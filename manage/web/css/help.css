@@ -1,0 +1,181 @@
+#help {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top:30px;
+}
+
+#help .helpleft {
+    background: #F4F4F4;
+    width: 233px;
+    float: left;
+    padding-bottom: 15%;
+}
+
+#help .helpleft ul li {
+    width: 100%;
+    line-height: 48px;
+    font-size: 18px;
+    color: #656565;
+    cursor: pointer;
+    text-align: center
+}
+
+#help .helpleft ul li.thisclass {
+    background: #ec1928;
+    color: #fff
+}
+
+#help .helpright {
+    background: #fff;
+    width: 951px;
+    float: left;
+    padding-bottom: 20px
+}
+
+#help .helpright .titlog {
+    width: 100%
+}
+
+#help .conter1 p {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #434343;
+    line-height: 55px
+}
+
+#help .conter1 .article,
+#help .conter1 .aside {
+    font-size: 16px;
+    line-height: 30px;
+    display: block
+}
+
+#help .conter1 p i {
+    margin-right: 5px
+}
+
+#help .conter1 .article {
+    color: #a5a5a5;
+    padding: 0 20px
+}
+
+#help .conter1 .aside {
+    padding: 0 25px;
+    color: #777
+}
+
+#help .conter1 .tit {
+    font-weight: 700
+}
+
+#help .conter2 center {
+    color: #656565;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 50px
+}
+
+#help .conter2 .texind {
+    text-indent: 2em;
+    color: #656565;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 15px
+}
+
+#help .conter2 h3 {
+    line-height: 40px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    padding: 0 15px
+}
+
+#help .conter2 aside,
+#help .conter2 p {
+    text-indent: 2em;
+    color: #656565;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 15px
+}
+
+#help .conter2 span {
+    text-indent: 2em;
+    color: #656565;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 15px;
+    display:block;
+}
+
+#help .conter2 .lookall {
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    color: #878787;
+    font-size: 14px;
+    cursor: pointer
+}
+
+#help .conter3 h2,
+#help .conter3 p {
+    font-weight: 700;
+    color: #333;
+    padding: 0 15px
+}
+
+#help .conter2 .lookall:hover {
+    text-decoration: underline
+}
+
+#help .conter3 h2 {
+    font-size: 20px;
+    line-height: 45px
+}
+
+#help .conter3 p {
+    font-size: 16px
+}
+#help .conter3 .positionname{
+    line-height:46px;
+}
+#help .conter3 p i {
+    color: #fe9731
+}
+
+#help .conter3 span {
+    font-size: 16px;
+    display: block;
+    line-height: 30px;
+    color: #656565;
+    padding: 0 15px
+}
+
+#help .conter3 .map span {
+    display: inline-block;
+    margin: 0 15px
+}
+
+.hid {
+    display: none
+}
+/*企业账户*/
+.account{
+    width:640px;
+    margin:80px auto 0 auto;
+    border-radius:5px;
+    border:rgb(102,102,102);
+}
+.bank{
+    width:100%;
+    margin:0 auto;
+}
+.bank img{
+    margin:25px auto;
+}
+.txt{
+    width:70%;
+    margin:0 auto;
+}

@@ -1,0 +1,48 @@
+#ynStcokListSpacial {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #3274D8;
+    background: white;
+    display: none;
+    position: fixed;
+    overflow: hidden;
+    z-index: 50000
+}
+#ynStcokListSpacial tr{
+
+}
+#ynStcokListSpacial .ynStockList td {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+#ynStcokListSpacial .ynStockList:hover td,
+#ynStcokListSpacial .ynStockList:first-child td {
+    background: #3274D8;
+    color: white;
+}
+
+
+/* after */
+
+.ynStcokListSpacial {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #3274D8;
+    background: white;
+    display: none;
+    position: absolute;
+    z-index: 50000;
+    top: 0;
+    left: 0;
+}
+
+.ynStcokListSpacial .ynStockList td {
+    padding: 8px 15px;
+    cursor: pointer;
+    line-height:20px;
+}
+
+.ynStcokListSpacial .ynStockList:hover td,
+.ynStcokListSpacial .ynStockList:first-child td {
+    background: #3274D8;
+    color: white;
+}

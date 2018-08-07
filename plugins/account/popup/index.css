@@ -1,0 +1,95 @@
+body {
+    font-size: 13px;
+    text-align: center;
+    -webkit-user-select: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex .grow {
+    flex-grow: 1;
+}
+
+.flex .shrink {
+    flex-shrink: 0;
+}
+
+#app {
+    width: 700px;
+}
+
+#the-pro {
+    border-right: 1px solid #807c7c;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
+.server-wrap {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.server-wrap .title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.item {
+    padding: 10px 0;
+    border-bottom: 1px dashed #e3e3e3;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.item .name {
+    width: 100px;
+    text-align: right;
+    position: relative;
+    top: 8px;
+}
+
+.roles {
+    margin-left: 20px;
+}
+
+.line {
+    color: red;
+    margin: 15px auto;
+    font-weight: bold;
+}
+
+.role {
+    width: 60px;
+    border: 1px solid #dedede;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.role:hover {
+    background: #f0f0f0;
+}
+
+.actions {
+    overflow: hidden;
+}
+
+.actions .item {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,411 @@
+.f16 {
+    font-size: 16px;
+}
+
+.f13 {
+    font-size: 13px;
+    color: #999;
+}
+
+.colorRed {
+    color: red;
+}
+
+.activeLayer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 10000;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, .5);
+    overflow: auto;
+}
+
+.activity {
+    width: 1000px;
+    height: 1400px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.activity-bg-sun {
+    width: 120%;
+    margin: auto;
+    height: 1000px;
+    position: absolute;
+    top: -50px;
+    left: -10%;
+    background: url(/public/v2/index/images/guang.png) no-repeat;
+    background-size: 120%;
+    background-position: 50% 70%;
+}
+
+.activity-bg-done {
+    width: 120%;
+    margin: auto;
+    height: 1000px;
+    position: absolute;
+    top: -50px;
+    left: -10%;
+    /* background: url(/public/v2/index/images/huabian.png) no-repeat; */
+    background-size: cover;
+    background-size: 90%;
+    background-position: 50% 10%;
+    display: none;
+}
+
+.activity-wrap {
+    width: 1000px;
+    background: url(/public/v2/index/images/bg_2.jpg?455);
+    border-radius: 5px;
+    margin: auto;
+    /*overflow: hidden;*/
+    box-shadow: -1px 0px 8px 6px rgba(253, 192, 21, 0.46);
+    animation-name: slideDown;
+    animation-duration: 0.7s;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translate3d(0, 100%, 0)
+    }
+    to {
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.activity-top {
+    position: relative;
+}
+
+.actTopClose {
+    width: 46px;
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.activity-top img {
+    width: 100%;
+}
+
+.activity-content {
+    padding: 15px;
+}
+
+.activity-content .tab {
+    display: inline-block;
+    overflow: hidden;
+    /*width: 30%;*/
+    margin-left: 19px;
+}
+
+.activity-content .tab img {
+    width: 100%;
+}
+
+.activity-form1,
+.activity-form2 {
+    width: 286px;
+    margin: 10px auto;
+}
+
+.activity-form2 .phone input {
+    border-color: white;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.activity-form1 input,
+.activity-form2 input {
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid #e4a52e;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.activity-form1 .btn1,
+.activity-form2 .btn2 {
+    margin: 10px auto;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: #ff9c00 1px 1px 1px;
+}
+
+.activity-form1 .btn1 {
+    width: 50%;
+    margin-top: 30px;
+    background: url(/public/v2/index/images/btn-bg1.png?33) no-repeat;
+}
+
+.activity-form2 .btn2 {
+    width: 100%;
+    background: url(/public/v2/index/images/btn-bg.png?20170809) no-repeat;
+}
+
+.activity-close {
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.activity-form2 .pcode input,
+.activity-form2 .pic input {
+    width: 61%;
+}
+
+.activity-form2 .picCode {
+    width: 36%;
+    height: 35px;
+    overflow: hidden;
+    position: relative;
+    top: 13px;
+    left: 7px;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+.activity-form2 .phoneCode {
+    display: inline-block;
+    font-size: 12px;
+    width: 36%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #e4a52e;
+    color: #797877;
+    margin-left: 7px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    background: #fff;
+}
+
+.activity-form2 .radio {
+    font-size: 12px;
+    color: #333333;
+}
+
+.activity-form2 .radio input {
+    width: 13px;
+    height: 13px;
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+
+.activity-form2 .radio a {
+    text-decoration: none;
+    color: #f1e090;
+}
+
+.activity-bottom {
+    margin-top: 40px;
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.activity-bottom .txt {
+    line-height: 22px;
+    font-size: 14px;
+}
+
+
+/*success*/
+
+.activify-success {
+    width: 1000px;
+    height: 1071px;
+    margin-left: -500px;
+    /* background: url(./images/huabian.png) no-repeat; */
+    position: relative;
+    left: 50%;
+    top: 3%;
+}
+
+.activify-success .success-container {
+    width: 900px;
+    background: #fff;
+    margin: auto;
+    box-shadow: -1px 0px 20px 6px rgba(249, 187, 14, 0.23);
+    border-radius: 5px;
+    overflow: hidden;
+    animation-name: tada;
+    animation-duration: 1.2s;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale3d(.1, .1, .1);
+        opacity: 0;
+    }
+    from {
+        transform: scale3d(1, 1, 1);
+        opacity: 1;
+    }
+}
+
+@keyframes tada {
+    from {
+        transform: scale3d(1, 1, 1);
+    }
+    10%,
+    20% {
+        transform: scale3d(.8, .8, .8) rotate3d(0, 0, 1, -3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%,
+    60%,
+    80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    to {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.activify-success .success-banner img {
+    width: 100%;
+}
+
+
+/*refer*/
+
+.activify-success .success-refer {
+    background: #fff;
+    padding: 40px 20px 20px 30px;
+    position: relative;
+}
+
+.activify-success .success-refer .status {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    padding: 5px 10px;
+    border-radius: 0 20px 20px 0;
+    background: #e5484b;
+    color: #fff;
+    font-size: 12px;
+}
+
+.activify-success .success-refer .up .head {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.activify-success .success-refer .up .head img {
+    height: 100%;
+}
+
+.activify-success .success-refer .txt {
+    width: 90%;
+}
+
+.activify-success .success-refer .txt-left {
+    display: inline-block;
+    width: 40%;
+}
+
+.activify-success .success-refer .title {
+    margin-bottom: 10px;
+}
+
+.activify-success .success-refer .price {
+    display: block;
+}
+
+.activify-success .success-refer .priceText {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.activify-success .success-refer .middle {
+    margin: 10px 0;
+}
+
+.activify-success .success-refer .middle .msg {
+    font-size: 12px;
+    margin-top: 8px;
+    color: #999;
+}
+
+.activify-success .success-refer .middle .msg.name {
+    color: #000;
+}
+
+.activify-success .success-refer .dayCount .line {
+    height: 1px;
+    border-bottom: 1px solid #ffe6e9;
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: -3px;
+}
+
+.activify-success .success-refer .dayCount .point {
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    background: #ffe6e9;
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+    top: -1px;
+}
+
+.activify-success .success-refer .dayCount .text {
+    font-size: 13px;
+    color: #666;
+}
+
+.activify-success .success-last {
+    margin-top: 10px;
+}
+
+.activify-success .success-last .msg {
+    color: #666;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.activify-success .success-btn {
+    width: 20%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: url(/public/v2/index/images/btn-bg.png) no-repeat;
+    color: #fff;
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+.activify-success .success-btn a {
+    color: #fff;
+}

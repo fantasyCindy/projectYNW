@@ -1,0 +1,58 @@
+.pay-show-item {
+    background: rgba(41, 41, 63, 0.85);
+    display: inline-block;
+    width: 260px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    position: fixed;
+    left: -320px;
+    top:40%;
+}
+
+.pay-show-item .avatar {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.pay-show-item .avatar img {
+    width: 100%;
+}
+
+.pay-show-item .info {
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    font-size: 17px;
+    width: 140px;
+    overflow: hidden;
+}
+
+.pay-show-item .title {
+    color: white;
+    height: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.pay-show-item .sub {
+    color: #ff8d00;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.pay-show-item .gift {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+}
+
+.pay-show-item .count {
+    font-size: 35px;
+    color: #ff3b01;
+    position: absolute;
+    right: -70px;
+    top: 10px;
+}
